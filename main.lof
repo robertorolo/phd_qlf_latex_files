@@ -1,0 +1,52 @@
+\select@language {brazil}
+\contentsline {figure}{\numberline {1}{\ignorespaces Ilustra\IeC {\c c}\IeC {\~a}o esquematizando a modelagem geol\IeC {\'o}gica expl\IeC {\'\i }cita usando polilinhas e linhas guias.\relax }}{7}{figure.caption.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Ilustra\IeC {\c c}\IeC {\~a}o esquem\IeC {\'a}tica destacando a incerteza na localiza\IeC {\c c}\IeC {\~a}o do limite entre os dom\IeC {\'\i }nios azul e vermelho, entre os dados amostrais.\relax }}{8}{figure.caption.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Busto reconstru\IeC {\'\i }do a partir de pontos esparsos.\relax }}{10}{figure.caption.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Ilustra\IeC {\c c}\IeC {\~a}o esquem\IeC {\'a}tica da modelagem geol\IeC {\'o}gica impl\IeC {\'\i }cita.\relax }}{10}{figure.caption.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Histograma do banco de dados.\relax }}{13}{figure.caption.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Vista das amostras.\relax }}{14}{figure.caption.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Amostras codificadas em indicadores para cada uma das tr\IeC {\^e}s categorias do banco de dados.\relax }}{15}{figure.caption.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Ilustra\IeC {\c c}\IeC {\~a}o esquem\IeC {\'a}tica mostrando o c\IeC {\'a}lculo das dist\IeC {\^a}ncias assinaladas.\relax }}{15}{figure.caption.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Dist\IeC {\^a}ncias assinaladas calculadas para cada uma das categorias do banco de dados.\relax }}{16}{figure.caption.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Variogramas experimentais das dist\IeC {\^a}ncias assinaladas e modelos para cada uma das categorias do banco de dados.\relax }}{17}{figure.caption.11}
+\contentsline {figure}{\numberline {11}{\ignorespaces Variogramas experimentais dos indicadores e modelos para cada uma das categorias do banco de dados.\relax }}{18}{figure.caption.12}
+\contentsline {figure}{\numberline {12}{\ignorespaces Fluxograma da modelagem geol\IeC {\'o}gica impl\IeC {\'\i }cita usando tabelas de covari\IeC {\^a}ncia.\relax }}{19}{figure.caption.13}
+\contentsline {figure}{\numberline {13}{\ignorespaces Efeito da resolu\IeC {\c c}\IeC {\~a}o do grid na reprodu\IeC {\c c}\IeC {\~a}o de estruturas geol\IeC {\'o}gicas.\relax }}{20}{figure.caption.14}
+\contentsline {figure}{\numberline {14}{\ignorespaces Modelos geol\IeC {\'o}gicos em diferentes resolu\IeC {\c c}\IeC {\~o}es\relax }}{22}{figure.caption.16}
+\contentsline {figure}{\numberline {15}{\ignorespaces Interpola\IeC {\c c}\IeC {\~a}o das dist\IeC {\^a}ncias calculadas por diferentes m\IeC {\'e}todos.\relax }}{23}{figure.caption.17}
+\contentsline {figure}{\numberline {16}{\ignorespaces Particionamento.\relax }}{25}{figure.caption.19}
+\contentsline {figure}{\numberline {17}{\ignorespaces Iso superf\IeC {\'\i }cies para a categoria 1 extra\IeC {\'\i }da dos diferentes modelos impl\IeC {\'\i }citos.\relax }}{26}{figure.caption.20}
+\contentsline {figure}{\numberline {18}{\ignorespaces Iso superf\IeC {\'\i }cie extra\IeC {\'\i }da do modelo impl\IeC {\'\i }cito interpolado por RBF para a categoria 1.\relax }}{26}{figure.caption.21}
+\contentsline {figure}{\numberline {19}{\ignorespaces Iso superf\IeC {\'\i }cie extra\IeC {\'\i }da do modelo impl\IeC {\'\i }cito interpolado por RBF para a categoria 2.\relax }}{27}{figure.caption.22}
+\contentsline {figure}{\numberline {20}{\ignorespaces Esquema para cria\IeC {\c c}\IeC {\~a}o de um modelo impl\IeC {\'\i }cito multi categ\IeC {\'o}rico.\relax }}{28}{figure.caption.23}
+\contentsline {figure}{\numberline {21}{\ignorespaces Modelo geol\IeC {\'o}gico multi categ\IeC {\'o}rico\relax }}{29}{figure.caption.24}
+\contentsline {figure}{\numberline {22}{\ignorespaces Esquema mostrando os vetores de anisotropia local para cada n\IeC {\'o} do grid.\relax }}{30}{figure.caption.25}
+\contentsline {figure}{\numberline {23}{\ignorespaces Iso superf\IeC {\'\i }cie para a categoria 1 extra\IeC {\'\i }da de um modelo impl\IeC {\'\i }cita gerado por krigagem com anisotropia local vari\IeC {\'a}vel mostrando os vetores.\relax }}{31}{figure.caption.26}
+\contentsline {figure}{\numberline {24}{\ignorespaces Esquema mostrando os vetores de anisotropia local para cada centro de parti\IeC {\c c}\IeC {\~a}o.\relax }}{31}{figure.caption.27}
+\contentsline {figure}{\numberline {25}{\ignorespaces Iso superf\IeC {\'\i }cie para a categoria 1 extra\IeC {\'\i }da de um modelo impl\IeC {\'\i }cita gerado por krigagem com anisotropia local vari\IeC {\'a}vel mostrando os vetores.\relax }}{32}{figure.caption.28}
+\contentsline {figure}{\numberline {26}{\ignorespaces Esquema mostrando o refinamento iterativo para fun\IeC {\c c}\IeC {\~o}es de bases radiais.\relax }}{33}{figure.caption.29}
+\contentsline {figure}{\numberline {27}{\ignorespaces Modelo geol\IeC {\'o}gico h\IeC {\'\i }brido criado a partir de furos de sondagem e se\IeC {\c c}\IeC {\~o}es interpretadas.\relax }}{34}{figure.caption.30}
+\contentsline {figure}{\numberline {28}{\ignorespaces Dist\IeC {\^a}ncias estimadas e transformadas em probabilidades para um mesmo bloco.\relax }}{36}{figure.caption.31}
+\contentsline {figure}{\numberline {29}{\ignorespaces Se\IeC {\c c}\IeC {\~o}es em XZ do mapa de probabilidades para a categoria 1 com diferentes valores para $\gamma $.\relax }}{37}{figure.caption.32}
+\contentsline {figure}{\numberline {30}{\ignorespaces Histograma do bootstrap espacial da m\IeC {\'e}dia das dist\IeC {\^a}ncias assinaladas para a categoria 1.\relax }}{37}{figure.caption.33}
+\contentsline {figure}{\numberline {31}{\ignorespaces Coeficiente U calculado para todos os n\IeC {\'o}s do grid.\relax }}{39}{figure.caption.35}
+\contentsline {figure}{\numberline {32}{\ignorespaces Dist\IeC {\^a}ncias simuladas na zona de incerteza para as categorias do banco de dados.\relax }}{39}{figure.caption.36}
+\contentsline {figure}{\numberline {33}{\ignorespaces Diferentes realiza\IeC {\c c}\IeC {\~o}es do modelo geol\IeC {\'o}gico.\relax }}{40}{figure.caption.37}
+\contentsline {figure}{\numberline {34}{\ignorespaces Diferentes realiza\IeC {\c c}\IeC {\~o}es do modelo geol\IeC {\'o}gico.\relax }}{42}{figure.caption.38}
+\contentsline {figure}{\numberline {35}{\ignorespaces Calibra\IeC {\c c}\IeC {\~a}o do par\IeC {\^a}metro C para a categoria 1.\relax }}{43}{figure.caption.39}
+\contentsline {figure}{\numberline {36}{\ignorespaces Classifica\IeC {\c c}\IeC {\~a}o dos locais comparando valores estimados e simulados.\relax }}{44}{figure.caption.40}
+\contentsline {figure}{\numberline {37}{\ignorespaces Interpola\IeC {\c c}\IeC {\~a}o, simula\IeC {\c c}\IeC {\~a}o e classifica\IeC {\c c}\IeC {\~a}o na zona de incerteza.\relax }}{44}{figure.caption.41}
+\contentsline {figure}{\numberline {38}{\ignorespaces Se\IeC {\c c}\IeC {\~o}es verticais de uma realiza\IeC {\c c}\IeC {\~a}o para a categoria 1.\relax }}{45}{figure.caption.42}
+\contentsline {figure}{\numberline {39}{\ignorespaces Esquema do m\IeC {\'e}todo mostrando as regras de hierarquiza\IeC {\c c}\IeC {\~a}o e diferentes realiza\IeC {\c c}\IeC {\~o}es dos grupos formados.\relax }}{46}{figure.caption.43}
+\contentsline {figure}{\numberline {40}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o dos m\IeC {\'e}todos de estimativas.\relax }}{49}{figure.caption.45}
+\contentsline {figure}{\numberline {41}{\ignorespaces Figura esquem\IeC {\'a}tica de um neur\IeC {\^o}nio.\relax }}{49}{figure.caption.46}
+\contentsline {figure}{\numberline {42}{\ignorespaces Rede neural.\relax }}{50}{figure.caption.47}
+\contentsline {figure}{\numberline {43}{\ignorespaces Probabilidades de para categoria em dois diferentes blocos.\relax }}{52}{figure.caption.48}
+\contentsline {figure}{\numberline {44}{\ignorespaces Entropias calculadas para diferentes valores de $\gamma $.\relax }}{53}{figure.caption.49}
+\contentsline {figure}{\numberline {45}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o multi categ\IeC {\'o}rica.\relax }}{53}{figure.caption.50}
+\contentsline {figure}{\numberline {46}{\ignorespaces Esquema da SGT. Note que as litologias sandstone e shale n\IeC {\~a}o aparecer\IeC {\~a}o juntas nas realiza\IeC {\c c}\IeC {\~o}es.\relax }}{55}{figure.caption.51}
+\contentsline {figure}{\numberline {47}{\ignorespaces Esquema da SPT. Note que as litologias 1 e 3 n\IeC {\~a}o aparecer\IeC {\~a}o juntas nas realiza\IeC {\c c}\IeC {\~o}es.\relax }}{55}{figure.caption.52}
+\contentsline {figure}{\numberline {48}{\ignorespaces Diferentes templates, para o caso de duas vari\IeC {\'a}veis latentes e quatro categorias.\relax }}{56}{figure.caption.53}
+\contentsline {figure}{\numberline {49}{\ignorespaces Diferentes regras de truncagem definidas para cada bloco a partir das probabilidades calibradas e calculadas.\relax }}{57}{figure.caption.54}
+\contentsline {figure}{\numberline {50}{\ignorespaces Modelo impl\IeC {\'\i }cito ruim, com a presen\IeC {\c c}a de estruturas indesejadas.\relax }}{58}{figure.caption.55}
+\contentsline {figure}{\numberline {51}{\ignorespaces Cronograma de atividades.\relax }}{58}{figure.caption.56}

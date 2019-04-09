@@ -1,0 +1,435 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Ailleres et al. 2015]{aillerespresentation}
+\abntrefinfo{Ailleres et al.}{AILLERES et al.}{2015}
+{AILLERES, L. et al. \emph{Uncertainty in 3D models and implicit modeling of
+  poly-deformaed terranes}. 2015.
+Presentation.
+Dispon{\'\i}vel em:
+  \url{http://www.tectonique.net/tectask/3DIGi/presentations/T1.2\_ailleres\_Goodbye2DEarthPresentation.pdf}.
+  Acesso em: 23-07-2018.}
+
+\bibitem[Alabert, Modot et al. 1992]{alabert1992stochastic}
+\abntrefinfo{Alabert, Modot et al.}{ALABERT; MODOT et al.}{1992}
+{ALABERT, F.; MODOT, V. et al. Stochastic models of reservoir heterogeneity:
+  Impact on connectivity and average permeabilities. In:  SOCIETY OF PETROLEUM
+  ENGINEERS. \emph{SPE Annual Technical Conference and Exhibition}. [S.l.],
+  1992.}
+
+\bibitem[Allard et al. 2012]{allard2012non}
+\abntrefinfo{Allard et al.}{ALLARD et al.}{2012}
+{ALLARD, D. et al. Non-parametric diagrams for plurigaussian simulations of
+  lithologies. In:  \emph{9th international geostatistical congress, Oslo,
+  Norway}. [S.l.: s.n.], 2012. v.~1115.}
+
+\bibitem[Amarante, Rolo e Costa 2018]{amarante_incerteza_associada}
+\abntrefinfo{Amarante, Rolo e Costa}{AMARANTE; ROLO; COSTA}{2018}
+{AMARANTE, F.; ROLO, R.; COSTA, J. Incerteza associada ao modelamento imlícito
+  e hierárquico. In:  \emph{CBMINA 2019}. [S.l.]: CBMINA, 2018. p. xx--xx.}
+
+\bibitem[Armstrong et al. 2011]{armstrong2011plurigaussian}
+\abntrefinfo{Armstrong et al.}{ARMSTRONG et al.}{2011}
+{ARMSTRONG, M. et al. \emph{Plurigaussian simulations in geosciences}. [S.l.]:
+  Springer Science \& Business Media, 2011.}
+
+\bibitem[Astrakova, Oliver e Lantu{\'e}joul 2015]{astrakova2015truncation}
+\abntrefinfo{Astrakova, Oliver e Lantu{\'e}joul}{ASTRAKOVA; OLIVER;
+  LANTU{\'E}JOUL}{2015}
+{ASTRAKOVA, A.; OLIVER, D.~S.; LANTU{\'E}JOUL, C. Truncation map estimation
+  based on bivariate probabilities and validation for the truncated
+  plurigaussian model.
+\emph{arXiv preprint arXiv:1508.01090}, 2015.}
+
+\bibitem[Beatson, Cherrie e Mouat 1999]{beatson1999fast}
+\abntrefinfo{Beatson, Cherrie e Mouat}{BEATSON; CHERRIE; MOUAT}{1999}
+{BEATSON, R.~K.; CHERRIE, J.~B.; MOUAT, C.~T. Fast fitting of radial basis
+  functions: Methods based on preconditioned gmres iteration.
+\emph{Advances in Computational Mathematics}, Springer, v.~11, n.~2-3, p.
+  253--270, 1999.}
+
+\bibitem[Bloomenthal e Bajaj 1997]{bloomenthal1997introduction}
+\abntrefinfo{Bloomenthal e Bajaj}{BLOOMENTHAL; BAJAJ}{1997}
+{BLOOMENTHAL, J.; BAJAJ, C. \emph{Introduction to implicit surfaces}. [S.l.]:
+  Morgan Kaufmann, 1997.}
+
+\bibitem[Boisvert 2013]{boisvert_geomodeling}
+\abntrefinfo{Boisvert}{BOISVERT}{2013}
+{BOISVERT, J. Automatic geological modeling with iterative refinement.
+\emph{CCG Annual Report}, 2013.}
+
+\bibitem[Box 1979]{box1979robustness}
+\abntrefinfo{Box}{BOX}{1979}
+{BOX, G.~E. Robustness in the strategy of scientific model building. In:
+  \emph{Robustness in statistics}. [S.l.]: Elsevier, 1979. p. 201--236.}
+
+\bibitem[Bratvold et al. 1995]{bratvold1995storm}
+\abntrefinfo{Bratvold et al.}{BRATVOLD et al.}{1995}
+{BRATVOLD, R.~B. et al. Storm: Integrated 3d stochastic reservoir modeling tool
+  for geologists and reservoir engineers.
+\emph{SPE Computer Applications}, Society of Petroleum Engineers, v.~7, n.~03,
+  p. 58--67, 1995.}
+
+\bibitem[C{\'a}ceres et al. 2011]{caceres2011stochastic}
+\abntrefinfo{C{\'a}ceres et al.}{C{\'A}CERES et al.}{2011}
+{C{\'A}CERES, A. et al. Stochastic geological modeling using implicit boundary
+  simulation. In:  \emph{Proceedings of the 2nd International Seminar on
+  Geology for the Mining Industry GEOMIN}. [S.l.: s.n.], 2011. p.~21.}
+
+\bibitem[CGAL 2015]{poisson_recon}
+\abntrefinfo{CGAL}{CGAL}{2015}
+{CGAL. \emph{Poisson Surface Reconstruction}. 2015.
+Manual do usuário.
+Dispon{\'\i}vel em:
+  \url{https://doc.cgal.org/latest/Poisson\_surface\_reconstruction\_3/index.html}.
+  Acesso em: 25-07-2018.}
+
+\bibitem[Cowan et al. 2002]{cowan2002rapid}
+\abntrefinfo{Cowan et al.}{COWAN et al.}{2002}
+{COWAN, E. et al. Rapid geological modelling.
+\emph{Applied Structural Geology for Mineral Exploration and Mining,
+  International Symposium}, 2002.}
+
+\bibitem[Cowan et al. 2003]{cowan2003practical}
+\abntrefinfo{Cowan et al.}{COWAN et al.}{2003}
+{COWAN, E. et al. Practical implicit geological modelling. In:  \emph{Fifth
+  International Mining Geology Conference}. [S.l.: s.n.], 2003. p. 17--19.}
+
+\bibitem[Deutsch 2004]{deutsh_spatial_bootstrap}
+\abntrefinfo{Deutsch}{DEUTSCH}{2004}
+{DEUTSCH, C. A statistical resampling program for correlated data.
+\emph{CCG Annual Report}, 2004.}
+
+\bibitem[Deutsch e Deutsch 2013]{advances_in_spt}
+\abntrefinfo{Deutsch e Deutsch}{DEUTSCH; DEUTSCH}{2013}
+{DEUTSCH, J.; DEUTSCH, C. Advances in truncated plurigaussian simulation for
+  reproduction of transotion probabilities.
+\emph{CCG Annual Report}, 2013.}
+
+\bibitem[Deutsch e Deutsch 2014]{deutsch2014multidimensional}
+\abntrefinfo{Deutsch e Deutsch}{DEUTSCH; DEUTSCH}{2014}
+{DEUTSCH, J.~L.; DEUTSCH, C.~V. A multidimensional scaling approach to enforce
+  reproduction of transition probabilities in truncated plurigaussian
+  simulation.
+\emph{Stochastic environmental research and risk assessment}, Springer, v.~28,
+  n.~3, p. 707--716, 2014.}
+
+\bibitem[{Estimation lemma} 2010]{wiki:sigmoid}
+\abntrefinfo{{Estimation lemma}}{{Estimation lemma}}{2010}
+{{Estimation lemma}. \emph{Estimation lemma --- {W}ikipedia{,} The Free
+  Encyclopedia}. 2010.
+[Online; acesso 22-março-2019].
+Dispon{\'\i}vel em:
+  \url{https://pt.wikipedia.org/wiki/Fun\%C3\%A7\%C3\%A3o\_sigm\%C3\%B3ide}.}
+
+\bibitem[Fasshauer 2007]{fasshauer2007meshfree}
+\abntrefinfo{Fasshauer}{FASSHAUER}{2007}
+{FASSHAUER, G.~E. \emph{Meshfree approximation methods with MATLAB}. [S.l.]:
+  World Scientific, 2007. v.~6.}
+
+\bibitem[Froidevaux 1993]{froidevaux1993probability}
+\abntrefinfo{Froidevaux}{FROIDEVAUX}{1993}
+{FROIDEVAUX, R. Probability field simulation. In:  \emph{Geostatistics
+  tr{\'o}ia’92}. [S.l.]: Springer, 1993. p. 73--83.}
+
+\bibitem[Galli et al. 1994]{galli1994pros}
+\abntrefinfo{Galli et al.}{GALLI et al.}{1994}
+{GALLI, A. et al. The pros and cons of the truncated gaussian method. In:
+  \emph{Geostatistical simulations}. [S.l.]: Springer, 1994. p. 217--233.}
+
+\bibitem[Goovaerts 1997]{goovaerts1997geostatistics}
+\abntrefinfo{Goovaerts}{GOOVAERTS}{1997}
+{GOOVAERTS, P. \emph{Geostatistics for natural resources evaluation}. [S.l.]:
+  Oxford University Press on Demand, 1997.}
+
+\bibitem[Holden et al. 1998]{holden1998modeling}
+\abntrefinfo{Holden et al.}{HOLDEN et al.}{1998}
+{HOLDEN, L. et al. Modeling of fluvial reservoirs with object models.
+\emph{Mathematical Geology}, Springer, v.~30, n.~5, p. 473--496, 1998.}
+
+\bibitem[Hosseini e Deutsch 2007]{hosseini_deutsch_iqd}
+\abntrefinfo{Hosseini e Deutsch}{HOSSEINI; DEUTSCH}{2007}
+{HOSSEINI, A.; DEUTSCH, C.~V. A distance function based algorithm to quantify
+  uncertainty in areal limits.
+\emph{CCG Annual Report}, 2007.}
+
+\bibitem[Journel 1982]{journel1982indicator}
+\abntrefinfo{Journel}{JOURNEL}{1982}
+{JOURNEL, A. The indicator approach to estimation of spatial distributions. In:
+   \emph{Proceedings of the 17th APCOM International Symposium, New York}.
+  [S.l.: s.n.], 1982. p. 793--806.}
+
+\bibitem[Journel e Huijbregts 1978]{journel1978mining}
+\abntrefinfo{Journel e Huijbregts}{JOURNEL; HUIJBREGTS}{1978}
+{JOURNEL, A.~G.; HUIJBREGTS, C.~J. \emph{Mining geostatistics}. [S.l.]:
+  Academic press, 1978.}
+
+\bibitem[Journel e Kyriakidis 2004]{journel2004evaluation}
+\abntrefinfo{Journel e Kyriakidis}{JOURNEL; KYRIAKIDIS}{2004}
+{JOURNEL, A.~G.; KYRIAKIDIS, P.~C. \emph{Evaluation of mineral reserves: a
+  simulation approach}. [S.l.]: Oxford University Press, 2004.}
+
+\bibitem[Kloeckner et al. 2018]{kloechner_cov_table}
+\abntrefinfo{Kloeckner et al.}{KLOECKNER et al.}{2018}
+{KLOECKNER, J. et al. Modelagem geológica implícita automática via tabela de
+  covariância com funções distância assinaladas. In:  \emph{Anais do IX
+  Congresso Brasileiro de Mineração, Belo Horizonte}. [S.l.: s.n.], 2018. p.
+  xx--xx.}
+
+\bibitem[Lajaunie, Courrioux e Manuel 1997]{lajaunie1997foliation}
+\abntrefinfo{Lajaunie, Courrioux e Manuel}{LAJAUNIE; COURRIOUX; MANUEL}{1997}
+{LAJAUNIE, C.; COURRIOUX, G.; MANUEL, L. Foliation fields and 3d cartography in
+  geology: principles of a method based on potential interpolation.
+\emph{Mathematical Geology}, Springer, v.~29, n.~4, p. 571--584, 1997.}
+
+\bibitem[Lillah e Boisvert 2015]{lillah2015inference}
+\abntrefinfo{Lillah e Boisvert}{LILLAH; BOISVERT}{2015}
+{LILLAH, M.; BOISVERT, J.~B. Inference of locally varying anisotropy fields
+  from diverse data sources.
+\emph{Computers \& Geosciences}, Elsevier, v.~82, p. 170--182, 2015.}
+
+\bibitem[Lorensen e Cline 1987]{lorensen1987marching}
+\abntrefinfo{Lorensen e Cline}{LORENSEN; CLINE}{1987}
+{LORENSEN, W.~E.; CLINE, H.~E. Marching cubes: A high resolution 3d surface
+  construction algorithm. In:  ACM. \emph{ACM siggraph computer graphics}.
+  [S.l.], 1987. v.~21, n.~4, p. 163--169.}
+
+\bibitem[Madani e Emery 2015]{madani2015simulation}
+\abntrefinfo{Madani e Emery}{MADANI; EMERY}{2015}
+{MADANI, N.; EMERY, X. Simulation of geo-domains accounting for chronology and
+  contact relationships: application to the r{\'\i}o blanco copper deposit.
+\emph{Stochastic environmental research and risk assessment}, Springer, v.~29,
+  n.~8, p. 2173--2191, 2015.}
+
+\bibitem[Mallet J. 2002]{malletgeomodeling}
+\abntrefinfo{Mallet J.}{MALLET J.}{2002}
+{MALLET J., L. \emph{Geomodeling}. 1. ed. [S.l.]: Oxford, 2002.  (Applied
+  Geostatistics Series).
+ISBN 0195144600,9780195144604.}
+
+\bibitem[Mallet 2004]{mallet2004space}
+\abntrefinfo{Mallet}{MALLET}{2004}
+{MALLET, J.-L. Space--time mathematical framework for sedimentary geology.
+\emph{Mathematical geology}, Springer, v.~36, n.~1, p. 1--32, 2004.}
+
+\bibitem[Manchuck e Deutsch 2018]{manchuck_MLS}
+\abntrefinfo{Manchuck e Deutsch}{MANCHUCK; DEUTSCH}{2018}
+{MANCHUCK, J.; DEUTSCH, C. Mls for boundary interpretations with uncertainty.
+\emph{CCG Annual Report}, 2018.}
+
+\bibitem[Manchuck e Deutsch 2015]{manchuck_deutsch_Geometric}
+\abntrefinfo{Manchuck e Deutsch}{MANCHUCK; DEUTSCH}{2015}
+{MANCHUCK, J.~A.; DEUTSCH, C.~V. Geometric modeling of irregular tabular
+  deposits.
+\emph{CCG Annual Report}, 2015.}
+
+\bibitem[Mariethoz et al. 2009]{mariethoz2009truncated}
+\abntrefinfo{Mariethoz et al.}{MARIETHOZ et al.}{2009}
+{MARIETHOZ, G. et al. Truncated plurigaussian simulations to characterize
+  aquifer heterogeneity.
+\emph{Groundwater}, Wiley Online Library, v.~47, n.~1, p. 13--24, 2009.}
+
+\bibitem[Martin e Boisvert 2015]{martin_boisvert_review_rbf}
+\abntrefinfo{Martin e Boisvert}{MARTIN; BOISVERT}{2015}
+{MARTIN, R.; BOISVERT, J. Review of radial basis functions and domain
+  decomposition for implicit geological modelling.
+\emph{CCG Annual Report}, 2015.}
+
+\bibitem[Martin e Boisvert 2017]{martin2017implicitmodeling}
+\abntrefinfo{Martin e Boisvert}{MARTIN; BOISVERT}{2017}
+{MARTIN, R.; BOISVERT, J. Implicit modeling.
+\emph{CCG Guidebook Series}, v.~22, 2017.}
+
+\bibitem[Matheron 1962]{matheron1962traite}
+\abntrefinfo{Matheron}{MATHERON}{1962}
+{MATHERON, G. Trait{\'e} de g{\'e}ostatistique appliqu{\'e}e, tome i:
+  M{\'e}moires du bureau de recherches g{\'e}ologiques et mini{\`e}res.
+\emph{Editions Technip, Paris}, v.~14, 1962.}
+
+\bibitem[Matheron et al. 1987]{matheron1987conditional}
+\abntrefinfo{Matheron et al.}{MATHERON et al.}{1987}
+{MATHERON, G. et al. Conditional simulation of the geometry of fluvio-deltaic
+  reservoirs. In:  SOCIETY OF PETROLEUM ENGINEERS. \emph{SPE Annual Technical
+  Conference and Exhibition}. [S.l.], 1987.}
+
+\bibitem[McCullagh e Nelder 1989]{mccullaghgeneralizedlinear}
+\abntrefinfo{McCullagh e Nelder}{MCCULLAGH; NELDER}{1989}
+{MCCULLAGH, P.; NELDER, J.~A. \emph{Generalized linear models}. [S.l.]: Chapman
+  and Hall, 1989.}
+
+\bibitem[McLennan 2007]{mclennanstationarity}
+\abntrefinfo{McLennan}{MCLENNAN}{2007}
+{MCLENNAN, J.~A.
+\emph{The decision of stationarity}.
+Tese (Doutorado) --- University of Alberta, 2007.}
+
+\bibitem[McLennan e Deutsch 2006]{mclennan2006boundsim}
+\abntrefinfo{McLennan e Deutsch}{MCLENNAN; DEUTSCH}{2006}
+{MCLENNAN, J.~A.; DEUTSCH, C.~V. Implicit boundary modeling (boundsim).
+\emph{CCG Annual Report}, 2006.}
+
+\bibitem[Munroe e Deutsch 2008]{munroe_c_full_calibration}
+\abntrefinfo{Munroe e Deutsch}{MUNROE; DEUTSCH}{2008}
+{MUNROE, M.; DEUTSCH, C. Full calibration of c and in the framework of
+  vein-type deposit tonnage uncertainty.
+\emph{CCG Annual Report}, 2008.}
+
+\bibitem[Munroe e Deutsch 2011]{wilde_new_way}
+\abntrefinfo{Munroe e Deutsch}{MUNROE; DEUTSCH}{2011}
+{MUNROE, M.; DEUTSCH, C. A new way to calibrate to calibrate distance functions
+  uncertainty.
+\emph{CCG Annual Report}, 2011.}
+
+\bibitem[Munroe e Deutsch 2016]{kaperov_review_boundary}
+\abntrefinfo{Munroe e Deutsch}{MUNROE; DEUTSCH}{2016}
+{MUNROE, M.; DEUTSCH, C. A review of boundary modeling and one way of selecting
+  the c parameter to model boundaries with uncertainty.
+\emph{CCG Annual Report}, 2016.}
+
+\bibitem[Osher e Fedkiw 2003]{osherlevelsetmethods}
+\abntrefinfo{Osher e Fedkiw}{OSHER; FEDKIW}{2003}
+{OSHER, S.; FEDKIW, R. \emph{Level set methods and dynamic implicit surfaces}.
+  [S.l.]: Springer-Verlag New York, Inc., 2003.}
+
+\bibitem[Oxford 2018]{oxfordonlinedictionary}
+\abntrefinfo{Oxford}{OXFORD}{2018}
+{OXFORD, U. \emph{Oxfrod online dictionary}. 2018.
+Definição.
+Dispon{\'\i}vel em: \url{http://www.oed.com}. Acesso em: 15-06-2018.}
+
+\bibitem[Pyrcz, Catuneanu e Deutsch 2005]{pyrcz2005stochastic}
+\abntrefinfo{Pyrcz, Catuneanu e Deutsch}{PYRCZ; CATUNEANU; DEUTSCH}{2005}
+{PYRCZ, M.~J.; CATUNEANU, O.; DEUTSCH, C.~V. Stochastic surface-based modeling
+  of turbidite lobes.
+\emph{AAPG bulletin}, American Association of Petroleum Geologists, v.~89,
+  n.~2, p. 177--191, 2005.}
+
+\bibitem[Pyrcz e Deutsch 2014]{pyrcz2014geostatistical}
+\abntrefinfo{Pyrcz e Deutsch}{PYRCZ; DEUTSCH}{2014}
+{PYRCZ, M.~J.; DEUTSCH, C.~V. \emph{Geostatistical reservoir modeling}. [S.l.]:
+  Oxford university press, 2014.}
+
+\bibitem[Radtke 2017]{radtke_dissertacao}
+\abntrefinfo{Radtke}{RADTKE}{2017}
+{RADTKE, R.
+\emph{Modelagem geológica implícita através de simulações de funções
+  distância assinaladas}.
+Disserta\c{c}\~{a}o (Mestrado) --- Universidade Federal do Rio Grande do Sul,
+  2017.}
+
+\bibitem[Rolo 2017]{rolo_dissertacao}
+\abntrefinfo{Rolo}{ROLO}{2017}
+{ROLO, R.
+\emph{Modelagem geológica implícita com funções distância assinaladas}.
+Disserta\c{c}\~{a}o (Mestrado) --- Universidade Federal do Rio Grande do Sul,
+  2017.}
+
+\bibitem[Rossi e Deutsch 2013]{rossi2013mineral}
+\abntrefinfo{Rossi e Deutsch}{ROSSI; DEUTSCH}{2013}
+{ROSSI, M.~E.; DEUTSCH, C.~V. \emph{Mineral resource estimation}. [S.l.]:
+  Springer Science \& Business Media, 2013.}
+
+\bibitem[Sadeghi e Boisvert 2012]{sadeghi_optimizing}
+\abntrefinfo{Sadeghi e Boisvert}{SADEGHI; BOISVERT}{2012}
+{SADEGHI, S.; BOISVERT, J. Optimizing tresholds in truncated plori-gaussian
+  simulation.
+\emph{CCG Annual Report}, 2012.}
+
+\bibitem[Sadeghi e Boisvert 2016]{sadeghi_review}
+\abntrefinfo{Sadeghi e Boisvert}{SADEGHI; BOISVERT}{2016}
+{SADEGHI, S.; BOISVERT, J. Review of truncated plurigaussian simulation (case
+  study).
+\emph{CCG Annual Report}, 2016.}
+
+\bibitem[Samson e Deutsch 2018]{samson_intro_ml}
+\abntrefinfo{Samson e Deutsch}{SAMSON; DEUTSCH}{2018a}
+{SAMSON, M.; DEUTSCH, C. A brief introduction into machine learning.
+\emph{CCG Annual Report}, 2018.}
+
+\bibitem[Samson e Deutsch 2018]{samson_estimation_ml}
+\abntrefinfo{Samson e Deutsch}{SAMSON; DEUTSCH}{2018b}
+{SAMSON, M.; DEUTSCH, C. Estimation with machine learning.
+\emph{CCG Annual Report}, 2018.}
+
+\bibitem[Savchenko et al. 1995]{savchenko}
+\abntrefinfo{Savchenko et al.}{SAVCHENKO et al.}{1995}
+{SAVCHENKO, V.~V. et al. Function representation of solids reconstructed from
+  scattered surface points and contours. In:  WILEY ONLINE LIBRARY.
+  \emph{Computer Graphics Forum}. [S.l.], 1995. v.~14, n.~4, p. 181--188.}
+
+\bibitem[Shannon 1948]{shannon1948mathematical}
+\abntrefinfo{Shannon}{SHANNON}{1948}
+{SHANNON, C.~E. A mathematical theory of communication.
+\emph{Bell system technical journal}, Wiley Online Library, v.~27, n.~3, p.
+  379--423, 1948.}
+
+\bibitem[Silva 2015]{silvageostatlessons}
+\abntrefinfo{Silva}{SILVA}{2015}
+{SILVA, D. \emph{Signed distance function modeling with multiple categories}.
+  2015.
+Artigo publicado no site geostatisticslessons.com.
+Dispon{\'\i}vel em:
+  \url{http://www.geostatisticslessons.com/lessons/signeddistancefunctions}.
+  Acesso em: 28-12-2016.}
+
+\bibitem[Silva e Deutsch 2012]{silvaanddeutschccgmodeling}
+\abntrefinfo{Silva e Deutsch}{SILVA; DEUTSCH}{2012}
+{SILVA, D.; DEUTSCH, C. Modeling multiple rock types with distance functions:
+  methodology and software. In:  \emph{CCG Annual Report}. [S.l.: s.n.], 2012.}
+
+\bibitem[Silva e Deutsch 2013]{silvaanddeutschccgcorrecting}
+\abntrefinfo{Silva e Deutsch}{SILVA; DEUTSCH}{2013}
+{SILVA, D.; DEUTSCH, C. Correcting distance function models to correct
+  proportions. In:  \emph{CCG Annual Report}. [S.l.: s.n.], 2013.}
+
+\bibitem[Silva e Deutsch 2015]{silva_dual}
+\abntrefinfo{Silva e Deutsch}{SILVA; DEUTSCH}{2015}
+{SILVA, D.; DEUTSCH, C. Speeding up the signed distance implicit geologic
+  modeling method for multiple rock types.
+\emph{CCG Annual Report}, 2015.}
+
+\bibitem[Silva e Deutsch 2016]{hier_plurigauss}
+\abntrefinfo{Silva e Deutsch}{SILVA; DEUTSCH}{2016}
+{SILVA, D.; DEUTSCH, C. Hierarchical approach to truncated plurigaussian
+  simulation.
+\emph{CCG Annual Report}, 2016.}
+
+\bibitem[Silva 2015]{silvaenhancedgeomodeling}
+\abntrefinfo{Silva}{SILVA}{2015}
+{SILVA, D. M.~A.
+\emph{Enhanced geologic modeling with data-driven training images for improved
+  resources and recoverable reserves}.
+Tese (Doutorado) --- University of Alberta, 2015.}
+
+\bibitem[Strebelle 2002]{strebellesimulationscomplexgeology}
+\abntrefinfo{Strebelle}{STREBELLE}{2002}
+{STREBELLE, S. Conditional simulation of complex geological structures using
+  multiple-point statistics.
+\emph{Mathematical Geology}, 2002.}
+
+\bibitem[Wendland 2004]{wendland2004scattered}
+\abntrefinfo{Wendland}{WENDLAND}{2004}
+{WENDLAND, H. \emph{Scattered data approximation}. [S.l.]: Cambridge university
+  press, 2004. v.~17.}
+
+\bibitem[Wilde e Deutsch 2011]{wildedeutschcalibrate}
+\abntrefinfo{Wilde e Deutsch}{WILDE; DEUTSCH}{2011a}
+{WILDE, B.; DEUTSCH, C. A new way to calibrate distance function uncertainty.
+  In:  \emph{CCG Annual Report}. [S.l.: s.n.], 2011.}
+
+\bibitem[Wilde e Deutsch 2011]{wilde_sim_bound_reals}
+\abntrefinfo{Wilde e Deutsch}{WILDE; DEUTSCH}{2011b}
+{WILDE, B.; DEUTSCH, C. Simulating boundary realizations.
+\emph{CCG Annual Report}, 2011.}
+
+\bibitem[Wilde e Deutsch 2012]{wilde2012kriging}
+\abntrefinfo{Wilde e Deutsch}{WILDE; DEUTSCH}{2012}
+{WILDE, B.~J.; DEUTSCH, C.~V. Kriging and simulation in presence of stationary
+  domains: developments in boundary modeling. In:  \emph{Geostatistics Oslo
+  2012}. [S.l.]: Springer, 2012. p. 289--300.}
+
+\end{thebibliography}

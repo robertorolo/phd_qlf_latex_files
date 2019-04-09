@@ -1,0 +1,33 @@
+A ideia central da simulação gaussiana truncada (\cite{matheron1987conditional}) é gerar realizações de uma variável gaussiana contínua e então, truncá-la em uma série de limites para definir uma realização categórica, como mostrado no exemplo 1-D da \autoref{trunc_gauss}. Uma característica importante da simulação gaussiana truncada é o ordenamento das litologias nos modelos finais, os códigos das categorias é gerado a partir de uma variável contínua. Na \autoref{trunc_gauss}, a litologia 2 frequentemente aparecerá entre as litologias 1 e 2, raramente a litologia 1 aparecerá ao lado da 3, quando a variável contínua mudar rapidamente de baixos para altos valores.
+
+\begin{figure}[!ht]
+	\caption{\label{trunc_gauss}Comparação multi categórica.}
+	\begin{center}
+		\includegraphics[width=0.5\textwidth]{capitulo_3/SumatraPDF_PfihiIECbG.png}
+	\end{center}
+	\legend{Fonte: \citeonline{pyrcz2014geostatistical}}
+\end{figure}
+
+Segundo \citeonline{pyrcz2014geostatistical}, as proporções de cada litologia podem ser tomadas como constantes ou podem ser modeladas localmente. Em qualquer caso, assume-se que a proporção de cada litologia ordenada é conhecida em cada localização u, e de fato as probabilidades de cada litologia são conhecidas e foram calibradas a partir da \autoref{eq_softmax}. Essas proporções podem ser transformadas em proporções cumulativas:
+
+\begin{equation}
+    cp_k(u)=\sum_{j=1}^kp_j(u) \qquad k=1,...,K
+\end{equation}
+
+Onde $cp+0=0$ e $cp_k=1.0$ por definição, já que as proporções somam 1 em todos os locais. Os $K-1$ limites para transformar a variável contínua é definida como:
+
+\begin{equation}
+    Y_k^t(u)=G^{-1}(cp_k(u)) \qquad k=1,...,K-1
+\end{equation}
+
+Dada uma variável Gaussiana, esses limites podem ser usados para classificar os blocos:
+
+\begin{equation}
+    litologia em u = k \qquad ify_{K-1}^t<y(u)\leq y_{k}^t(u)
+\end{equation}
+
+O ordenamento de litologias da simulação gaussiana truncada pode ser uma aliada na classificação dos blocos na zona de incerteza já que é desejável que os modelos não apresentem ruído. A ordem é fixa, e faz sentido para ambientes sedimentares estratigráficos, porém, é necessário desenvolver uma uma adaptação, onde o ordenamento das litologias ou estratégia de truncagem deve ser alterada localmente.  
+
+É necessário um variograma para a geração do campo gaussiano na zona de incerteza, o variograma controla a natureza dos contatos, a recomendação da literatura é que o variograma dos indicadores da litologia mais importante seja invertido numericamente para corresponder ao seu variograma gaussiano (\cite{journel2004evaluation}) (o variograma gaussiano tem alcance e anisotropias similares  porém a forma é mais suave, é mais parabólica ou gaussiana à pequenas distâncias). Na prática o variograma dos indicadores é alterado para o modelo gaussiano (\cite{pyrcz2014geostatistical}). A aplicação de um único variograma para todas as litologias implica a mesma anisotropia para todas, que muitas vezes não corresponde à realidade. 
+
+Uma extensão natural da simulação gaussiana truncada é a simulação plurigaussiana truncada (\cite{galli1994pros}). Onde duas ou mais variáveis gaussianas, correlacionadas ou não, são truncadas simultaneamente. Por razões práticas o número de funções gaussianas geralmente é limitado a apenas duas, uma categoria sendo o complemento da outra \cite{rossi2013mineral}
