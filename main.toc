@@ -1,5 +1,5 @@
 \changetocdepth {4}
-\select@language {brazil}
+\babel@toc {brazil}{}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
@@ -39,12 +39,10 @@
 \contentsline {subsection}{\numberline {3.3.2}Zona de incerteza}{51}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}Avalia\IeC {\c c}\IeC {\~a}o de incerteza}{52}{subsection.3.3.3}
 \contentsline {subsubsection}{\numberline {3.3.3.1}\textit {Boundary simulation} multi categ\IeC {\'o}rico}{52}{subsubsection.3.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.3.2}Simula\IeC {\c c}\IeC {\~a}o \textit {P-field}}{54}{subsubsection.3.3.3.2}
-\contentsline {subsubsection}{\numberline {3.3.3.3}Simula\IeC {\c c}\IeC {\~a}o plurigaussiana truncada}{54}{subsubsection.3.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Valida\IeC {\c c}\IeC {\~a}o}{57}{subsection.3.3.4}
-\contentsline {section}{\numberline {3.4}Cronograma e atividades}{58}{section.3.4}
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados preliminares}}{59}{chapter.4}
+\contentsline {subsubsection}{\numberline {3.3.3.2}Simula\IeC {\c c}\IeC {\~a}o \textit {P-field}}{53}{subsubsection.3.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3.3}Simula\IeC {\c c}\IeC {\~a}o plurigaussiana truncada}{55}{subsubsection.3.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Valida\IeC {\c c}\IeC {\~a}o}{58}{subsection.3.3.4}
+\contentsline {section}{\numberline {3.4}Cronograma e atividades}{59}{section.3.4}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{61}{section*.59}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{61}{section*.60}

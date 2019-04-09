@@ -1,4 +1,4 @@
-\select@language {brazil}
+\babel@toc {brazil}{}
 \contentsline {figure}{\numberline {1}{\ignorespaces Ilustra\IeC {\c c}\IeC {\~a}o esquematizando a modelagem geol\IeC {\'o}gica expl\IeC {\'\i }cita usando polilinhas e linhas guias.\relax }}{7}{figure.caption.1}
 \contentsline {figure}{\numberline {2}{\ignorespaces Ilustra\IeC {\c c}\IeC {\~a}o esquem\IeC {\'a}tica destacando a incerteza na localiza\IeC {\c c}\IeC {\~a}o do limite entre os dom\IeC {\'\i }nios azul e vermelho, entre os dados amostrais.\relax }}{8}{figure.caption.2}
 \contentsline {figure}{\numberline {3}{\ignorespaces Busto reconstru\IeC {\'\i }do a partir de pontos esparsos.\relax }}{10}{figure.caption.3}
@@ -43,10 +43,11 @@
 \contentsline {figure}{\numberline {42}{\ignorespaces Rede neural.\relax }}{50}{figure.caption.47}
 \contentsline {figure}{\numberline {43}{\ignorespaces Probabilidades de para categoria em dois diferentes blocos.\relax }}{52}{figure.caption.48}
 \contentsline {figure}{\numberline {44}{\ignorespaces Entropias calculadas para diferentes valores de $\gamma $.\relax }}{53}{figure.caption.49}
-\contentsline {figure}{\numberline {45}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o multi categ\IeC {\'o}rica.\relax }}{53}{figure.caption.50}
-\contentsline {figure}{\numberline {46}{\ignorespaces Esquema da SGT. Note que as litologias sandstone e shale n\IeC {\~a}o aparecer\IeC {\~a}o juntas nas realiza\IeC {\c c}\IeC {\~o}es.\relax }}{55}{figure.caption.51}
-\contentsline {figure}{\numberline {47}{\ignorespaces Esquema da SPT. Note que as litologias 1 e 3 n\IeC {\~a}o aparecer\IeC {\~a}o juntas nas realiza\IeC {\c c}\IeC {\~o}es.\relax }}{55}{figure.caption.52}
-\contentsline {figure}{\numberline {48}{\ignorespaces Diferentes templates, para o caso de duas vari\IeC {\'a}veis latentes e quatro categorias.\relax }}{56}{figure.caption.53}
-\contentsline {figure}{\numberline {49}{\ignorespaces Diferentes regras de truncagem definidas para cada bloco a partir das probabilidades calibradas e calculadas.\relax }}{57}{figure.caption.54}
-\contentsline {figure}{\numberline {50}{\ignorespaces Modelo impl\IeC {\'\i }cito ruim, com a presen\IeC {\c c}a de estruturas indesejadas.\relax }}{58}{figure.caption.55}
-\contentsline {figure}{\numberline {51}{\ignorespaces Cronograma de atividades.\relax }}{58}{figure.caption.56}
+\contentsline {figure}{\numberline {45}{\ignorespaces Calibra\IeC {\c c}\IeC {\~a}o do $\gamma $.\relax }}{54}{figure.caption.50}
+\contentsline {figure}{\numberline {46}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o multi categ\IeC {\'o}rica.\relax }}{54}{figure.caption.51}
+\contentsline {figure}{\numberline {47}{\ignorespaces Esquema da SGT. Note que as litologias sandstone e shale n\IeC {\~a}o aparecer\IeC {\~a}o juntas nas realiza\IeC {\c c}\IeC {\~o}es.\relax }}{55}{figure.caption.52}
+\contentsline {figure}{\numberline {48}{\ignorespaces Esquema da SPT. Note que as litologias 1 e 3 n\IeC {\~a}o aparecer\IeC {\~a}o juntas nas realiza\IeC {\c c}\IeC {\~o}es.\relax }}{56}{figure.caption.53}
+\contentsline {figure}{\numberline {49}{\ignorespaces Diferentes templates, para o caso de duas vari\IeC {\'a}veis latentes e quatro categorias.\relax }}{56}{figure.caption.54}
+\contentsline {figure}{\numberline {50}{\ignorespaces Diferentes regras de truncagem definidas para cada bloco a partir das probabilidades calibradas e calculadas.\relax }}{57}{figure.caption.55}
+\contentsline {figure}{\numberline {51}{\ignorespaces Modelo impl\IeC {\'\i }cito ruim, com a presen\IeC {\c c}a de estruturas indesejadas.\relax }}{58}{figure.caption.56}
+\contentsline {figure}{\numberline {52}{\ignorespaces Cronograma de atividades.\relax }}{59}{figure.caption.57}

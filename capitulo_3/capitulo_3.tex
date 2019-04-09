@@ -90,7 +90,7 @@ Calcular as probabilidades de cada litologia em um determinado local é trivial,
 
 Algumas das propriedades notáveis e desejáveis da entropia são: a entropia á máxima para distribuições uniformes; é aditiva para eventos independentes; adicionar um novo evento com probabilidade zero não altera a entropia; é contínua e não negativa; a entropia para eventos como o mesmo resultado é zero; invariante à permutação.
 
-A \autoref{entro_gamma} mostra a entropia calculada para o banco de dados em estudo a partir de probabilidades calculadas com diferentes valores de $\gamma$. A entropia, é um parâmetro semelhante ao coeficiente U (\autoref{sim_direta}), porém, a variação da entropia pode ser controlada pela magnitude das proporções calculadas pela \autoref{eq_softmax}. Se o parâmetro $\gamma$ for calibrado para todas as litologias, levando em consideração os dados amostrais. A probabilidade de uma dada categoria em um ponto amostral deve ser um, se a amostra pertencer à essa mesma categoria, e zero caso contrário, variando de suavemente no espaço. O parâmetro $\gamma$ será calibrado de forma que na validação as duas imposições sejam atendidas, um \textit{range} de valores permissíveis para gamma pode ser definido. Dessa forma, o campo de entropia pode fornecer uma zona de incerteza de fato incerta, justa e livre de viés.
+A \autoref{entro_gamma} mostra a entropia calculada para o banco de dados em estudo a partir de probabilidades calculadas com diferentes valores de $\gamma$. A entropia, é um parâmetro semelhante ao coeficiente U (\autoref{sim_direta}), porém, a variação da entropia pode ser controlada pela magnitude das proporções calculadas pela \autoref{eq_softmax}. O parâmetro $\gamma$ deve ser calibrado para todas as litologias, levando em consideração os dados amostrais. 
 
 \begin{figure}[t]
 \caption{Entropias calculadas para diferentes valores de $\gamma$.} 
@@ -102,6 +102,18 @@ A \autoref{entro_gamma} mostra a entropia calculada para o banco de dados em est
 \subfloat[][$\gamma=10$]{\includegraphics[width=0.8\textwidth]{capitulo_3/entropy_10.png}\label{b}}
 \end{center}
 \end{figure}
+
+A probabilidade de uma dada categoria em um ponto amostral deve ser um, se a amostra pertencer à essa mesma categoria, e zero caso contrário, somando um para todas as litologias e variando de suavemente no espaço. O parâmetro $\gamma$ deveria ser calibrado de forma que na validação as duas imposições sejam atendidas, um \textit{range} de valores permissíveis para gamma pode ser definido. O $\gamma$ esolhido deve ser o que contempla a maior incerteza possível (maior valor). Dessa forma, o campo de entropia pode fornecer uma zona de incerteza de fato incerta, justa e livre de viés. A \autoref{calib_gamma} mostra a calibração do parâmetro para o banco de dados em estudo. Muitas vezes a imposição é muito restritiva e gera zonas de incerteza muito pequenas ou em alguns casos ausentes. A partir de 0.4, um valor muito pequeno para o parâmetro, já existe classificação errônea, e a partir de 110 todas as amostras são classificadas de forma errada.
+
+\begin{figure}[!ht]
+	\caption{\label{calib_gamma}Calibração do $\gamma$.}
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{capitulo_3/calib100.png}
+	\end{center}
+	%\legend{Fonte: \citeonline{samson_intro_ml}}
+\end{figure}
+
+Conforme o valor de $\gamma$ aumenta o número de amostras classificadas errôneamente - diferente de 0 ou diferente de 100 - aumenta, da mesma forma para todas as litologias (por isso apenas um gráfico de calibração). É preciso desenvolver uma forma de escolher o melhor valor para $\gamma$. Alguns autores recomndam escolher a maior distância estimada.
 
 Resta então definir um \textit{cut off} no campo de entropia para sinalizar quais blocos variam e quais ficam congelados na geração dos modelos estocásticos. É preciso definir uma regra matemática, que pode ser baseada na entropia de formação do depósito mineral, depósitos de mais baixa entropia, como os de bauxita, por exemplo teriam seu \textit{cut off} definido em um valor maior do que depósitos de alta entropia, como um depósito de ouro primário.
 
