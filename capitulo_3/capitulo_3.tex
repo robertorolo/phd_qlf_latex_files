@@ -31,7 +31,7 @@ O primeiro objetivo da tese é investigar a aplicabilidade de um interpolador ba
 
 Em seu trabalho, \citeonline{samson_estimation_ml}, dividiram os dados disponíveis em treinamento (66\%) e teste (33\%). O algoritmo \textit{K-means} é usado para determinar o número de unidades de bases radiais usadas na rede neural. A função de ativação  alimentou o algoritmo com as coordenadas x, y e z e teores das 5 amostras mais próximas do local a ser estimado. A \autoref{comparation} mostra os resultados obtidos pela metodologia descrita e por krigagem simples a partir do mesmo banco de dados. Os resultados mostram uma boa reprodução das características, bem como do variograma e histograma.
 
-\begin{figure} 
+\begin{figure}[H] 
     \caption{Comparação dos métodos de estimativas.} \label{comparation}
      \centering
      \subfloat[][Realidade]{\includegraphics[width=.3\textwidth]{capitulo_3/actual.png}\label{<figure1>}}
@@ -42,7 +42,7 @@ Em seu trabalho, \citeonline{samson_estimation_ml}, dividiram os dados disponív
 
 Redes neurais são baseadas em neurônios (\autoref{neuron}). Os dendritos representam o \textit{input} e os axônios representam o \textit{output}. Redes neurais são tipicamente usadas em problemas de identificação \cite{samson_intro_ml}.
 
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\caption{\label{neuron}Figura esquemática de um neurônio.}
 	\begin{center}
 		\includegraphics[width=0.3\textwidth]{capitulo_3/neuronio.jpg}
@@ -54,7 +54,7 @@ A \autoref{nn_ex} mostra um exemplo simples de rede neural. Os nós "x" na camad
 
 Redes neurais trabalham em um sistema binário de zeros e uns e por isso podem se basear nas propriedades da função sigmóide \footnote{A função sigmóide é uma função matemática de amplo uso em campos como a economia e a computação. O nome "sigmóide" vem da forma em S do seu gráfico. \cite{wiki:sigmoid}}, que tem seu valor em y entre zero e um para qualquer valor de x. Em uma rede neural uma hipótese é gerada para cada nó e é determinado se seu valor será zero ou um, o valor binário é então passado para a próxima camada. Na rede neural da \autoref{nn_ex} uma hipótese para cada nó deve ser definida, a hipótese em um nó é o peso do \textit{input} multiplicado pelo valor binário (0,1). O valor da hipótese é então imputado na função sigmóide que converte o valor para zero ou um \cite{samson_intro_ml}.
 
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\caption{\label{nn_ex}Rede neural.}
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{capitulo_3/NN_ex.png}
@@ -81,7 +81,7 @@ Desse modo, a entropia é uma medida de incerteza. A entropia da informação ou
 
 Calcular as probabilidades de cada litologia em um determinado local é trivial, como mostrado na \autoref{heuristic} o que a torna a entropia da informação uma poderosa ferramenta tanto na definição da zona de incerteza como para de fato avaliar a incerteza do modelo geológico. Considere dois diferentes blocos onde as probabilidades de cada litologia foram calculadas e são mostradas na \autoref{entro_block}, o bloco 1 apresenta uma entropia menor que o bloco 2. Conhecimento e entropia são opostos: quando o conhecimento a respeito da mais provável litologia para um bloco é alto a entropia é baixa e vice-versa. 
 
-\begin{figure} 
+\begin{figure}[H] 
 \caption{Probabilidades de para categoria em dois diferentes blocos.} \label{entro_block}
      \centering
      \subfloat[][Bloco 1]{\includegraphics[width=.5\textwidth]{capitulo_3/bloco1.jpg}\label{bloco1}}
@@ -92,7 +92,7 @@ Algumas das propriedades notáveis e desejáveis da entropia são: a entropia á
 
 A \autoref{entro_gamma} mostra a entropia calculada para o banco de dados em estudo a partir de probabilidades calculadas com diferentes valores de $\gamma$. A entropia, é um parâmetro semelhante ao coeficiente U (\autoref{sim_direta}), porém, a variação da entropia pode ser controlada pela magnitude das proporções calculadas pela \autoref{eq_softmax}. O parâmetro $\gamma$ deve ser calibrado para todas as litologias, levando em consideração os dados amostrais. 
 
-\begin{figure}[t]
+\begin{figure}[H]
 \caption{Entropias calculadas para diferentes valores de $\gamma$.} 
 \label{entro_gamma}
 \begin{center}
@@ -105,7 +105,7 @@ A \autoref{entro_gamma} mostra a entropia calculada para o banco de dados em est
 
 A probabilidade de uma dada categoria em um ponto amostral deve ser um, se a amostra pertencer à essa mesma categoria, e zero caso contrário, somando um para todas as litologias e variando de suavemente no espaço. O parâmetro $\gamma$ deveria ser calibrado de forma que na validação as duas imposições sejam atendidas, um \textit{range} de valores permissíveis para gamma pode ser definido. O $\gamma$ esolhido deve ser o que contempla a maior incerteza possível (maior valor). Dessa forma, o campo de entropia pode fornecer uma zona de incerteza de fato incerta, justa e livre de viés. A \autoref{calib_gamma} mostra a calibração do parâmetro para o banco de dados em estudo. Muitas vezes a imposição é muito restritiva e gera zonas de incerteza muito pequenas ou em alguns casos ausentes. A partir de 0.4, um valor muito pequeno para o parâmetro, já existe classificação errônea, e a partir de 110 todas as amostras são classificadas de forma errada.
 
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\caption{\label{calib_gamma}Calibração do $\gamma$.}
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{capitulo_3/calib100.png}
@@ -123,7 +123,7 @@ Resta então definir um \textit{cut off} no campo de entropia para sinalizar qua
 
 Atualmente o método de avaliação de incerteza que produz os melhores resultados é apresentado na \autoref{boundsim} esse método permite controlar o volume da zona de incerteza, e a natureza dos contatos. Nesse método o contato entre litologias varia dentro da zona de incerteza calibrada, sem a geração de ruído, além disso a natureza do contato pode ser controlada pelo variograma da simulação não condicional. Porém o método trabalha apenas com uma litologia por vez e a simulação não condicional ainda depende de um variograma. Essa tese propõe uma adaptação desse método para múltiplas categorias simultâneas. As distâncias interpoladas para as diferentes litologias serão comparadas, apenas na nova zona de incerteza, com apenas um campo simulado, dessa forma as distâncias devem ser, de alguma forma, estandardizadas, ou com n campos simulados, um para cada distância, como mostra a \autoref{comp_multi}.
 
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\caption{\label{comp_multi}Comparação multi categórica.}
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{capitulo_3/classificacao_multi.jpg}
@@ -141,7 +141,7 @@ N realizações do campo de probabilidades podem ser geradas na zona de incertez
 
 Simulação gaussiana truncada (SGT) foi proposta por \citeonline{matheron1987conditional} e é uma alternativa para simular variáveis categóricas que usa uma única variável aleatória gaussiana. Realizações da variável gaussiana são tratadas como uma variável latente subjacente \cite{hier_plurigauss} e então são truncadas para gerar realizações categóricas. Todavia, o uso de apenas uma variável gaussiana faz com que a técnica seja limitada apenas a simulação de variáveis categóricas ordenadas, como ambientes sedimentares estratigráficos, por exemplo. A \autoref{trunc_gauss} mostra a variável gaussiana truncada para representar 3 diferentes categorias. A aplicação de uma regra local de truncagem na SGT gera resultados similares à simulação \textit{P-field}.
 
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\caption{\label{trunc_gauss}Esquema da SGT. Note que as litologias sandstone e shale não aparecerão juntas nas realizações.}
 	\begin{center}
 		\includegraphics[width=0.5\textwidth]{capitulo_3/gauss_trunc_sketch.png}
@@ -151,7 +151,7 @@ Simulação gaussiana truncada (SGT) foi proposta por \citeonline{matheron1987co
 
 A simulação plurigaussiana truncada (SPT), proposta por \citeonline{galli1994pros}, é uma extensão da SGT para permitir o uso de múltiplas variáveis aleatórias gaussianas (variáveis latentes), assim, permitindo a simulação de estruturas mais complexas. A SPT pode reproduzir proporções, continuidade espacial e probabilidades de transição. O poder da SPT vem do uso de múltiplas variáveis gaussianas para representar as estruturas complexas observadas nos dados. Todavia, seu uso tem sido limitado a duas funções gaussianas, $Y_1$ e $Y_2$, correlacionadas ou não, pelo fato de que a definição e interpretação de regras de truncagem é complicada em mais de duas dimensões \cite{hier_plurigauss}.
 
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\caption{\label{trunc_pluri}Esquema da SPT. Note que as litologias 1 e 3 não aparecerão juntas nas realizações.}
 	\begin{center}
 		\includegraphics[width=0.5\textwidth]{capitulo_3/pluri_sketch.png}
@@ -161,7 +161,7 @@ A simulação plurigaussiana truncada (SPT), proposta por \citeonline{galli1994p
 
 A regra de truncagem ou regra de litologia é uma parte importante da metodologia SPT já que ela controla os contatos entre as categorias, sua transição e proporções. A definição das regras de truncagem é geralmente baseada nas probabilidades de transição observadas nos dados e nos modelos conceituais \cite{mariethoz2009truncated}. A partir dos dados, é possível calcular a probabilidade de transição de uma categoria para outra e expressá-las em forma de matriz \cite{advances_in_spt}.
 
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\caption{\label{trunc_rules}Diferentes templates, para o caso de duas variáveis latentes e quatro categorias.}
 	\begin{center}
 		\includegraphics[width=0.5\textwidth]{capitulo_3/trunc_rules.png}
@@ -185,7 +185,7 @@ Em muitos casos as proporções não são estacionárias, as curvas de proporç�
 
 Essa tese propõe a definição dinâmica da regra de truncagem bivariada para cada bloco, dentro da zona de incerteza, a partir das probabilidades calibradas e calculadas pela \autoref{eq_softmax}. A \autoref{trunc_rules_prop} mostra um desenho esquemático do método proposto.
 
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\caption{\label{trunc_rules_prop}Diferentes regras de truncagem definidas para cada bloco a partir das probabilidades calibradas e calculadas.}
 	\begin{center}
 		\includegraphics[width=0.6\textwidth]{capitulo_3/trunc_rules_prop.jpg}
@@ -203,7 +203,7 @@ O último passo é aplicar a regra de truncagem em cada bloco e para cada realiz
 
 Finalmente é preciso desenvolver metodologias para validação e checagem dos modelos. A modelagem implícita tende a gerar estruturas em formatos circulares ("\textit{blobs}") ao redor das amostras, como o modelo apresentado na \autoref{blob}, ou em forma de salsicha em torno de furos de sondagem, um índice de quanto às estruturas geradas se parecem com essas estruturas indesejadas deve ser desenvolvido, bem como a checagem de locais classificados que são colocados com amostras (e devem ter sido classificados com a mesma litologia da amostra) e checagem "visual", que pode ser realizada por um algoritmo de aprendizado de máquinas.
 
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\caption{\label{blob}Modelo implícito ruim, com a presença de estruturas indesejadas.}
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{capitulo_3/blob.jpg}
@@ -217,7 +217,7 @@ As atividades pretendidas para essa tese incluem: uma revisão bibliográfica da
 
 A \autoref{cronograma} mostra o cronograma de atividades para o período da tese.
 
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\caption{\label{cronograma}Cronograma de atividades.}
 	\begin{center}
 		\includegraphics[width=\textwidth]{capitulo_3/cronograma_novo.png}

@@ -23,7 +23,7 @@ Uma vez que os domínios estacionários tenham sido definidos, um modelo tridime
 
 A abordagem tradicional para a criação de modelos geológicos tridimensionais é através da triangulação de polilinhas \footnote{Em computação gráfica: uma linha composta por vários segmentos, usada para compor imagens na tela \cite{oxfordonlinedictionary}.} (\textit{strings}) gerando sólidos que representam os corpos minerais. As polilinhas são digitalizadas manualmente em seções deslocadas, a partir dos dados de sondagem e conhecimento geológico prévio, por um geomodelador. As seções são unidas por linhas guias, que demarcam a conectividade entre as seções digitalizadas para triangulação adequada dos sólidos. Esse procedimento é referido como modelagem geológica explícita, já que a os limites entre os diferentes domínios são definidos explicitamente por coordenadas (x,y,z) que posicionam a "colcha de retalhos" de triângulos \cite{mclennan2006boundsim,cowan2003practical}. A \autoref{explicitmodeling} ilustra a metodologia explícita para um típico depósito de veio.
 
-\begin{figure}[!htb]
+\begin{figure}[H]
 	\caption{\label{explicitmodeling}Ilustração esquematizando a modelagem geológica explícita usando polilinhas e linhas guias.}
 	\begin{center}
 		\includegraphics[width=0.6\textwidth]{capitulo_1/explicitmodeling}
@@ -37,7 +37,7 @@ Os modelos criados explicitamente são subjetivos e não replicáveis. O volume 
 
 Em virtude da onerosidade em construir múltiplos modelos geológicos explícitos, é custoso avaliar a incerteza na localização dos limites dos diferentes domínios entre os dados amostrais, como mostrado na ilustração esquemática na \autoref{incerteza_limites}. Além da tediosa redigitalização manual de polilinhas e retriangulação, não existe forma direta de incorporar múltiplas realizações possíveis para a localização dos limites que representam a incerteza associada.
 
-\begin{figure}[!htb]
+\begin{figure}[H]
 	\caption{\label{incerteza_limites}Ilustração esquemática destacando a incerteza na localização do limite entre os domínios azul e vermelho, entre os dados amostrais.}
 	\begin{center}
 		\includegraphics[width=0.6\textwidth]{capitulo_1/incerteza_limites}
@@ -59,7 +59,7 @@ Outras metodologias não baseadas em variograma foram desenvolvidas: a simulaç�
 
 Uma outra família de métodos, ditos métodos implícitos, compreendem técnicas importadas da computação gráfica. O uso da modelagem implícita foi introduzida no campo da computação gráfica para a geração de objetos de diferentes geometrias e complexidades por  \citeonline{bloomenthal1997introduction}. A ideia geral é usar uma função implícita para demarcar regiões de diferentes formas e extensões no espaço. \citeonline{cowan2002rapid,cowan2003practical} popularizou a modelagem implícita no contexto geológico, baseado no trabalho de \citeonline{savchenko} que modela objetos tridimensionais a partir de dados esparsos interpolando uma função volume (\autoref{busto}).
 
-\begin{figure}[!htb]
+\begin{figure}[H]
 	\caption{\label{busto}Busto reconstruído a partir de pontos esparsos.} 
 	\begin{center}
 		\includegraphics[width=0.6\textwidth]{capitulo_1/busto}
@@ -69,7 +69,7 @@ Uma outra família de métodos, ditos métodos implícitos, compreendem técnica
 
 Modelos geológicos implícitos são criados a partir de dados esparsos, geralmente, dados categóricos (\autoref{imp_mod} (a)). Os pontos amostrais podem ser usados para derivar uma função implícita que fornece uma representação matemática contínua de um atributo através de um volume, um campo escalar ou modelo implícito (\autoref{imp_mod} (b)). Modelos implícitos contém um número infinito de isosuperfícies, para visualizar o modelo geológico uma isosuperfície específica deve ser extraída do modelo e mostrada no espaço tridimensional (geralmente a isosuperfície zero), $f(x,y,z)=s$, onde $s$ é o valor de interesse no campo escalar (\autoref{imp_mod} (c)). A localização dessa superfície é conhecida implicitamente como função da localização no domínio \cite{martin2017implicitmodeling}. 
 
-\begin{figure}[!htb]
+\begin{figure}[H]
 	\caption{\label{imp_mod}Ilustração esquemática da modelagem geológica implícita.}
 	\begin{center}
 		\includegraphics[width=\textwidth]{capitulo_1/implicit_modelig_pt_1}
