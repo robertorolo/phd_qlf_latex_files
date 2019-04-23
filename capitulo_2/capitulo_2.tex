@@ -124,7 +124,7 @@ Número de lags & Distância do lag & Tolerância linear & Tolerância do azimut
 \caption{Parâmetros de cálculo dos variogramas experimentais.} \label{par_calc}
 \end{table}
 
-O modelo mais indicado para modelar o variograma das distâncias assinaladas é o modelo Gaussiano. A \autoref{sd_var} mostra os variogramas experimentais e modelos ajustados das distâncias assinaladas para cada uma das categorias do banco de dados. Os modelos foram ajustados de forma automática pelo software PyGeostat \autoref{pygeostat}, com efeito pepita de 0.01 (para evitar instabilidades nas matrizes de krigagem), uma estrutura Gaussiana, patamar estandardizado e com um máximo de 2500 iterações.  
+O modelo mais indicado para modelar o variograma das distâncias assinaladas é o modelo Gaussiano. A \autoref{sd_var} mostra os variogramas experimentais e modelos ajustados das distâncias assinaladas para cada uma das categorias do banco de dados. Os modelos foram ajustados de forma automática pelo software PyGeostat \cite{pygeostat}, com efeito pepita de 0.01 (para evitar instabilidades nas matrizes de krigagem), uma estrutura Gaussiana, patamar estandardizado e com um máximo de 2500 iterações.  
 
 \begin{figure}[H] 
 \caption{Variogramas experimentais das distâncias assinaladas e modelos para cada uma das categorias do banco de dados.} \label{sd_var}
@@ -151,7 +151,7 @@ Os modelos variográficos para cada categoria são expressos pelas \autoref{vars
 \gamma_{SD3}(h)=0.01+0.99gauss\left(\frac{h_{omni}}{265m}, \frac{h_{normal}}{193m}\right)
 \end{equation}
 
-O modelo mais indicado para modelar o variograma dos indicadores é o modelo esférico. A \autoref{ind_var} mostra os variogramas experimentais e modelos ajustados para os indicadores de cada uma das categorias do banco de dados. Os modelos foram ajustados de forma automática pelo software PyGeostat \autoref{pygeostat}, com efeito pepita de 0, uma estrutura esférica, patamar estandardizado e com um máximo de 2500 iterações. 
+O modelo mais indicado para modelar o variograma dos indicadores é o modelo esférico. A \autoref{ind_var} mostra os variogramas experimentais e modelos ajustados para os indicadores de cada uma das categorias do banco de dados. Os modelos foram ajustados de forma automática pelo software PyGeostat \cite{pygeostat}, com efeito pepita de 0, uma estrutura esférica, patamar estandardizado e com um máximo de 2500 iterações.
 
 \begin{figure}[H] 
      \caption{Variogramas experimentais dos indicadores e modelos para cada uma das categorias do banco de dados.} \label{ind_var}
@@ -254,14 +254,22 @@ Além das características de cada interpolador, para as funções distância as
 
 Independente do método de interpolação, os modelos gerados devem ser livres de artefatos para que os artefatos do modelo implícito não sejam transferidos para os modelos geológicos. Funções de bases radiais e krigagem global garantem modelos livres de artefato por utilizarem todas as amostras em cada estimativa, já para os métodos baseados em inverso da distância e krigagem (não global) os parâmetros de busca são uma escolha crítica \cite{martin2017implicitmodeling}. No entanto, métodos globais possuem limitações em bancos de dados volumosos por dependerem de muito processamento e memória RAM.
 
-A \autoref{interpo} mostra três modelos implícitos, para a categoria 1, interpolados por krigagem ordinária usando 40 amostras, krigagem ordinária usando 100 amostras e funções de bases radiais, que é um método global. A krigagem ordinária global gerou modelos implícitos extremantes contínuos, mais do que o desejado, implicando em modelos geológicos não realistas. 
+A \autoref{interpo} mostra três modelos implícitos, para a categoria 1, interpolados por krigagem ordinária usando 40 amostras, krigagem ordinária usando 100 amostras e funções de bases radiais, que é um método global. A krigagem ordinária global gerou modelos implícitos extremantes contínuos, mais do que o desejado, implicando em modelos geológicos não realistas, como mostrado na \autoref{global_krig}. 
 
 \begin{figure}[H] 
     \caption{Interpolação das distâncias calculadas por diferentes métodos.} \label{interpo}
      \centering
-     \subfloat[][OK com 40 amostras]{\includegraphics[width=.3\textwidth]{capitulo_2/kt3d40.jpeg}\label{<figure1>}}\\
-     \subfloat[][OK com 100 amostras]{\includegraphics[width=.3\textwidth]{capitulo_2/kt3d100.jpeg}\label{<figure2>}}\\
-     \subfloat[][RBF global]{\includegraphics[width=.3\textwidth]{capitulo_2/rbf.jpeg}\label{<figure2>}}
+     \subfloat[][OK com 40 amostras]{\includegraphics[width=.6\textwidth]{capitulo_2/kt3d40.jpeg}\label{<figure1>}}\\
+     \subfloat[][OK com 100 amostras]{\includegraphics[width=.6\textwidth]{capitulo_2/kt3d100.jpeg}\label{<figure2>}}\\
+     \subfloat[][RBF global]{\includegraphics[width=.6\textwidth]{capitulo_2/rbf.jpeg}\label{<figure2>}}
+\end{figure}
+
+\begin{figure}[H]
+	\caption{\label{global_krig}Modelo não realista gerado por krigagem global para a categoria 2.}
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{capitulo_2/globalind2.png}
+	\end{center}
+	%\legend{Fonte: \citeonline{martin2017implicitmodeling}}
 \end{figure}
 
 É evidente a presença de artefatos nos dois primeiros modelos. As funções de bases radiais criam um modelo suave e livre de artefatos. 
@@ -281,8 +289,8 @@ krigagem ordinária anisotrópica (40) & 1min 3s & 38min & 137 & 135 \\
 krigagem ordinária anisotrópica (100) &  & 45min 51s &  & 181 \\
 RBF isotrópico & 21.5s &  & 57 &  \\
 RBF anisotrópico &  & 1min 22s &  & 38 \\
-POU RBF anisotrópico &  & 1min 2s &  & 39 \\
-POU RBF artefatos & 16.5s &  &  & 29 \\
+Particionado RBF anisotrópico &  & 1min 2s &  & 39 \\
+Particionado RBF artefatos & 16.5s &  &  & 29 \\
 LVA OK &  &  & 8 &  \\
 LVA RBF &  &  &  & 8 \\
 Krigagem dos indicadores &  & 33min 27s &  & 2 \\ \hline
@@ -297,24 +305,24 @@ A demonstração detalhada das equações e considerações  pode ser encontrada
 
 \subsubsection{O \textit{kernel}}
 
-O \textit{kernel} radial estabelece as relações espacias entre todos os pontos do domínio. O \textit{kernel} 
-é sinônimo a função covariância usada na krigagem, e pode/deve ser parametrizado a partir do variograma, calculado e modelado a partir das amostras. Para modelagem geológica o \textit{kernel} Gaussiano, representado pela \autoref{gauss_kernel}, é o mais indicado. Na prática tanto o variograma das funções distância assinaladas: que são modelados com um pequeno efeito pepita (para evitar instabilidades matemáticas e/ou controlar o ruído do modelo) e estrutura Gaussiana, quanto o variograma dos indicadores: que é modelado com uma estrutura esférica \cite{martin2017implicitmodeling}, são adequados para a parametrização do \textit{kernel}. Os programas da biblioteca GSLib trabalham apenas com uma única estrutura. 
+O \textit{kernel} radial estabelece as relações espaciais entre todos os pontos do domínio. O \textit{kernel} 
+é sinônimo da função covariância usada na krigagem, e pode/deve ser parametrizado a partir do variograma, calculado e modelado a partir das amostras. Para modelagem geológica o \textit{kernel} Gaussiano, representado pela \autoref{gauss_kernel}, é o mais indicado. Na prática tanto o variograma das funções distância assinaladas: que são modelados com um pequeno efeito pepita (para evitar instabilidades matemáticas e/ou controlar o ruído do modelo) e estrutura Gaussiana, quanto o variograma dos indicadores: que é modelado com uma estrutura esférica \cite{martin2017implicitmodeling}, são adequados para a parametrização do \textit{kernel}. Os programas da biblioteca GSLib trabalham apenas com uma única estrutura. 
 
 \begin{equation}\label{gauss_kernel}
   \phi(r)=exp^{-\epsilon^{-2}r^2}  
 \end{equation}
 
-Onde $\epsilon$ é o parâmetro de suporte, que defino o "range" do \textit{kernel}.
+onde $\epsilon$ é o parâmetro de suporte, que define o "range" do \textit{kernel}.
 
-Para parametrizar as funções de bases radiais com o modelo de variograma (das distâncias ou indicadores) a distância de suporte do kernel pode ser estimada a partir do alcance na direção de maior continuidade do variograma análogo. Os ângulos e relações de anisotropia são parametrizados a partir da orientação e alcances dos variogramas análogos (azimuth, dip, rake, $r1 = \frac{a_{hmin}}{a_{hmax}}$, $r2 = \frac{a_{vert}}{a_{hmax}}$).
+Para parametrizar as funções de bases radiais com o modelo de variograma (das distâncias ou indicadores), a distância de suporte do kernel pode ser estimada a partir do alcance na direção de maior continuidade do variograma análogo. Os ângulos e relações de anisotropia são parametrizados a partir da orientação e alcances dos variogramas análogos (azimuth, dip, rake, $r1 = \frac{a_{hmin}}{a_{hmax}}$, $r2 = \frac{a_{vert}}{a_{hmax}}$).
 
 \citeonline{fasshauer2007meshfree} advoga que o \textit{kernel} pode ser parametrizado pela distância que representa a maior esfera que pode ser colocada entre amostras no domínio. Para modelagem geológica essa técnica tende a super estimar o suporte \cite{martin2017implicitmodeling}.
 
 \subsubsection{Decomposição do domínio} \label{dom_decomp}
 
-Como abordado na \autoref{met_int}: a limitação dos interpoladores globais são bancos de dados volumosos. Existem algumas técnicas para superar essa limitação como a solução iterativa \cite{beatson1999fast} por exemplo. Porém, um método que apresenta resultados satisfatórios e está presente na biblioteca GSLib é a decomposição do domínio (\textit{Partition of unity - POU}) \cite{wendland2004scattered}, que transforma um problema volumoso e que demanda muito esforço computacional em diversos problemas menores e eficientes que são, ao final, unidos.
+Como abordado na \autoref{met_int}, a limitação dos interpoladores globais são bancos de dados volumosos. Existem algumas técnicas para superar essa limitação como a solução iterativa \cite{beatson1999fast} por exemplo. Porém, um método que apresenta resultados satisfatórios e está presente na biblioteca GSLib é a decomposição do domínio (\textit{Partition of unity - POU}) \cite{wendland2004scattered}, que transforma um problema volumoso e que demanda muito esforço computacional em diversos problemas menores e eficientes que são, ao final, unidos.
 
-A demonstração das equações e pode ser encontrada em \citeonline{wendland2004scattered} e \citeonline{martin_boisvert_review_rbf}. Um domínio $A$ é subdividido em uma série de partições sobrepostas $\beta$ de modo que a união de todas as $k$ partições em $A$, $\{ \beta \}^K_{j=1}$ compreende o domínio. Para cada partição, os dados correspondentes são utilizados interpolar a função escalar $s_j(x)$.
+A demonstração das equações pode ser encontrada em \citeonline{wendland2004scattered} e \citeonline{martin_boisvert_review_rbf}. Um domínio $A$ é subdividido em uma série de partições sobrepostas $\beta$ de modo que a união de todas as $k$ partições em $A$, $\{ \beta \}^K_{j=1}$ compreende o domínio. Para cada partição, os dados correspondentes são utilizados para interpolar a função escalar $s_j(x)$.
 
 A função peso para cada partição deve ser igual a um no centro e 0 na fronteira, a contribuição de cada partição nos locais de sobreposição é dado pela função peso.
 
@@ -336,20 +344,20 @@ Deve haver um número de amostras em cada partição e sobreposição das parti�
 
 Como as funções distância são negativas no interior do domínio e positivas no exterior, um bom palpite inicial para a interface que separa os domínios no espaço, seria a linha (em duas dimensões) ou superfície (em três dimensões) que corresponda ao valor zero da função distância assinalada \cite{wildedeutschcalibrate}. 
 
-A \autoref{isosup} mostra a iso superfície que representa a categoria 1, extraída no software Paraview, dos diferentes modelos implícitos da \autoref{interpo}. O algoritmo de extração de iso superfícies mais comumente utilizado é o dos cubos marchantes \cite{lorensen1987marching}. 
+A \autoref{isosup} mostra a iso superfície que representa a categoria 1, extraída no software Paraview \cite{ahrens2005paraview}, dos diferentes modelos implícitos da \autoref{interpo}. O algoritmo de extração de iso superfícies mais comumente utilizado é o dos cubos marchantes \cite{lorensen1987marching}. 
 
-Note que os artefatos gerados nos modelos implícitos quando as distâncias foram interpoladas por krigagem são transferidos para as respectivas iso superfícies. Daí a importância de gerar modelos implícitos livres de artefatos.
+Note que os artefatos gerados nos modelos implícitos quando as distâncias foram interpoladas por krigagem são transferidos para as respectivas iso superfícies da \autoref{isosup}. Daí a importância de gerar modelos implícitos livres de artefatos.
 
 
 \begin{figure}[H]
     \caption{Iso superfícies para a categoria 1 extraída dos diferentes modelos implícitos.} \label{isosup}
      \centering
-     \subfloat[][OK com 40 amostras]{\includegraphics[width=.3\textwidth]{capitulo_2/isokt3d40.jpeg}\label{<figure1>}}
-     \subfloat[][OK com 100 amostras]{\includegraphics[width=.3\textwidth]{capitulo_2/isokt3dn100.jpeg}\label{<figure2>}}
-     \subfloat[][RBF global]{\includegraphics[width=.3\textwidth]{capitulo_2/isorbf.jpeg}\label{<figure2>}}
+     \subfloat[][OK com 40 amostras]{\includegraphics[width=.6\textwidth]{capitulo_2/isokt3d40.jpeg}\label{<figure1>}}\\
+     \subfloat[][OK com 100 amostras]{\includegraphics[width=.6\textwidth]{capitulo_2/isokt3dn100.jpeg}\label{<figure2>}}\\
+     \subfloat[][RBF global]{\includegraphics[width=.6\textwidth]{capitulo_2/isorbf.jpeg}\label{<figure2>}}
 \end{figure}
 
-Na presença de múltiplos domínios as iso superfícies devem ser extraídas uma a uma e algum tipo de regra hierárquica baseada na idade de cada litologia deve ser aplicada para a criação dos modelos multi categóricos.
+Na presença de múltiplos domínios, as iso superfícies devem ser extraídas uma a uma e algum tipo de regra hierárquica baseada na sequência estratigráfica ou ordem dos eventos geológicos deve ser aplicada para a criação dos modelos multi categóricos.
 
 As \autoref{iso_cat1} e \autoref{iso_cat2} mostram iso superfícies extraídas dos modelos implícitos interpolados por RBF e parametrizados a partir do variograma dos indicadores juntamente com as amostras categóricas no grid fino. 
 
@@ -410,7 +418,7 @@ A \autoref{mult_cat} mostra um exemplo de um modelo geológico criado a partir d
 \begin{figure}[H]
     \caption{\label{mult_cat}Esquema para criação de um modelo implícito multi categórico.}
 	\begin{center}
-		\includegraphics[width=0.8\textwidth]{capitulo_2/mult_cat_legenda.jpg}
+		\includegraphics[width=\textwidth]{capitulo_2/mult_cat_legenda.jpg}
 	\end{center}
 	\legend{Fonte: Modificado de \citeonline{silvageostatlessons}}
 \end{figure}
@@ -418,7 +426,7 @@ A \autoref{mult_cat} mostra um exemplo de um modelo geológico criado a partir d
 A \autoref{multi_cat_rbf} mostra seções verticais em XZ e YZ de um modelo geológico implícito multi categórico criado por RBF parametrizado pelo variograma dos indicadores para o banco de dados do estudo de caso no grid fino. Nas seções também são mostradas amostras a 3 metros do centroide dos blocos na direção X e Y.
 
 \begin{figure}[H]
-\caption{Modelo geológico multi categórico} 
+\caption{Modelo geológico multi categórico.} 
 \label{multi_cat_rbf}
 \begin{center}
 \subfloat[][Seções em XZ do modelo implícito gerado por RBF no grid fino.]{\includegraphics[width=0.8\textwidth]{capitulo_2/anisofinexz.png}\label{a}}\\
@@ -432,9 +440,9 @@ A variação do método para múltiplos domínios ou categorias simultâneos dev
 
 \section{Incorporação da não estacionariedade de segunda ordem}
 
-Corpos geológicos são complexos da escala macro à escala micro. Essa característica pode tornar difícil a captura de suas feições com funções de covariância. Segundo \citeonline{martin2017implicitmodeling} a não estacionariedade de segunda ordem deve ser incorporada quando estruturas complexas estão sendo modeladas.
+Corpos geológicos são complexos da escala macro à escala microscópica. Essa característica pode tornar difícil a captura de suas feições com funções de covariância. Segundo \citeonline{martin2017implicitmodeling} a não estacionariedade de segunda ordem deve ser incorporada quando estruturas complexas estão sendo modeladas.
 
-Anisotropia é definida como o conjunto de rotações e relações anisotrópicas: azimuth, dip, rake, $r1 = \frac{a_{hmin}}{a_{hmax}}$, $r2 = \frac{a_{vert}}{a_{hmax}}$. 
+Anisotropia é modelada na geostatística como um conjunto de rotações e relações anisotrópicas: \textit{azimuth, dip, rake}, $r1 = \frac{a_{hmin}}{a_{hmax}}$, $r2 = \frac{a_{vert}}{a_{hmax}}$. 
 
 \subsection{Krigagem com anisotropia local variável}
 
