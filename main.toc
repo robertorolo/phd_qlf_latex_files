@@ -3,46 +3,46 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{5}{chapter.1}
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{5}{chapter.1}% 
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Estado da arte}}{13}{chapter.2}
-\contentsline {section}{\numberline {2.1}O banco de dados}{13}{section.2.1}
-\contentsline {section}{\numberline {2.2}A fun\IeC {\c c}\IeC {\~a}o dist\IeC {\^a}ncia assinalada}{14}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Calculando a fun\IeC {\c c}\IeC {\~a}o dist\IeC {\^a}ncia assinalada}{14}{subsection.2.2.1}
-\contentsline {section}{\numberline {2.3}Variografia das dist\IeC {\^a}ncias calculadas}{16}{section.2.3}
-\contentsline {section}{\numberline {2.4}Interpola\IeC {\c c}\IeC {\~a}o das dist\IeC {\^a}ncias calculadas}{19}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Resolu\IeC {\c c}\IeC {\~a}o do grid}{20}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}M\IeC {\'e}todos de interpola\IeC {\c c}\IeC {\~a}o}{22}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Fun\IeC {\c c}\IeC {\~o}es de bases radiais - RBF}{25}{subsection.2.4.3}
-\contentsline {subsubsection}{\numberline {2.4.3.1}O \textit {kernel}}{26}{subsubsection.2.4.3.1}
-\contentsline {subsubsection}{\numberline {2.4.3.2}Decomposi\IeC {\c c}\IeC {\~a}o do dom\IeC {\'\i }nio}{26}{subsubsection.2.4.3.2}
-\contentsline {section}{\numberline {2.5}Visualiza\IeC {\c c}\IeC {\~a}o do modelo geol\IeC {\'o}gico}{27}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Adapta\IeC {\c c}\IeC {\~a}o do m\IeC {\'e}todo para m\IeC {\'u}ltiplas categorias simult\IeC {\^a}neas}{30}{subsection.2.5.1}
-\contentsline {section}{\numberline {2.6}Incorpora\IeC {\c c}\IeC {\~a}o da n\IeC {\~a}o estacionariedade de segunda ordem}{33}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}Krigagem com anisotropia local vari\IeC {\'a}vel}{34}{subsection.2.6.1}
-\contentsline {subsection}{\numberline {2.6.2}Fun\IeC {\c c}\IeC {\~o}es de bases radiais com anisotropia local vari\IeC {\'a}vel}{35}{subsection.2.6.2}
-\contentsline {subsection}{\numberline {2.6.3}Refinamento iterativo}{36}{subsection.2.6.3}
-\contentsline {section}{\numberline {2.7}Incorpora\IeC {\c c}\IeC {\~a}o de informa\IeC {\c c}\IeC {\~a}o secund\IeC {\'a}ria}{37}{section.2.7}
-\contentsline {section}{\numberline {2.8}Avalia\IeC {\c c}\IeC {\~a}o da incerteza}{40}{section.2.8}
-\contentsline {subsection}{\numberline {2.8.1}Avalia\IeC {\c c}\IeC {\~a}o heur\IeC {\'\i }stica da incerteza}{40}{subsection.2.8.1}
-\contentsline {subsection}{\numberline {2.8.2}\textit {Boundsim}}{42}{subsection.2.8.2}
-\contentsline {subsection}{\numberline {2.8.3}Simula\IeC {\c c}\IeC {\~a}o direta das dist\IeC {\^a}ncias assinaladas}{43}{subsection.2.8.3}
-\contentsline {subsection}{\numberline {2.8.4}Simula\IeC {\c c}\IeC {\~a}o multi ponto}{46}{subsection.2.8.4}
-\contentsline {subsection}{\numberline {2.8.5}\textit {Boundary simulation}}{47}{subsection.2.8.5}
-\contentsline {subsection}{\numberline {2.8.6}Sum\IeC {\'a}rio dos m\IeC {\'e}todos de avalia\IeC {\c c}\IeC {\~a}o de incerteza}{52}{subsection.2.8.6}
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Estado da arte}}{13}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}O banco de dados}{13}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}A fun\IeC {\c c}\IeC {\~a}o dist\IeC {\^a}ncia assinalada}{14}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}Calculando a fun\IeC {\c c}\IeC {\~a}o dist\IeC {\^a}ncia assinalada}{14}{subsection.2.2.1}% 
+\contentsline {section}{\numberline {2.3}Variografia das dist\IeC {\^a}ncias calculadas}{16}{section.2.3}% 
+\contentsline {section}{\numberline {2.4}Interpola\IeC {\c c}\IeC {\~a}o das dist\IeC {\^a}ncias calculadas}{19}{section.2.4}% 
+\contentsline {subsection}{\numberline {2.4.1}Resolu\IeC {\c c}\IeC {\~a}o do grid}{20}{subsection.2.4.1}% 
+\contentsline {subsection}{\numberline {2.4.2}M\IeC {\'e}todos de interpola\IeC {\c c}\IeC {\~a}o}{22}{subsection.2.4.2}% 
+\contentsline {subsection}{\numberline {2.4.3}Fun\IeC {\c c}\IeC {\~o}es de bases radiais - RBF}{25}{subsection.2.4.3}% 
+\contentsline {subsubsection}{\numberline {2.4.3.1}O \textit {kernel}}{26}{subsubsection.2.4.3.1}% 
+\contentsline {subsubsection}{\numberline {2.4.3.2}Decomposi\IeC {\c c}\IeC {\~a}o do dom\IeC {\'\i }nio}{26}{subsubsection.2.4.3.2}% 
+\contentsline {section}{\numberline {2.5}Visualiza\IeC {\c c}\IeC {\~a}o do modelo geol\IeC {\'o}gico}{27}{section.2.5}% 
+\contentsline {subsection}{\numberline {2.5.1}Adapta\IeC {\c c}\IeC {\~a}o do m\IeC {\'e}todo para m\IeC {\'u}ltiplas categorias simult\IeC {\^a}neas}{30}{subsection.2.5.1}% 
+\contentsline {section}{\numberline {2.6}Incorpora\IeC {\c c}\IeC {\~a}o da n\IeC {\~a}o estacionariedade de segunda ordem}{33}{section.2.6}% 
+\contentsline {subsection}{\numberline {2.6.1}Krigagem com anisotropia local vari\IeC {\'a}vel}{34}{subsection.2.6.1}% 
+\contentsline {subsection}{\numberline {2.6.2}Fun\IeC {\c c}\IeC {\~o}es de bases radiais com anisotropia local vari\IeC {\'a}vel}{35}{subsection.2.6.2}% 
+\contentsline {subsection}{\numberline {2.6.3}Refinamento iterativo}{36}{subsection.2.6.3}% 
+\contentsline {section}{\numberline {2.7}Incorpora\IeC {\c c}\IeC {\~a}o de informa\IeC {\c c}\IeC {\~a}o secund\IeC {\'a}ria}{38}{section.2.7}% 
+\contentsline {section}{\numberline {2.8}Avalia\IeC {\c c}\IeC {\~a}o da incerteza}{40}{section.2.8}% 
+\contentsline {subsection}{\numberline {2.8.1}Avalia\IeC {\c c}\IeC {\~a}o heur\IeC {\'\i }stica da incerteza}{40}{subsection.2.8.1}% 
+\contentsline {subsection}{\numberline {2.8.2}\textit {Boundsim}}{42}{subsection.2.8.2}% 
+\contentsline {subsection}{\numberline {2.8.3}Simula\IeC {\c c}\IeC {\~a}o direta das dist\IeC {\^a}ncias assinaladas}{44}{subsection.2.8.3}% 
+\contentsline {subsection}{\numberline {2.8.4}Simula\IeC {\c c}\IeC {\~a}o multi ponto}{48}{subsection.2.8.4}% 
+\contentsline {subsection}{\numberline {2.8.5}\textit {Boundary simulation}}{49}{subsection.2.8.5}% 
+\contentsline {subsection}{\numberline {2.8.6}Sum\IeC {\'a}rio dos m\IeC {\'e}todos de avalia\IeC {\c c}\IeC {\~a}o de incerteza}{55}{subsection.2.8.6}% 
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Proposta de tese}}{53}{chapter.3}
-\contentsline {section}{\numberline {3.1}Problemas}{53}{section.3.1}
-\contentsline {section}{\numberline {3.2}Meta}{54}{section.3.2}
-\contentsline {section}{\numberline {3.3}Objetivos}{54}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Interpolador}{54}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Zona de incerteza}{57}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Avalia\IeC {\c c}\IeC {\~a}o de incerteza}{60}{subsection.3.3.3}
-\contentsline {subsubsection}{\numberline {3.3.3.1}\textit {Boundary simulation} multi categ\IeC {\'o}rico}{60}{subsubsection.3.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.3.2}Simula\IeC {\c c}\IeC {\~a}o \textit {P-field}}{61}{subsubsection.3.3.3.2}
-\contentsline {subsubsection}{\numberline {3.3.3.3}Simula\IeC {\c c}\IeC {\~a}o plurigaussiana truncada}{61}{subsubsection.3.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Valida\IeC {\c c}\IeC {\~a}o}{65}{subsection.3.3.4}
-\contentsline {section}{\numberline {3.4}Cronograma e atividades}{66}{section.3.4}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Proposta de tese}}{57}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Problemas}{57}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Meta}{58}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}Objetivos}{58}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.3.1}Interpolador}{58}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.2}Zona de incerteza}{61}{subsection.3.3.2}% 
+\contentsline {subsection}{\numberline {3.3.3}Avalia\IeC {\c c}\IeC {\~a}o de incerteza}{64}{subsection.3.3.3}% 
+\contentsline {subsubsection}{\numberline {3.3.3.1}\textit {Boundary simulation} multi categ\IeC {\'o}rico}{64}{subsubsection.3.3.3.1}% 
+\contentsline {subsubsection}{\numberline {3.3.3.2}Simula\IeC {\c c}\IeC {\~a}o \textit {P-field}}{65}{subsubsection.3.3.3.2}% 
+\contentsline {subsubsection}{\numberline {3.3.3.3}Simula\IeC {\c c}\IeC {\~a}o plurigaussiana truncada}{65}{subsubsection.3.3.3.3}% 
+\contentsline {subsection}{\numberline {3.3.4}Valida\IeC {\c c}\IeC {\~a}o}{69}{subsection.3.3.4}% 
+\contentsline {section}{\numberline {3.4}Cronograma e atividades}{70}{section.3.4}% 
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{67}{section*.61}
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{71}{section*.61}% 

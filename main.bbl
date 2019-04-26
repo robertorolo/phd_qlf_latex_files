@@ -3,7 +3,13 @@
 \setlength{\labelsep}{0pt}\begin{thebibliography}{}
 \providecommand{\abntrefinfo}[3]{}
 \providecommand{\abntbstabout}[1]{}
-\abntbstabout{v-1.9.6 }
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Ahrens, Geveci e Law 2005]{ahrens2005paraview}
+\abntrefinfo{Ahrens, Geveci e Law}{AHRENS; GEVECI; LAW}{2005}
+{AHRENS, J.; GEVECI, B.; LAW, C. Paraview: An end-user tool for large data
+  visualization.
+\emph{The visualization handbook}, Elsevier M{\"u}nchen, v.~717, 2005.}
 
 \bibitem[Ailleres et al. 2015]{aillerespresentation}
 \abntrefinfo{Ailleres et al.}{AILLERES et al.}{2015}
@@ -178,6 +184,12 @@ Dispon{\'\i}vel em:
 {JOURNEL, A.~G.; KYRIAKIDIS, P.~C. \emph{Evaluation of mineral reserves: a
   simulation approach}. [S.l.]: Oxford University Press, 2004.}
 
+\bibitem[Kaperov e Deutsch 2016]{kaperov_review_boundary}
+\abntrefinfo{Kaperov e Deutsch}{KAPEROV; DEUTSCH}{2016}
+{KAPEROV, T.; DEUTSCH, C. A review of boundary modeling and one way of
+  selecting the c parameter to model boundaries with uncertainty.
+\emph{CCG Annual Report}, 2016.}
+
 \bibitem[Kloeckner et al. 2018]{kloechner_cov_table}
 \abntrefinfo{Kloeckner et al.}{KLOECKNER et al.}{2018}
 {KLOECKNER, J. et al. Modelagem geológica implícita automática via tabela de
@@ -282,18 +294,6 @@ Tese (Doutorado) --- University of Alberta, 2007.}
 {MUNROE, M.; DEUTSCH, C. Full calibration of c and in the framework of
   vein-type deposit tonnage uncertainty.
 \emph{CCG Annual Report}, 2008.}
-
-\bibitem[Munroe e Deutsch 2011]{wilde_new_way}
-\abntrefinfo{Munroe e Deutsch}{MUNROE; DEUTSCH}{2011}
-{MUNROE, M.; DEUTSCH, C. A new way to calibrate to calibrate distance functions
-  uncertainty.
-\emph{CCG Annual Report}, 2011.}
-
-\bibitem[Munroe e Deutsch 2016]{kaperov_review_boundary}
-\abntrefinfo{Munroe e Deutsch}{MUNROE; DEUTSCH}{2016}
-{MUNROE, M.; DEUTSCH, C. A review of boundary modeling and one way of selecting
-  the c parameter to model boundaries with uncertainty.
-\emph{CCG Annual Report}, 2016.}
 
 \bibitem[Osher e Fedkiw 2003]{osherlevelsetmethods}
 \abntrefinfo{Osher e Fedkiw}{OSHER; FEDKIW}{2003}
@@ -416,6 +416,12 @@ Tese (Doutorado) --- University of Alberta, 2015.}
   multiple-point statistics.
 \emph{Mathematical Geology}, 2002.}
 
+\bibitem[Str{\'e}belle e Journel 2000]{strebelle2000sequential}
+\abntrefinfo{Str{\'e}belle e Journel}{STR{\'E}BELLE; JOURNEL}{2000}
+{STR{\'E}BELLE, S.; JOURNEL, A. Sequential simulation drawing structures from
+  training images.
+Stanford University California, 2000.}
+
 \bibitem[Wendland 2004]{wendland2004scattered}
 \abntrefinfo{Wendland}{WENDLAND}{2004}
 {WENDLAND, H. \emph{Scattered data approximation}. [S.l.]: Cambridge university
@@ -426,8 +432,14 @@ Tese (Doutorado) --- University of Alberta, 2015.}
 {WILDE, B.; DEUTSCH, C. A new way to calibrate distance function uncertainty.
   In:  \emph{CCG Annual Report}. [S.l.: s.n.], 2011.}
 
-\bibitem[Wilde e Deutsch 2011]{wilde_sim_bound_reals}
+\bibitem[Wilde e Deutsch 2011]{wilde_new_way}
 \abntrefinfo{Wilde e Deutsch}{WILDE; DEUTSCH}{2011b}
+{WILDE, B.; DEUTSCH, C. A new way to calibrate to calibrate distance functions
+  uncertainty.
+\emph{CCG Annual Report}, 2011.}
+
+\bibitem[Wilde e Deutsch 2011]{wilde_sim_bound_reals}
+\abntrefinfo{Wilde e Deutsch}{WILDE; DEUTSCH}{2011c}
 {WILDE, B.; DEUTSCH, C. Simulating boundary realizations.
 \emph{CCG Annual Report}, 2011.}
 

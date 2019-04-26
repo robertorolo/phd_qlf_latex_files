@@ -1,20 +1,8 @@
-This is BibTeX, Version 0.99d (TeX Live 2018)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: main.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 A level-1 auxiliary file: capitulo_1/capitulo_1.aux
 A level-1 auxiliary file: capitulo_2/capitulo_2.aux
 A level-1 auxiliary file: capitulo_3/capitulo_3.aux
 The style file: abntex2-alf.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated field_info (elt_size=4) to 10106 items from 5000.
 Database file #1: abntex2-options.bib
 Database file #2: bibliografia.bib
 You're missing a field name---line 547 of file bibliografia.bib
@@ -48,7 +36,6 @@ Repeated entry---line 1039 of file bibliografia.bib
  : @inproceedings{matheron1987conditional
  :                                       ,
 I'm skipping whatever remains of this entry
-Reallocated singl_function (elt_size=4) to 100 items from 50.
 Name 2 in "Kloeckner, J and Rolo, RM, and Abbud, VT and Costa, JF" has a comma at the end for entry kloechner_cov_table
 while executing---line 2091 of file abntex2-alf.bst
 Name 2 in "Kloeckner, J and Rolo, RM, and Abbud, VT and Costa, JF" has a comma at the end for entry kloechner_cov_table
@@ -59,9 +46,6 @@ Name 2 in "Kloeckner, J and Rolo, RM, and Abbud, VT and Costa, JF" has a comma a
 while executing---line 2091 of file abntex2-alf.bst
 Name 2 in "Kloeckner, J and Rolo, RM, and Abbud, VT and Costa, JF" has a comma at the end for entry kloechner_cov_table
 while executing---line 2091 of file abntex2-alf.bst
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
-Reallocated global_strs (elt_size=20001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Name 2 in "Kloeckner, J and Rolo, RM, and Abbud, VT and Costa, JF" has a comma at the end for entry kloechner_cov_table
 while executing---line 2146 of file abntex2-alf.bst
 Name 2 in "Kloeckner, J and Rolo, RM, and Abbud, VT and Costa, JF" has a comma at the end for entry kloechner_cov_table
@@ -71,49 +55,8 @@ while executing---line 2146 of file abntex2-alf.bst
 Name 2 in "Kloeckner, J and Rolo, RM, and Abbud, VT and Costa, JF" has a comma at the end for entry kloechner_cov_table
 while executing---line 2146 of file abntex2-alf.bst
 +---------------------------------------------------------+
-| Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.7           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 74 entries,
-            6714 wiz_defined-function locations,
-            1552 strings with 20432 characters,
-and the built_in function-call counts, 63356 in all, are:
-= -- 5222
-> -- 2212
-< -- 390
-+ -- 1194
-- -- 676
-* -- 4536
-:= -- 8443
-add.period$ -- 272
-call.type$ -- 74
-change.case$ -- 770
-chr.to.int$ -- 129
-cite$ -- 73
-duplicate$ -- 3690
-empty$ -- 4371
-format.name$ -- 3223
-if$ -- 14510
-int.to.chr$ -- 2
-int.to.str$ -- 0
-missing$ -- 1299
-newline$ -- 353
-num.names$ -- 365
-pop$ -- 1756
-preamble$ -- 1
-purify$ -- 292
-quote$ -- 0
-skip$ -- 3970
-stack$ -- 1
-substring$ -- 2291
-swap$ -- 1520
-text.length$ -- 57
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 25
-warning$ -- 0
-while$ -- 509
-width$ -- 0
-write$ -- 1130
 (There were 14 error messages)

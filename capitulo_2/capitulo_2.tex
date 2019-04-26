@@ -194,27 +194,27 @@ O trabalho propõe uma técnica para obter uma tabela de covariância, a partir 
 
 \section{Interpolação das distâncias calculadas}
 
-Uma vez que as distâncias tenham sido calculadas a partir da localização das amostras, o próximo passo é interpolar o novo banco de dados para o grid definido para a modelagem geológica. Embora métodos implícitos não demandem um grid - são métodos conhecidos como \textit{gridless} - o objetivo final é preencher o grid de estimativas com as categorias correspondentes ou visualizar o modelo através de iso superfícies. Técnicas de extração de iso superfícies exigem a função volumétrica definida exaustivamente em um grid retilíneo \cite{martin2017implicitmodeling}.
+Uma vez que as distâncias tenham sido calculadas a partir da localização das amostras, o próximo passo é interpolar o novo banco de dados para o \textit{grid} definido para a modelagem geológica. Embora métodos implícitos não demandem um \textit{grid} - são métodos conhecidos como \textit{gridless} - o objetivo final é preencher o \textit{grid} de estimativas com as categorias correspondentes ou visualizar o modelo através de iso superfícies. Técnicas de extração de iso superfícies exigem a função volumétrica definida exaustivamente em um \textit{grid} retilíneo \cite{martin2017implicitmodeling}.
 
 \subsection{Resolução do grid}
 
-Para um número constante de amostras, o tempo necessário para interpolação da função volume para todos os nós do grid aumenta linearmente com o número de nós. Os parâmetros do grid de estimativas, muitas vezes, são determinado por requisitos de engenharia do projeto. Todavia, o grid para definição do modelo geológico pode ser diferente do grid definido para os modelos numéricos de teores. A consideração mais importante é a capacidade de reproduzir a menor estrutura geológica de interesse.
+Para um número constante de amostras, o tempo necessário para interpolação da função volume para todos os nós do \textit{grid} aumenta linearmente com o número de nós. Os parâmetros do \textit{grid} de estimativas, muitas vezes, são determinado por requisitos de engenharia do projeto. Todavia, o \textit{grid} para definição do modelo geológico pode ser diferente do\textit{grid} definido para os modelos numéricos de teores. A consideração mais importante é a capacidade de reproduzir a menor estrutura geológica de interesse.
 
-Considere os modelos implícitos da \autoref{grid_res} gerados em grids de diferentes resoluções.
+Considere os modelos implícitos da \autoref{grid_res} gerados em \textit{grids} de diferentes resoluções.
 
 \begin{figure}[H]
-	\caption{\label{grid_res}Efeito da resolução do grid na reprodução de estruturas geológicas.}
+	\caption{\label{grid_res}Efeito da resolução do \textit{grid} na reprodução de estruturas geológicas.}
 	\begin{center}
 		\includegraphics[width=0.6\textwidth]{capitulo_2/grid_res.png}
 	\end{center}
 	\legend{Fonte: \citeonline{martin2017implicitmodeling}}
 \end{figure}
 
-A resolução adequada para esse modelo é entre (nx, ny) = (50, 35) e (nx, ny) = (100, 75). Para os dois primeiros /textit{grids}, há classificação errônea dos nós colocados com amostras, além de (nx, ny) = (100, 75) há pouco benefício na reprodução das estruturas levando em consideração o aumento do tempo de interpolação.
+A resolução adequada para esse modelo é entre (nx, ny) = (50, 35) e (nx, ny) = (100, 75). Para os dois primeiros \textit{grids}, há classificação errônea dos nós colocados com amostras, além de (nx, ny) = (100, 75) há pouco benefício na reprodução das estruturas levando em consideração o aumento do tempo de interpolação.
 
-É preciso encontrar um balanço entre resolução e tempo de interpolação. A resolução do grid pode ser aumentada a medida que o projeto avança e mais informação é adquirida \cite{martin2017implicitmodeling}.
+É preciso encontrar um balanço entre resolução e tempo de interpolação. A resolução do \textit{grid} pode ser aumentada a medida que o projeto avança e mais informação é adquirida \cite{martin2017implicitmodeling}.
 
-Para o estudo de caso, foram gerados dois grids com resoluções diferentes, seus parâmetros são mostrados na \autoref{grid_def}.
+Para o estudo de caso, foram gerados dois \textit{grids} com resoluções diferentes, seus parâmetros são mostrados na \autoref{grid_def}.
 
 \begin{table}[H]
 \centering
@@ -228,19 +228,19 @@ sy & 10m & 5m \\
 sz & 4m & 2m \\
 num & 122451 & 969612 \\ \hline
 \end{tabular}
-\caption{Parâmetros dos grids de definição dos modelos geológicos implícitos.} \label{grid_def}
+\caption{Parâmetros dos \textit{grids} de definição dos modelos geológicos implícitos.} \label{grid_def}
 \end{table}
 
-A \autoref{dif_res} mostra seções em XZ de dois modelos geológicos implícitos gerados em grids com resoluções diferentes para o banco de dados do estudo de caso. No \textit{grid} fino (\autoref{a}), as formas reproduzidas são suaves, apresentam realismo geológico, e o número de classificações errôneas é menor.
+A \autoref{dif_res} mostra seções em XZ de dois modelos geológicos implícitos gerados em \textit{grids} com resoluções diferentes para o banco de dados do estudo de caso. No \textit{grid} fino (\autoref{a}), as formas reproduzidas são suaves, apresentam realismo geológico, e o número de classificações errôneas é menor.
 
 \begin{figure}[H]
 \caption{Modelos geológicos em diferentes resoluções} 
 \label{dif_res}
 \begin{center}
-\subfloat[][Modelo geológico implícto no grid grosso]{\includegraphics[width=0.8\textwidth]{capitulo_2/coarserxz.png}\label{a}}\\
+\subfloat[][Modelo geológico implícto no \textit{grid} grosso]{\includegraphics[width=0.8\textwidth]{capitulo_2/coarserxz.png}\label{a}}\\
 \end{center}
 \begin{center}
-\subfloat[][Modelo geológico implícto no grid fino]{\includegraphics[width=0.8\textwidth]{capitulo_2/finerxz.png}\label{b}}
+\subfloat[][Modelo geológico implícto no \textit{grid} fino]{\includegraphics[width=0.8\textwidth]{capitulo_2/finerxz.png}\label{b}}
 \end{center}
 \end{figure}
 
@@ -272,11 +272,11 @@ A \autoref{interpo} mostra três modelos implícitos, para a categoria 1, interp
 	%\legend{Fonte: \citeonline{martin2017implicitmodeling}}
 \end{figure}
 
-É evidente a presença de artefatos nos dois primeiros modelos. As funções de bases radiais criam um modelo suave e livre de artefatos. 
+É evidente a presença de artefatos, realçados em verde, nos dois primeiros modelos. As funções de bases radiais criam um modelo suave e livre de artefatos. 
 
 A \autoref{bench} mostra um \textit{Benchmark} dos diferentes métodos de interpolação. Todos os algoritmos utilizados são da biblioteca GSLib e foram executados em um core i7 7700HQ @ 2.8 GHz com 16 Gb de RAM.
 
-O algoritmo de krigagem global não terminou de estimar os quase um milhão de blocos do grid fino sem terminar com uma mensagem de erro. A krigagem ordinária com 100 amostras leva 45 minutos contra pouco mais de um minuto do RBF, subdividindo o problema, é possível reduzir o tempo de interpolação para 16 segundos. Não é difícil perceber porque o RBF é o interpolador preferido na modelagem geológica implícita. O software comercial Leapfrog \textsuperscript{\textregistered} tem um algoritmo patenteado de RBF ainda mais rápido.
+O algoritmo de krigagem global não terminou de estimar os quase um milhão de blocos do \textit{grid} fino sem terminar com uma mensagem de erro. A krigagem ordinária com 100 amostras leva 45 minutos contra pouco mais de um minuto do RBF, subdividindo o problema, é possível reduzir o tempo de interpolação para 16 segundos. Não é difícil perceber porque o RBF é o interpolador preferido na modelagem geológica implícita. O software comercial Leapfrog \textsuperscript{\textregistered} tem um algoritmo patenteado de RBF ainda mais rápido.
 
 \begin{table}[H]
 \centering
@@ -301,7 +301,7 @@ Krigagem dos indicadores &  & 33min 27s &  & 2 \\ \hline
 
 \subsection{Funções de bases radiais - RBF}
 
-A demonstração detalhada das equações e considerações  pode ser encontrada em \citeonline{martin_boisvert_review_rbf}. Os interpoladores baseados em funções de bases radiais são globais e não necessitam de um grid. Os pesos são treinados baseados nos valores da função distância assinalada calculados para cada ponto amostral. Com os pesos treinados o valor interpolado da função distância assinalada pode ser obtido rapidamente para qualquer localização do depósito. Esse procedimento permite treinar o sistema linear de equações antes de escolher o grid de interpolação \cite{martin2017implicitmodeling}.
+A demonstração detalhada das equações e considerações  pode ser encontrada em \citeonline{martin_boisvert_review_rbf}. Os interpoladores baseados em funções de bases radiais são globais e não necessitam de um \textit{grid}. Os pesos são treinados baseados nos valores da função distância assinalada calculados para cada ponto amostral. Com os pesos treinados o valor interpolado da função distância assinalada pode ser obtido rapidamente para qualquer localização do depósito. Esse procedimento permite treinar o sistema linear de equações antes de escolher o \textit{grid} de interpolação \cite{martin2017implicitmodeling}.
 
 \subsubsection{O \textit{kernel}}
 
@@ -326,12 +326,12 @@ A demonstração das equações pode ser encontrada em \citeonline{wendland2004s
 
 A função peso para cada partição deve ser igual a um no centro e 0 na fronteira, a contribuição de cada partição nos locais de sobreposição é dado pela função peso.
 
-As partições são definidas encontrando uma série de coordenadas para os centros. Diversos métodos podem ser utilizados: um grid regular, k-means, árvore binária, \textit{oct tree}.
+As partições são definidas encontrando uma série de coordenadas para os centros. Diversos métodos podem ser utilizados: um \textit{grid} regular, k-means, árvore binária, \textit{oct tree}.
 
 \begin{figure}[H]
 	\caption{\label{pou}Particionamento.}
 	\begin{center}
-		\includegraphics[width=0.7\textwidth]{capitulo_2/pou.jpg}
+		\includegraphics[width=0.9\textwidth]{capitulo_2/pou.jpg}
 	\end{center}
 	\legend{Fonte: \citeonline{martin_boisvert_review_rbf}}
 \end{figure}
@@ -346,7 +346,7 @@ Como as funções distância são negativas no interior do domínio e positivas 
 
 A \autoref{isosup} mostra a iso superfície que representa a categoria 1, extraída no software Paraview \cite{ahrens2005paraview}, dos diferentes modelos implícitos da \autoref{interpo}. O algoritmo de extração de iso superfícies mais comumente utilizado é o dos cubos marchantes \cite{lorensen1987marching}. 
 
-Note que os artefatos gerados nos modelos implícitos quando as distâncias foram interpoladas por krigagem são transferidos para as respectivas iso superfícies da \autoref{isosup}. Daí a importância de gerar modelos implícitos livres de artefatos.
+Note que os artefatos gerados nos modelos implícitos quando as distâncias foram interpoladas por krigagem são transferidos para as respectivas iso superfícies da \autoref{isosup} e realçados em verde. Daí a importância de gerar modelos implícitos livres de artefatos.
 
 
 \begin{figure}[H]
@@ -359,7 +359,7 @@ Note que os artefatos gerados nos modelos implícitos quando as distâncias fora
 
 Na presença de múltiplos domínios, as iso superfícies devem ser extraídas uma a uma e algum tipo de regra hierárquica baseada na sequência estratigráfica ou ordem dos eventos geológicos deve ser aplicada para a criação dos modelos multi categóricos.
 
-As \autoref{iso_cat1} e \autoref{iso_cat2} mostram iso superfícies extraídas dos modelos implícitos interpolados por RBF e parametrizados a partir do variograma dos indicadores juntamente com as amostras categóricas no grid fino. 
+As \autoref{iso_cat1} e \autoref{iso_cat2} mostram iso superfícies extraídas dos modelos implícitos interpolados por RBF e parametrizados a partir do variograma dos indicadores juntamente com as amostras categóricas no \textit{grid} fino. 
 
 \begin{figure}[H]
     \caption{Iso superfície extraída do modelo implícito interpolado por RBF para a categoria 1.} \label{iso_cat1}
@@ -397,7 +397,7 @@ A função distância é calculada, individualmente para cada elemento $k$ do ve
     \label{eq_mult_sg}
 \end{equation}
 
-As distâncias calculadas são então interpoladas pelo método escolhido, individualmente para todos os nós do grid de acordo com a \autoref{eq_mult_ok}.
+As distâncias calculadas são então interpoladas pelo método escolhido, individualmente para todos os nós do \textit{grid} de acordo com a \autoref{eq_mult_ok}.
 
 \begin{equation}
 	d_k^*(u)=\sum\limits_{\alpha=1}^n \lambda_\alpha(u)d_k(u_\alpha)\quad k=1,...,K
@@ -423,16 +423,16 @@ A \autoref{mult_cat} mostra um exemplo de um modelo geológico criado a partir d
 	\legend{Fonte: Modificado de \citeonline{silvageostatlessons}}
 \end{figure}
 
-A \autoref{multi_cat_rbf} mostra seções verticais em XZ e YZ de um modelo geológico implícito multi categórico criado por RBF parametrizado pelo variograma dos indicadores para o banco de dados do estudo de caso no grid fino. Nas seções também são mostradas amostras a 3 metros do centroide dos blocos na direção X e Y.
+A \autoref{multi_cat_rbf} mostra seções verticais em XZ e YZ de um modelo geológico implícito multi categórico criado por RBF parametrizado pelo variograma dos indicadores para o banco de dados do estudo de caso no \textit{grid} fino. Nas seções também são mostradas amostras a 3 metros do centroide dos blocos na direção X e Y.
 
 \begin{figure}[H]
 \caption{Modelo geológico multi categórico.} 
 \label{multi_cat_rbf}
 \begin{center}
-\subfloat[][Seções em XZ do modelo implícito gerado por RBF no grid fino.]{\includegraphics[width=0.8\textwidth]{capitulo_2/anisofinexz.png}\label{a}}\\
+\subfloat[][Seções em XZ do modelo implícito gerado por RBF no \textit{grid} fino.]{\includegraphics[width=0.8\textwidth]{capitulo_2/anisofinexz.png}\label{a}}\\
 \end{center}
 \begin{center}
-\subfloat[][Seções em YZ do modelo implícito gerado por RBF no grid fino.]{\includegraphics[width=0.8\textwidth]{capitulo_2/anisofineryz.png}\label{b}}
+\subfloat[][Seções em YZ do modelo implícito gerado por RBF no \textit{grid} fino.]{\includegraphics[width=0.8\textwidth]{capitulo_2/anisofineryz.png}\label{b}}
 \end{center}
 \end{figure}
 
@@ -446,19 +446,19 @@ Anisotropia é modelada na geostatística como um conjunto de rotações e rela�
 
 \subsection{Krigagem com anisotropia local variável}
 
-A krigagem com anisotropia variável exige que os parâmetros locais de anisotropia sejam definidos em todos os nós do grid (\autoref{lva_krig_cartoon}), e variem de forma suave pelo domínio. Isso permite que estruturas curvilineares em escala menor que o espaçamento entre as amostras sejam capturadas \cite{martin2017implicitmodeling}. Porém, torna o método computacionalmente exigente.
+A krigagem com anisotropia variável exige que os parâmetros locais de anisotropia sejam definidos em todos os nós do \textit{grid} (\autoref{lva_krig_cartoon}), e variem de forma suave pelo domínio. Isso permite que estruturas curvilineares em escala menor que o espaçamento entre as amostras sejam capturadas \cite{martin2017implicitmodeling}. Porém, torna o método computacionalmente exigente.
 
 \begin{figure}[H]
-\caption{\label{lva_krig_cartoon}Esquema mostrando os vetores de anisotropia local para cada nó do grid.}
+\caption{\label{lva_krig_cartoon}Esquema mostrando os vetores de anisotropia local para cada nó do \textit{grid}.}
 	\begin{center}
-		\includegraphics[width=0.3\textwidth]{capitulo_2/lvakrig.jpg}
+		\includegraphics[width=0.8\textwidth]{capitulo_2/lvakrig1.jpg}
 	\end{center}
 	\legend{Fonte: \citeonline{martin2017implicitmodeling}}
 \end{figure}
 
-Existem diversos métodos para definição da anisotropia local \cite{lillah2015inference}: pode ser inferida por um geomodelador, estimada diretamente a partir dos dados usando técnicas automáticas, interpolada de uma série de pontos onde a orientação foi medida ou pode ser extraída de dados em um grid que representam a variabilidade local (teores krigagdos, por exemplo). A bilioteca GSLib tem diversos softwares para definição de anisotropia local. 
+Existem diversos métodos para definição da anisotropia local \cite{lillah2015inference}: pode ser inferida por um geomodelador, estimada diretamente a partir dos dados usando técnicas automáticas, interpolada de uma série de pontos onde a orientação foi medida ou pode ser extraída de dados em um \textit{grid} que representam a variabilidade local (teores krigagdos, por exemplo). A bilioteca GSLib tem diversos softwares para definição de anisotropia local. 
 
-A \autoref{lva_krig} mostra a iso superfície para a categoria 1 extraída de um modelo implícito gerado por krigagem com anisotropia local variável. Os vetores de anisotropia são plotados e foram gerados pelo software \verb|imorient| da biblioteca GSLib a partir de um modelo implícito para a categoria 1 previamente interpolado. A interpolação foi feita no grid grosso, a condição da anisotropia local para cada nó do grid torna o algoritmo computacionalmente exigente.
+A \autoref{lva_krig} mostra a iso superfície para a categoria 1 extraída de um modelo implícito gerado por krigagem com anisotropia local variável. Os vetores de anisotropia são plotados e foram gerados pelo software \verb|imorient| da biblioteca GSLib a partir de um modelo implícito para a categoria 1 previamente interpolado. A interpolação foi feita no \textit{grid} grosso, a condição da anisotropia local para cada nó do \textit{grid} torna o algoritmo computacionalmente exigente.
 
 Esse programa analisa uma janela centrada em cada nó e estima a orientação dominante nessa janela, uma janela pequena captura variações em menor escala e uma janela grande variação de larga escala. É preciso encontrar um balanço \cite{lillah2015inference}.
 
@@ -473,17 +473,17 @@ Esse programa analisa uma janela centrada em cada nó e estima a orientação do
 
 RBF com anisotropia local variável é baseado na decomposição de domínios (\autoref{dom_decomp}), um kernel anisotrópico pode ser usado para melhor suportar os dados em cada partição, já que as partições são independentes uma matriz de rotação é usada para definir \textit{kernels} anisotrópicos locais que melhor se ajustam às propriedades espaciais de cada partição. O interpolador de bases radiais é obtido independentemente para cada partição e a solução final é obtida ponderando as soluções independentes nos locais de sobreposição \cite{martin2017implicitmodeling}.
 
-Ao contrário da krigagem com anisotropia local variável, que requer os vetores de anisotropia em todas os nós do grid, a implementação para funções de bases radiais requer os vetores somente no centro de cada partição (\autoref{lva_krig_cartoon}) e que variem suavemente pelo domínio.
+Ao contrário da krigagem com anisotropia local variável, que requer os vetores de anisotropia em todas os nós do \textit{grid}, a implementação para funções de bases radiais requer os vetores somente no centro de cada partição (\autoref{lva_krig_cartoon}) e que variem suavemente pelo domínio. Na figura é possível observar quatro partições sobrepostas cada uma com sua definição de anisotropia local.
 
 \begin{figure}[H]
 \caption{\label{lva_rbf+cartoon} Esquema mostrando os vetores de anisotropia local para cada centro de partição.}
 	\begin{center}
-		\includegraphics[width=0.3\textwidth]{capitulo_2/lvarbf.jpg}
+		\includegraphics[width=0.8\textwidth]{capitulo_2/lvarbf1.jpg}
 	\end{center}
 	\legend{Fonte: \citeonline{martin2017implicitmodeling}}
 \end{figure}
 
-A \autoref{rbf_iterref} mostra a iso superfície para a categoria 1 extraída de um modelo implícito gerado por funções de bases radiais com anisotropia local variável. Os vetores de anisotropia são plotados e foram gerados pelo software \verb|rbfiterref| da biblioteca GSLib. A interpolação foi feita no grid fino.
+A \autoref{rbf_iterref} mostra a iso superfície para a categoria 1 extraída de um modelo implícito gerado por funções de bases radiais com anisotropia local variável. Os vetores de anisotropia são plotados e foram gerados pelo software \verb|rbfiterref| \cite{martin_boisvert_review_rbf} da biblioteca GSLib. A interpolação foi feita no \textit{grid} fino.
 
 \begin{figure}[H]
 \caption{\label{rbf_iterref}Iso superfície para a categoria 1 extraída de um modelo implícita gerado por krigagem com anisotropia local variável mostrando os vetores.}
@@ -499,10 +499,10 @@ Extrair orientações locais de um modelo criado com anisotropia global e utiliz
 
 O refinamento iterativo com funções de bases radiais tem um benefício extra (em relação à krigagem com variação local de anisotropia), a possibilidade de incluir algum tipo de critério de parada, quando o modelo for considerado refinado. Como as partições são independentes, se o refinamento de uma partição em particular não resultará em mudanças significativas, pode ser omitido na solução final. Essa característica torna o processo significativamente mais rápido \cite{martin2017implicitmodeling}.
 
-A \autoref{iterref} mostra um processo de refinamento iterativo onde a semente é um modelo isotrópico. O programa \verb|rbfiterref| começa sua execução inferindo orientações anisotrópicas em cada flanco da dobra, que são rasos demais para que sejam definidos adequadamente. Porém, nas próximas iterações do refinamento o mergulho se torna mais profundo e os flancos são definidos implicitamente.
+A \autoref{iterref} mostra um processo de refinamento iterativo onde a semente é um modelo isotrópico. O programa \verb|rbfiterref| começa sua execução inferindo orientações anisotrópicas em cada flanco da dobra, que são rasos demais para que sejam definidos adequadamente. Porém, nas próximas iterações do refinamento, o mergulho se torna mais profundo e os flancos são definidos implicitamente.
 
 \begin{figure}[H]
-\caption{\label{iterref} Esquema mostrando o refinamento iterativo para funções de bases radiais.}
+\caption{\label{iterref} Esquema mostrando etapas usando o refinamento iterativo para funções de bases radiais.}
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{capitulo_2/iterref.jpg}
 	\end{center}
@@ -534,7 +534,7 @@ MLS foi escolhido por sua capacidade de interpolar dados em linha de forma exata
 
 A incerteza pode ser avaliada pelo método por meio do parâmetro de incerteza C e simulações não condicionais. 
 
-Apesar da integração furos/interpretação ser muito promissora já que são duas fontes de dados que serão utilizadas na geração do modelo. O método é recente e ainda apresenta alguns desafios operacionais, principalmente em relação à exigência de estruturas planares e avaliação de incerteza.
+A integração da modelagem implícita a partir das amostras e da interpretação geológica feita pelo geomodelador, a partir dos dados e do seu conhecimento prévio, é muito promissora. Alia a rapidez e simplicidade da metodologia implícita com a experiência do geomodelador, eliminando a necessidade de interpretar um número elevado de seções. O método é recente e ainda apresenta alguns desafios operacionais, principalmente em relação a exigência de estruturas planares e avaliação de incerteza.
 
 \section{Avaliação da incerteza}
 
@@ -544,7 +544,7 @@ Essa seção abordará os métodos disponíveis na literatura com exemplos prát
 
 \subsection{Avaliação heurística da incerteza}\label{heuristic}
 
-O método mais simples de avaliação de incerteza em modelos geológicos implícitos, proposto por \citeonline{silvaanddeutschccgmodeling}, consiste em transformar distâncias estimadas em probabilidades via \textit{softmax transformation}. Técnica amplamente usada em métodos de classificação para múltiplas classes \cite{mccullaghgeneralizedlinear}. A ideia é transformar as distâncias estimadas em probabilidades a partir da \autoref{eq_softmax}. Os valores transformados encontram-se entre zero e um e  sua soma deve ser igual a um, para cada bloco estimado.
+O método mais simples de avaliação de incerteza em modelos geológicos implícitos, proposto por \citeonline{silvaanddeutschccgmodeling}, consiste em transformar distâncias estimadas em probabilidades via \textit{softmax transformation} essa técnica é amplamente usada em métodos de classificação para múltiplas classes \cite{mccullaghgeneralizedlinear}. A ideia é transformar as distâncias estimadas em probabilidades a partir da \autoref{eq_softmax}. Os valores transformados encontram-se entre zero e um e  sua soma deve ser igual a um, para cada bloco estimado.
 
 \begin{equation}
 	P(i(u)=k)=\frac{e^\frac{-d^*_k(u)}{\gamma}}{\sum_{k'=1}^{K}e^\frac{-d^*_k(u)}{\gamma}}
@@ -553,12 +553,12 @@ O método mais simples de avaliação de incerteza em modelos geológicos implí
 
 $P(i(u)=k)$ representa a probabilidade de um local $u$ pertencer à categoria $k$, $d^*_k(u)$ é a distância estimada para a categoria $k$ e $\gamma$ é um parâmetro que regula a inter-relação entre as probabilidades das $K$ diferentes categorias. Quanto maior $\gamma$, maior as diferenças entre as probabilidades (maior a banda de incerteza), como pode ser observado na \autoref{softmax_ex}. \citeonline{silvaanddeutschccgcorrecting} advogam que o parâmetro pode ser a maior distância estimada entre todas as categorias.
 
-Para exemplificar a transformação, a \autoref{softmax_grafico}, mostra à esquerda as distâncias estimadas para cada uma de cinco categorias em um mesmo bloco em particular. À direita as distâncias transformadas pela \autoref{eq_softmax} em probabilidades daquele bloco pertencer a cada uma das cinco categorias. Observe que distâncias menores (mais negativas) geram probabilidades maiores, e vice-versa.  
+Para exemplificar a transformação, a \autoref{softmax_grafico} mostra à esquerda as distâncias estimadas para cada uma de cinco categorias em um mesmo bloco em particular. À direita as distâncias transformadas pela \autoref{eq_softmax} em probabilidades daquele bloco pertencer a cada uma das cinco categorias. Observe que distâncias menores (mais negativas) geram probabilidades maiores, e vice-versa.  
 
 \begin{figure}[H]
-	\caption{\label{softmax_grafico}Distâncias estimadas e transformadas em probabilidades para um mesmo bloco.}
+	\caption{\label{softmax_grafico}Distâncias estimadas em (a) e transformadas em probabilidades em (b) para um mesmo bloco, com cinco categorias.}
 	\begin{center}
-		\includegraphics[width=0.7\textwidth]{capitulo_2/softmax_bars_final.jpg}
+		\includegraphics[width=\textwidth]{capitulo_2/softmax_bars_final.jpg}
 	\end{center}
 	\legend{Fonte: \citeonline{rolo_dissertacao}}
 \end{figure}
@@ -576,11 +576,11 @@ A \autoref{softmax_ex} mostra seções em XZ do mapa de probabilidades para a ca
 \end{center}
 \end{figure}
 
-Apesar do método ser simples e direto, suportar múltiplas categorias simultaneamente, seu resultado não pode ser utilizado em etapas subsequentes do processo de  avaliação, por não gerar múltiplas realizações do modelo geológico. Além disso, A escolha do parâmetro $\gamma$ é subjetiva e dependa da distribuição espacial das amostras, dependendo da escolha para o parâmetro nem mesmo blocos colocados com amostras recebem a probabilidade 100\%. 
+Apesar do método ser simples e direto, suportar múltiplas categorias simultaneamente, seu resultado não pode ser utilizado em etapas subsequentes do processo de  avaliação, por não gerar múltiplas realizações do modelo geológico. Além disso, A escolha do parâmetro $\gamma$ é subjetiva e depende da distribuição espacial das amostras, dependendo da escolha para o parâmetro nem mesmo blocos colocados com amostras recebem a probabilidade 100\%. Alguns autores recomendam que o parâmetro $\gamma$ seja igual a maior distância estimada entre todas as categorias.
 
 \subsection{\textit{Boundsim}}
 
-Uma outra metodologia proposta por \citeonline{mclennan2006boundsim} consiste em realizar um \textit{bootstrap} espacial \cite{deutsh_spatial_bootstrap} da média da distância assinada calculada para uma dada categoria. O procedimento de \textit{bootstrap} é amplamente utilizado para quantificar incerteza em parâmetros estatísticos, As duas mais importantes suposições são: os dados são representativos e os dados são independentes. Por esse motivo, a técnica de amostragem deve ser modificada para variáveis que apresentam continuidade espacial. A \autoref{bs_df_1} mostra o histograma da média para as distâncias assinaladas da categoria 1 do banco de dados. 
+Uma outra metodologia proposta por \citeonline{mclennan2006boundsim} consiste em realizar um \textit{bootstrap} espacial \cite{deutsh_spatial_bootstrap} da média da distância assinada calculada para uma dada categoria. O procedimento de \textit{bootstrap} é amplamente utilizado para quantificar incerteza em parâmetros estatísticos. As duas mais importantes suposições são: os dados são representativos e os dados são independentes. Por esse motivo, a técnica de amostragem deve ser modificada para variáveis que apresentem continuidade espacial. A \autoref{bs_df_1} mostra o histograma da média para as distâncias assinaladas da categoria 1 do banco de dados. 
 
 \begin{figure}[H]
 	\caption{\label{bs_df_1}Histograma do bootstrap espacial da média das distâncias assinaladas para a categoria 1.}
@@ -592,7 +592,7 @@ Uma outra metodologia proposta por \citeonline{mclennan2006boundsim} consiste em
 
 Valores para a média são tomados do histograma da média, gerado pelo \textit{bootstrap} espacial. Esses valores podem ser correspondentes ao p10, p50 e p90 por exemplo.
 
-Então, as distâncias assinaladas são interpolados para os nós do grid por krigagem simples, que tem como hipótese a estacionariedade da média por todo o domínio. A média estacionária para a krigagem simples são os valores tomados do histograma.
+Então, as distâncias assinaladas são interpolados para os nós do \textit{grid} por krigagem simples, que tem como hipótese a estacionariedade da média por todo o domínio. A média estacionária para a krigagem simples são os valores tomados do histograma.
 
 O último passo consiste em extrair a iso superfície zero dos modelos implícitos gerados por krigagem simples com os diferentes valores da média estacionária tomadas do histograma da média. Em tese, quanto maior o percentil menor o risco associado, o volume do sólido modelado infla ou contrai de acordo com o valor escolhido para a média estacionária.
 
@@ -610,13 +610,13 @@ Percentil & \multicolumn{1}{l}{Blocos dentro} \\ \hline
 \caption{Blocos classificados como pertencentes à categoria 1.}\label{boundsim_table}
 \end{table}
 
-A metodologia é simples e direta, porém, deve ser aplicada à uma categoria por vez, na presença de múltiplos domínios alguma abordagem hierárquica deve ser estabelecida. A sensibilidade da krigagem simples à média depende da configuração espacial das amostras, muitas vezes a diferença entre os volumes obtidos é irrelevante, como no caso do banco de dados em estudo: a diferença no volume do sólido do caso mais conservador para o de maior risco é de pouco mais de 1\%. As iso superfícies são praticamente coincidentes.
+A metodologia é simples e direta, porém, deve ser aplicada à uma categoria por vez e na presença de múltiplos domínios alguma abordagem hierárquica deve ser estabelecida. A sensibilidade da krigagem simples à média depende da configuração espacial das amostras, muitas vezes a diferença entre os volumes obtidos é irrelevante, como no caso do banco de dados em estudo: a diferença no volume do sólido do caso mais conservador para o de maior risco é de pouco mais de 1\%. As iso superfícies são praticamente coincidentes.
 
 O produto final do método pode ser utilizado nas etapas subsequentes do processo de avaliação, todavia, o método não avalia incerteza de forma adequada. Os autores do estudo original aplicaram a metodologia apenas em bancos de dados sintéticos e de geometria regular. 
 
 \subsection{Simulação direta das distâncias assinaladas}\label{sim_direta}
 
-\citeonline{caceres2011stochastic} e \cite{radtke_dissertacao} propuseram que as distâncias assinaladas sejam simuladas de forma direta: a partir de um modelo geológico implícito multi categórico (\autoref{multi_cat}) um coeficiente U de incerteza deve ser calculado de acordo com \autoref{u_eq}:
+\citeonline{caceres2011stochastic} e \citeonline{radtke_dissertacao} propuseram que as distâncias assinaladas sejam simuladas de forma direta: a partir de um modelo geológico implícito multi categórico (\autoref{multi_cat}), um coeficiente U de incerteza deve ser calculado de acordo com \autoref{u_eq}:
 
 \begin{equation}\label{u_eq}
     U(u)=\frac{max\{D_{min}\}-min\{d^*_k(u)\}^K_{k=1}}{max\{D_{min}\}-min\{D_{min}\}}
@@ -630,10 +630,10 @@ Onde:
 
 E $d^*_k(u)$ é a distância estimada no local u para a categoria k.
 
-Os valores de U variam entre 0 e 1, um \textit{cutoff} em U determina a extensão da zona de incerteza ao redor dos contatos: quanto mais próximo de 1, mais estreita a zona. A \autoref{u_fig} mostra o coeficiente U calculado para todos os nós do grid a partir do modelo da \autoref{multi_cat_rbf}.
+Os valores de U variam entre 0 e 1, um \textit{cutoff} em U determina a extensão da zona de incerteza ao redor dos contatos: quanto mais próximo de 1, mais estreita a zona. A \autoref{u_fig} mostra o coeficiente U calculado para todos os nós do \textit{grid} a partir do modelo da \autoref{multi_cat_rbf}.
 
 \begin{figure}[H]
-	\caption{\label{u_fig}Coeficiente U calculado para todos os nós do grid.}
+	\caption{\label{u_fig}Coeficiente U calculado para todos os nós do \textit{grid}.}
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{capitulo_2/u_coef.png}
 	\end{center}
@@ -645,12 +645,12 @@ Um \textit{cutoff} em 0.8 foi aplicado em U e as distâncias assinaladas foram s
 \begin{figure}[H] 
     \caption{Distâncias simuladas na zona de incerteza para as categorias do banco de dados.} \label{dist_sim_u}
      \centering
-     \subfloat[][Categoria 1]{\includegraphics[width=.3\textwidth]{capitulo_2/Ucutoff1.png}\label{<figure1>}}
-     \subfloat[][Categoria 2]{\includegraphics[width=.3\textwidth]{capitulo_2/Ucutoff2.png}\label{<figure2>}}
-     \subfloat[][Categoria 3]{\includegraphics[width=.3\textwidth]{capitulo_2/ucutoff3.png}\label{<figure2>}}
+     \subfloat[][Categoria 1]{\includegraphics[width=.8\textwidth]{capitulo_2/Ucutoff1.png}\label{<figure1>}}\\
+     \subfloat[][Categoria 2]{\includegraphics[width=.8\textwidth]{capitulo_2/Ucutoff2.png}\label{<figure2>}}\\
+     \subfloat[][Categoria 3]{\includegraphics[width=.8\textwidth]{capitulo_2/ucutoff3.png}\label{<figure2>}}
 \end{figure}
 
-A categoria correspondente ao menor valor simulado é retida em cada bloco e os blocos simulados são concatenados com os blocos estáticos, atribuídos pela interpolação.
+A categoria correspondente ao menor valor simulado é retida em cada bloco e os blocos simulados são concatenados com os blocos estáticos (congelados), atribuídos pela interpolação.
 
 A \autoref{dif_real} mostra duas diferentes realizações do modelo geológico estocástico criado a partir da simulação direta das distâncias.
 
@@ -665,12 +665,12 @@ A \autoref{dif_real} mostra duas diferentes realizações do modelo geológico e
 \end{center}
 \end{figure}
 
-O método é baseado em múltiplas realizações do modelo geológico, então, seu produto final pode ser usado nas etapas posteriores do processo de avaliação. Entretanto, a metodologia tem muitos passos \cite{radtke_dissertacao}
+O método é baseado em múltiplas realizações do modelo geológico, então, seu produto final pode ser usado nas etapas posteriores do processo de avaliação. Entretanto, a metodologia tem muitos passos \cite{radtke_dissertacao}:
 
 \begin{enumerate}
 \item Cálculo das distâncias assinaladas para todas as amostras e categorias;
 \item Variografia das distâncias no espaço original para todas as categorias;
-\item Interpolação das distancias; 
+\item Interpolação das distâncias; 
 \item criação do modelo com base na menor distância interpolada;
 \item Criação da zona de incerteza;
 \item Transformação Gaussiana das distâncias;
@@ -679,13 +679,13 @@ O método é baseado em múltiplas realizações do modelo geológico, então, s
 \item Validação e pós processamento das realizações.
 \end{enumerate}
 
-Além disso, a simulação é muito sensível aos parâmetros, o que muitas vezes, gera modelos com muito ruído, que não são geologicamente realistas, e não honram as amostras, como os da \autoref{dif_real}. O resultado final não justifica o número excessivo de passos e parâmetros. O coeficiente U não controla a magnitude da incerteza, apenas diminui o tempo das simulações, o magnitude da incerteza é controlada pelo parâmetros da simulação.
+Além disso, a simulação é muito sensível aos parâmetros, o que muitas vezes, gera modelos com muito ruído, realçados em verde, que não são geologicamente realistas, e não honram as amostras, como os da \autoref{dif_real}. O resultado final não justifica o número excessivo de passos e parâmetros. O coeficiente U não controla a magnitude da incerteza, apenas diminui o tempo das simulações, o magnitude da incerteza é controlada pelo parâmetros da simulação.
 
 \subsection{Simulação multi ponto}
 
-\citeonline{silvaenhancedgeomodeling} propôs uma metodologia que integra modelagem geológica implícita com funções distâncias assinaladas e simulação geostatística multi ponto. A geostatística multi ponto utiliza imagens de treinamento para extrair e reproduzir estruturas geológicas complexas. Geralemnte, imagens de trinamento são baseadas em modelos conceituais do fenômeno geoógico. Em seu trabalho, \citeonline{silvaenhancedgeomodeling} cria imagens de trinamento a partir de modelos geológicos implícitos determinísticos criados com funções distância assinaladas e modelos estocásticos criados por simulação sequencial dos indicadores. No trabalho é introduzida uma metodologia  para integrar múltiplas imagens de treinamento, uma metodologia para calibrar a contribuição de cada imagem de treinamento e uma medida de entropia multi ponto ao longo dos furos de sondagem.
+\citeonline{silvaenhancedgeomodeling} propôs uma metodologia que integra modelagem geológica implícita com funções distâncias assinaladas e simulação geostatística multi ponto. A geostatística multi ponto utiliza imagens de treinamento para extrair e reproduzir estruturas geológicas complexas. Geralmente, imagens de treinamento são baseadas em modelos conceituais do fenômeno geoógico. Em seu trabalho, \citeonline{silvaenhancedgeomodeling} cria imagens de treinamento a partir de modelos geológicos implícitos determinísticos criados com funções distância assinaladas e modelos estocásticos criados por simulação sequencial dos indicadores. No trabalho, é introduzida uma metodologia  para integrar múltiplas imagens de treinamento, uma metodologia para calibrar a contribuição de cada imagem de treinamento e uma medida de entropia multi ponto ao longo dos furos de sondagem.
 
-\citeonline{silvaenhancedgeomodeling} concluiu que imagens de treinamento geradas a partir das amostras produzem modelos geológicos estocásticos por MPS melhores. A \autoref{snesim_real} mostra duas realizações do modelo geológico criado a partir da aplicação do algoritmo \verb|snesim| usando a \autoref{multi_cat_rbf} como imagem de treinamento. 
+\citeonline{silvaenhancedgeomodeling} concluiu que imagens de treinamento geradas a partir das amostras produzem modelos geológicos estocásticos por MPS melhores. A \autoref{snesim_real} mostra duas realizações do modelo geológico criado a partir da aplicação do algoritmo \verb|snesim| \cite{strebelle2000sequential} usando a \autoref{multi_cat_rbf} como imagem de treinamento. 
 
 \begin{figure}[H]
 \caption{Diferentes realizações do modelo geológico.} 
@@ -698,19 +698,19 @@ Além disso, a simulação é muito sensível aos parâmetros, o que muitas veze
 \end{center}
 \end{figure}
 
-Os modelos mostram realismo geológico, não apresentam ruido excessivo. Além disso, o método é rápido e não depende de um grande número de parâmetros. Em contrapartida, não é possível controlar a magnitude da incerteza. 
+Os modelos mostram realismo geológico, não apresentam ruido excessivo. Além disso, o método é rápido e não depende de um grande número de parâmetros. Em contrapartida, não é possível controlar a magnitude da incerteza, que depende apenas da imagem de treinamento. Não é possível definir uma zona de incerteza para que os limites variem em seu interior e também não é possível controlar a natureza dos contatos, suaves ou rugosos. 
 
 \subsection{\textit{Boundary simulation}}\label{boundsim}
 
 A metodologia proposta por \citeonline{wilde_sim_bound_reals} consiste em gerar realizações das fronteiras geológicas comparando distâncias modificadas interpoladas com simulações não condicionais. 
 
-O primeiro passo é calibrar os parâmetros de incerteza, \citeonline{munroe_c_full_calibration} propuseram a calibração completa dos parâmetros C e $\beta$, onde C controla a largura da bande de incerteza e $\beta$ controla o viés. Os parâmetros devem ser otimizados para que a incerteza apropriada seja avaliada. Otimizar esses parâmetros é uma operação computacionalmente cara que requer múltiplos modelos de referência e duas funções objetivo \cite{wilde2012kriging}.
+O primeiro passo é calibrar os parâmetros de incerteza. \citeonline{munroe_c_full_calibration} propõem a calibração completa dos parâmetros C e $\beta$, onde C controla a largura da banda de incerteza e $\beta$ controla o viés. Os parâmetros devem ser otimizados para que a incerteza apropriada seja avaliada. Otimizar esses parâmetros é uma operação computacionalmente cara que requer múltiplos modelos de referência e duas funções objetivo \cite{wilde2012kriging}.
 
-\citeonline{kaperov_review_boundary} propuseram uma metodologia de calibração para o parâmetro C simplificada, de modo empírico. considerando a malha amostral e a experiência e conhecimento do geomodelador.
+\citeonline{kaperov_review_boundary} propuseram uma metodologia de calibração para o parâmetro C simplificada, de modo empírico, considerando a malha amostral e a experiência e conhecimento do geomodelador.
 
-\citeonline{wilde_new_way} propuseram uma outra metodologia de calibração, nessa metodologia apenas o parâmetro C é calibrado usando apenas as amostras disponíveis. Um subconjunto das amostras é removido antes do cálculo das distâncias assinaladas. Isso cria dois diferentes bancos dados: o banco de dados das distâncias assinaladas e o banco de dados \textit{jackknife}. O banco de dados das distâncias assinaladas é usado para condicionar a estimativa das distâncias nos locais do banco de dados \textit{jackknife}. Algumas amostras do banco de dados \textit{jackknife} que foram codificadas como fora do domínio terão distâncias estimadas negativas (dentro do domínio) e vice-versa. O parâmetro C é ajustado até que uma proporção pré definida de classificação errônea seja atingida.
+\citeonline{wilde_new_way} propuseram uma outra metodologia de calibração. Nessa metodologia, apenas o parâmetro C é calibrado usando apenas as amostras disponíveis. Um subconjunto das amostras é removido antes do cálculo das distâncias assinaladas. Isso cria dois diferentes bancos dados: o banco de dados das distâncias assinaladas e o banco de dados \textit{jackknife}. O banco de dados das distâncias assinaladas é usado para condicionar a estimativa das distâncias nos locais do banco de dados \textit{jackknife}. Algumas amostras do banco de dados \textit{jackknife} que foram codificadas como fora do domínio terão distâncias estimadas negativas (dentro do domínio) e vice-versa. O parâmetro C é ajustado até que uma proporção pré definida de classificação errônea seja atingida.
 
-A \autoref{c_param_1} mostra a calibração do parâmetro C para a categoria 1 do banco de dados. 25\% das amostras foram removidas de forma aleatória 50 vezes, gerando 50 bancos de dados de distância e 50 bancos de dados \textit{jackknife}, as distâncias foram estimados nos locais das amostras \textit{jackknife} e a taxa de classificação errônea foi registrada no eixo y. o parâmetro C foi incrementado, e somado ou subtraídos das distâncias de acordo com a \autoref{C_dist}, o processo é repetido enquanto C varia de 0 até 250m. Quanto maior for o valor de C, menor o índice de classificação errônea.
+A \autoref{c_param_1} mostra a calibração do parâmetro C para a categoria 1 do banco de dados. Um quarto das amostras foi removido de forma aleatória 50 vezes, gerando 50 bancos de dados de distância e 50 bancos de dados \textit{jackknife}. As distâncias foram estimados nos locais das amostras \textit{jackknife} e a taxa de classificação errônea foi registrada no eixo y. o parâmetro C foi incrementado, e somado ou subtraídos das distâncias de acordo com a \autoref{C_dist}. O processo é repetido enquanto C varia de 0 até 250m. Quanto maior for o valor de C, menor o índice de classificação errônea.
 
 \begin{figure}[H]
 	\caption{\label{c_param_1}Calibração do parâmetro C para a categoria 1.}
@@ -727,9 +727,9 @@ A \autoref{c_param_1} mostra a calibração do parâmetro C para a categoria 1 d
     \label{C_dist}
 \end{equation}
 
-O valor do parâmetro C deve ser determinado a partir da calibração (\autoref{c_param_1}). \citeonline{manchuck_deutsch_Geometric} sugerem 2,5\% de classificação errônea em nível aceitável para depósitos tabulares, uma outra forma de escolha é o método do cotovelo, o valor tomado deve ser o ponto de inflexão da curva. Para a categoria 1 foi tomado o valor de C igual a 130 que corresponde a um índice de classificação errônea de 2\%. As distâncias modificadas pelo parâmetro C a partir da \autoref{C_dist} devem ser interpoladas para todos os nós do grid, e a truncagem entre -C e C define a zona de incerteza.
+O valor do parâmetro C deve ser determinado a partir da calibração (\autoref{c_param_1}). \citeonline{manchuck_deutsch_Geometric} sugerem 2,5\% de classificação errônea em nível aceitável para depósitos tabulares, uma outra forma de escolha é o método do cotovelo, o valor tomado deve ser o ponto de inflexão da curva. Para a categoria 1, foi tomado o valor de C igual a 130 que corresponde a um índice de classificação errônea de 2\%. As distâncias modificadas pelo parâmetro C a partir da \autoref{C_dist}, devem ser interpoladas para todos os nós do \textit{grid}, e a truncagem entre -C e C define a zona de incerteza.
 
-Valores para a função distância são então simulados uniformemente entre -C e C. Caso o valor interpolado seja menor que o valor simulado para a função distância, o local é considerado pertencente ao domínio, caso o valor seja maior, o local é considerado externo ao domínio. Nos locais onde a interpolação apresenta o mesmo valor da simulação são estabelecidos os contatos dos domínios como esquematizado na \autoref{class}.
+Valores para a função distância são então simulados uniformemente entre -C e C. Caso o valor interpolado seja menor que o valor simulado para a função distância, o local é considerado pertencente ao domínio, caso o valor seja maior, o local é considerado externo ao domínio. Nos locais onde a interpolação apresenta o mesmo valor da simulação, são estabelecidos os contatos dos domínios como esquematizado na \autoref{class}.
 
 \begin{figure}[H]
 	\caption{\label{class}Classificação dos locais comparando valores estimados e simulados.}
@@ -745,7 +745,7 @@ Para que a simulação seja realizada de forma uniforme entre –C e +C, o desvi
     df'(u)=2*C*G^-1(y'(u))-C
 \end{equation}
 
-Onde: $df'(u)$ é o valor da função distância simulada, $y'(u)$ o valor normal padrão da simulação não condicional, e $G^-1$ representa a determinação do valor da distribuição acumulada padrão normal correspondente a $y'(u)$. Para garantir que os valores pertençam a região estabelecida. os valores são multiplicados por 2C e subtraídos de C.
+onde: $df'(u)$ é o valor da função distância simulada, $y'(u)$ o valor normal padrão da simulação não condicional, e $G^-1$ representa a determinação do valor da distribuição acumulada padrão normal correspondente a $y'(u)$. Para garantir que os valores pertençam a região estabelecida, os valores são multiplicados por 2C e subtraídos de C.
 
 O variograma utilizado na simulação não condicional pode ser o mesmo das distâncias assinaladas. O alcance do variograma determina a natureza do contato entre os domínios, menores alcances geram contatos mais rugosos enquanto maiores alcances, contatos suaves.
 
@@ -754,9 +754,9 @@ A \autoref{cat1_bound_sim} mostra as distâncias interpoladas e simuladas na zon
 \begin{figure}[H] 
     \caption{Interpolação, simulação e classificação na zona de incerteza.} \label{cat1_bound_sim}
      \centering
-     \subfloat[][Distâncias interpoladas]{\includegraphics[width=.3\textwidth]{capitulo_2/interpolated.jpeg}\label{<figure1>}}
-     \subfloat[][Distâncias simuladas]{\includegraphics[width=.3\textwidth]{capitulo_2/simulated.jpeg}\label{<figure2>}}
-     \subfloat[][Classificação]{\includegraphics[width=.3\textwidth]{capitulo_2/classification.jpeg}\label{<figure2>}}
+     \subfloat[][Distâncias interpoladas]{\includegraphics[width=.6\textwidth]{capitulo_2/interpolated.jpeg}\label{<figure1>}}\\
+     \subfloat[][Distâncias simuladas]{\includegraphics[width=.6\textwidth]{capitulo_2/simulated.jpeg}\label{<figure2>}}\\
+     \subfloat[][Classificação]{\includegraphics[width=.6\textwidth]{capitulo_2/classification.jpeg}\label{<figure2>}}
 \end{figure}
 
 A \autoref{cpar_real} mostra seções em XY e YZ de uma das realizações para a categoria 1.
@@ -772,16 +772,16 @@ A \autoref{cpar_real} mostra seções em XY e YZ de uma das realizações para a
 \end{center}
 \end{figure}
 
-O método é rápido já que é baseado em simulações não condicionais, gera modelos realistas sem ruído e com fronteiras contínuas. Tanto a magnitude da incerteza quanto a natureza da fronteira podem ser controlados. Entretanto, o método funciona apenas para uma categoria por vez e mesmo que simplificações tenham sido desenvolvidas, a calibração do parâmetro de incerteza ainda pode ser laboriosa e subjetiva.
+O método é rápido, já que é baseado em simulações não condicionais, gera modelos realistas sem ruído e com fronteiras contínuas. Tanto a magnitude da incerteza quanto a natureza da fronteira podem ser controlados. Entretanto, o método funciona apenas para uma categoria por vez e mesmo que simplificações tenham sido desenvolvidas, a calibração do parâmetro de incerteza ainda pode ser laboriosa e subjetiva.
 
-\citeonline{amarante_incerteza_associada} propuseram uma adaptação  do método para múltiplas categorias simultâneas, uma série de regras hierárquicas baseadas na cronologia dos eventos geológicos devem ser definidas, a \autoref{hier_ex} mostra um esquema do método, evidenciando as regras de hierarquização e realizações dos grupos formados. Embora seja uma alternativa para ambientes multi categóricos, a definição das regras de hierarquização dependem de conhecimento geológico além das amostras, e muitas vezes indisponível.
+\citeonline{amarante_incerteza_associada} propuseram uma adaptação  do método para múltiplas categorias simultâneas, uma série de regras hierárquicas baseadas na cronologia dos eventos geológicos devem ser definidas. A \autoref{hier_ex} mostra um esquema dos passos do método. Embora seja uma alternativa para ambientes multi categóricos, a definição das regras de hierarquização dependem de conhecimento geológico além das amostras, e muitas vezes indisponível.
 
 \begin{figure}[H]
-	\caption{\label{hier_ex}Esquema do método mostrando as regras de hierarquização e diferentes realizações dos grupos formados.}
+	\caption{\label{hier_ex}Esquema do método mostrando os passos necessários.}
 	\begin{center}
-		\includegraphics[width=0.9\textwidth]{capitulo_2/hier_example.png}
+		\includegraphics[width=\textwidth]{capitulo_2/hier_example.png}
 	\end{center}
-	\legend{Fonte: \citeonline{amarante_incerteza_associada}}
+	\legend{Fonte: Modificado de \citeonline{amarante_incerteza_associada}}
 \end{figure}
 
 \subsection{Sumário dos métodos de avaliação de incerteza}
