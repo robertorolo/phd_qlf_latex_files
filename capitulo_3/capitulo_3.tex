@@ -2,41 +2,41 @@
 
 \section{Problemas}\label{problemas}
 
-Embora a modelagem geológica implícita com funções distância assinaladas seja uma metodologia bem estabelecida que permite ao gemodelador gerar de forma rápida modelos geológicos reprodutíveis, consistentes e checáveis a partir de uma função volume derivada a partir dos dados amostrais, existem alguns pontos problemáticos e limitantes na metodologia que merecem atenção.
+A modelagem geológica implícita com funções distância assinaladas é uma metodologia bem estabelecida que permite ao gemodelador gerar de forma rápida modelos geológicos reprodutíveis, consistentes e checáveis a partir de uma função volume derivada a partir dos dados amostrais. 
 
-A não estacionariedade da função distância assinalada torna a modelagem dos variogramas arbitrária e questionável.
+Porém, existem alguns pontos problemáticos e limitantes na metodologia que merecem atenção. A não estacionariedade da função distância assinalada torna a modelagem dos variogramas arbitrária e questionável.
 
 Apesar dos métodos implícitos serem totalmente independentes de um \textit{grid}, o objetivo final da modelagem geológica implícita é preencher o \textit{grid} de estimativas com as litologias correspondentes. Para um número constante de amostras, o tempo requerido para interpolar a função volume para todos os nós do \textit{grid} aumenta linearmente em relação ao número de nós. Os parâmetros do \textit{grid} de estimativa podem ser pré-determinados pelos parâmetros de engenharia do projeto, porém, o \textit{grid} de definição do modelo geológico não necessariamente deve ser o mesmo do \textit{grid} de estimativa. A consideração mais importante na definição do \textit{grid} é que a resolução seja suficiente para captar as estruturas geológicas de interesse \cite{martin2017implicitmodeling}. É preciso encontrar um balanço entre número de nós e resolução necessária. A resolução do \textit{grid} influencia diretamente a avaliação de incertezas.
 
-A função volume calculada em cada ponto amostral deve ser interpolada. Diferentes métodos podem ser usados, desde métodos que não apresentam muita complexidade como os do inverso da distância, quanto métodos mais complexo como krigagem global ou funções de bases radiais com anisotropia global ou local. A escolha do interpolador muitas vezes é subjetiva e confusa e depende dos objetivos e da geologia do depósito. Exitem problemas relacionados à estacionariedade quando a krigagem é o método utilizado. A estratégia de busca é ponto crítico para nos interpoladores não globais.
+A função volume calculada em cada ponto amostral é interpolada. Diferentes métodos podem ser usados, desde métodos que não apresentam muita complexidade como os do inverso da distância, quanto métodos mais complexo como krigagem global ou funções de bases radiais com anisotropia global ou local. A escolha do interpolador muitas vezes é subjetiva e confusa e depende dos objetivos e da complexidade da geologia do depósito. Exitem problemas relacionados à estacionariedade quando a krigagem é o método utilizado. A estratégia de busca é ponto crítico para nos interpoladores não globais.
 
-Na presença de múltiplos domínios, principalmente em ambientes geológicos complexos, é necessário a aplicação de uma lógica de precedência de estruturas ao invés de simplesmente tomar a menor distância assinalada para a criação de modelos realistas. Mesmo em ambientes sem complexidade, categorias com poucas amostras amostras disponíveis muitas vezes desaparecem dos modelos gerados tomando a menor distância estimada.
+Na presença de múltiplos domínios, principalmente em ambientes geológicos complexos, é necessário a aplicação de uma lógica de precedência de estruturas ao invés de simplesmente tomar a menor distância assinalada para a criação de modelos realistas. Mesmo em ambientes sem complexidade, categorias com poucas amostras amostras disponíveis muitas vezes desaparecem dos modelos gerados tomando a menor distância estimada (se não for usada uma hierárquica.).
 
 Alguns dos métodos de avaliação de incerteza encontrados na literatura exigem a calibração de uma zona de incerteza entre diferentes domínios geológicos. Enquanto para alguns métodos, a definição da zona é subjetiva e não segue nenhuma regra matemática ou geológica, em outros a definição da zona de incerteza é extremamente laboriosa e complicada.
-Existem diferentes métodos para avaliação de incerteza em modelos geológicos implícitos. Enquanto em alguns deles, é possível avaliar a incerteza de todas as diferentes litologias do depósito mineral simultaneamente, em outros a incerteza associada à cada litologia deve ser avaliada separadamente. Além disso, a magnitude da incerteza e a natureza dos contatos não podem ser controladas na maior parte dos métodos encontrados na literatura.
+Existem diferentes métodos para avaliação de incerteza em modelos geológicos implícitos. Em alguns deles, é possível avaliar a incerteza de todas as diferentes litologias do depósito mineral simultaneamente, em outros a incerteza associada à cada litologia deve ser avaliada separadamente. Além disso, a magnitude da incerteza e a natureza dos contatos não podem ser controladas na maior parte dos métodos encontrados na literatura.
 
-Estruturas geológicas específicas, como lentes ou diques, podem desaparecer, ou não ser bem reproduzidas nos modelos implícitos, principalmente, quando sub-amostradas em relação às demais estruturas. Além disso, a metodologia, por si só, não produz bons resultados ao reproduzir falhas e dobras. 
+Estruturas geológicas específicas, como lentes ou diques, podem desaparecer, ou não serem bem reproduzidas nos modelos implícitos, principalmente, quando sub-amostradas em relação às demais estruturas. Além disso, a metodologia, por si só, não produz bons resultados ao reproduzir falhas e dobras. 
 
 Segundo o estatístico \citeonline{box1979robustness}: \textit{"Todos os modelos estão errados, mas alguns são úteis."} A modelagem implícita é conhecida por criar modelos de forma rápida e simples, porém, modelos ruins de forma rápida e simples. É necessário checar se os modelos implícitos honram a geologia do depósito e serão úteis para o processo de avaliação de recursos/reservas. 
 
 \section{Meta}
 
-A meta proposta para a tese é aprimorar a modelagem geológica implícita com funções distância assinaladas através da solução dos diversos problemas pontuais apresentados na \autoref{problemas}. Para isso os seguintes objetivos foram delineados:
+A meta proposta para a tese é investigar e desenvolver possíveis melhorias na modelagem geológica implícita com funções distância assinaladas através da solução dos diversos problemas pontuais apresentados na \autoref{problemas}. Para isso os seguintes objetivos foram delineados:
 
 \section{Objetivos}
 
 \subsection{Interpolador}
 
-O primeiro objetivo da tese é investigar a aplicabilidade de um interpolador baseado em aprendizado de máquina: \citeonline{samson_estimation_ml} desenvolveram um algoritmo, usando TensorFlow \footnote{TensorFlow é uma biblioteca de software de código aberto para computação numérica usando grafos computacionais. Foi originalmente desenvolvido pela Google Brain Team na organização de pesquisa Machine Intelligence do Google para aprendizado de máquina e pesquisa de redes neurais profundas (\textit{Deep Learning})} para implementar a arquitetura. O método é baseado em aprendizado não supervisionado, \textit{K-means} e supervisionado, \textit{radial basis neural network - RBFN} em combinação com um algoritmo de otimização de parâmetro para produzir estimativas de teores. 
+O primeiro objetivo da tese é investigar a aplicabilidade de um interpolador baseado em aprendizado de máquina: \citeonline{samson_estimation_ml} desenvolveram um algoritmo, usando TensorFlow \footnote{TensorFlow é uma biblioteca de software de código aberto para computação numérica usando grafos computacionais. Foi originalmente desenvolvido pela Google Brain Team na organização de pesquisa Machine Intelligence do Google para aprendizado de máquina e pesquisa de redes neurais profundas (\textit{Deep Learning})} para implementar a arquitetura da rede neural. O método é baseado em aprendizado não supervisionado, \textit{K-means} e supervisionado, \textit{radial basis neural network - RBFN} em combinação com um algoritmo de otimização de parâmetro para produzir estimativas de teores. 
 
-Em seu trabalho, \citeonline{samson_estimation_ml}, dividiram os dados disponíveis em treinamento (66\%) e teste (33\%). O algoritmo \textit{K-means} é usado para determinar o número de unidades de bases radiais usadas na rede neural. A função de ativação  alimentou o algoritmo com as coordenadas x, y e z e teores das 5 amostras mais próximas do local a ser estimado. A \autoref{comparation} mostra os resultados obtidos pela metodologia descrita e por krigagem simples a partir do mesmo banco de dados. Os resultados mostram uma boa reprodução das características, bem como do variograma e histograma.
+Em seu trabalho, \citeonline{samson_estimation_ml}, dividiram os dados disponíveis em treinamento (66\%) e teste (33\%). O algoritmo \textit{K-means} é usado para determinar o número de unidades de bases radiais usadas na rede neural. A função de ativação  alimentou o algoritmo com as coordenadas x, y e z e teores das 5 amostras mais próximas do local a ser estimado. A \autoref{comparation} mostra os resultados obtidos pela metodologia descrita e por krigagem simples a partir do mesmo banco de dados. Os resultados mostram uma boa reprodução das características visuais da imagem de referência, bem como do variograma e histograma dos dados.
 
 \begin{figure}[H] 
-    \caption{Comparação dos métodos de estimativas.} \label{comparation}
+    \caption{Comparação de modelos gerados por diferentes métodos de estimativas.} \label{comparation}
      \centering
-     \subfloat[][Realidade]{\includegraphics[width=.3\textwidth]{capitulo_3/actual.png}\label{<figure1>}}
-     \subfloat[][Estimativas por SK]{\includegraphics[width=.3\textwidth]{capitulo_3/krig.png}\label{<figure2>}}
-     \subfloat[][Estimativas por ML]{\includegraphics[width=.3\textwidth]{capitulo_3/ml.png}\label{<figure2>}}
+     \subfloat[][Realidade]{\includegraphics[width=.5\textwidth]{capitulo_3/actual.png}\label{<figure1>}}\\
+     \subfloat[][Estimativas por SK]{\includegraphics[width=.5\textwidth]{capitulo_3/krig.png}\label{<figure2>}}\\
+     \subfloat[][Estimativas por ML]{\includegraphics[width=.5\textwidth]{capitulo_3/ml.png}\label{<figure2>}}
      \legend{Fonte: \citeonline{samson_estimation_ml}}
 \end{figure}
 
@@ -52,7 +52,7 @@ Redes neurais são baseadas em neurônios (\autoref{neuron}). Os dendritos repre
 
 A \autoref{nn_ex} mostra um exemplo simples de rede neural. Os nós "x" na camada um da rede representam os \textit{inputs}, os nós "a" na camada dois e três representam as camadas escondidas, e a camada quatro é o nó de \textit{output} e representa a hipótese $H_\theta(x)$.
 
-Redes neurais trabalham em um sistema binário de zeros e uns e por isso podem se basear nas propriedades da função sigmóide \footnote{A função sigmóide é uma função matemática de amplo uso em campos como a economia e a computação. O nome "sigmóide" vem da forma em S do seu gráfico. \cite{wiki:sigmoid}}, que tem seu valor em y entre zero e um para qualquer valor de x. Em uma rede neural uma hipótese é gerada para cada nó e é determinado se seu valor será zero ou um, o valor binário é então passado para a próxima camada. Na rede neural da \autoref{nn_ex} uma hipótese para cada nó deve ser definida, a hipótese em um nó é o peso do \textit{input} multiplicado pelo valor binário (0,1). O valor da hipótese é então imputado na função sigmóide que converte o valor para zero ou um \cite{samson_intro_ml}.
+Redes neurais trabalham em um sistema binário de zeros e uns e por isso podem se basear nas propriedades da função sigmóide \footnote{A função sigmóide é uma função matemática de amplo uso em campos como a economia e a computação. O nome "sigmóide" vem da forma em S do seu gráfico. \cite{wiki:sigmoid}}, que tem seu valor em y entre zero e um para qualquer valor de x. Em uma rede neural, uma hipótese é gerada para cada nó e é determinado se seu valor será zero ou um, o valor binário é então passado para a próxima camada. Na rede neural da \autoref{nn_ex}, uma hipótese para cada nó deve ser definida, a hipótese em um nó é o peso do \textit{input} multiplicado pelo valor binário (0,1). O valor da hipótese é então imputado na função sigmóide que converte o valor para zero ou um \cite{samson_intro_ml}.
 
 \begin{figure}[H]
 	\caption{\label{nn_ex}Rede neural.}
@@ -62,21 +62,32 @@ Redes neurais trabalham em um sistema binário de zeros e uns e por isso podem s
 	\legend{Fonte: \citeonline{samson_intro_ml}}
 \end{figure}
 
-Redes neurais de bases radiais apresentam uma arquitetura semelhante às redes neurais artificiais (\autoref{nn_ex}), que consiste em uma camada de \textit{input}, camadas escondidas e uma camada de \textit{output}. A principal diferença reside no número de camadas escondidas, que nas redes neurais de bases radiais se reduz a apenas uma, além disso, redes neurais de bases radiais se baseiam em funções de bases radiais como função de ativação 
+Redes neurais de bases radiais apresentam uma arquitetura semelhante às redes neurais artificiais (\autoref{nn_ex}), que consiste em uma camada de \textit{input}, camadas escondidas e uma camada de \textit{output}. A principal diferença reside no número de camadas escondidas, que nas redes neurais de bases radiais se reduz a apenas uma. Além disso, redes neurais de bases radiais se baseiam em funções de bases radiais como função de ativação 
 
-A metodologia se mostrou competente em fazer estimativas a partir de amostras esparsas sem a necessidade do cálculo e modelagem do variograma, em seu trabalho \citeonline{samson_estimation_ml}, não trinaram o parâmetro $\beta$, que controla o espalhamento da função de base radial, e sugere que isso seja feito em trabalhos futuros para otimização do método. A aplicação de redes neurais de bases radias na modelagem geológica implícita é promissora porque evita a tarefa de modelagem e cálculo do variograma, além disso, a função radial gaussiana já é utilizada com sucesso na criação dos modelos implícitos. 
+A metodologia se mostrou competente em fazer estimativas a partir de amostras esparsas sem a necessidade do cálculo e modelagem do variograma. Em seu trabalho, \citeonline{samson_estimation_ml}, não treinaram o parâmetro $\beta$, que controla o espalhamento da função de base radial e sugere que isso seja feito em trabalhos futuros para otimização do método. A aplicação de redes neurais de bases radiais na modelagem geológica implícita é promissora porque evita a tarefa de modelagem e cálculo do variograma, além disso, a função radial gaussiana já é utilizada com sucesso na criação dos modelos implícitos. 
 %A possibilidade de inserção de anisotropia local, calculada a partir dos dados amostrais \cite{lillah2015inference}, para cada estimativa será avaliada.
 
 \subsection{Zona de incerteza}
 
-Um outro objetivo é desenvolver uma metodologia objetiva e direta para definição da zona de incerteza: tanto o método baseado em múltiplas categorias simultâneas (coeficiente U) \autoref{sim_direta} quanto o método da zona de incerteza calibrada (parâmetro C) \autoref{boundsim} para cada litologia de forma independente podem gerar zonas de incertezas em interseção com amostras. É necessário definir uma zona de incerteza, entre os contatos multi categóricos, que seja de fato "incerta", justa e livre de viés. Onde os contatos das múltiplas realizações devem variar. Gerar múltiplas realizações com a finalidade de avaliar a incerteza de modelos geológicos em todos os nós do \textit{grid} é desperdício de tempo e poder computacional, já que no interior dos domínios não há incerteza.
+Um outro objetivo é desenvolver uma metodologia objetiva e direta para definição da zona de incerteza: tanto o método baseado em múltiplas categorias simultâneas (coeficiente U; \autoref{sim_direta}) quanto o método da zona de incerteza calibrada (parâmetro C; \autoref{boundsim}) para cada litologia de forma independente podem gerar zonas de incertezas em interseção com amostras. É necessário definir uma zona de incerteza entre os contatos multi categóricos, que seja de fato "incerta", justa e livre de viés. 
 
-Em física a entropia é uma media do grau de desordem em um sistema. Um sistema ordenado, como um diamante, por exemplo, tem uma baixa entropia. Enquanto um sistema desordenado, como uma mistura de gases em alta temperatura, tem uma alta entropia. O conceito de entropia também surge na matemática, em teoria da probabilidade a taxa média na qual a informação é produzida por uma fonte estocástica de dados.
+Gerar múltiplas realizações com a finalidade de avaliar a incerteza de modelos geológicos em todos os nós do \textit{grid} é desperdício de tempo e poder computacional, já que no interior dos domínios não há incerteza. 
+
+A calibração correta do tamanho da zona de incerteza é importante porque no método de avaliação de incerteza proposto nessa tese os diferentes contatos, para cada realização, variam dentro da zona de incerteza e a variação de volume de cada litologia depende diretamente da zona de incerteza como mostrado na \autoref{zonas}.
+
+\begin{figure}[H] 
+	\caption{Zonas de incerteza e contatos.} \label{zonas}
+	\centering
+	\subfloat[][Zona de incerteza 1]{\includegraphics[width=.4\textwidth]{capitulo_3/zona1.jpg}\label{zona1}}\qquad
+	\subfloat[][Zona de incerteza 2]{\includegraphics[width=.4\textwidth]{capitulo_3/zona2.jpg}\label{zona2 2}}
+\end{figure}
+
+Em física, a entropia é uma media do grau de desordem em um sistema. Um sistema ordenado, como um diamante, por exemplo, tem uma baixa entropia. Enquanto um sistema desordenado, como uma mistura de gases em alta temperatura, tem uma alta entropia. O conceito de entropia também surge na matemática, em teoria da probabilidade a taxa média na qual a informação é produzida por uma fonte estocástica de dados.
 
 Desse modo, a entropia é uma medida de incerteza. A entropia da informação ou entropia de Shannon \cite{shannon1948mathematical} para um evento X com n resultados possíveis com probabilidades $(p_1, ..., p_n)$ é dada por:
 
 \begin{equation}
-    H(X)=H(p_1, ..., p_n)=-\sum^n_{i=1}p_ilog_2p_i
+    H(X)=H(p_1, ..., p_n)=-\sum^n_{i=1}p_ilog_{2}p_i
 \end{equation}
 
 Calcular as probabilidades de cada litologia em um determinado local é trivial, como mostrado na \autoref{heuristic} o que a torna a entropia da informação uma poderosa ferramenta tanto na definição da zona de incerteza como para de fato avaliar a incerteza do modelo geológico. Considere dois diferentes blocos onde as probabilidades de cada litologia foram calculadas e são mostradas na \autoref{entro_block}, o bloco 1 apresenta uma entropia menor que o bloco 2. Conhecimento e entropia são opostos: quando o conhecimento a respeito da mais provável litologia para um bloco é alto a entropia é baixa e vice-versa. 
@@ -103,7 +114,7 @@ A \autoref{entro_gamma} mostra a entropia calculada para o banco de dados em est
 \end{center}
 \end{figure}
 
-A probabilidade de uma dada categoria em um ponto amostral deve ser um, se a amostra pertencer à essa mesma categoria, e zero caso contrário, somando um para todas as litologias e variando de suavemente no espaço. O parâmetro $\gamma$ deveria ser calibrado de forma que na validação as duas imposições sejam atendidas, um \textit{range} de valores permissíveis para gamma pode ser definido. O $\gamma$ esolhido deve ser o que contempla a maior incerteza possível (maior valor). Dessa forma, o campo de entropia pode fornecer uma zona de incerteza de fato incerta, justa e livre de viés. A \autoref{calib_gamma} mostra a calibração do parâmetro para o banco de dados em estudo. Muitas vezes a imposição é muito restritiva e gera zonas de incerteza muito pequenas ou em alguns casos ausentes. A partir de 0.4, um valor muito pequeno para o parâmetro, já existe classificação errônea, e a partir de 110 todas as amostras são classificadas de forma errada.
+A probabilidade de uma dada categoria em um ponto amostral deve ser um, se a amostra pertencer à essa mesma categoria, e zero caso contrário, somando um para todas as litologias e variando de suavemente, entre 0 e 1, no espaço. O parâmetro $\gamma$ poderia ser calibrado de forma que na validação as duas imposições sejam atendidas (probabilidade igual a 100 se amostra pertence a categoria e zero caso contrário), um \textit{range} de valores permissíveis para $\gamma$ poderia ser definido dessa forma. O $\gamma$ escolhido deve ser o que contempla a maior incerteza possível (maior valor). Dessa forma, o campo de entropia pode fornecer uma zona de incerteza de fato incerta, justa e livre de viés. A \autoref{calib_gamma} mostra a calibração do parâmetro para o banco de dados em estudo. Muitas vezes a imposição é muito restritiva e gera zonas de incerteza muito pequenas ou em alguns casos ausentes. A partir de 0.4, um valor muito pequeno para o parâmetro, já existe classificação errônea, e a partir de 110 todas as amostras são classificadas de forma errada.
 
 \begin{figure}[H]
 	\caption{\label{calib_gamma}Calibração do $\gamma$.}
@@ -113,15 +124,19 @@ A probabilidade de uma dada categoria em um ponto amostral deve ser um, se a amo
 	%\legend{Fonte: \citeonline{samson_intro_ml}}
 \end{figure}
 
-Conforme o valor de $\gamma$ aumenta o número de amostras classificadas errôneamente - diferente de 0 ou diferente de 100 - aumenta, da mesma forma para todas as litologias (por isso apenas um gráfico de calibração). É preciso desenvolver uma forma de escolher o melhor valor para $\gamma$. Alguns autores recomndam escolher a maior distância estimada.
+Conforme o valor de $\gamma$ aumenta o número de amostras classificadas erroneamente - diferente de 0 ou diferente de 100 - aumenta, da mesma forma para todas as litologias (por isso apenas um gráfico de calibração). É preciso desenvolver uma forma de escolher o melhor valor para $\gamma$. Alguns autores recomendam a maior distância estimada entre todas as categorias.
 
-Resta então definir um \textit{cut off} no campo de entropia para sinalizar quais blocos variam e quais ficam congelados na geração dos modelos estocásticos. É preciso definir uma regra matemática, que pode ser baseada na entropia de formação do depósito mineral, depósitos de mais baixa entropia, como os de bauxita, por exemplo teriam seu \textit{cut off} definido em um valor maior do que depósitos de alta entropia, como um depósito de ouro primário.
+Resta então definir um \textit{cut off} no campo de entropia para sinalizar quais blocos variam e quais ficam congelados na geração dos modelos estocásticos. É preciso definir uma regra matemática, que pode ser baseada na entropia de formação do depósito mineral, depósitos de mais baixa entropia, como os de bauxita, teriam seu \textit{cut off} definido em um valor maior do que depósitos de alta entropia, como um depósito de ouro primário.
 
 \subsection{Avaliação de incerteza}
 
+Essa tese propõe investigar diferentes técnicas para a geração de modelos geológicos estocásticos multi categóricos baseados em múltiplas realizações. As técnicas que simulação diretamente as distâncias assinaladas geram modelos ruidosos, que não respeitam as zonas de incertezas definidas. Além disso, os resultados são muito sensíveis aos parâmetros e são necessários muitos passos. 
+
+Por esses motivos, o uso de uma variável contínua auxiliar, para derivar os modelos categóricos é uma alternativa melhor. Já que gera modelos menos ruidosos que apresentam contatos contínuos. A variável auxiliar é simulada de forma não condicional.
+
 \subsubsection{\textit{Boundary simulation} multi categórico}
 
-Atualmente o método de avaliação de incerteza que produz os melhores resultados é apresentado na \autoref{boundsim} esse método permite controlar o volume da zona de incerteza, e a natureza dos contatos. Nesse método o contato entre litologias varia dentro da zona de incerteza calibrada, sem a geração de ruído, além disso a natureza do contato pode ser controlada pelo variograma da simulação não condicional. Porém o método trabalha apenas com uma litologia por vez e a simulação não condicional ainda depende de um variograma. Essa tese propõe uma adaptação desse método para múltiplas categorias simultâneas. As distâncias interpoladas para as diferentes litologias serão comparadas, apenas na nova zona de incerteza, com apenas um campo simulado, dessa forma as distâncias devem ser, de alguma forma, estandardizadas, ou com n campos simulados, um para cada distância, como mostra a \autoref{comp_multi}.
+Atualmente, o método de avaliação de incerteza que produz os melhores resultados é apresentado na \autoref{boundsim} esse método permite controlar o volume da zona de incerteza, e a natureza dos contatos. Nesse método, o contato entre litologias varia dentro da zona de incerteza calibrada, sem a geração de ruído. Além disso, a natureza do contato pode ser controlada pelo variograma da simulação não condicional. Porém, o método trabalha apenas com uma litologia por vez e a simulação não condicional ainda depende de um variograma. Essa tese propõe uma adaptação desse método para múltiplas categorias simultâneas. As distâncias interpoladas para as diferentes litologias serão comparadas, apenas na nova zona de incerteza, com apenas um campo simulado. Dessa forma, as distâncias devem ser, de alguma forma, estandardizadas, ou com n campos simulados, um para cada distância, como mostra a \autoref{comp_multi}.
 
 \begin{figure}[H]
 	\caption{\label{comp_multi}Comparação multi categórica.}
@@ -133,9 +148,9 @@ Atualmente o método de avaliação de incerteza que produz os melhores resultad
 
 \subsubsection{Simulação \textit{P-field}}
 
-A ideia central desse método de simulação condicional é dissociar a tarefa de estimar distribuições de probabilidades locais para geração de múltiplas realizações equiprováveis \cite{froidevaux1993probability}. Uma premissa é de que as distribuições locais são conhecidas, o que é uma premissa razoável, já que as distribuições locais podem ser calculadas pela \autoref{eq_softmax}. As simulações condicionais são obtidas tomando valores desses CDFs locais. O valor de probabilidade usados para amostras as distribuições locais constituem o campo de probabilidades (\textit{P-field}) e são realizações de uma função aleatória caracterizada por uma distribuição uniforme e um modelo de covariância.
+Uma alternativa à simulação não condicional das distâncias na zona de incerteza são os campos de probabilidade (\textit{P-field}). A ideia central desse método de simulação é dissociar a tarefa de estimar distribuições de probabilidades locais para geração de múltiplas realizações equiprováveis \cite{froidevaux1993probability}. Uma premissa é de que as distribuições locais são conhecidas, o que é uma premissa razoável, já que as distribuições locais podem ser calculadas pela \autoref{eq_softmax}. As simulações condicionais são obtidas tomando valores dessas CDFs locais. O valor de probabilidade usados para amostras as distribuições locais constituem o campo de probabilidades (\textit{P-field}) e são realizações de uma função aleatória caracterizada por uma distribuição uniforme e um modelo de covariância.
 
-N realizações do campo de probabilidades podem ser geradas na zona de incerteza, para cada bloco e cada realização a litologia correspondente é tomada do CDF local a partir da probabilidade simulada naquele bloco. O variograma utilizado para geração do campo de probabilidades controla a natureza dos contatos, suave ou rugoso. É preciso definir um modelo de covariância que se adeque aos contatos de todas as litologias de forma simultânea. O uso de uma variável contínua para definir a categórica evita o surgimento de ruído nos modelos estocásticos.	
+N realizações do campo de probabilidades podem ser geradas na zona de incerteza, para cada bloco e em cada realização, a litologia correspondente é tomada da CDF local a partir da probabilidade simulada naquele bloco. O variograma utilizado para geração do campo de probabilidades controla a natureza dos contatos: suave ou rugoso. É preciso definir um modelo de covariância que se adeque aos contatos de todas as litologias de forma simultânea.
 
 \subsubsection{Simulação plurigaussiana truncada}
 
@@ -213,7 +228,7 @@ Finalmente é preciso desenvolver metodologias para validação e checagem dos m
 
 \section{Cronograma e atividades}
 
-As atividades pretendidas para essa tese incluem: uma revisão bibliográfica da modelagem geológica implícita e todos os métodos de avaliação de incerteza disponíveis na literatura (\autoref{capitulo_2}), desenvolvimento de um pacote de modelagem geológica implícita em python que inclui ferramentas: para o calculo das distâncias, interpolação via redes neurais de bases radias, calibração das probabilidades para cada litologia, definição da zona de incerteza, e avaliação de incerteza via geração de múltiplas realizações equiprováveis do modelo geológico multi categórico e ferramentas de validação do modelo geológico.
+As atividades pretendidas para essa tese incluem: uma revisão bibliográfica da modelagem geológica implícita e todos os métodos de avaliação de incerteza disponíveis na literatura (\autoref{capitulo_2}), desenvolvimento de um pacote de modelagem geológica implícita em python que inclui ferramentas: para o calculo das distâncias, interpolação via redes neurais de bases radiais, calibração das probabilidades para cada litologia, definição da zona de incerteza, e avaliação de incerteza via geração de múltiplas realizações equiprováveis do modelo geológico multi categórico e ferramentas de validação do modelo geológico.
 
 A \autoref{cronograma} mostra o cronograma de atividades para o período da tese.
 

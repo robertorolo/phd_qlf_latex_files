@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.1)  26 APR 2019 11:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.1)  29 APR 2019 09:40
 entering extended mode
 **./main.tex
 (main.tex
@@ -1519,23 +1519,26 @@ been already used, duplicate ignored
 l.28 ...s radiais.\relax }}{39}{figure.caption.30}
                                                   % [1
 
-])pdfTeX warning (ext4): destination with the same identifier (name{page.2}) ha
-s been already used, duplicate ignored
+])
+Underfull \vbox (badness 1152) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.201 \cleardoublepage
-                       [2] (main.toc
+                       [2] [3] [4
+
+] (main.toc
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 17.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 28.
- [3
-
-]) [4]
+ [5]) [6]
 \openout2 = `capitulo_1/capitulo_1.aux'.
 
- (capitulo_1/capitulo_1.tex
-[5
+
+(capitulo_1/capitulo_1.tex [7
 
 
 
@@ -1546,7 +1549,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 24.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 24.
-<capitulo_1/explicitmodeling.jpg, id=281, 858.20625pt x 467.7475pt>
+<capitulo_1/explicitmodeling.jpg, id=292, 858.20625pt x 467.7475pt>
 File: capitulo_1/explicitmodeling.jpg Graphic file (type jpg)
 <use capitulo_1/explicitmodeling.jpg>
 Package pdftex.def Info: capitulo_1/explicitmodeling.jpg  used on input line 29
@@ -1555,16 +1558,16 @@ Package pdftex.def Info: capitulo_1/explicitmodeling.jpg  used on input line 29
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6]
-[7 <./capitulo_1/explicitmodeling.jpg>]
-<capitulo_1/incerteza_limites.jpg, id=313, 894.34125pt x 753.81625pt>
+ [8]
+[9 <./capitulo_1/explicitmodeling.jpg>]
+<capitulo_1/incerteza_limites.jpg, id=323, 894.34125pt x 753.81625pt>
 File: capitulo_1/incerteza_limites.jpg Graphic file (type jpg)
 <use capitulo_1/incerteza_limites.jpg>
 Package pdftex.def Info: capitulo_1/incerteza_limites.jpg  used on input line 4
 3.
 (pdftex.def)             Requested size: 273.00278pt x 230.10341pt.
- [8 <./capitulo_1/incerteza_limites.jpg>]
-<capitulo_1/busto.jpg, id=353, 501.875pt x 282.05376pt>
+ [10 <./capitulo_1/incerteza_limites.jpg>]
+<capitulo_1/busto.jpg, id=363, 501.875pt x 282.05376pt>
 File: capitulo_1/busto.jpg Graphic file (type jpg)
 <use capitulo_1/busto.jpg>
 Package pdftex.def Info: capitulo_1/busto.jpg  used on input line 65.
@@ -1572,8 +1575,8 @@ Package pdftex.def Info: capitulo_1/busto.jpg  used on input line 65.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9]
-<capitulo_1/implicit_modelig_pt_1.jpg, id=382, 1051.33832pt x 379.60768pt>
+ [11]
+<capitulo_1/implicit_modelig_pt_1.jpg, id=393, 1051.33832pt x 379.60768pt>
 File: capitulo_1/implicit_modelig_pt_1.jpg Graphic file (type jpg)
 <use capitulo_1/implicit_modelig_pt_1.jpg>
 Package pdftex.def Info: capitulo_1/implicit_modelig_pt_1.jpg  used on input li
@@ -1589,21 +1592,21 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/it' in size <8> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 80.
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <8> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 80.
-) [10 <./capitulo_1/busto.jpg> <./capitulo_1/implicit_modelig_pt_1.jpg>]
-[11]
+) [12 <./capitulo_1/busto.jpg> <./capitulo_1/implicit_modelig_pt_1.jpg>]
+[13]
 \openout2 = `capitulo_2/capitulo_2.aux'.
 
- (capitulo_2/capitulo_2.tex [12
+ (capitulo_2/capitulo_2.tex [14
 
 
 
 ]
-<capitulo_2/prop_hist_big.png, id=421, 1796.7125pt x 1847.90375pt>
+<capitulo_2/prop_hist_big.png, id=431, 1796.7125pt x 1847.90375pt>
 File: capitulo_2/prop_hist_big.png Graphic file (type png)
 <use capitulo_2/prop_hist_big.png>
 Package pdftex.def Info: capitulo_2/prop_hist_big.png  used on input line 14.
 (pdftex.def)             Requested size: 227.5pt x 233.97626pt.
-<capitulo_2/dados.jpeg, id=424, 1082.0425pt x 821.0675pt>
+<capitulo_2/dados.jpeg, id=434, 1082.0425pt x 821.0675pt>
 File: capitulo_2/dados.jpeg Graphic file (type jpg)
 <use capitulo_2/dados.jpeg>
 Package pdftex.def Info: capitulo_2/dados.jpeg  used on input line 24.
@@ -1611,101 +1614,101 @@ Package pdftex.def Info: capitulo_2/dados.jpeg  used on input line 24.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13 <./capitulo_2/prop_hist_big.png>]
-<capitulo_2/inddf1.jpeg, id=434, 1082.0425pt x 821.0675pt>
+ [15 <./capitulo_2/prop_hist_big.png>]
+<capitulo_2/inddf1.jpeg, id=444, 1082.0425pt x 821.0675pt>
 File: capitulo_2/inddf1.jpeg Graphic file (type jpg)
 <use capitulo_2/inddf1.jpeg>
 Package pdftex.def Info: capitulo_2/inddf1.jpeg  used on input line 49.
 (pdftex.def)             Requested size: 136.50139pt x 103.57281pt.
-<capitulo_2/inddf2.jpeg, id=435, 1082.0425pt x 821.0675pt>
+<capitulo_2/inddf2.jpeg, id=445, 1082.0425pt x 821.0675pt>
 File: capitulo_2/inddf2.jpeg Graphic file (type jpg)
 <use capitulo_2/inddf2.jpeg>
 Package pdftex.def Info: capitulo_2/inddf2.jpeg  used on input line 50.
 (pdftex.def)             Requested size: 136.50139pt x 103.57281pt.
-<capitulo_2/inddf3.jpeg, id=436, 1082.0425pt x 821.0675pt>
+<capitulo_2/inddf3.jpeg, id=446, 1082.0425pt x 821.0675pt>
 File: capitulo_2/inddf3.jpeg Graphic file (type jpg)
 <use capitulo_2/inddf3.jpeg>
 Package pdftex.def Info: capitulo_2/inddf3.jpeg  used on input line 51.
 (pdftex.def)             Requested size: 136.50139pt x 103.57281pt.
- [14 <./capitulo_2/dados.jpeg>]
-<capitulo_2/2d_ex.jpg, id=445, 1469.49pt x 1050.92625pt>
+ [16 <./capitulo_2/dados.jpeg>]
+<capitulo_2/2d_ex.jpg, id=455, 1469.49pt x 1050.92625pt>
 File: capitulo_2/2d_ex.jpg Graphic file (type jpg)
 <use capitulo_2/2d_ex.jpg>
 Package pdftex.def Info: capitulo_2/2d_ex.jpg  used on input line 59.
 (pdftex.def)             Requested size: 273.00278pt x 195.23615pt.
-<capitulo_2/df1.jpeg, id=447, 1082.0425pt x 821.0675pt>
+<capitulo_2/df1.jpeg, id=457, 1082.0425pt x 821.0675pt>
 File: capitulo_2/df1.jpeg Graphic file (type jpg)
 <use capitulo_2/df1.jpeg>
 Package pdftex.def Info: capitulo_2/df1.jpeg  used on input line 80.
 (pdftex.def)             Requested size: 136.50139pt x 103.57281pt.
-<capitulo_2/df2.jpeg, id=448, 1082.0425pt x 821.0675pt>
+<capitulo_2/df2.jpeg, id=458, 1082.0425pt x 821.0675pt>
 File: capitulo_2/df2.jpeg Graphic file (type jpg)
 <use capitulo_2/df2.jpeg>
 Package pdftex.def Info: capitulo_2/df2.jpeg  used on input line 81.
 (pdftex.def)             Requested size: 136.50139pt x 103.57281pt.
-<capitulo_2/df3.jpeg, id=449, 1082.0425pt x 821.0675pt>
+<capitulo_2/df3.jpeg, id=459, 1082.0425pt x 821.0675pt>
 File: capitulo_2/df3.jpeg Graphic file (type jpg)
 <use capitulo_2/df3.jpeg>
 Package pdftex.def Info: capitulo_2/df3.jpeg  used on input line 82.
 (pdftex.def)             Requested size: 136.50139pt x 103.57281pt.
- [15 <./capitulo_2/inddf1.jpeg> <./capitulo_2/inddf2.jpeg> <./capitulo_2/inddf3
+ [17 <./capitulo_2/inddf1.jpeg> <./capitulo_2/inddf2.jpeg> <./capitulo_2/inddf3
 .jpeg> <./capitulo_2/2d_ex.jpg>]
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 105.
- [16 <./capitulo_2/df1.jpeg> <./capitulo_2/df2.jpeg> <./capitulo_2/df3.jpeg>]
-<capitulo_2/var_DF_1.png, id=479, 1882.03125pt x 1342.01375pt>
+ [18 <./capitulo_2/df1.jpeg> <./capitulo_2/df2.jpeg> <./capitulo_2/df3.jpeg>]
+<capitulo_2/var_DF_1.png, id=490, 1882.03125pt x 1342.01375pt>
 File: capitulo_2/var_DF_1.png Graphic file (type png)
 <use capitulo_2/var_DF_1.png>
 Package pdftex.def Info: capitulo_2/var_DF_1.png  used on input line 132.
 (pdftex.def)             Requested size: 136.50139pt x 97.32933pt.
-<capitulo_2/var_DF_2.png, id=480, 1882.03125pt x 1342.01375pt>
+<capitulo_2/var_DF_2.png, id=491, 1882.03125pt x 1342.01375pt>
 File: capitulo_2/var_DF_2.png Graphic file (type png)
 <use capitulo_2/var_DF_2.png>
 Package pdftex.def Info: capitulo_2/var_DF_2.png  used on input line 133.
 (pdftex.def)             Requested size: 136.50139pt x 97.32933pt.
-<capitulo_2/var_DF_3.png, id=481, 1882.03125pt x 1342.01375pt>
+<capitulo_2/var_DF_3.png, id=492, 1882.03125pt x 1342.01375pt>
 File: capitulo_2/var_DF_3.png Graphic file (type png)
 <use capitulo_2/var_DF_3.png>
 Package pdftex.def Info: capitulo_2/var_DF_3.png  used on input line 134.
 (pdftex.def)             Requested size: 136.50139pt x 97.32933pt.
- [17 <./capitulo_2/var_DF_1.png> <./capitulo_2/var_DF_2.png> <./capitulo_2/var_
+ [19 <./capitulo_2/var_DF_1.png> <./capitulo_2/var_DF_2.png> <./capitulo_2/var_
 DF_3.png>]
-<capitulo_2/var_Ind_DF_1.png, id=501, 1882.03125pt x 1344.02126pt>
+<capitulo_2/var_Ind_DF_1.png, id=511, 1882.03125pt x 1344.02126pt>
 File: capitulo_2/var_Ind_DF_1.png Graphic file (type png)
 <use capitulo_2/var_Ind_DF_1.png>
 Package pdftex.def Info: capitulo_2/var_Ind_DF_1.png  used on input line 159.
 (pdftex.def)             Requested size: 136.50139pt x 97.47493pt.
-<capitulo_2/var_Ind_DF_2.png, id=502, 1882.03125pt x 1344.02126pt>
+<capitulo_2/var_Ind_DF_2.png, id=512, 1882.03125pt x 1344.02126pt>
 File: capitulo_2/var_Ind_DF_2.png Graphic file (type png)
 <use capitulo_2/var_Ind_DF_2.png>
 Package pdftex.def Info: capitulo_2/var_Ind_DF_2.png  used on input line 160.
 (pdftex.def)             Requested size: 136.50139pt x 97.47493pt.
-<capitulo_2/var_Ind_DF_3.png, id=503, 1882.03125pt x 1344.02126pt>
+<capitulo_2/var_Ind_DF_3.png, id=513, 1882.03125pt x 1344.02126pt>
 File: capitulo_2/var_Ind_DF_3.png Graphic file (type png)
 <use capitulo_2/var_Ind_DF_3.png>
 Package pdftex.def Info: capitulo_2/var_Ind_DF_3.png  used on input line 161.
 (pdftex.def)             Requested size: 136.50139pt x 97.47493pt.
- [18 <./capitulo_2/var_Ind_DF_1.png> <./capitulo_2/var_Ind_DF_2.png> <./capitul
+ [20 <./capitulo_2/var_Ind_DF_1.png> <./capitulo_2/var_Ind_DF_2.png> <./capitul
 o_2/var_Ind_DF_3.png>]
-<capitulo_2/cov_table.png, id=526, 487.8225pt x 316.93407pt>
+<capitulo_2/cov_table.png, id=536, 487.8225pt x 316.93407pt>
 File: capitulo_2/cov_table.png Graphic file (type png)
 <use capitulo_2/cov_table.png>
 Package pdftex.def Info: capitulo_2/cov_table.png  used on input line 188.
 (pdftex.def)             Requested size: 318.49861pt x 206.92838pt.
- [19 <./capitulo_2/cov_table.png>]
-<capitulo_2/grid_res.png, id=540, 348.55219pt x 365.11406pt>
+ [21 <./capitulo_2/cov_table.png>]
+<capitulo_2/grid_res.png, id=550, 348.55219pt x 365.11406pt>
 File: capitulo_2/grid_res.png Graphic file (type png)
 <use capitulo_2/grid_res.png>
 Package pdftex.def Info: capitulo_2/grid_res.png  used on input line 208.
 (pdftex.def)             Requested size: 273.00278pt x 285.99118pt.
 
-[20 <./capitulo_2/grid_res.png>]
-<capitulo_2/coarserxz.png, id=555, 4942.465pt x 2212.265pt>
+[22 <./capitulo_2/grid_res.png>]
+<capitulo_2/coarserxz.png, id=565, 4942.465pt x 2212.265pt>
 File: capitulo_2/coarserxz.png Graphic file (type png)
 <use capitulo_2/coarserxz.png>
 Package pdftex.def Info: capitulo_2/coarserxz.png  used on input line 240.
 (pdftex.def)             Requested size: 364.00139pt x 162.90839pt.
-<capitulo_2/finerxz.png, id=556, 4942.465pt x 2232.34pt>
+<capitulo_2/finerxz.png, id=566, 4942.465pt x 2232.34pt>
 File: capitulo_2/finerxz.png Graphic file (type png)
 <use capitulo_2/finerxz.png>
 Package pdftex.def Info: capitulo_2/finerxz.png  used on input line 243.
@@ -1713,21 +1716,21 @@ Package pdftex.def Info: capitulo_2/finerxz.png  used on input line 243.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21]
+ [23]
 Underfull \vbox (badness 1412) has occurred while \output is active []
 
- [22 <./capitulo_2/coarserxz.png> <./capitulo_2/finerxz.png>]
-<capitulo_2/kt3d40.jpeg, id=595, 1082.0425pt x 821.0675pt>
+ [24 <./capitulo_2/coarserxz.png> <./capitulo_2/finerxz.png>]
+<capitulo_2/kt3d40.jpeg, id=606, 1082.0425pt x 821.0675pt>
 File: capitulo_2/kt3d40.jpeg Graphic file (type jpg)
 <use capitulo_2/kt3d40.jpeg>
 Package pdftex.def Info: capitulo_2/kt3d40.jpeg  used on input line 262.
 (pdftex.def)             Requested size: 273.00278pt x 207.15817pt.
-<capitulo_2/kt3d100.jpeg, id=596, 1082.0425pt x 821.0675pt>
+<capitulo_2/kt3d100.jpeg, id=607, 1082.0425pt x 821.0675pt>
 File: capitulo_2/kt3d100.jpeg Graphic file (type jpg)
 <use capitulo_2/kt3d100.jpeg>
 Package pdftex.def Info: capitulo_2/kt3d100.jpeg  used on input line 263.
 (pdftex.def)             Requested size: 273.00278pt x 207.15817pt.
-<capitulo_2/rbf.jpeg, id=597, 1082.0425pt x 821.0675pt>
+<capitulo_2/rbf.jpeg, id=608, 1082.0425pt x 821.0675pt>
 File: capitulo_2/rbf.jpeg Graphic file (type jpg)
 <use capitulo_2/rbf.jpeg>
 Package pdftex.def Info: capitulo_2/rbf.jpeg  used on input line 264.
@@ -1735,35 +1738,35 @@ Package pdftex.def Info: capitulo_2/rbf.jpeg  used on input line 264.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
+ [25]
 Overfull \vbox (17.9745pt too high) has occurred while \output is active []
 
 
-[24 <./capitulo_2/kt3d40.jpeg> <./capitulo_2/kt3d100.jpeg> <./capitulo_2/rbf.jp
+[26 <./capitulo_2/kt3d40.jpeg> <./capitulo_2/kt3d100.jpeg> <./capitulo_2/rbf.jp
 eg>]
-<capitulo_2/globalind2.png, id=611, 1156.32pt x 825.0825pt>
+<capitulo_2/globalind2.png, id=621, 1156.32pt x 825.0825pt>
 File: capitulo_2/globalind2.png Graphic file (type png)
 <use capitulo_2/globalind2.png>
 Package pdftex.def Info: capitulo_2/globalind2.png  used on input line 270.
 (pdftex.def)             Requested size: 273.00278pt x 194.78828pt.
- [25 <./capitulo_2/globalind2.png (PNG copy)>] [26]
-<capitulo_2/pou.jpg, id=649, 809.0225pt x 301.125pt>
+ [27 <./capitulo_2/globalind2.png (PNG copy)>] [28]
+<capitulo_2/pou.jpg, id=659, 809.0225pt x 301.125pt>
 File: capitulo_2/pou.jpg Graphic file (type jpg)
 <use capitulo_2/pou.jpg>
 Package pdftex.def Info: capitulo_2/pou.jpg  used on input line 334.
 (pdftex.def)             Requested size: 409.49722pt x 152.41841pt.
- [27 <./capitulo_2/pou.jpg>]
-<capitulo_2/isokt3d40.jpeg, id=672, 1082.0425pt x 821.0675pt>
+ [29 <./capitulo_2/pou.jpg>]
+<capitulo_2/isokt3d40.jpeg, id=683, 1082.0425pt x 821.0675pt>
 File: capitulo_2/isokt3d40.jpeg Graphic file (type jpg)
 <use capitulo_2/isokt3d40.jpeg>
 Package pdftex.def Info: capitulo_2/isokt3d40.jpeg  used on input line 355.
 (pdftex.def)             Requested size: 273.00278pt x 207.15817pt.
-<capitulo_2/isokt3dn100.jpeg, id=673, 1082.0425pt x 821.0675pt>
+<capitulo_2/isokt3dn100.jpeg, id=684, 1082.0425pt x 821.0675pt>
 File: capitulo_2/isokt3dn100.jpeg Graphic file (type jpg)
 <use capitulo_2/isokt3dn100.jpeg>
 Package pdftex.def Info: capitulo_2/isokt3dn100.jpeg  used on input line 356.
 (pdftex.def)             Requested size: 273.00278pt x 207.15817pt.
-<capitulo_2/isorbf.jpeg, id=674, 1082.0425pt x 821.0675pt>
+<capitulo_2/isorbf.jpeg, id=685, 1082.0425pt x 821.0675pt>
 File: capitulo_2/isorbf.jpeg Graphic file (type jpg)
 <use capitulo_2/isorbf.jpeg>
 Package pdftex.def Info: capitulo_2/isorbf.jpeg  used on input line 357.
@@ -1771,37 +1774,37 @@ Package pdftex.def Info: capitulo_2/isorbf.jpeg  used on input line 357.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28]
+ [30]
 Overfull \vbox (17.9745pt too high) has occurred while \output is active []
 
 
-[29 <./capitulo_2/isokt3d40.jpeg> <./capitulo_2/isokt3dn100.jpeg> <./capitulo_2
+[31 <./capitulo_2/isokt3d40.jpeg> <./capitulo_2/isokt3dn100.jpeg> <./capitulo_2
 /isorbf.jpeg>]
-<capitulo_2/iso_cat1_rbf.jpeg, id=691, 1113.15875pt x 821.0675pt>
+<capitulo_2/iso_cat1_rbf.jpeg, id=701, 1113.15875pt x 821.0675pt>
 File: capitulo_2/iso_cat1_rbf.jpeg Graphic file (type jpg)
 <use capitulo_2/iso_cat1_rbf.jpeg>
 Package pdftex.def Info: capitulo_2/iso_cat1_rbf.jpeg  used on input line 367.
 (pdftex.def)             Requested size: 227.5pt x 167.80626pt.
-<capitulo_2/iso_cat1_rbf2.jpeg, id=692, 1113.15875pt x 821.0675pt>
+<capitulo_2/iso_cat1_rbf2.jpeg, id=702, 1113.15875pt x 821.0675pt>
 File: capitulo_2/iso_cat1_rbf2.jpeg Graphic file (type jpg)
 <use capitulo_2/iso_cat1_rbf2.jpeg>
 Package pdftex.def Info: capitulo_2/iso_cat1_rbf2.jpeg  used on input line 368.
 
 (pdftex.def)             Requested size: 227.5pt x 167.80626pt.
-<capitulo_2/iso_cat2_rbf.jpeg, id=693, 1113.15875pt x 821.0675pt>
+<capitulo_2/iso_cat2_rbf.jpeg, id=703, 1113.15875pt x 821.0675pt>
 File: capitulo_2/iso_cat2_rbf.jpeg Graphic file (type jpg)
 <use capitulo_2/iso_cat2_rbf.jpeg>
 Package pdftex.def Info: capitulo_2/iso_cat2_rbf.jpeg  used on input line 374.
 (pdftex.def)             Requested size: 227.5pt x 167.80626pt.
-<capitulo_2/iso_cat2_rbr2.jpeg, id=694, 1113.15875pt x 821.0675pt>
+<capitulo_2/iso_cat2_rbr2.jpeg, id=704, 1113.15875pt x 821.0675pt>
 File: capitulo_2/iso_cat2_rbr2.jpeg Graphic file (type jpg)
 <use capitulo_2/iso_cat2_rbr2.jpeg>
 Package pdftex.def Info: capitulo_2/iso_cat2_rbr2.jpeg  used on input line 375.
 
 (pdftex.def)             Requested size: 227.5pt x 167.80626pt.
- [30 <./capitulo_2/iso_cat1_rbf.jpeg> <./capitulo_2/iso_cat1_rbf2.jpeg> <./capi
+ [32 <./capitulo_2/iso_cat1_rbf.jpeg> <./capitulo_2/iso_cat1_rbf2.jpeg> <./capi
 tulo_2/iso_cat2_rbf.jpeg> <./capitulo_2/iso_cat2_rbr2.jpeg>]
-<capitulo_2/mult_cat_legenda.jpg, id=714, 658.46pt x 288.07625pt>
+<capitulo_2/mult_cat_legenda.jpg, id=724, 658.46pt x 288.07625pt>
 File: capitulo_2/mult_cat_legenda.jpg Graphic file (type jpg)
 <use capitulo_2/mult_cat_legenda.jpg>
 Package pdftex.def Info: capitulo_2/mult_cat_legenda.jpg  used on input line 42
@@ -1810,13 +1813,13 @@ Package pdftex.def Info: capitulo_2/mult_cat_legenda.jpg  used on input line 42
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31]
-<capitulo_2/anisofinexz.png, id=727, 4942.465pt x 2232.34pt>
+ [33]
+<capitulo_2/anisofinexz.png, id=737, 4942.465pt x 2232.34pt>
 File: capitulo_2/anisofinexz.png Graphic file (type png)
 <use capitulo_2/anisofinexz.png>
 Package pdftex.def Info: capitulo_2/anisofinexz.png  used on input line 432.
 (pdftex.def)             Requested size: 364.00139pt x 164.38669pt.
-<capitulo_2/anisofineryz.png, id=728, 4942.465pt x 2212.265pt>
+<capitulo_2/anisofineryz.png, id=738, 4942.465pt x 2212.265pt>
 File: capitulo_2/anisofineryz.png Graphic file (type png)
 <use capitulo_2/anisofineryz.png>
 Package pdftex.def Info: capitulo_2/anisofineryz.png  used on input line 435.
@@ -1824,11 +1827,11 @@ Package pdftex.def Info: capitulo_2/anisofineryz.png  used on input line 435.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32 <./capitulo_2/mult_cat_legenda.jpg>]
+ [34 <./capitulo_2/mult_cat_legenda.jpg>]
 Underfull \vbox (badness 1769) has occurred while \output is active []
 
- [33 <./capitulo_2/anisofinexz.png> <./capitulo_2/anisofineryz.png>]
-<capitulo_2/lvakrig1.jpg, id=747, 1422.31375pt x 730.73pt>
+ [35 <./capitulo_2/anisofinexz.png> <./capitulo_2/anisofineryz.png>]
+<capitulo_2/lvakrig1.jpg, id=758, 1422.31375pt x 730.73pt>
 File: capitulo_2/lvakrig1.jpg Graphic file (type jpg)
 <use capitulo_2/lvakrig1.jpg>
 Package pdftex.def Info: capitulo_2/lvakrig1.jpg  used on input line 454.
@@ -1844,19 +1847,19 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [34 <./capitulo_2/lvakrig1.jpg>]
-<capitulo_2/lva_krig.jpeg, id=763, 1037.8775pt x 821.0675pt>
+ [36 <./capitulo_2/lvakrig1.jpg>]
+<capitulo_2/lva_krig.jpeg, id=774, 1037.8775pt x 821.0675pt>
 File: capitulo_2/lva_krig.jpeg Graphic file (type jpg)
 <use capitulo_2/lva_krig.jpeg>
 Package pdftex.def Info: capitulo_2/lva_krig.jpeg  used on input line 468.
 (pdftex.def)             Requested size: 227.5pt x 179.97139pt.
-<capitulo_2/lva_krig_100000.jpeg, id=764, 1037.8775pt x 821.0675pt>
+<capitulo_2/lva_krig_100000.jpeg, id=775, 1037.8775pt x 821.0675pt>
 File: capitulo_2/lva_krig_100000.jpeg Graphic file (type jpg)
 <use capitulo_2/lva_krig_100000.jpeg>
 Package pdftex.def Info: capitulo_2/lva_krig_100000.jpeg  used on input line 46
 9.
 (pdftex.def)             Requested size: 227.5pt x 179.97139pt.
-<capitulo_2/lvarbf1.jpg, id=769, 1422.31375pt x 730.73pt>
+<capitulo_2/lvarbf1.jpg, id=780, 1422.31375pt x 730.73pt>
 File: capitulo_2/lvarbf1.jpg Graphic file (type jpg)
 <use capitulo_2/lvarbf1.jpg>
 Package pdftex.def Info: capitulo_2/lvarbf1.jpg  used on input line 481.
@@ -1864,14 +1867,14 @@ Package pdftex.def Info: capitulo_2/lvarbf1.jpg  used on input line 481.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35 <./capitulo_2/lva_krig.jpeg> <./capitulo_2/lva_krig_100000.jpeg>]
-<capitulo_2/rbf_iterref.jpeg, id=785, 1037.8775pt x 821.0675pt>
+ [37 <./capitulo_2/lva_krig.jpeg> <./capitulo_2/lva_krig_100000.jpeg>]
+<capitulo_2/rbf_iterref.jpeg, id=795, 1037.8775pt x 821.0675pt>
 File: capitulo_2/rbf_iterref.jpeg Graphic file (type jpg)
 <use capitulo_2/rbf_iterref.jpeg>
 Package pdftex.def Info: capitulo_2/rbf_iterref.jpeg  used on input line 491.
 (pdftex.def)             Requested size: 227.5pt x 179.97139pt.
- [36 <./capitulo_2/lvarbf1.jpg> <./capitulo_2/rbf_iterref.jpeg>]
-<capitulo_2/iterref.jpg, id=793, 1760.5775pt x 1628.0825pt>
+ [38 <./capitulo_2/lvarbf1.jpg> <./capitulo_2/rbf_iterref.jpeg>]
+<capitulo_2/iterref.jpg, id=803, 1760.5775pt x 1628.0825pt>
 File: capitulo_2/iterref.jpg Graphic file (type jpg)
 <use capitulo_2/iterref.jpg>
 Package pdftex.def Info: capitulo_2/iterref.jpg  used on input line 507.
@@ -1879,13 +1882,13 @@ Package pdftex.def Info: capitulo_2/iterref.jpg  used on input line 507.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37 <./capitulo_2/iterref.jpg>]
-<capitulo_2/secoes.jpg, id=811, 1151.30125pt x 643.40375pt>
+ [39 <./capitulo_2/iterref.jpg>]
+<capitulo_2/secoes.jpg, id=821, 1151.30125pt x 643.40375pt>
 File: capitulo_2/secoes.jpg Graphic file (type jpg)
 <use capitulo_2/secoes.jpg>
 Package pdftex.def Info: capitulo_2/secoes.jpg  used on input line 527.
 (pdftex.def)             Requested size: 364.00139pt x 203.41939pt.
-<capitulo_2/modelo_mls.jpg, id=812, 1325.95375pt x 708.6475pt>
+<capitulo_2/modelo_mls.jpg, id=822, 1325.95375pt x 708.6475pt>
 File: capitulo_2/modelo_mls.jpg Graphic file (type jpg)
 <use capitulo_2/modelo_mls.jpg>
 Package pdftex.def Info: capitulo_2/modelo_mls.jpg  used on input line 530.
@@ -1893,9 +1896,9 @@ Package pdftex.def Info: capitulo_2/modelo_mls.jpg  used on input line 530.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38]
-[39 <./capitulo_2/secoes.jpg> <./capitulo_2/modelo_mls.jpg>]
-<capitulo_2/softmax_bars_final.jpg, id=838, 1081.03876pt x 341.275pt>
+ [40]
+[41 <./capitulo_2/secoes.jpg> <./capitulo_2/modelo_mls.jpg>]
+<capitulo_2/softmax_bars_final.jpg, id=849, 1081.03876pt x 341.275pt>
 File: capitulo_2/softmax_bars_final.jpg Graphic file (type jpg)
 <use capitulo_2/softmax_bars_final.jpg>
 Package pdftex.def Info: capitulo_2/softmax_bars_final.jpg  used on input line 
@@ -1904,13 +1907,13 @@ Package pdftex.def Info: capitulo_2/softmax_bars_final.jpg  used on input line
 
 Underfull \vbox (badness 2990) has occurred while \output is active []
 
- [40]
-<capitulo_2/xz_30.png, id=851, 5151.245pt x 2232.34pt>
+ [42]
+<capitulo_2/xz_30.png, id=862, 5151.245pt x 2232.34pt>
 File: capitulo_2/xz_30.png Graphic file (type png)
 <use capitulo_2/xz_30.png>
 Package pdftex.def Info: capitulo_2/xz_30.png  used on input line 572.
 (pdftex.def)             Requested size: 364.00139pt x 157.7104pt.
-<capitulo_2/xz_50.png, id=852, 5163.29pt x 2232.34pt>
+<capitulo_2/xz_50.png, id=863, 5163.29pt x 2232.34pt>
 File: capitulo_2/xz_50.png Graphic file (type png)
 <use capitulo_2/xz_50.png>
 Package pdftex.def Info: capitulo_2/xz_50.png  used on input line 575.
@@ -1918,17 +1921,17 @@ Package pdftex.def Info: capitulo_2/xz_50.png  used on input line 575.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41 <./capitulo_2/softmax_bars_final.jpg>]
+ [43 <./capitulo_2/softmax_bars_final.jpg>]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 581.
- [42 <./capitulo_2/xz_30.png> <./capitulo_2/xz_50.png>]
-<capitulo_2/BS_DF_1.png, id=874, 1849.91125pt x 1337.99875pt>
+ [44 <./capitulo_2/xz_30.png> <./capitulo_2/xz_50.png>]
+<capitulo_2/BS_DF_1.png, id=884, 1849.91125pt x 1337.99875pt>
 File: capitulo_2/BS_DF_1.png Graphic file (type png)
 <use capitulo_2/BS_DF_1.png>
 Package pdftex.def Info: capitulo_2/BS_DF_1.png  used on input line 588.
 (pdftex.def)             Requested size: 227.5pt x 164.53407pt.
- [43 <./capitulo_2/BS_DF_1.png>]
-<capitulo_2/u_coef.png, id=890, 5008.7125pt x 2232.34pt>
+ [45 <./capitulo_2/BS_DF_1.png>]
+<capitulo_2/u_coef.png, id=900, 5008.7125pt x 2232.34pt>
 File: capitulo_2/u_coef.png Graphic file (type png)
 <use capitulo_2/u_coef.png>
 Package pdftex.def Info: capitulo_2/u_coef.png  used on input line 638.
@@ -1936,18 +1939,18 @@ Package pdftex.def Info: capitulo_2/u_coef.png  used on input line 638.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44]
-<capitulo_2/Ucutoff1.png, id=899, 5050.87pt x 2232.34pt>
+ [46]
+<capitulo_2/Ucutoff1.png, id=909, 5050.87pt x 2232.34pt>
 File: capitulo_2/Ucutoff1.png Graphic file (type png)
 <use capitulo_2/Ucutoff1.png>
 Package pdftex.def Info: capitulo_2/Ucutoff1.png  used on input line 648.
 (pdftex.def)             Requested size: 364.00139pt x 160.87823pt.
-<capitulo_2/Ucutoff2.png, id=900, 5050.87pt x 2232.34pt>
+<capitulo_2/Ucutoff2.png, id=910, 5050.87pt x 2232.34pt>
 File: capitulo_2/Ucutoff2.png Graphic file (type png)
 <use capitulo_2/Ucutoff2.png>
 Package pdftex.def Info: capitulo_2/Ucutoff2.png  used on input line 649.
 (pdftex.def)             Requested size: 364.00139pt x 160.87823pt.
-<capitulo_2/ucutoff3.png, id=901, 5050.87pt x 2232.34pt>
+<capitulo_2/ucutoff3.png, id=911, 5050.87pt x 2232.34pt>
 File: capitulo_2/ucutoff3.png Graphic file (type png)
 <use capitulo_2/ucutoff3.png>
 Package pdftex.def Info: capitulo_2/ucutoff3.png  used on input line 650.
@@ -1955,14 +1958,14 @@ Package pdftex.def Info: capitulo_2/ucutoff3.png  used on input line 650.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45 <./capitulo_2/u_coef.png>]
-<capitulo_2/directsimreal1.png, id=908, 4942.465pt x 2212.265pt>
+ [47 <./capitulo_2/u_coef.png>]
+<capitulo_2/directsimreal1.png, id=919, 4942.465pt x 2212.265pt>
 File: capitulo_2/directsimreal1.png Graphic file (type png)
 <use capitulo_2/directsimreal1.png>
 Package pdftex.def Info: capitulo_2/directsimreal1.png  used on input line 661.
 
 (pdftex.def)             Requested size: 364.00139pt x 162.90839pt.
-<capitulo_2/directsimreal2.png, id=909, 4942.465pt x 2212.265pt>
+<capitulo_2/directsimreal2.png, id=920, 4942.465pt x 2212.265pt>
 File: capitulo_2/directsimreal2.png Graphic file (type png)
 <use capitulo_2/directsimreal2.png>
 Package pdftex.def Info: capitulo_2/directsimreal2.png  used on input line 664.
@@ -1971,15 +1974,15 @@ Package pdftex.def Info: capitulo_2/directsimreal2.png  used on input line 664.
 
 Underfull \vbox (badness 1137) has occurred while \output is active []
 
- [46 <./capitulo_2/Ucutoff1.png> <./capitulo_2/Ucutoff2.png> <./capitulo_2/ucut
+ [48 <./capitulo_2/Ucutoff1.png> <./capitulo_2/Ucutoff2.png> <./capitulo_2/ucut
 off3.png>]
-[47 <./capitulo_2/directsimreal1.png> <./capitulo_2/directsimreal2.png>]
-<capitulo_2/snesim_real1.png, id=948, 4942.465pt x 2232.34pt>
+[49 <./capitulo_2/directsimreal1.png> <./capitulo_2/directsimreal2.png>]
+<capitulo_2/snesim_real1.png, id=958, 4942.465pt x 2232.34pt>
 File: capitulo_2/snesim_real1.png Graphic file (type png)
 <use capitulo_2/snesim_real1.png>
 Package pdftex.def Info: capitulo_2/snesim_real1.png  used on input line 694.
 (pdftex.def)             Requested size: 364.00139pt x 164.38669pt.
-<capitulo_2/snesim_real2.png, id=949, 4942.465pt x 2232.34pt>
+<capitulo_2/snesim_real2.png, id=959, 4942.465pt x 2232.34pt>
 File: capitulo_2/snesim_real2.png Graphic file (type png)
 <use capitulo_2/snesim_real2.png>
 Package pdftex.def Info: capitulo_2/snesim_real2.png  used on input line 697.
@@ -1987,9 +1990,9 @@ Package pdftex.def Info: capitulo_2/snesim_real2.png  used on input line 697.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48]
-[49 <./capitulo_2/snesim_real1.png> <./capitulo_2/snesim_real2.png>]
-<capitulo_2/uncert_1.png, id=980, 1364.09625pt x 841.1425pt>
+ [50]
+[51 <./capitulo_2/snesim_real1.png> <./capitulo_2/snesim_real2.png>]
+<capitulo_2/uncert_1.png, id=990, 1364.09625pt x 841.1425pt>
 File: capitulo_2/uncert_1.png Graphic file (type png)
 <use capitulo_2/uncert_1.png>
 Package pdftex.def Info: capitulo_2/uncert_1.png  used on input line 718.
@@ -1997,24 +2000,24 @@ Package pdftex.def Info: capitulo_2/uncert_1.png  used on input line 718.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50 <./capitulo_2/uncert_1.png>]
-<capitulo_2/classificacao.png, id=995, 423.83344pt x 190.46156pt>
+ [52 <./capitulo_2/uncert_1.png>]
+<capitulo_2/classificacao.png, id=1005, 423.83344pt x 190.46156pt>
 File: capitulo_2/classificacao.png Graphic file (type png)
 <use capitulo_2/classificacao.png>
 Package pdftex.def Info: capitulo_2/classificacao.png  used on input line 737.
 (pdftex.def)             Requested size: 364.00139pt x 163.58157pt.
- [51 <./capitulo_2/classificacao.png>]
-<capitulo_2/interpolated.jpeg, id=1007, 1113.15875pt x 821.0675pt>
+ [53 <./capitulo_2/classificacao.png>]
+<capitulo_2/interpolated.jpeg, id=1018, 1113.15875pt x 821.0675pt>
 File: capitulo_2/interpolated.jpeg Graphic file (type jpg)
 <use capitulo_2/interpolated.jpeg>
 Package pdftex.def Info: capitulo_2/interpolated.jpeg  used on input line 757.
 (pdftex.def)             Requested size: 273.00278pt x 201.37001pt.
-<capitulo_2/simulated.jpeg, id=1008, 1113.15875pt x 821.0675pt>
+<capitulo_2/simulated.jpeg, id=1019, 1113.15875pt x 821.0675pt>
 File: capitulo_2/simulated.jpeg Graphic file (type jpg)
 <use capitulo_2/simulated.jpeg>
 Package pdftex.def Info: capitulo_2/simulated.jpeg  used on input line 758.
 (pdftex.def)             Requested size: 273.00278pt x 201.37001pt.
-<capitulo_2/classification.jpeg, id=1009, 1113.15875pt x 821.0675pt>
+<capitulo_2/classification.jpeg, id=1020, 1113.15875pt x 821.0675pt>
 File: capitulo_2/classification.jpeg Graphic file (type jpg)
 <use capitulo_2/classification.jpeg>
 Package pdftex.def Info: capitulo_2/classification.jpeg  used on input line 759
@@ -2023,167 +2026,186 @@ Package pdftex.def Info: capitulo_2/classification.jpeg  used on input line 759
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52]
+ [54]
 Overfull \vbox (0.61002pt too high) has occurred while \output is active []
 
 
-[53 <./capitulo_2/interpolated.jpeg> <./capitulo_2/simulated.jpeg> <./capitulo_
+[55 <./capitulo_2/interpolated.jpeg> <./capitulo_2/simulated.jpeg> <./capitulo_
 2/classification.jpeg>]
-<capitulo_2/cpar1.png, id=1023, 4979.60374pt x 2232.34pt>
+<capitulo_2/cpar1.png, id=1033, 4979.60374pt x 2232.34pt>
 File: capitulo_2/cpar1.png Graphic file (type png)
 <use capitulo_2/cpar1.png>
 Package pdftex.def Info: capitulo_2/cpar1.png  used on input line 768.
 (pdftex.def)             Requested size: 364.00139pt x 163.16043pt.
-<capitulo_2/cparyz.png, id=1024, 4979.60374pt x 2232.34pt>
+<capitulo_2/cparyz.png, id=1034, 4979.60374pt x 2232.34pt>
 File: capitulo_2/cparyz.png Graphic file (type png)
 <use capitulo_2/cparyz.png>
 Package pdftex.def Info: capitulo_2/cparyz.png  used on input line 771.
 (pdftex.def)             Requested size: 364.00139pt x 163.16043pt.
-<capitulo_2/hier_example.png, id=1028, 429.7656pt x 198.0198pt>
+<capitulo_2/hier_example.png, id=1038, 429.7656pt x 198.0198pt>
 File: capitulo_2/hier_example.png Graphic file (type png)
 <use capitulo_2/hier_example.png>
 Package pdftex.def Info: capitulo_2/hier_example.png  used on input line 782.
 (pdftex.def)             Requested size: 455.0pt x 209.65222pt.
- [54 <./capitulo_2/cpar1.png> <./capitulo_2/cparyz.png>]) [55 <./capitulo_2/hie
+ [56 <./capitulo_2/cpar1.png> <./capitulo_2/cparyz.png>]) [57 <./capitulo_2/hie
 r_example.png>]
 \openout2 = `capitulo_3/capitulo_3.aux'.
 
- (capitulo_3/capitulo_3.tex [56
+ (capitulo_3/capitulo_3.tex [58
 
 
 
-] [57]
-[58]
-<capitulo_3/actual.png, id=1074, 306.14375pt x 278.03876pt>
+] [59]
+[60]
+<capitulo_3/actual.png, id=1085, 306.14375pt x 278.03876pt>
 File: capitulo_3/actual.png Graphic file (type png)
 <use capitulo_3/actual.png>
 Package pdftex.def Info: capitulo_3/actual.png  used on input line 37.
-(pdftex.def)             Requested size: 136.50139pt x 123.9708pt.
-<capitulo_3/krig.png, id=1075, 306.14375pt x 278.03876pt>
+(pdftex.def)             Requested size: 227.5pt x 206.61517pt.
+<capitulo_3/krig.png, id=1086, 306.14375pt x 278.03876pt>
 File: capitulo_3/krig.png Graphic file (type png)
 <use capitulo_3/krig.png>
 Package pdftex.def Info: capitulo_3/krig.png  used on input line 38.
-(pdftex.def)             Requested size: 136.50139pt x 123.9708pt.
-<capitulo_3/ml.png, id=1076, 306.14375pt x 278.03876pt>
+(pdftex.def)             Requested size: 227.5pt x 206.61517pt.
+<capitulo_3/ml.png, id=1087, 306.14375pt x 278.03876pt>
 File: capitulo_3/ml.png Graphic file (type png)
 <use capitulo_3/ml.png>
 Package pdftex.def Info: capitulo_3/ml.png  used on input line 39.
-(pdftex.def)             Requested size: 136.50139pt x 123.9708pt.
-<capitulo_3/neuronio.jpg, id=1084, 401.5pt x 400.49625pt>
-File: capitulo_3/neuronio.jpg Graphic file (type jpg)
-<use capitulo_3/neuronio.jpg>
-Package pdftex.def Info: capitulo_3/neuronio.jpg  used on input line 48.
-(pdftex.def)             Requested size: 136.50139pt x 136.16081pt.
- [59 <./capitulo_3/actual.png> <./capitulo_3/krig.png> <./capitulo_3/ml.png> <.
-/capitulo_3/neuronio.jpg>]
-<capitulo_3/NN_ex.png, id=1103, 883.3pt x 436.63126pt>
-File: capitulo_3/NN_ex.png Graphic file (type png)
-<use capitulo_3/NN_ex.png>
-Package pdftex.def Info: capitulo_3/NN_ex.png  used on input line 60.
-(pdftex.def)             Requested size: 318.49861pt x 157.44029pt.
- [60 <./capitulo_3/NN_ex.png>]
-<capitulo_3/bloco1.jpg, id=1124, 481.8pt x 290.08376pt>
-File: capitulo_3/bloco1.jpg Graphic file (type jpg)
-<use capitulo_3/bloco1.jpg>
-Package pdftex.def Info: capitulo_3/bloco1.jpg  used on input line 87.
-(pdftex.def)             Requested size: 227.5pt x 136.97234pt.
-<capitulo_3/bloco2.jpg, id=1125, 481.8pt x 290.08376pt>
-File: capitulo_3/bloco2.jpg Graphic file (type jpg)
-<use capitulo_3/bloco2.jpg>
-Package pdftex.def Info: capitulo_3/bloco2.jpg  used on input line 88.
-(pdftex.def)             Requested size: 227.5pt x 136.97234pt.
+(pdftex.def)             Requested size: 227.5pt x 206.61517pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [61]
-<capitulo_3/entropy_20.png, id=1135, 5102.06125pt x 2232.34pt>
+Overfull \vbox (41.84549pt too high) has occurred while \output is active []
+
+
+[62 <./capitulo_3/actual.png> <./capitulo_3/krig.png> <./capitulo_3/ml.png>]
+<capitulo_3/neuronio.jpg, id=1106, 401.5pt x 400.49625pt>
+File: capitulo_3/neuronio.jpg Graphic file (type jpg)
+<use capitulo_3/neuronio.jpg>
+Package pdftex.def Info: capitulo_3/neuronio.jpg  used on input line 48.
+(pdftex.def)             Requested size: 136.50139pt x 136.16081pt.
+<capitulo_3/NN_ex.png, id=1116, 883.3pt x 436.63126pt>
+File: capitulo_3/NN_ex.png Graphic file (type png)
+<use capitulo_3/NN_ex.png>
+Package pdftex.def Info: capitulo_3/NN_ex.png  used on input line 60.
+(pdftex.def)             Requested size: 318.49861pt x 157.44029pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [63 <./capitulo_3/neuronio.jpg>] [64 <./capitulo_3/NN_ex.png>]
+<capitulo_3/zona1.jpg, id=1138, 803.0pt x 602.25pt>
+File: capitulo_3/zona1.jpg Graphic file (type jpg)
+<use capitulo_3/zona1.jpg>
+Package pdftex.def Info: capitulo_3/zona1.jpg  used on input line 81.
+(pdftex.def)             Requested size: 181.99722pt x 136.49287pt.
+<capitulo_3/zona2.jpg, id=1139, 803.0pt x 602.25pt>
+File: capitulo_3/zona2.jpg Graphic file (type jpg)
+<use capitulo_3/zona2.jpg>
+Package pdftex.def Info: capitulo_3/zona2.jpg  used on input line 82.
+(pdftex.def)             Requested size: 181.99722pt x 136.49287pt.
+<capitulo_3/bloco1.jpg, id=1144, 481.8pt x 290.08376pt>
+File: capitulo_3/bloco1.jpg Graphic file (type jpg)
+<use capitulo_3/bloco1.jpg>
+Package pdftex.def Info: capitulo_3/bloco1.jpg  used on input line 98.
+(pdftex.def)             Requested size: 227.5pt x 136.97234pt.
+<capitulo_3/bloco2.jpg, id=1145, 481.8pt x 290.08376pt>
+File: capitulo_3/bloco2.jpg Graphic file (type jpg)
+<use capitulo_3/bloco2.jpg>
+Package pdftex.def Info: capitulo_3/bloco2.jpg  used on input line 99.
+(pdftex.def)             Requested size: 227.5pt x 136.97234pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [65 <./capitulo_3/zona1.jpg> <./capitulo_3/zona2.jpg>]
+<capitulo_3/entropy_20.png, id=1158, 5102.06125pt x 2232.34pt>
 File: capitulo_3/entropy_20.png Graphic file (type png)
 <use capitulo_3/entropy_20.png>
-Package pdftex.def Info: capitulo_3/entropy_20.png  used on input line 99.
+Package pdftex.def Info: capitulo_3/entropy_20.png  used on input line 110.
 (pdftex.def)             Requested size: 364.00139pt x 159.24323pt.
-<capitulo_3/entropy_10.png, id=1136, 5103.065pt x 2232.34pt>
+<capitulo_3/entropy_10.png, id=1159, 5103.065pt x 2232.34pt>
 File: capitulo_3/entropy_10.png Graphic file (type png)
 <use capitulo_3/entropy_10.png>
-Package pdftex.def Info: capitulo_3/entropy_10.png  used on input line 102.
+Package pdftex.def Info: capitulo_3/entropy_10.png  used on input line 113.
 (pdftex.def)             Requested size: 364.00139pt x 159.20915pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [62 <./capitulo_3/bloco1.jpg> <./capitulo_3/bloco2.jpg>]
-<capitulo_3/calib100.png, id=1144, 399.4925pt x 279.0425pt>
+ [66 <./capitulo_3/bloco1.jpg> <./capitulo_3/bloco2.jpg>]
+<capitulo_3/calib100.png, id=1167, 399.4925pt x 279.0425pt>
 File: capitulo_3/calib100.png Graphic file (type png)
 <use capitulo_3/calib100.png>
-Package pdftex.def Info: capitulo_3/calib100.png  used on input line 111.
+Package pdftex.def Info: capitulo_3/calib100.png  used on input line 122.
 (pdftex.def)             Requested size: 318.49861pt x 222.48065pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [63 <./capitulo_3/entropy_20.png> <./capitulo_3/entropy_10.png>] [64 <./capitu
+ [67 <./capitulo_3/entropy_20.png> <./capitulo_3/entropy_10.png>] [68 <./capitu
 lo_3/calib100.png>]
-<capitulo_3/classificacao_multi.jpg, id=1159, 428.29485pt x 192.46642pt>
+<capitulo_3/classificacao_multi.jpg, id=1182, 428.29485pt x 192.46642pt>
 File: capitulo_3/classificacao_multi.jpg Graphic file (type jpg)
 <use capitulo_3/classificacao_multi.jpg>
 Package pdftex.def Info: capitulo_3/classificacao_multi.jpg  used on input line
- 129.
+ 140.
 (pdftex.def)             Requested size: 364.00139pt x 163.57664pt.
- [65 <./capitulo_3/classificacao_multi.jpg>]
-<capitulo_3/gauss_trunc_sketch.png, id=1175, 374.90062pt x 168.63pt>
+ [69 <./capitulo_3/classificacao_multi.jpg>]
+<capitulo_3/gauss_trunc_sketch.png, id=1197, 374.90062pt x 168.63pt>
 File: capitulo_3/gauss_trunc_sketch.png Graphic file (type png)
 <use capitulo_3/gauss_trunc_sketch.png>
 Package pdftex.def Info: capitulo_3/gauss_trunc_sketch.png  used on input line 
-147.
+158.
 (pdftex.def)             Requested size: 227.5pt x 102.33151pt.
-<capitulo_3/pluri_sketch.png, id=1184, 304.88907pt x 281.55188pt>
+<capitulo_3/pluri_sketch.png, id=1206, 304.88907pt x 281.55188pt>
 File: capitulo_3/pluri_sketch.png Graphic file (type png)
 <use capitulo_3/pluri_sketch.png>
-Package pdftex.def Info: capitulo_3/pluri_sketch.png  used on input line 157.
+Package pdftex.def Info: capitulo_3/pluri_sketch.png  used on input line 168.
 (pdftex.def)             Requested size: 227.5pt x 210.09364pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [66 <./capitulo_3/gauss_trunc_sketch.png>]
-<capitulo_3/trunc_rules.png, id=1199, 572.89032pt x 246.1697pt>
+ [70 <./capitulo_3/gauss_trunc_sketch.png>]
+<capitulo_3/trunc_rules.png, id=1221, 572.89032pt x 246.1697pt>
 File: capitulo_3/trunc_rules.png Graphic file (type png)
 <use capitulo_3/trunc_rules.png>
-Package pdftex.def Info: capitulo_3/trunc_rules.png  used on input line 167.
+Package pdftex.def Info: capitulo_3/trunc_rules.png  used on input line 178.
 (pdftex.def)             Requested size: 227.5pt x 97.7562pt.
- [67 <./capitulo_3/pluri_sketch.png> <./capitulo_3/trunc_rules.png>]
-<capitulo_3/trunc_rules_prop.jpg, id=1237, 1027.84pt x 770.88pt>
+ [71 <./capitulo_3/pluri_sketch.png> <./capitulo_3/trunc_rules.png>]
+<capitulo_3/trunc_rules_prop.jpg, id=1260, 1027.84pt x 770.88pt>
 File: capitulo_3/trunc_rules_prop.jpg Graphic file (type jpg)
 <use capitulo_3/trunc_rules_prop.jpg>
-Package pdftex.def Info: capitulo_3/trunc_rules_prop.jpg  used on input line 19
-1.
+Package pdftex.def Info: capitulo_3/trunc_rules_prop.jpg  used on input line 20
+2.
 (pdftex.def)             Requested size: 273.00278pt x 204.75273pt.
- [68 <./capitulo_3/trunc_rules_prop.jpg>]
-<capitulo_3/blob.jpg, id=1255, 662.08646pt x 445.27646pt>
+ [72 <./capitulo_3/trunc_rules_prop.jpg>]
+<capitulo_3/blob.jpg, id=1278, 662.08646pt x 445.27646pt>
 File: capitulo_3/blob.jpg Graphic file (type jpg)
 <use capitulo_3/blob.jpg>
-Package pdftex.def Info: capitulo_3/blob.jpg  used on input line 209.
+Package pdftex.def Info: capitulo_3/blob.jpg  used on input line 220.
 (pdftex.def)             Requested size: 318.49861pt x 214.20587pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69]
-<capitulo_3/cronograma_novo.png, id=1264, 944.02687pt x 197.23688pt>
+ [73]
+<capitulo_3/cronograma_novo.png, id=1287, 944.02687pt x 197.23688pt>
 File: capitulo_3/cronograma_novo.png Graphic file (type png)
 <use capitulo_3/cronograma_novo.png>
-Package pdftex.def Info: capitulo_3/cronograma_novo.png  used on input line 223
+Package pdftex.def Info: capitulo_3/cronograma_novo.png  used on input line 234
 .
 (pdftex.def)             Requested size: 455.0pt x 95.06386pt.
 )
-[70 <./capitulo_3/blob.jpg> <./capitulo_3/cronograma_novo.png>] (main.bbl
+[74 <./capitulo_3/blob.jpg> <./capitulo_3/cronograma_novo.png>] (main.bbl
 (main.brf)
 \tf@brf=\write5
 \openout5 = `main.brf'.
 
 
 bibitemlist
-[71
+[75
 
 
-] [72] [73] [74]) 
+] [76] [77] [78]) 
 AED: lastpage setting LastPage
-[75]
+[79]
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
@@ -2196,24 +2218,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 316.
 (capitulo_3/capitulo_3.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 316.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 316.
+Package rerunfilecheck Info: File `main.brf' has not changed.
+(rerunfilecheck)             Checksum: 29E90BC922C4D9C51DC5842AF15C0A77;9395.
 
-
-Package rerunfilecheck Warning: File `main.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `main.brf':
-(rerunfilecheck)             Before: 545219C36B6628D6361AFF5B589CC71C;9397
-(rerunfilecheck)             After:  B005E22AD97A8311D44E47C2E0BDD22B;9382.
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 316.
  ) 
 Here is how much of TeX's memory you used:
- 26911 strings out of 492945
- 470911 string characters out of 3123143
- 699264 words of memory out of 3000000
- 29894 multiletter control sequences out of 15000+200000
+ 26933 strings out of 492945
+ 471247 string characters out of 3123143
+ 699858 words of memory out of 3000000
+ 29907 multiletter control sequences out of 15000+200000
  630314 words of font info for 165 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,13n,63p,1679b,635s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2248,9 +2265,9 @@ pfb><C:/Users/Roberto Rolo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 ype1/public/lm/lmsy6.pfb><C:/Users/Roberto Rolo/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Roberto Rolo/AppData/Local/Program
 s/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (77 pages, 19296650 bytes).
+Output written on main.pdf (81 pages, 19505851 bytes).
 PDF statistics:
- 1701 PDF objects out of 1728 (max. 8388607)
- 339 named destinations out of 1000 (max. 500000)
- 35048 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 1726 PDF objects out of 1728 (max. 8388607)
+ 346 named destinations out of 1000 (max. 500000)
+ 35058 words of extra memory for PDF output out of 35830 (max. 10000000)
 
