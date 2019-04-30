@@ -1,6 +1,6 @@
 \chapter{Proposta de tese}
 
-\section{Problemas}\label{problemas}
+\section{Problemas e relevância da tese}\label{problemas}
 
 A modelagem geológica implícita com funções distância assinaladas é uma metodologia bem estabelecida que permite ao gemodelador gerar de forma rápida modelos geológicos reprodutíveis, consistentes e checáveis a partir de uma função volume derivada a partir dos dados amostrais. 
 
@@ -18,6 +18,8 @@ Existem diferentes métodos para avaliação de incerteza em modelos geológicos
 Estruturas geológicas específicas, como lentes ou diques, podem desaparecer, ou não serem bem reproduzidas nos modelos implícitos, principalmente, quando sub-amostradas em relação às demais estruturas. Além disso, a metodologia, por si só, não produz bons resultados ao reproduzir falhas e dobras. 
 
 Segundo o estatístico \citeonline{box1979robustness}: \textit{"Todos os modelos estão errados, mas alguns são úteis."} A modelagem implícita é conhecida por criar modelos de forma rápida e simples, porém, modelos ruins de forma rápida e simples. É necessário checar se os modelos implícitos honram a geologia do depósito e serão úteis para o processo de avaliação de recursos/reservas. 
+
+Essa tese encontra relevância ao buscar solução para os problemas abordados e propor melhorias para a técnica, que vem sendo aplicada com sucesso na indústria mineral há mais de uma década.
 
 \section{Meta}
 
@@ -130,7 +132,7 @@ Resta então definir um \textit{cut off} no campo de entropia para sinalizar qua
 
 \subsection{Avaliação de incerteza}
 
-Essa tese propõe investigar diferentes técnicas para a geração de modelos geológicos estocásticos multi categóricos baseados em múltiplas realizações. As técnicas que simulação diretamente as distâncias assinaladas geram modelos ruidosos, que não respeitam as zonas de incertezas definidas. Além disso, os resultados são muito sensíveis aos parâmetros e são necessários muitos passos. 
+Essa tese ainda propõe investigar diferentes técnicas para a geração de modelos geológicos estocásticos multi categóricos baseados em múltiplas realizações. As técnicas que simulação diretamente as distâncias assinaladas geram modelos ruidosos, que não respeitam as zonas de incertezas definidas. Além disso, os resultados são muito sensíveis aos parâmetros e são necessários muitos passos. 
 
 Por esses motivos, o uso de uma variável contínua auxiliar, para derivar os modelos categóricos é uma alternativa melhor. Já que gera modelos menos ruidosos que apresentam contatos contínuos. A variável auxiliar é simulada de forma não condicional.
 
@@ -225,6 +227,19 @@ Finalmente é preciso desenvolver metodologias para validação e checagem dos m
 	\end{center}
 	%\legend{Fonte: \citeonline{samson_intro_ml}}
 \end{figure}
+
+\subsection{Sumário}
+
+Em suma, essa tese propõe desenvolver e investigar:
+
+\begin{itemize}
+	\item Um interpolador baseado em redes neurais independente de variograma;
+	\item Uma metodologia para calibração e definição de uma zona de incerteza justa livre de viés e que seja de fato incerta;
+	\item Uma metodologia para avaliação da incerteza que gere múltiplas realizações de modelos geológicos multi categóricos dentro da zona de incerteza, sem ruído e que com a possibilidade de controlar a natureza dos contatos.
+	\item Uma metodologia para validação de modelos geológicos implícitos.  
+\end{itemize}
+
+A aplicabilidade das novas metodologias propostas será avaliada a partir de estudos de casos em bancos de dados reais. As características e limitações das técnicas serão exaustivamente discutidas.
 
 \section{Cronograma e atividades}
 
