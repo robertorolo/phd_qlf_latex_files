@@ -41,9 +41,9 @@
 \contentsline {subsubsection}{\numberline {3.3.3.1}\textit {Boundary simulation} multi categ\IeC {\'o}rico}{69}{subsubsection.3.3.3.1}% 
 \contentsline {subsubsection}{\numberline {3.3.3.2}Simula\IeC {\c c}\IeC {\~a}o \textit {P-field}}{69}{subsubsection.3.3.3.2}% 
 \contentsline {subsubsection}{\numberline {3.3.3.3}Simula\IeC {\c c}\IeC {\~a}o plurigaussiana truncada}{70}{subsubsection.3.3.3.3}% 
-\contentsline {subsection}{\numberline {3.3.4}Valida\IeC {\c c}\IeC {\~a}o}{73}{subsection.3.3.4}% 
+\contentsline {subsection}{\numberline {3.3.4}Valida\IeC {\c c}\IeC {\~a}o}{74}{subsection.3.3.4}% 
 \contentsline {subsection}{\numberline {3.3.5}Sum\IeC {\'a}rio}{74}{subsection.3.3.5}% 
-\contentsline {section}{\numberline {3.4}Cronograma e atividades}{74}{section.3.4}% 
+\contentsline {section}{\numberline {3.4}Cronograma e atividades}{75}{section.3.4}% 
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{77}{section*.62}% 
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{77}{section*.63}% 

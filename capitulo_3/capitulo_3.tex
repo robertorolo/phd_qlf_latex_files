@@ -84,7 +84,7 @@ A calibração correta do tamanho da zona de incerteza é importante porque no m
 	\subfloat[][Zona de incerteza 2]{\includegraphics[width=.4\textwidth]{capitulo_3/zona2.jpg}\label{zona2 2}}
 \end{figure}
 
-Em física, a entropia é uma media do grau de desordem em um sistema. Um sistema ordenado, como um diamante, por exemplo, tem uma baixa entropia. Enquanto um sistema desordenado, como uma mistura de gases em alta temperatura, tem uma alta entropia. O conceito de entropia também surge na matemática, em teoria da probabilidade a taxa média na qual a informação é produzida por uma fonte estocástica de dados.
+Em física, a entropia é uma media do grau de desordem em um sistema. Um sistema ordenado, como um diamante, por exemplo, tem uma baixa entropia. Enquanto um sistema desordenado, como uma mistura de gases em alta temperatura, tem uma alta entropia. O conceito de entropia também surge na matemática, em teoria da probabilidade é uma forma de medir o grau médio de incerteza a respeito de fontes de informação.
 
 Desse modo, a entropia é uma medida de incerteza. A entropia da informação ou entropia de Shannon \cite{shannon1948mathematical} para um evento X com n resultados possíveis com probabilidades $(p_1, ..., p_n)$ é dada por:
 
@@ -103,7 +103,7 @@ Calcular as probabilidades de cada litologia em um determinado local é trivial,
 
 Algumas das propriedades notáveis e desejáveis da entropia são: a entropia á máxima para distribuições uniformes; é aditiva para eventos independentes; adicionar um novo evento com probabilidade zero não altera a entropia; é contínua e não negativa; a entropia para eventos como o mesmo resultado é zero; invariante à permutação.
 
-A \autoref{entro_gamma} mostra a entropia calculada para o banco de dados em estudo a partir de probabilidades calculadas com diferentes valores de $\gamma$. A entropia, é um parâmetro semelhante ao coeficiente U (\autoref{sim_direta}), porém, a variação da entropia pode ser controlada pela magnitude das proporções calculadas pela \autoref{eq_softmax}. O parâmetro $\gamma$ deve ser calibrado para todas as litologias, levando em consideração os dados amostrais. 
+A \autoref{entro_gamma} mostra a entropia calculada para o banco de dados em estudo a partir de probabilidades calculadas com diferentes valores de $\gamma$ (\autoref{heuristic}). A entropia, é um parâmetro semelhante ao coeficiente U (\autoref{sim_direta}), porém, a variação da entropia pode ser controlada pela magnitude das proporções calculadas pela \autoref{eq_softmax}. O parâmetro $\gamma$ deve ser calibrado para gerar proporções que resultem em um campo de entropia plausível, a partir do qual será definida a zona de incerteza. 
 
 \begin{figure}[H]
 \caption{Entropias calculadas para diferentes valores de $\gamma$.} 
@@ -116,7 +116,7 @@ A \autoref{entro_gamma} mostra a entropia calculada para o banco de dados em est
 \end{center}
 \end{figure}
 
-A probabilidade de uma dada categoria em um ponto amostral deve ser um, se a amostra pertencer à essa mesma categoria, e zero caso contrário, somando um para todas as litologias e variando de suavemente, entre 0 e 1, no espaço. O parâmetro $\gamma$ poderia ser calibrado de forma que na validação as duas imposições sejam atendidas (probabilidade igual a 100 se amostra pertence a categoria e zero caso contrário), um \textit{range} de valores permissíveis para $\gamma$ poderia ser definido dessa forma. O $\gamma$ escolhido deve ser o que contempla a maior incerteza possível (maior valor). Dessa forma, o campo de entropia pode fornecer uma zona de incerteza de fato incerta, justa e livre de viés. A \autoref{calib_gamma} mostra a calibração do parâmetro para o banco de dados em estudo. Muitas vezes a imposição é muito restritiva e gera zonas de incerteza muito pequenas ou em alguns casos ausentes. A partir de 0.4, um valor muito pequeno para o parâmetro, já existe classificação errônea, e a partir de 110 todas as amostras são classificadas de forma errada.
+A probabilidade de uma dada categoria em um ponto amostral deve ser um, se a amostra pertencer à essa mesma categoria, e zero caso contrário, somando um para todas as litologias e variando de suavemente, entre 0 e 1, no espaço. O parâmetro $\gamma$ poderia ser calibrado de forma que na validação as duas imposições sejam atendidas (probabilidade igual a 100 se amostra pertence a categoria e zero caso contrário), uma série de valores permissíveis para $\gamma$ poderia ser definido dessa forma. O $\gamma$ escolhido deve ser o que contempla a maior incerteza possível (maior valor). Dessa forma, o campo de entropia pode fornecer uma zona de incerteza de fato incerta, justa e livre de viés. A \autoref{calib_gamma} mostra a calibração do parâmetro para o banco de dados em estudo. Muitas vezes a imposição é muito restritiva e gera zonas de incerteza muito pequenas ou em alguns casos ausentes. A partir de 0.4, um valor muito pequeno para o parâmetro, já existe classificação errônea, e a partir de 110 todas as amostras são classificadas de forma errada.
 
 \begin{figure}[H]
 	\caption{\label{calib_gamma}Calibração do $\gamma$.}
@@ -126,13 +126,13 @@ A probabilidade de uma dada categoria em um ponto amostral deve ser um, se a amo
 	%\legend{Fonte: \citeonline{samson_intro_ml}}
 \end{figure}
 
-Conforme o valor de $\gamma$ aumenta o número de amostras classificadas erroneamente - diferente de 0 ou diferente de 100 - aumenta, da mesma forma para todas as litologias (por isso apenas um gráfico de calibração). É preciso desenvolver uma forma de escolher o melhor valor para $\gamma$. Alguns autores recomendam a maior distância estimada entre todas as categorias.
+Conforme o valor de $\gamma$ aumenta o número de amostras classificadas erroneamente - diferente de 0 ou diferente de 100 - aumenta, da mesma forma para todas as litologias (por isso apenas um gráfico de calibração). É preciso desenvolver uma metodologia diferente para a calibração do parâmetro $\gamma$. Alguns autores recomendam a maior distância estimada entre todas as categorias.
 
 Resta então definir um \textit{cut off} no campo de entropia para sinalizar quais blocos variam e quais ficam congelados na geração dos modelos estocásticos. É preciso definir uma regra matemática, que pode ser baseada na entropia de formação do depósito mineral, depósitos de mais baixa entropia, como os de bauxita, teriam seu \textit{cut off} definido em um valor maior do que depósitos de alta entropia, como um depósito de ouro primário.
 
 \subsection{Avaliação de incerteza}
 
-Essa tese ainda propõe investigar diferentes técnicas para a geração de modelos geológicos estocásticos multi categóricos baseados em múltiplas realizações. As técnicas que simulação diretamente as distâncias assinaladas geram modelos ruidosos, que não respeitam as zonas de incertezas definidas. Além disso, os resultados são muito sensíveis aos parâmetros e são necessários muitos passos. 
+Essa tese ainda propõe investigar diferentes técnicas para a geração de modelos geológicos estocásticos multi categóricos baseados em múltiplas realizações. As técnicas que simulam diretamente as distâncias assinaladas geram modelos ruidosos, que não respeitam as zonas de incertezas definidas. Além disso, os resultados são muito sensíveis aos parâmetros e são necessários muitos passos. Embora para geologias complexas seja mais indicado a modelagem e avaliação de incerteza estrutura à estrutura, em muitos casos, que apresentam geologia simples ou para definição de \textit{grade shells} uma metodologia multi categórica torna o processo de avaliação de incerteza mais simples e rápido.
 
 Por esses motivos, o uso de uma variável contínua auxiliar, para derivar os modelos categóricos é uma alternativa melhor. Já que gera modelos menos ruidosos que apresentam contatos contínuos. A variável auxiliar é simulada de forma não condicional.
 
@@ -156,7 +156,7 @@ N realizações do campo de probabilidades podem ser geradas na zona de incertez
 
 \subsubsection{Simulação plurigaussiana truncada}
 
-Simulação gaussiana truncada (SGT) foi proposta por \citeonline{matheron1987conditional} e é uma alternativa para simular variáveis categóricas que usa uma única variável aleatória gaussiana. Realizações da variável gaussiana são tratadas como uma variável latente subjacente \cite{hier_plurigauss} e então são truncadas para gerar realizações categóricas. Todavia, o uso de apenas uma variável gaussiana faz com que a técnica seja limitada apenas a simulação de variáveis categóricas ordenadas, como ambientes sedimentares estratigráficos, por exemplo. A \autoref{trunc_gauss} mostra a variável gaussiana truncada para representar 3 diferentes categorias. A aplicação de uma regra local de truncagem na SGT gera resultados similares à simulação \textit{P-field}.
+Simulação gaussiana truncada (SGT) foi proposta por \citeonline{matheron1987conditional} e é uma alternativa para simular variáveis categóricas que usem uma única variável aleatória gaussiana. Realizações da variável gaussiana são tratadas como uma variável latente subjacente \cite{hier_plurigauss} e então são truncadas para gerar realizações categóricas. Todavia, o uso de apenas uma variável gaussiana faz com que a técnica seja limitada apenas a simulação de variáveis categóricas ordenadas, como ambientes sedimentares estratigráficos, por exemplo. A \autoref{trunc_gauss} mostra a variável gaussiana truncada para representar 3 diferentes categorias. A aplicação de uma regra local de truncagem na SGT gera resultados similares à simulação \textit{P-field}.
 
 \begin{figure}[H]
 	\caption{\label{trunc_gauss}Esquema da SGT. Note que as litologias sandstone e shale não aparecerão juntas nas realizações.}
@@ -166,7 +166,7 @@ Simulação gaussiana truncada (SGT) foi proposta por \citeonline{matheron1987co
 	\legend{Fonte: \citeonline{deutsch2014multidimensional}}
 \end{figure}
 
-A simulação plurigaussiana truncada (SPT), proposta por \citeonline{galli1994pros}, é uma extensão da SGT para permitir o uso de múltiplas variáveis aleatórias gaussianas (variáveis latentes), assim, permitindo a simulação de estruturas mais complexas. A SPT pode reproduzir proporções, continuidade espacial e probabilidades de transição. O poder da SPT vem do uso de múltiplas variáveis gaussianas para representar as estruturas complexas observadas nos dados. Todavia, seu uso tem sido limitado a duas funções gaussianas, $Y_1$ e $Y_2$, correlacionadas ou não, pelo fato de que a definição e interpretação de regras de truncagem é complicada em mais de duas dimensões \cite{hier_plurigauss}.
+A simulação plurigaussiana truncada (SPT), proposta por \citeonline{galli1994pros}, é uma extensão da SGT para permitir o uso de múltiplas variáveis aleatórias gaussianas (variáveis latentes), assim, permitindo a simulação de estruturas mais complexas. A SPT pode reproduzir proporções, continuidade espacial e probabilidades de transição. O poder da SPT vem do uso de múltiplas variáveis gaussianas para representar as estruturas complexas observadas nos dados. Todavia, seu uso tem sido limitado a duas funções gaussianas, $Y_1$ e $Y_2$, correlacionadas ou não, pelo fato de que a definição e interpretação de regras de truncagem é complicada em mais de duas dimensões \cite{hier_plurigauss}. A \autoref{trunc_gauss} mostra duas variáveis gaussianas Y e X truncadas segundo uma regra definida para definir quatro diferentes litologias.
 
 \begin{figure}[H]
 	\caption{\label{trunc_pluri}Esquema da SPT. Note que as litologias 1 e 3 não aparecerão juntas nas realizações.}
@@ -186,19 +186,27 @@ A regra de truncagem ou regra de litologia é uma parte importante da metodologi
 	\legend{Fonte: Modificado de \citeonline{armstrong2011plurigaussian}}
 \end{figure}
 
-Diversas técnicas para definir a regra de truncagem foram propostas: \citeonline{armstrong2011plurigaussian} propões o particionamento de espaço gaussiano multivariado em paralelepípedos (ou retângulos no caso bivariado) através de limiares \autoref{trunc_rules}. Essa técnica é adequada ao caso bivariado e com poucas categorias.
+Diversas técnicas para definir a regra de truncagem foram propostas: \citeonline{armstrong2011plurigaussian} propõem o particionamento de espaço gaussiano multivariado em paralelepípedos (ou retângulos no caso bivariado) através de limiares (\autoref{trunc_rules}). Essa técnica é adequada ao caso bivariado e com poucas categorias.
 
-\citeonline{allard2012non} introduziram o \textit{assignation diagram} que automaticamente constrói a regra de truncagem para o caso bivariado usando regressão baseada em kernel em variáveis auxiliares.
+\citeonline{allard2012non} introduziram o \textit{assignation diagram}, que automaticamente constrói a regra de truncagem para o caso bivariado usando regressão baseada em kernel em variáveis auxiliares.
 
 \citeonline{sadeghi_optimizing} usaram \textit{simulated annealing} para otimizar a regra de truncagem. A função objetivo é a minimização da classificação errônea entre as probabilidades de transição calculadas de realizações e das probabilidades de transição calculadas a partir dos dados.
 
-\citeonline{deutsch2014multidimensional} usam \textit{Multidimensional scaling} (MDS) para definir regras de truncagem complexas com o foco em reproduzir as probabilidades de transição. Essa metodologia pode ser aplicada para qualquer número de variáveis gaussianas.
+\citeonline{deutsch2014multidimensional} usam \textit{multidimensional scaling} (MDS) para definir regras de truncagem complexas com o foco em reproduzir as probabilidades de transição. Essa metodologia pode ser aplicada para qualquer número de variáveis gaussianas. A métodologia é uma ótima alternativa para ambientes complexos que apresentam contatos múltiplos entre as diferentes litologias, como mostrado na \autoref{pluri_mds}. Além disso, a geração da regra de truncagem é automática.
+
+\begin{figure}[H]
+	\caption{\label{pluri_mds}Esquema do uso de MDS para definição da regra de truncagem.}
+	\begin{center}
+		\includegraphics[width=0.5\textwidth]{capitulo_3/pluri_mds.png}
+	\end{center}
+	\legend{Fonte: \citeonline{deutsch2014multidimensional}}
+\end{figure}
 
 \citeonline{astrakova2015truncation} propuseram uma metodologia semelhante à de \citeonline{deutsch2014multidimensional} usando entropia bayesiana máxima em conjunto com \textit{simulated annealing} para otimizar a regra de truncagem bi gaussiana.
 
 \citeonline{madani2015simulation} e \citeonline{hier_plurigauss} propuseram uma abordagem hierárquica para definir a regra de truncagem em espaços multi dimensionais.
 
-Em muitos casos as proporções não são estacionárias, as curvas de proporção verticais, propostas por \citeonline{matheron1987conditional} mostram esse comportamento, a partir do cálculo das proporções de cada litologia a partir da profundidade. Nesses casos, a regra de truncagem não deve ser global, e deve variar localmente \cite{sadeghi_optimizing}.
+Em muitos casos, as proporções não são estacionárias. As curvas de proporção verticais, propostas por \citeonline{matheron1987conditional} mostram esse comportamento, a partir do cálculo das proporções de cada litologia a partir da profundidade. Nesses casos, a regra de truncagem não deve ser global, e deve variar localmente \cite{sadeghi_optimizing}.
 
 Essa tese propõe a definição dinâmica da regra de truncagem bivariada para cada bloco, dentro da zona de incerteza, a partir das probabilidades calibradas e calculadas pela \autoref{eq_softmax}. A \autoref{trunc_rules_prop} mostra um desenho esquemático do método proposto.
 
@@ -210,18 +218,18 @@ Essa tese propõe a definição dinâmica da regra de truncagem bivariada para c
 	%\legend{Fonte: Modificado de \citeonline{armstrong2011plurigaussian}}
 \end{figure}
 
-O próximo passo é simular as variáveis latentes gaussianas, cada função deve ter uma função de auto covariância. Segundo \citeonline{sadeghi_review} os variogramas devem ser modelados de forma que variável categórica original tenha a estrutura espacial correta após a truncagem. Diversas metodologias foram desenvolvidas para a definição dos variogramas. Na prática, se existem duas importantes litolgias, minério mais rico por exemplo, o variograma dessas litologias deve ser atribuídos às variáveis latentes $Y_1$ e $ Y_2$. O variograma dos indicadores deve ser invertido numericamente para corresponder ao seu variograma gaussiano \cite{journel2004evaluation} (o variograma gaussiano tem alcance e anisotropias similares  porém a forma é mais suave, é mais parabólica ou gaussiana à pequenas distâncias). Na prática o variograma dos indicadores é alterado para o modelo gaussiano \cite{pyrcz2014geostatistical}.
+O próximo passo é simular as variáveis latentes gaussianas, cada uma com uma função de auto covariância. Segundo \citeonline{sadeghi_review}, os variogramas devem ser modelados de forma que variável categórica original tenha a estrutura espacial correta após a truncagem. Diversas metodologias foram desenvolvidas para a definição dos variogramas. Na prática, se existem duas importantes litolgias, minério mais rico por exemplo, o variograma dessas litologias deve ser atribuídos às variáveis latentes $Y_1$ e $ Y_2$. O variograma dos indicadores deve ser invertido numericamente para corresponder ao seu variograma gaussiano \cite{journel2004evaluation} (o variograma gaussiano tem alcance e anisotropias similares  porém a forma é mais suave, é mais parabólica ou gaussiana à pequenas distâncias). Na prática, o variograma dos indicadores é alterado para o modelo gaussiano \cite{pyrcz2014geostatistical}.
 
-Na metodologia original \cite{armstrong2011plurigaussian} a simulação das variáveis latentes é condicionada valores gaussianos gerados a partir dos dados por um amostrador de Gibbs, como não existem amostras na nova zona de incerteza proposta a simulação deve ser não condicional.
+Na metodologia original \cite{armstrong2011plurigaussian} a simulação das variáveis latentes é condicionada à valores gaussianos gerados a partir dos dados por um amostrador de Gibbs, como não existem amostras na nova zona de incerteza proposta a simulação deve ser não condicional.
 
 O último passo é aplicar a regra de truncagem em cada bloco e para cada realização das variáveis latentes simuladas para classificar os blocos da zona de incerteza.
 
 \subsection{Validação}
 
-Finalmente é preciso desenvolver metodologias para validação e checagem dos modelos. A modelagem implícita tende a gerar estruturas em formatos circulares ("\textit{blobs}") ao redor das amostras, como o modelo apresentado na \autoref{blob}, ou em forma de salsicha em torno de furos de sondagem, um índice de quanto às estruturas geradas se parecem com essas estruturas indesejadas deve ser desenvolvido, bem como a checagem de locais classificados que são colocados com amostras (e devem ter sido classificados com a mesma litologia da amostra) e checagem "visual", que pode ser realizada por um algoritmo de aprendizado de máquinas.
+Finalmente, é preciso desenvolver metodologias para validação e checagem dos modelos. A modelagem implícita tende a gerar estruturas em formatos circulares ("\textit{blobs}") ao redor das amostras, como o modelo apresentado na \autoref{blob}, ou em forma de salsicha em torno de furos de sondagem. Um índice de quanto as estruturas geradas se parecem com essas estruturas indesejadas deve ser desenvolvido, bem como a checagem de locais classificados que são co-locados com amostras (e deveriam ter sido classificados com a mesma litologia da amostra) e checagem "visual", que pode ser realizada por um algoritmo de aprendizado de máquinas.
 
 \begin{figure}[H]
-	\caption{\label{blob}Modelo implícito ruim, com a presença de estruturas indesejadas.}
+	\caption{\label{blob}Modelo implícito ruim, com a presença de estruturas e formas indesejadas (\textit{"blobs"}).}
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{capitulo_3/blob.jpg}
 	\end{center}
@@ -232,18 +240,27 @@ Finalmente é preciso desenvolver metodologias para validação e checagem dos m
 
 Em suma, essa tese propõe desenvolver e investigar:
 
+\newcommand{\SubItem}[1]{
+	{\setlength\itemindent{15pt} \item[-] #1}
+}
+
 \begin{itemize}
 	\item Um interpolador baseado em redes neurais independente de variograma;
 	\item Uma metodologia para calibração e definição de uma zona de incerteza justa livre de viés e que seja de fato incerta;
+		\SubItem{Calibração do parâmetro $\gamma$;}
+		\SubItem{Truncagem no campo de entropia.}
 	\item Uma metodologia para avaliação da incerteza que gere múltiplas realizações de modelos geológicos multi categóricos dentro da zona de incerteza, sem ruído e que com a possibilidade de controlar a natureza dos contatos.
-	\item Uma metodologia para validação de modelos geológicos implícitos.  
+		\SubItem{Definição de uma regra de truncagem local para cada bloco.}
+		\SubItem{Definição de um modelo de covariância para cada variável latente, que seja representativo.}
+	\item Uma metodologia para validação de modelos geológicos implícitos.
+		\SubItem{Identificação automática de estruturas indesejadas.}  
 \end{itemize}
 
 A aplicabilidade das novas metodologias propostas será avaliada a partir de estudos de casos em bancos de dados reais. As características e limitações das técnicas serão exaustivamente discutidas.
 
 \section{Cronograma e atividades}
 
-As atividades pretendidas para essa tese incluem: uma revisão bibliográfica da modelagem geológica implícita e todos os métodos de avaliação de incerteza disponíveis na literatura (\autoref{capitulo_2}), desenvolvimento de um pacote de modelagem geológica implícita em python que inclui ferramentas: para o calculo das distâncias, interpolação via redes neurais de bases radiais, calibração das probabilidades para cada litologia, definição da zona de incerteza, e avaliação de incerteza via geração de múltiplas realizações equiprováveis do modelo geológico multi categórico e ferramentas de validação do modelo geológico.
+As atividades pretendidas para essa tese incluem: uma revisão bibliográfica da modelagem geológica implícita e todos os métodos de avaliação de incerteza disponíveis na literatura (\autoref{capitulo_2}), desenvolvimento de um conjunto de programas de modelagem geológica implícita em python que inclua ferramentas: para o calculo das distâncias, interpolação via redes neurais de bases radiais, calibração das probabilidades para cada litologia, definição da zona de incerteza, e avaliação de incerteza via geração de múltiplas realizações equiprováveis do modelo geológico multi categórico e ferramentas de validação do modelo geológico. Os programas se encontram em desenvolvimentos e podem ser acessados no repositório: \url{https://github.com/robertorolo/enhanced_dfmod}
 
 A \autoref{cronograma} mostra o cronograma de atividades para o período da tese.
 
