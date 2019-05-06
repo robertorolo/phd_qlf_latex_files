@@ -103,7 +103,7 @@ Calcular as probabilidades de cada litologia em um determinado local é trivial,
 
 Algumas das propriedades notáveis e desejáveis da entropia são: a entropia á máxima para distribuições uniformes; é aditiva para eventos independentes; adicionar um novo evento com probabilidade zero não altera a entropia; é contínua e não negativa; a entropia para eventos como o mesmo resultado é zero; invariante à permutação.
 
-A \autoref{entro_gamma} mostra a entropia calculada para o banco de dados em estudo a partir de probabilidades calculadas com diferentes valores de $\gamma$ (\autoref{heuristic}). A entropia, é um parâmetro semelhante ao coeficiente U (\autoref{sim_direta}), porém, a variação da entropia pode ser controlada pela magnitude das proporções calculadas pela \autoref{eq_softmax}. O parâmetro $\gamma$ deve ser calibrado para gerar proporções que resultem em um campo de entropia plausível, a partir do qual será definida a zona de incerteza. 
+A \autoref{entro_gamma} mostra 4 seções verticais  da entropia calculada para o banco de dados em estudo a partir de probabilidades calculadas com diferentes valores de $\gamma$ (\autoref{heuristic}). A entropia, é um parâmetro semelhante ao coeficiente U (\autoref{sim_direta}), porém, a variação da entropia pode ser controlada pela magnitude das proporções calculadas pela \autoref{eq_softmax}. O parâmetro $\gamma$ deve ser calibrado para gerar proporções que resultem em um campo de entropia plausível, a partir do qual será definida a zona de incerteza. 
 
 \begin{figure}[H]
 \caption{Entropias calculadas para diferentes valores de $\gamma$.} 
@@ -233,7 +233,7 @@ Finalmente, é preciso desenvolver metodologias para validação e checagem dos 
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{capitulo_3/blob.jpg}
 	\end{center}
-	%\legend{Fonte: \citeonline{samson_intro_ml}}
+	\legend{Fonte: \url{https://www.linkedin.com/pulse/implicit-modelling-disasters-making-part-1-ron-reid/}}, acesso em junho de 2019
 \end{figure}
 
 \subsection{Sumário}
@@ -246,7 +246,7 @@ Em suma, essa tese propõe desenvolver e investigar:
 
 \begin{itemize}
 	\item Um interpolador baseado em redes neurais independente de variograma;
-	\item Uma metodologia para calibração e definição de uma zona de incerteza justa livre de viés e que seja de fato incerta;
+	\item Uma metodologia para calibração e definição de uma zona de incerteza multi categórica justa livre de viés e que seja de fato incerta;
 		\SubItem{Calibração do parâmetro $\gamma$;}
 		\SubItem{Truncagem no campo de entropia.}
 	\item Uma metodologia para avaliação da incerteza que gere múltiplas realizações de modelos geológicos multi categóricos dentro da zona de incerteza, sem ruído e que com a possibilidade de controlar a natureza dos contatos.
@@ -260,7 +260,25 @@ A aplicabilidade das novas metodologias propostas será avaliada a partir de est
 
 \section{Cronograma e atividades}
 
-As atividades pretendidas para essa tese incluem: uma revisão bibliográfica da modelagem geológica implícita e todos os métodos de avaliação de incerteza disponíveis na literatura (\autoref{capitulo_2}), desenvolvimento de um conjunto de programas de modelagem geológica implícita em python que inclua ferramentas: para o calculo das distâncias, interpolação via redes neurais de bases radiais, calibração das probabilidades para cada litologia, definição da zona de incerteza, e avaliação de incerteza via geração de múltiplas realizações equiprováveis do modelo geológico multi categórico e ferramentas de validação do modelo geológico. Os programas se encontram em desenvolvimentos e podem ser acessados no repositório: \url{https://github.com/robertorolo/enhanced_dfmod}
+As atividades pretendidas para essa tese incluem: uma revisão bibliográfica da modelagem geológica implícita e todos os métodos de avaliação de incerteza disponíveis na literatura (\autoref{capitulo_2}), desenvolvimento de um conjunto de programas de modelagem geológica implícita em python que inclua ferramentas: para o calculo das distâncias, interpolação via redes neurais de bases radiais, calibração das probabilidades para cada litologia, definição da zona de incerteza, e avaliação de incerteza via geração de múltiplas realizações equiprováveis do modelo geológico multi categórico e ferramentas de validação do modelo geológico. Os programas se encontram em desenvolvimentos e podem ser acessados no repositório: \url{https://github.com/robertorolo/enhanced_dfmod}.
+
+\begin{itemize}
+	\item Progresso de desenvolvimento de software.
+	\begin{todolist}
+		\item[\done] Cálculo das distâncias assinaladas
+		\item[\done] Validação cruzada
+		\item[\done] Interpolação tradicional por RBF
+		\item Interpolação baseada em redes neurais
+		\item[\wontfix] Calibração do parâmetro $\gamma$ a partir das amostras
+		\item Calibração do parâmetro $\gamma$ (nova abordagem)
+		\item[\done] Cálculo das probabilidades
+		\item[\done] Cálculo da entropia
+		\item Definição do \textit{cutt-off} no campo de entropia
+		\item Simulação da variável contínua auxiliar
+		\item Definição da regra de truncagem local
+		\item Algoritmo de validação visual
+	\end{todolist}
+\end{itemize}
 
 A \autoref{cronograma} mostra o cronograma de atividades para o período da tese.
 

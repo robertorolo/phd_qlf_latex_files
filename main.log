@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.26)  3 MAY 2019 15:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.1)  6 MAY 2019 11:18
 entering extended mode
 **./main.tex
 (main.tex
@@ -764,22 +764,23 @@ File: microtype.cfg 2019/02/28 v2.7b microtype main configuration file (RS)
 um.sty"
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\ex
 pl3.sty"
-Package: expl3 2019-03-05 L3 programming layer (loader) 
+Package: expl3 2019-03-26 L3 programming layer (loader) 
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\ex
 pl3-code.tex"
-Package: expl3 2019-03-05 L3 programming layer (code)
+Package: expl3 2019-03-26 L3 programming layer (code)
 \c_max_int=\count177
 \l_tmpa_int=\count178
 \l_tmpb_int=\count179
 \g_tmpa_int=\count180
 \g_tmpb_int=\count181
 \g__kernel_prg_map_int=\count182
-\c_log_iow=\count183
-\l_iow_line_count_int=\count184
-\l__iow_line_target_int=\count185
-\l__iow_one_indent_int=\count186
-\l__iow_indent_int=\count187
+\c__ior_term_ior=\count183
+\c_log_iow=\count184
+\l_iow_line_count_int=\count185
+\l__iow_line_target_int=\count186
+\l__iow_one_indent_int=\count187
+\l__iow_indent_int=\count188
 \c_zero_dim=\dimen166
 \c_max_dim=\dimen167
 \l_tmpa_dim=\dimen168
@@ -798,78 +799,78 @@ Package: expl3 2019-03-05 L3 programming layer (code)
 \l_tmpb_muskip=\muskip14
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
-\l_keys_choice_int=\count188
-\l__intarray_loop_int=\count189
+\l_keys_choice_int=\count189
+\l__intarray_loop_int=\count190
 \c__intarray_sp_dim=\dimen172
-\g__intarray_font_int=\count190
-\c__fp_leading_shift_int=\count191
-\c__fp_middle_shift_int=\count192
-\c__fp_trailing_shift_int=\count193
-\c__fp_big_leading_shift_int=\count194
-\c__fp_big_middle_shift_int=\count266
-\c__fp_big_trailing_shift_int=\count267
-\c__fp_Bigg_leading_shift_int=\count268
-\c__fp_Bigg_middle_shift_int=\count269
-\c__fp_Bigg_trailing_shift_int=\count270
-\c__kernel_randint_max_int=\count271
-\g__fp_array_int=\count272
-\l__fp_array_loop_int=\count273
-\l__sort_length_int=\count274
-\l__sort_min_int=\count275
-\l__sort_top_int=\count276
-\l__sort_max_int=\count277
-\l__sort_true_max_int=\count278
-\l__sort_block_int=\count279
-\l__sort_begin_int=\count280
-\l__sort_end_int=\count281
-\l__sort_A_int=\count282
-\l__sort_B_int=\count283
-\l__sort_C_int=\count284
-\l__tl_analysis_normal_int=\count285
-\l__tl_analysis_index_int=\count286
-\l__tl_analysis_nesting_int=\count287
-\l__tl_analysis_type_int=\count288
-\l__regex_internal_a_int=\count289
-\l__regex_internal_b_int=\count290
-\l__regex_internal_c_int=\count291
-\l__regex_balance_int=\count292
-\l__regex_group_level_int=\count293
-\l__regex_mode_int=\count294
-\c__regex_cs_in_class_mode_int=\count295
-\c__regex_cs_mode_int=\count296
-\l__regex_catcodes_int=\count297
-\l__regex_default_catcodes_int=\count298
-\c__regex_catcode_D_int=\count299
-\c__regex_catcode_S_int=\count300
-\c__regex_catcode_L_int=\count301
-\c__regex_catcode_O_int=\count302
-\c__regex_catcode_A_int=\count303
-\c__regex_all_catcodes_int=\count304
-\l__regex_show_lines_int=\count305
-\l__regex_min_state_int=\count306
-\l__regex_max_state_int=\count307
-\l__regex_left_state_int=\count308
-\l__regex_right_state_int=\count309
-\l__regex_capturing_group_int=\count310
-\l__regex_min_pos_int=\count311
-\l__regex_max_pos_int=\count312
-\l__regex_curr_pos_int=\count313
-\l__regex_start_pos_int=\count314
-\l__regex_success_pos_int=\count315
-\l__regex_curr_char_int=\count316
-\l__regex_curr_catcode_int=\count317
-\l__regex_last_char_int=\count318
-\l__regex_case_changed_char_int=\count319
-\l__regex_curr_state_int=\count320
-\l__regex_step_int=\count321
-\l__regex_min_active_int=\count322
-\l__regex_max_active_int=\count323
-\l__regex_replacement_csnames_int=\count324
-\l__regex_match_count_int=\count325
-\l__regex_min_submatch_int=\count326
-\l__regex_submatch_int=\count327
-\l__regex_zeroth_submatch_int=\count328
-\g__regex_trace_regex_int=\count329
+\g__intarray_font_int=\count191
+\c__fp_leading_shift_int=\count192
+\c__fp_middle_shift_int=\count193
+\c__fp_trailing_shift_int=\count194
+\c__fp_big_leading_shift_int=\count266
+\c__fp_big_middle_shift_int=\count267
+\c__fp_big_trailing_shift_int=\count268
+\c__fp_Bigg_leading_shift_int=\count269
+\c__fp_Bigg_middle_shift_int=\count270
+\c__fp_Bigg_trailing_shift_int=\count271
+\c__kernel_randint_max_int=\count272
+\g__fp_array_int=\count273
+\l__fp_array_loop_int=\count274
+\l__sort_length_int=\count275
+\l__sort_min_int=\count276
+\l__sort_top_int=\count277
+\l__sort_max_int=\count278
+\l__sort_true_max_int=\count279
+\l__sort_block_int=\count280
+\l__sort_begin_int=\count281
+\l__sort_end_int=\count282
+\l__sort_A_int=\count283
+\l__sort_B_int=\count284
+\l__sort_C_int=\count285
+\l__tl_analysis_normal_int=\count286
+\l__tl_analysis_index_int=\count287
+\l__tl_analysis_nesting_int=\count288
+\l__tl_analysis_type_int=\count289
+\l__regex_internal_a_int=\count290
+\l__regex_internal_b_int=\count291
+\l__regex_internal_c_int=\count292
+\l__regex_balance_int=\count293
+\l__regex_group_level_int=\count294
+\l__regex_mode_int=\count295
+\c__regex_cs_in_class_mode_int=\count296
+\c__regex_cs_mode_int=\count297
+\l__regex_catcodes_int=\count298
+\l__regex_default_catcodes_int=\count299
+\c__regex_catcode_D_int=\count300
+\c__regex_catcode_S_int=\count301
+\c__regex_catcode_L_int=\count302
+\c__regex_catcode_O_int=\count303
+\c__regex_catcode_A_int=\count304
+\c__regex_all_catcodes_int=\count305
+\l__regex_show_lines_int=\count306
+\l__regex_min_state_int=\count307
+\l__regex_max_state_int=\count308
+\l__regex_left_state_int=\count309
+\l__regex_right_state_int=\count310
+\l__regex_capturing_group_int=\count311
+\l__regex_min_pos_int=\count312
+\l__regex_max_pos_int=\count313
+\l__regex_curr_pos_int=\count314
+\l__regex_start_pos_int=\count315
+\l__regex_success_pos_int=\count316
+\l__regex_curr_char_int=\count317
+\l__regex_curr_catcode_int=\count318
+\l__regex_last_char_int=\count319
+\l__regex_case_changed_char_int=\count320
+\l__regex_curr_state_int=\count321
+\l__regex_step_int=\count322
+\l__regex_min_active_int=\count323
+\l__regex_max_active_int=\count324
+\l__regex_replacement_csnames_int=\count325
+\l__regex_match_count_int=\count326
+\l__regex_min_submatch_int=\count327
+\l__regex_submatch_int=\count328
+\l__regex_zeroth_submatch_int=\count329
+\g__regex_trace_regex_int=\count330
 \c_empty_box=\box33
 \l_tmpa_box=\box34
 \l_tmpb_box=\box35
@@ -914,22 +915,22 @@ Package: expl3 2019-03-05 L3 programming layer (code)
 \l__coffin_display_x_dim=\dimen257
 \l__coffin_display_y_dim=\dimen258
 \g__file_internal_ior=\read2
-\l__seq_internal_a_int=\count330
-\l__seq_internal_b_int=\count331
-\c__deprecation_minus_one=\count332
+\l__seq_internal_a_int=\count331
+\l__seq_internal_b_int=\count332
+\c__deprecation_minus_one=\count333
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\l3
 pdfmode.def"
-File: l3pdfmode.def 2019-03-05 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count333
+File: l3pdfmode.def 2019-03-26 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count334
 ))
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/
 xparse\xparse.sty"
 Package: xparse 2019-03-05 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count334
-\g__xparse_grabber_int=\count335
-\l__xparse_m_args_int=\count336
-\l__xparse_v_nesting_int=\count337
+\l__xparse_current_arg_int=\count335
+\g__xparse_grabber_int=\count336
+\l__xparse_m_args_int=\count337
+\l__xparse_v_nesting_int=\count338
 )
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 
@@ -963,13 +964,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 opn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count338
+\inf@bad=\count339
 LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count339
-\leftroot@=\count340
+\uproot@=\count340
+\leftroot@=\count341
 LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count341
-\DOTSCASE@=\count342
+\classnum@=\count342
+\DOTSCASE@=\count343
 LaTeX Info: Redefining \ldots on input line 482.
 LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
@@ -978,15 +979,15 @@ LaTeX Info: Redefining \cdots on input line 606.
 \big@size=\dimen261
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count343
-\c@MaxMatrixCols=\count344
+\macc@depth=\count344
+\c@MaxMatrixCols=\count345
 \dotsspace@=\muskip17
-\c@parentequation=\count345
-\dspbrk@lvl=\count346
+\c@parentequation=\count346
+\dspbrk@lvl=\count347
 \tag@help=\toks30
-\row@=\count347
-\column@=\count348
-\maxfields@=\count349
+\row@=\count348
+\column@=\count349
+\maxfields@=\count350
 \andhelp@=\toks31
 \eqnshift@=\dimen262
 \alignsep@=\dimen263
@@ -1017,8 +1018,8 @@ Package: abntex2cite 2018/11/24 v-1.9.7 abnTeX2
 tex2abrev.sty")
 \minimumbiblabelwidth=\skip267
 \ABCIauxlen=\skip268
-\c@ABCIaux=\count350
-\c@ABCImax=\count351
+\c@ABCIaux=\count351
+\c@ABCImax=\count352
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/relsize\rel
 size.sty"
@@ -1057,33 +1058,62 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \caption@parindent=\dimen273
 \caption@hangindent=\dimen274
 )
-\c@caption@flags=\count352
-\c@ContinuedFloat=\count353
+\c@caption@flags=\count353
+\c@ContinuedFloat=\count354
 Package caption Info: hyperref package is loaded.
 )
-\c@KVtest=\count354
+\c@KVtest=\count355
 \sf@farskip=\skip270
 \sf@captopadj=\dimen275
 \sf@capskip=\skip271
 \sf@nearskip=\skip272
-\c@subfigure=\count355
-\c@subfigure@save=\count356
-\c@subtable=\count357
-\c@subtable@save=\count358
+\c@subfigure=\count356
+\c@subfigure@save=\count357
+\c@subtable=\count358
+\c@subtable@save=\count359
 \sf@top=\skip273
 \sf@bottom=\skip274
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float
 .sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count359
+\c@float@type=\count360
 \float@exts=\toks35
 \float@box=\box53
 \@float@everytoks=\toks36
 \@floatcapt=\box54
 )
-Package color Info: Redefining color blue on input line 134.
-Package hyperref Info: Option `colorlinks' set `true' on input line 151.
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\am
+ssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\am
+sfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+\enitdp@todolist=\count361
+
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\pifo
+nt.sty"
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\upzd
+.fd"
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\upsy
+.fd"
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+Package color Info: Redefining color blue on input line 147.
+Package hyperref Info: Option `colorlinks' set `true' on input line 164.
 \main@idxfile=\write4
 \openout4 = `main.idx'.
 
@@ -1367,28 +1397,28 @@ LaTeX Warning: Label `sub@b' multiply defined.
 ))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 174.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 187.
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmr.fd
 "
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \AtBeginShipoutBox=\box55
-Package hyperref Info: Link coloring ON on input line 174.
+Package hyperref Info: Link coloring ON on input line 187.
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\na
 meref.sty"
@@ -1398,36 +1428,36 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count360
+\c@section@level=\count362
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 174.
-LaTeX Info: Redefining \ref on input line 174.
-LaTeX Info: Redefining \pageref on input line 174.
-LaTeX Info: Redefining \nameref on input line 174.
-LaTeX Info: Redefining \degres on input line 174.
-LaTeX Info: Redefining \dots on input line 174.
-LaTeX Info: Redefining \up on input line 174.
+LaTeX Info: Redefining \nameref on input line 187.
+LaTeX Info: Redefining \ref on input line 187.
+LaTeX Info: Redefining \pageref on input line 187.
+LaTeX Info: Redefining \nameref on input line 187.
+LaTeX Info: Redefining \degres on input line 187.
+LaTeX Info: Redefining \dots on input line 187.
+LaTeX Info: Redefining \up on input line 187.
 \myptabbox=\box56
 \myptabboxwidth=\skip275
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 174.
+(lastpage)             ! on input line 187.
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii
 \supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count361
+\scratchcounter=\count363
 \scratchdimen=\dimen276
 \scratchbox=\box57
-\nofMPsegments=\count362
-\nofMParguments=\count363
+\nofMPsegments=\count364
+\nofMParguments=\count365
 \everyMPshowfont=\toks37
-\MPscratchCnt=\count364
+\MPscratchCnt=\count366
 \MPscratchDim=\dimen277
-\MPnumerator=\count365
-\makeMPintoPDFobject=\count366
+\MPnumerator=\count367
+\makeMPintoPDFobject=\count368
 \everyMPtoPDFconversion=\toks38
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\ep
@@ -1445,7 +1475,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Info: Redefining \microtypecontext on input line 174.
+LaTeX Info: Redefining \microtypecontext on input line 187.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1465,7 +1495,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 187.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 200.
 
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmss.f
@@ -1511,8 +1541,27 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 2.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
+LaTeX Font Info:    Try loading font information for U+msa on input line 2.
+
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\um
+sa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\m
+t-msa.cfg"
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 2.
+
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\um
+sb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\m
+t-msb.cfg"
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
+ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.28 ...s radiais.\relax }}{39}{figure.caption.30}
@@ -1525,7 +1574,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.56 ...tividades.\relax }}{73}{figure.caption.60}
+l.56 ...tividades.\relax }}{76}{figure.caption.60}
                                                   % [2]) [3] [4
 
 ] (main.toc
@@ -2184,24 +2233,30 @@ File: capitulo_3/blob.jpg Graphic file (type jpg)
 <use capitulo_3/blob.jpg>
 Package pdftex.def Info: capitulo_3/blob.jpg  used on input line 234.
 (pdftex.def)             Requested size: 318.49861pt x 214.20587pt.
- [74 <./capitulo_3/blob.jpg>]
-<capitulo_3/cronograma_novo.png, id=1307, 1258.7025pt x 261.97874pt>
+
+Overfull \hbox (21.77592pt too wide) in paragraph at lines 236--236
+[][]|\T1/lmr/m/n/12 (-20) Fonte: [][]$<[]https : / / www . linkedin . com / pul
+se / implicit-[]modelling-[]disasters-[]making-[]part-[]1-[]ron-[]reid /
+ []
+
+[74 <./capitulo_3/blob.jpg>] [75]
+<capitulo_3/cronograma_novo.png, id=1316, 1258.7025pt x 302.12875pt>
 File: capitulo_3/cronograma_novo.png Graphic file (type png)
 <use capitulo_3/cronograma_novo.png>
-Package pdftex.def Info: capitulo_3/cronograma_novo.png  used on input line 270
+Package pdftex.def Info: capitulo_3/cronograma_novo.png  used on input line 288
 .
-(pdftex.def)             Requested size: 455.0pt x 94.70003pt.
-) [75 <./capitulo_3/cronograma_novo.png>]
+(pdftex.def)             Requested size: 455.0pt x 109.21344pt.
+) [76 <./capitulo_3/cronograma_novo.png>]
 (main.bbl (main.brf)
 \tf@brf=\write5
 \openout5 = `main.brf'.
 
- [76
 
-
-]
 bibitemlist
-[77] [78] [79] [80]) 
+[77
+
+
+] [78] [79] [80]) 
 AED: lastpage setting LastPage
 [81]
 \tf@lof=\write6
@@ -2210,33 +2265,28 @@ AED: lastpage setting LastPage
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 317.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 317.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 330.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 330.
  (main.aux (capitulo_1/capitulo_1.aux) (capitulo_2/capitulo_2.aux)
 (capitulo_3/capitulo_3.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 317.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 317.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 330.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 330.
+Package rerunfilecheck Info: File `main.brf' has not changed.
+(rerunfilecheck)             Checksum: DA5551AC67A32838D81889C8F8CC72EC;9465.
 
-
-Package rerunfilecheck Warning: File `main.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `main.brf':
-(rerunfilecheck)             Before: EDA585D76F8F894491597A1735D1E528;9465
-(rerunfilecheck)             After:  DA5551AC67A32838D81889C8F8CC72EC;9465.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 317.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 330.
  ) 
 Here is how much of TeX's memory you used:
- 26944 strings out of 492945
- 471417 string characters out of 3123142
- 700146 words of memory out of 3000000
- 29909 multiletter control sequences out of 15000+200000
- 630572 words of font info for 167 fonts, out of 3000000 for 9000
+ 27338 strings out of 492945
+ 476936 string characters out of 3123143
+ 704868 words of memory out of 3000000
+ 30265 multiletter control sequences out of 15000+200000
+ 634102 words of font info for 182 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,13n,63p,1679b,635s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,13n,63p,1679b,636s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Roberto Rolo/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/l
 m-rm.enc}{C:/Users/Roberto Rolo/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvi
 ps/lm/lm-mathit.enc}{C:/Users/Roberto Rolo/AppData/Local/Programs/MiKTeX 2.9/fo
@@ -2267,10 +2317,13 @@ pfb><C:/Users/Roberto Rolo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 /lm/lmsy10.pfb><C:/Users/Roberto Rolo/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/public/lm/lmsy6.pfb><C:/Users/Roberto Rolo/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Roberto Rolo/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (83 pages, 19568830 bytes).
+s/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:/Users/Roberto Rolo/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/User
+s/Roberto Rolo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.
+pfb>
+Output written on main.pdf (83 pages, 19582817 bytes).
 PDF statistics:
- 1754 PDF objects out of 2073 (max. 8388607)
+ 1768 PDF objects out of 2073 (max. 8388607)
  350 named destinations out of 1000 (max. 500000)
  35071 words of extra memory for PDF output out of 35830 (max. 10000000)
 
