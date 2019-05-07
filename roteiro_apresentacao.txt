@@ -1,0 +1,8 @@
+Slide 1
+********
+
+Uma boa tarde, gostaria primeiramente de agradecer a presença de todos, em especial Diego, Luís Augusto, Professor João. Meu nome é Roberto Rolo sou engenheiro de minas, fiz meu mestrado aqui na UFRGS com o professor joão Felipe intitulado modelagem geológica implícita com funções distâncias assinaladas. Minha proposta de tese é uma extensão natural do trabalho desenvolvido no meu mestrado, eu proponho aprimoramentos em modelagem geológica implícita com funções distância assinaladas.
+
+Slide 2
+********
+

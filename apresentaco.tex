@@ -1,0 +1,62 @@
+\documentclass[aspectratio=169]{beamer}
+
+
+\mode<presentation>
+{
+	\usetheme{default}      % or try Darmstadt, Madrid, Warsaw, ...
+	\usecolortheme{default} % or try albatross, beaver, crane, ...
+	\usefonttheme{default}  % or try serif, structurebold, ...
+	\setbeamertemplate{navigation symbols}{}
+	\setbeamertemplate{caption}[numbered]
+}
+
+%enumerate continuing numbering
+\setbeamercovered{highly dynamic}
+
+\newcounter{saveenumi}
+\newcommand{\seti}{\setcounter{saveenumi}{\value{enumi}}}
+\newcommand{\conti}{\setcounter{enumi}{\value{saveenumi}}}
+%
+
+\usepackage[portuguese]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{natbib}
+\usepackage{hyperref}
+\usepackage{enumerate}
+%\usepackage{biblatex}
+
+%numbering
+\addtobeamertemplate{navigation symbols}{}{%
+	\usebeamerfont{footline}%
+	\usebeamercolor[fg]{footline}%
+	\hspace{1em}%
+	\insertframenumber/\inserttotalframenumber
+}
+
+\title[Your Short Title]{Aprimoramentos em modelagem geológica implícita com funções distância assinaladas}
+\subtitle{Proposta de tese para o exame de qualificação}
+\author{Me. Roberto Mentzingen Rolo \\ \small{Orientador: Prof. Dr. João Felipe Coimbra Leite Costa, PhD}}
+\institute{Universidade Federal do Rio Grande do Sul \\ Escola de Engenharia \\ Programa de Pós-Graduação em Engenharia de Minas, Metalúrgica e de Materiais}
+\date{8 de junho de 2019}
+
+\begin{document}
+	
+\begin{frame}
+	\titlepage
+\end{frame}
+
+%sumário
+\begin{frame}{Estrutura}
+\begin{scriptsize}
+	\tableofcontents
+\end{scriptsize}
+\end{frame}
+
+\section{Introdução}
+
+\begin{frame}{Introdução}
+
+\end{frame}
+
+\end{document}
