@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.1)  6 MAY 2019 11:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.1)  14 MAY 2019 11:57
 entering extended mode
 **./main.tex
 (main.tex
@@ -2103,7 +2103,10 @@ r_example.png>]
 
 
 
-] [59]
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59]
 [60]
 <capitulo_3/actual.png, id=1090, 306.14375pt x 278.03876pt>
 File: capitulo_3/actual.png Graphic file (type png)
@@ -2203,32 +2206,32 @@ File: capitulo_3/gauss_trunc_sketch.png Graphic file (type png)
 Package pdftex.def Info: capitulo_3/gauss_trunc_sketch.png  used on input line 
 164.
 (pdftex.def)             Requested size: 227.5pt x 102.33151pt.
-<capitulo_3/pluri_sketch.png, id=1212, 304.88907pt x 281.55188pt>
+ [70 <./capitulo_3/gauss_trunc_sketch.png>]
+<capitulo_3/pluri_sketch.png, id=1219, 304.88907pt x 281.55188pt>
 File: capitulo_3/pluri_sketch.png Graphic file (type png)
 <use capitulo_3/pluri_sketch.png>
 Package pdftex.def Info: capitulo_3/pluri_sketch.png  used on input line 174.
 (pdftex.def)             Requested size: 227.5pt x 210.09364pt.
- [70 <./capitulo_3/gauss_trunc_sketch.png>]
 <capitulo_3/trunc_rules.png, id=1228, 572.89032pt x 246.1697pt>
 File: capitulo_3/trunc_rules.png Graphic file (type png)
 <use capitulo_3/trunc_rules.png>
 Package pdftex.def Info: capitulo_3/trunc_rules.png  used on input line 184.
 (pdftex.def)             Requested size: 227.5pt x 97.7562pt.
  [71 <./capitulo_3/pluri_sketch.png> <./capitulo_3/trunc_rules.png>]
-<capitulo_3/pluri_mds.png, id=1254, 356.33125pt x 357.335pt>
+<capitulo_3/pluri_mds.png, id=1253, 356.33125pt x 357.335pt>
 File: capitulo_3/pluri_mds.png Graphic file (type png)
 <use capitulo_3/pluri_mds.png>
 Package pdftex.def Info: capitulo_3/pluri_mds.png  used on input line 200.
 (pdftex.def)             Requested size: 227.5pt x 228.13745pt.
  [72 <./capitulo_3/pluri_mds.png>]
-<capitulo_3/trunc_rules_prop.jpg, id=1282, 1027.84pt x 770.88pt>
+<capitulo_3/trunc_rules_prop.jpg, id=1280, 1027.84pt x 770.88pt>
 File: capitulo_3/trunc_rules_prop.jpg Graphic file (type jpg)
 <use capitulo_3/trunc_rules_prop.jpg>
 Package pdftex.def Info: capitulo_3/trunc_rules_prop.jpg  used on input line 21
 6.
 (pdftex.def)             Requested size: 273.00278pt x 204.75273pt.
  [73 <./capitulo_3/trunc_rules_prop.jpg>]
-<capitulo_3/blob.jpg, id=1299, 662.08646pt x 445.27646pt>
+<capitulo_3/blob.jpg, id=1297, 662.08646pt x 445.27646pt>
 File: capitulo_3/blob.jpg Graphic file (type jpg)
 <use capitulo_3/blob.jpg>
 Package pdftex.def Info: capitulo_3/blob.jpg  used on input line 234.
@@ -2240,7 +2243,7 @@ se / implicit-[]modelling-[]disasters-[]making-[]part-[]1-[]ron-[]reid /
  []
 
 [74 <./capitulo_3/blob.jpg>] [75]
-<capitulo_3/cronograma_novo.png, id=1316, 1258.7025pt x 302.12875pt>
+<capitulo_3/cronograma_novo.png, id=1314, 1258.7025pt x 302.12875pt>
 File: capitulo_3/cronograma_novo.png Graphic file (type png)
 <use capitulo_3/cronograma_novo.png>
 Package pdftex.def Info: capitulo_3/cronograma_novo.png  used on input line 288
@@ -2282,7 +2285,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 330.
 Here is how much of TeX's memory you used:
  27338 strings out of 492945
  476936 string characters out of 3123143
- 704868 words of memory out of 3000000
+ 704844 words of memory out of 3000000
  30265 multiletter control sequences out of 15000+200000
  634102 words of font info for 182 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2321,9 +2324,9 @@ s/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:/Users/Roberto Rolo/AppData/Lo
 cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/User
 s/Roberto Rolo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.
 pfb>
-Output written on main.pdf (83 pages, 19582817 bytes).
+Output written on main.pdf (83 pages, 19581862 bytes).
 PDF statistics:
- 1768 PDF objects out of 2073 (max. 8388607)
+ 1766 PDF objects out of 2073 (max. 8388607)
  350 named destinations out of 1000 (max. 500000)
  35071 words of extra memory for PDF output out of 35830 (max. 10000000)
 
