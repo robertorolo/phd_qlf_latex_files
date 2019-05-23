@@ -1,8 +1,31 @@
 Slide 1
 ********
 
-Uma boa tarde, gostaria primeiramente de agradecer a presença de todos, em especial Diego, Luís Augusto, Professor João. Meu nome é Roberto Rolo sou engenheiro de minas, fiz meu mestrado aqui na UFRGS com o professor joão Felipe intitulado modelagem geológica implícita com funções distâncias assinaladas. Minha proposta de tese é uma extensão natural do trabalho desenvolvido no meu mestrado, eu proponho aprimoramentos em modelagem geológica implícita com funções distância assinaladas.
+Uma boa tarde, gostaria primeiramente de agradecer a presença de todos, em especial doutor Diego, doutor Luís Eduardo, Professor João Felipe. 
+
+Meu nome é Roberto Rolo sou engenheiro de minas, fiz meu mestrado aqui na UFRGS com o professor joão Felipe intitulado modelagem geológica implícita com funções distâncias assinaladas. 
+Minha proposta de tese é uma extensão natural do trabalho desenvolvido no meu mestrado: eu proponho aprimoramentos em modelagem geológica implícita com funções distância assinaladas.
 
 Slide 2
 ********
+
+Slide 3
+*********
+
+Estimativas de recursos e reservas minerais demandam a construção de modelos numéricos de teores: 
+
+* de longo prazo, que abrangem toda a extensão do depósito mineral e compreendem todo o tempo de vida da mina. Esses modelos são atualizados em intervalos de um a três anos de operação. 
+* Modelos de médio prazo podem ser construídos para planejar de um a seis meses no futuro do empreendimento. 
+* Enquanto modelos de curto prazo, são construídos com o objetivo de balizar, semanalmente ou diariamente, as decisões relativas a controle de teores e planejamento detalhado da mina.
+
+A construção desses modelos exige quatro grandes atividades:
+
+* Coleta e gerenciamento de dados
+* Interpretação e modelagem geológica
+* Atribuição de teores 
+* e Avaliação e gerenciamento da incerteza geológica e de teores.
+
+Após a coleta, gerenciamento e checagem dos dados, é necessário identificar diferentes domínios. A determinação dos domínios deve ser baseada no conhecimento geológico, i.e. zonas de oxidação, litologias, alteração ou limites estruturais e deve ser suportada por extensiva análise estatística (análise exploratória dos dados), incluindo análises variográficas.
+
+
 

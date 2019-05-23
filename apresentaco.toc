@@ -1,2 +1,5 @@
 \babel@toc {portuguese}{}
-\beamer@sectionintoc {1}{Introdu\IeC {\c c}\IeC {\~a}o}{3}{0}{1}
+\beamer@sectionintoc {1}{Apresenta\IeC {\c c}\IeC {\~a}o}{1}{0}{1}
+\beamer@sectionintoc {2}{Introdu\IeC {\c c}\IeC {\~a}o}{3}{0}{2}
+\beamer@subsectionintoc {2}{1}{Interpreta\IeC {\c c}\IeC {\~a}o e modelagem geol\IeC {\'o}gica}{4}{0}{2}
+\beamer@subsectionintoc {2}{2}{M\IeC {\'e}todo tradicional}{5}{0}{2}
