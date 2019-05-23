@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.26)  23 MAY 2019 10:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.1)  23 MAY 2019 16:29
 entering extended mode
 **./apresentaco.tex
 (apresentaco.tex
@@ -167,11 +167,11 @@ Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ties\pgfrcs.code.tex"
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf\pgf.r
 evision.tex")
-Package: pgfrcs 2019/05/09 v3.1.3 (3.1.3)
+Package: pgfrcs 2019/04/04 v3.1.2 (3.1.2)
 ))
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
 mlayer\pgfsys.code.tex"
-Package: pgfsys 2019/05/09 v3.1.3 (3.1.3)
+Package: pgfsys 2019/04/04 v3.1.2 (3.1.2)
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utili
 ties\pgfkeys.code.tex"
@@ -190,8 +190,6 @@ ties\pgfkeysfiltered.code.tex"
 \pgf@yb=\dimen135
 \pgf@xc=\dimen136
 \pgf@yc=\dimen137
-\pgf@xd=\dimen138
-\pgf@yd=\dimen139
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
 \c@pgf@counta=\count108
@@ -205,27 +203,27 @@ ties\pgfkeysfiltered.code.tex"
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
 mlayer\pgf.cfg"
-File: pgf.cfg 2019/05/09 v3.1.3 (3.1.3)
+File: pgf.cfg 2019/04/04 v3.1.2 (3.1.2)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
 mlayer\pgfsys-pdftex.def"
-File: pgfsys-pdftex.def 2019/05/09 v3.1.3 (3.1.3)
+File: pgfsys-pdftex.def 2019/04/04 v3.1.2 (3.1.2)
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
 mlayer\pgfsys-common-pdf.def"
-File: pgfsys-common-pdf.def 2019/05/09 v3.1.3 (3.1.3)
+File: pgfsys-common-pdf.def 2019/04/04 v3.1.2 (3.1.2)
 )))
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
 mlayer\pgfsyssoftpath.code.tex"
-File: pgfsyssoftpath.code.tex 2019/05/09 v3.1.3 (3.1.3)
+File: pgfsyssoftpath.code.tex 2019/04/04 v3.1.2 (3.1.2)
 \pgfsyssoftpath@smallbuffer@items=\count113
 \pgfsyssoftpath@bigbuffer@items=\count114
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
 mlayer\pgfsysprotocol.code.tex"
-File: pgfsysprotocol.code.tex 2019/05/09 v3.1.3 (3.1.3)
+File: pgfsysprotocol.code.tex 2019/04/04 v3.1.2 (3.1.2)
 ))
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcol
 or.sty"
@@ -248,7 +246,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcore.code.tex"
-Package: pgfcore 2019/05/09 v3.1.3 (3.1.3)
+Package: pgfcore 2019/04/04 v3.1.2 (3.1.2)
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
 pgfmath.code.tex"
@@ -258,7 +256,7 @@ pgfmathcalc.code.tex"
 pgfmathutil.code.tex")
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
 pgfmathparser.code.tex"
-\pgfmath@dimen=\dimen140
+\pgfmath@dimen=\dimen138
 \pgfmath@count=\count115
 \pgfmath@box=\box36
 \pgfmath@toks=\toks23
@@ -287,41 +285,39 @@ pgfmathfunctions.integerarithmetics.code.tex")))
 pgfmathfloat.code.tex"
 \c@pgfmathroundto@lastzeros=\count116
 ))
-("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
-pgfint.code.tex")
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorepoints.code.tex"
-File: pgfcorepoints.code.tex 2019/05/09 v3.1.3 (3.1.3)
-\pgf@picminx=\dimen141
-\pgf@picmaxx=\dimen142
-\pgf@picminy=\dimen143
-\pgf@picmaxy=\dimen144
-\pgf@pathminx=\dimen145
-\pgf@pathmaxx=\dimen146
-\pgf@pathminy=\dimen147
-\pgf@pathmaxy=\dimen148
-\pgf@xx=\dimen149
-\pgf@xy=\dimen150
-\pgf@yx=\dimen151
-\pgf@yy=\dimen152
-\pgf@zx=\dimen153
-\pgf@zy=\dimen154
+File: pgfcorepoints.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgf@picminx=\dimen139
+\pgf@picmaxx=\dimen140
+\pgf@picminy=\dimen141
+\pgf@picmaxy=\dimen142
+\pgf@pathminx=\dimen143
+\pgf@pathmaxx=\dimen144
+\pgf@pathminy=\dimen145
+\pgf@pathmaxy=\dimen146
+\pgf@xx=\dimen147
+\pgf@xy=\dimen148
+\pgf@yx=\dimen149
+\pgf@yy=\dimen150
+\pgf@zx=\dimen151
+\pgf@zy=\dimen152
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorepathconstruct.code.tex"
-File: pgfcorepathconstruct.code.tex 2019/05/09 v3.1.3 (3.1.3)
-\pgf@path@lastx=\dimen155
-\pgf@path@lasty=\dimen156
+File: pgfcorepathconstruct.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgf@path@lastx=\dimen153
+\pgf@path@lasty=\dimen154
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorepathusage.code.tex"
-File: pgfcorepathusage.code.tex 2019/05/09 v3.1.3 (3.1.3)
-\pgf@shorten@end@additional=\dimen157
-\pgf@shorten@start@additional=\dimen158
+File: pgfcorepathusage.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgf@shorten@end@additional=\dimen155
+\pgf@shorten@start@additional=\dimen156
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorescopes.code.tex"
-File: pgfcorescopes.code.tex 2019/05/09 v3.1.3 (3.1.3)
+File: pgfcorescopes.code.tex 2019/04/04 v3.1.2 (3.1.2)
 \pgfpic=\box37
 \pgf@hbox=\box38
 \pgf@layerbox@main=\box39
@@ -329,64 +325,64 @@ File: pgfcorescopes.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcoregraphicstate.code.tex"
-File: pgfcoregraphicstate.code.tex 2019/05/09 v3.1.3 (3.1.3)
-\pgflinewidth=\dimen159
+File: pgfcoregraphicstate.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgflinewidth=\dimen157
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcoretransformations.code.tex"
-File: pgfcoretransformations.code.tex 2019/05/09 v3.1.3 (3.1.3)
-\pgf@pt@x=\dimen160
-\pgf@pt@y=\dimen161
-\pgf@pt@temp=\dimen162
+File: pgfcoretransformations.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgf@pt@x=\dimen158
+\pgf@pt@y=\dimen159
+\pgf@pt@temp=\dimen160
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorequick.code.tex"
-File: pgfcorequick.code.tex 2019/05/09 v3.1.3 (3.1.3)
+File: pgfcorequick.code.tex 2019/04/04 v3.1.2 (3.1.2)
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcoreobjects.code.tex"
-File: pgfcoreobjects.code.tex 2019/05/09 v3.1.3 (3.1.3)
+File: pgfcoreobjects.code.tex 2019/04/04 v3.1.2 (3.1.2)
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorepathprocessing.code.tex"
-File: pgfcorepathprocessing.code.tex 2019/05/09 v3.1.3 (3.1.3)
+File: pgfcorepathprocessing.code.tex 2019/04/04 v3.1.2 (3.1.2)
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorearrows.code.tex"
-File: pgfcorearrows.code.tex 2019/05/09 v3.1.3 (3.1.3)
-\pgfarrowsep=\dimen163
+File: pgfcorearrows.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgfarrowsep=\dimen161
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcoreshade.code.tex"
-File: pgfcoreshade.code.tex 2019/05/09 v3.1.3 (3.1.3)
-\pgf@max=\dimen164
+File: pgfcoreshade.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgf@max=\dimen162
 \pgf@sys@shading@range@num=\count118
 \pgf@shadingcount=\count119
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcoreimage.code.tex"
-File: pgfcoreimage.code.tex 2019/05/09 v3.1.3 (3.1.3)
+File: pgfcoreimage.code.tex 2019/04/04 v3.1.2 (3.1.2)
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcoreexternal.code.tex"
-File: pgfcoreexternal.code.tex 2019/05/09 v3.1.3 (3.1.3)
+File: pgfcoreexternal.code.tex 2019/04/04 v3.1.2 (3.1.2)
 \pgfexternal@startupbox=\box40
 ))
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorelayers.code.tex"
-File: pgfcorelayers.code.tex 2019/05/09 v3.1.3 (3.1.3)
+File: pgfcorelayers.code.tex 2019/04/04 v3.1.2 (3.1.2)
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcoretransparency.code.tex"
-File: pgfcoretransparency.code.tex 2019/05/09 v3.1.3 (3.1.3)
+File: pgfcoretransparency.code.tex 2019/04/04 v3.1.2 (3.1.2)
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorepatterns.code.tex"
-File: pgfcorepatterns.code.tex 2019/05/09 v3.1.3 (3.1.3)
+File: pgfcorepatterns.code.tex 2019/04/04 v3.1.2 (3.1.2)
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorerdf.code.tex"
-File: pgfcorerdf.code.tex 2019/05/09 v3.1.3 (3.1.3)
+File: pgfcorerdf.code.tex 2019/04/04 v3.1.2 (3.1.2)
 )))
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utiliti
 es\xxcolor.sty"
@@ -458,7 +454,7 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 options.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen165
+\@linkdim=\dimen163
 \Hy@linkcounter=\count122
 \Hy@pagecounter=\count123
 
@@ -492,10 +488,10 @@ Package hyperref Info: Bookmarks ON on input line 4772.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5125.
-\XeTeXLinkMargin=\dimen166
+\XeTeXLinkMargin=\dimen164
 \Fld@menulength=\count126
-\Field@Width=\dimen167
-\Fld@charsize=\dimen168
+\Field@Width=\dimen165
+\Fld@charsize=\dimen166
 Package hyperref Info: Hyper figures OFF on input line 6380.
 Package hyperref Info: Link nesting OFF on input line 6385.
 Package hyperref Info: Hyper index ON on input line 6388.
@@ -585,14 +581,14 @@ erbaseframe.sty"
 \beamer@zoombox=\box43
 \beamer@zoomcount=\count137
 \beamer@zoomframecount=\count138
-\beamer@frametextheight=\dimen169
+\beamer@frametextheight=\dimen167
 \c@subsectionslide=\count139
 \beamer@frametopskip=\skip45
 \beamer@framebottomskip=\skip46
 \beamer@frametopskipautobreak=\skip47
 \beamer@framebottomskipautobreak=\skip48
 \beamer@envbody=\toks27
-\framewidth=\dimen170
+\framewidth=\dimen168
 \c@framenumber=\count140
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
@@ -603,7 +599,7 @@ erbaseverbatim.sty"
 erbaseframesize.sty"
 \beamer@splitbox=\box44
 \beamer@autobreakcount=\count141
-\beamer@autobreaklastheight=\dimen171
+\beamer@autobreaklastheight=\dimen169
 \beamer@frametitletoks=\toks28
 \beamer@framesubtitletoks=\toks29
 )
@@ -632,12 +628,12 @@ erbaseboxes.sty"
 \bmb@boxshadow=\box49
 \bmb@boxshadowball=\box50
 \bmb@boxshadowballlarge=\box51
-\bmb@temp=\dimen172
-\bmb@dima=\dimen173
-\bmb@dimb=\dimen174
-\bmb@prevheight=\dimen175
+\bmb@temp=\dimen170
+\bmb@dima=\dimen171
+\bmb@dimb=\dimen172
+\bmb@prevheight=\dimen173
 )
-\beamer@blockheadheight=\dimen176
+\beamer@blockheadheight=\dimen174
 ))
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
 erbaselocalstructure.sty"
@@ -653,7 +649,7 @@ Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
 erbasenavigation.sty"
-\beamer@section@min@dim=\dimen177
+\beamer@section@min@dim=\dimen175
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
 erbasetheorems.sty"
@@ -672,12 +668,12 @@ Package: amstext 2000/06/29 v2.01 AMS text
 gen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks32
-\ex@=\dimen178
+\ex@=\dimen176
 ))
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\ams
 bsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen179
+\pmbraise@=\dimen177
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\ams
 opn.sty"
@@ -695,7 +691,7 @@ LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
 \Mathstrutbox@=\box52
 \strutbox@=\box53
-\big@size=\dimen180
+\big@size=\dimen178
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \macc@depth=\count149
@@ -708,12 +704,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \column@=\count154
 \maxfields@=\count155
 \andhelp@=\toks34
-\eqnshift@=\dimen181
-\alignsep@=\dimen182
-\tagshift@=\dimen183
-\tagwidth@=\dimen184
-\totwidth@=\dimen185
-\lineht@=\dimen186
+\eqnshift@=\dimen179
+\alignsep@=\dimen180
+\tagshift@=\dimen181
+\tagwidth@=\dimen182
+\totwidth@=\dimen183
+\lineht@=\dimen184
 \@envbody=\toks35
 \multlinegap=\skip52
 \multlinetaggap=\skip53
@@ -746,17 +742,21 @@ erfontthemedefault.sty")
 ercolorthemedefault.sty")
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
 erinnerthemedefault.sty"
-\beamer@dima=\dimen187
-\beamer@dimb=\dimen188
+\beamer@dima=\dimen185
+\beamer@dimb=\dimen186
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
 erouterthemedefault.sty")))
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
-erthemeSingapore.sty"
+erthemeLuebeck.sty"
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
-erouterthememiniframes.sty"))
+erouterthemesplit.sty")
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erinnerthemerectangles.sty")
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
 ercolorthemewhale.sty")
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+ercolorthemeorchid.sty"))
 \c@saveenumi=\count157
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\bab
@@ -784,7 +784,7 @@ Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 el.def"
 File: babel.def 2018/11/13 3.27 Babel common definitions
 \babel@savecnt=\count158
-\U@D=\dimen189
+\U@D=\dimen187
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txt
 babel.def")
@@ -833,31 +833,71 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count161
 )
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfig\subf
+ig.sty"
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\cap
+tion.sty"
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\cap
+tion3.sty"
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen188
+\captionmargin@=\dimen189
+\captionwidth=\dimen190
+\caption@tempdima=\dimen191
+\caption@indent=\dimen192
+\caption@parindent=\dimen193
+\caption@hangindent=\dimen194
+)
+\c@caption@flags=\count162
+\c@ContinuedFloat=\count163
+Package caption Info: beamer document class.
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+)
+\c@KVtest=\count164
+\sf@farskip=\skip59
+\sf@captopadj=\dimen195
+\sf@capskip=\skip60
+\sf@nearskip=\skip61
+\c@subfigure=\count165
+\c@subfigure@save=\count166
+\c@depth=\count167
+\c@subtable=\count168
+\c@subtable@save=\count169
+\sf@top=\skip62
+\sf@bottom=\skip63
+)
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-0.d
 ef"
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 39.
+(hyperref)                removing `\\' on input line 40.
 
 (apresentaco.aux)
 \openout1 = `apresentaco.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -897,16 +937,16 @@ LaTeX Font Info:    ... okay on input line 43.
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii
 \supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count162
-\scratchdimen=\dimen190
+\scratchcounter=\count170
+\scratchdimen=\dimen196
 \scratchbox=\box54
-\nofMPsegments=\count163
-\nofMParguments=\count164
+\nofMPsegments=\count171
+\nofMParguments=\count172
 \everyMPshowfont=\toks48
-\MPscratchCnt=\count165
-\MPscratchDim=\dimen191
-\MPnumerator=\count166
-\makeMPintoPDFobject=\count167
+\MPscratchCnt=\count173
+\MPscratchDim=\dimen197
+\MPnumerator=\count174
+\makeMPintoPDFobject=\count175
 \everyMPtoPDFconversion=\toks49
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\ep
@@ -925,7 +965,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box55
-Package hyperref Info: Link coloring OFF on input line 43.
+Package hyperref Info: Link coloring OFF on input line 44.
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\na
 meref.sty"
@@ -935,72 +975,72 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count168
+\c@section@level=\count176
 )
-LaTeX Info: Redefining \ref on input line 43.
-LaTeX Info: Redefining \pageref on input line 43.
-LaTeX Info: Redefining \nameref on input line 43.
+LaTeX Info: Redefining \ref on input line 44.
+LaTeX Info: Redefining \pageref on input line 44.
+LaTeX Info: Redefining \nameref on input line 44.
  (apresentaco.out) (apresentaco.out)
 \@outlinefile=\write5
 \openout5 = `apresentaco.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 43.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 44.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 43.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 44.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 43.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 43.
+(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 44.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/bx/n on input line 43.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/bx/n on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/bx/n on input line 43.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 43.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/bx/n on input line 44.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 43.
+(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 43.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 43.
+(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 44.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 43.
+(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 43.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 43.
+(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 44.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 43.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 43.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 44.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/bx/n on input line 43.
+(Font)                  T1/cmss/m/n --> T1/cmss/bx/n on input line 44.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/bx/it on input line 43.
+(Font)                  T1/cmss/m/it --> T1/cmss/bx/it on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmr/bx/n on input line 43.
+(Font)                  OT1/cmss/bx/n --> T1/cmr/bx/n on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/cmss/bx/n --> T1/cmss/bx/n on input line 43.
+(Font)                  T1/cmss/bx/n --> T1/cmss/bx/n on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/bx/n on input line 43.
+(Font)                  T1/cmss/m/n --> T1/cmss/bx/n on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/bx/it on input line 43.
+(Font)                  T1/cmss/m/it --> T1/cmss/bx/it on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/bx/n on input line 43.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 43.
+(Font)                  T1/cmtt/m/n --> T1/cmtt/bx/n on input line 44.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 44.
 LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `normal' on input line 43
+(Font)              `pureletters' in the math version `normal' on input line 44
 .
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  T1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 43
+(Font)                  T1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 44
 .
 LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `bold' on input line 43.
+(Font)              `pureletters' in the math version `bold' on input line 44.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  T1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 4
-3.
+4.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 43.
+ut line 44.
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\
 translator-basic-dictionary-English.dict"
@@ -1029,31 +1069,137 @@ Dictionary: translator-theorem-dictionary, Language: English
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\ucsencs
 .def"
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
-) (apresentaco.nav) [1{C:/Users/Roberto Rolo/AppData/Local/MiKTeX/2.9/pdftex/co
-nfig/pdftex.map}
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+ (apresentaco.nav)
+Overfull \hbox (139.81221pt too wide) in paragraph at lines 44--44
+ [][]  
+ []
 
-] (apresentaco.toc) [2
 
-] [3
+Overfull \hbox (139.81221pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[1{C:/Users/Roberto Rolo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 ]
-<apresentacao/passo_2.png, id=85, 1220.56pt x 295.1025pt>
+(apresentaco.toc)
+Overfull \hbox (139.81221pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[2
+
+]
+Overfull \hbox (139.81221pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[3
+
+]
+<apresentacao/passo_2.png, id=91, 1220.56pt x 295.1025pt>
 File: apresentacao/passo_2.png Graphic file (type png)
 <use apresentacao/passo_2.png>
-Package pdftex.def Info: apresentacao/passo_2.png  used on input line 88.
+Package pdftex.def Info: apresentacao/passo_2.png  used on input line 90.
 (pdftex.def)             Requested size: 398.3386pt x 96.30792pt.
- [4
+
+Overfull \hbox (139.81221pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[4
 
  <./apresentacao/passo_2.png>]
-<capitulo_1/explicitmodeling.jpg, id=99, 858.20625pt x 467.7475pt>
+<capitulo_1/explicitmodeling.jpg, id=106, 858.20625pt x 467.7475pt>
 File: capitulo_1/explicitmodeling.jpg Graphic file (type jpg)
 <use capitulo_1/explicitmodeling.jpg>
 Package pdftex.def Info: capitulo_1/explicitmodeling.jpg  used on input line 10
-2.
+5.
 (pdftex.def)             Requested size: 239.00558pt x 130.26181pt.
- [5
+
+Overfull \vbox (20.28877pt too high) detected at line 105
+ []
+
+
+Overfull \hbox (139.81221pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[5
 
  <./capitulo_1/explicitmodeling.jpg>]
+Overfull \hbox (139.81221pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[6
+
+]
+<capitulo_1/incerteza_limites.jpg, id=132, 894.34125pt x 753.81625pt>
+File: capitulo_1/incerteza_limites.jpg Graphic file (type jpg)
+<use capitulo_1/incerteza_limites.jpg>
+Package pdftex.def Info: capitulo_1/incerteza_limites.jpg  used on input line 1
+31.
+(pdftex.def)             Requested size: 159.333pt x 134.28929pt.
+
+Overfull \vbox (22.18762pt too high) detected at line 131
+ []
+
+
+Overfull \hbox (139.81221pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[7
+
+ <./capitulo_1/incerteza_limites.jpg>]
+Overfull \hbox (139.81221pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[8
+
+]
+<capitulo_1/implicit_modelig_pt_1.jpg, id=159, 1051.33832pt x 379.60768pt>
+File: capitulo_1/implicit_modelig_pt_1.jpg Graphic file (type jpg)
+<use capitulo_1/implicit_modelig_pt_1.jpg>
+Package pdftex.def Info: capitulo_1/implicit_modelig_pt_1.jpg  used on input li
+ne 171.
+(pdftex.def)             Requested size: 318.67209pt x 115.06482pt.
+
+Overfull \hbox (139.81221pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[9
+
+ <./capitulo_1/implicit_modelig_pt_1.jpg>]
+<capitulo_2/prop_hist_big.png, id=172, 1796.7125pt x 1847.90375pt>
+File: capitulo_2/prop_hist_big.png Graphic file (type png)
+<use capitulo_2/prop_hist_big.png>
+Package pdftex.def Info: capitulo_2/prop_hist_big.png  used on input line 186.
+(pdftex.def)             Requested size: 99.58464pt x 102.41043pt.
+<capitulo_2/dados.jpeg, id=173, 1082.0425pt x 821.0675pt>
+File: capitulo_2/dados.jpeg Graphic file (type jpg)
+<use capitulo_2/dados.jpeg>
+Package pdftex.def Info: capitulo_2/dados.jpeg  used on input line 186.
+(pdftex.def)             Requested size: 159.333pt x 120.89969pt.
+
+Overfull \vbox (12.32664pt too high) detected at line 186
+ []
+
+
+Overfull \hbox (139.81221pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[10
+
+ <./capitulo_2/prop_hist_big.png> <./capitulo_2/dados.jpeg>]
 \tf@nav=\write6
 \openout6 = `apresentaco.nav'.
 
@@ -1063,32 +1209,35 @@ Package pdftex.def Info: capitulo_1/explicitmodeling.jpg  used on input line 10
 \tf@snm=\write8
 \openout8 = `apresentaco.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 104.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
- (apresentaco.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 104.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 104.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 188.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
+
+(apresentaco.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 188.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 188.
 Package rerunfilecheck Info: File `apresentaco.out' has not changed.
-(rerunfilecheck)             Checksum: E949A49CC4FDE1638031A26EC5DDCEF6;271.
+(rerunfilecheck)             Checksum: BA5218462C16365A2EF3652F2400E7C9;562.
  ) 
 Here is how much of TeX's memory you used:
- 18974 strings out of 492945
- 359468 string characters out of 3123142
- 454449 words of memory out of 3000000
- 22430 multiletter control sequences out of 15000+200000
- 8854 words of font info for 22 fonts, out of 3000000 for 9000
+ 20233 strings out of 492945
+ 383289 string characters out of 3123143
+ 474840 words of memory out of 3000000
+ 23655 multiletter control sequences out of 15000+200000
+ 10450 words of font info for 24 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,19n,56p,780b,776s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,19n,69p,780b,583s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Roberto Rolo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/
-dpi600\ecss0800.pk> <C:\Users\Roberto Rolo\AppData\Local\MiKTeX\2.9\fonts/pk/lj
-four/jknappen/ec/dpi600\ecss1000.pk> <C:\Users\Roberto Rolo\AppData\Local\MiKTe
-X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1095.pk> <C:\Users\Roberto Rolo\Ap
-pData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C:\User
+dpi600\ecss0900.pk> <C:\Users\Roberto Rolo\AppData\Local\MiKTeX\2.9\fonts/pk/lj
+four/jknappen/ec/dpi600\ecsi1095.pk> <C:\Users\Roberto Rolo\AppData\Local\MiKTe
+X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0800.pk> <C:\Users\Roberto Rolo\Ap
+pData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1000.pk> <C:\User
 s\Roberto Rolo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecss
-0600.pk>
-Output written on apresentaco.pdf (5 pages, 300254 bytes).
+1095.pk> <C:\Users\Roberto Rolo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknapp
+en/ec/dpi600\ecss1440.pk> <C:\Users\Roberto Rolo\AppData\Local\MiKTeX\2.9\fonts
+/pk/ljfour/jknappen/ec/dpi600\ecss0600.pk>
+Output written on apresentaco.pdf (10 pages, 970792 bytes).
 PDF statistics:
- 288 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 466 PDF objects out of 1000 (max. 8388607)
+ 28 named destinations out of 1000 (max. 500000)
+ 129 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -3,9 +3,9 @@
 
 \mode<presentation>
 {
-	\usetheme{Singapore}      % or try Darmstadt, Madrid, Warsaw, ...
-	\usecolortheme{whale} % or try albatross, beaver, crane, ...
-	\usefonttheme{default}  % or try serif, structurebold, ...
+	\usetheme{Luebeck}
+	\usecolortheme{whale}
+	\usefonttheme{default}
 	\setbeamertemplate{navigation symbols}{}
 	\setbeamertemplate{caption}[numbered]
 }
@@ -24,6 +24,7 @@
 \usepackage{natbib}
 \usepackage{hyperref}
 \usepackage{enumerate}
+\usepackage{subfig}
 %\usepackage{biblatex}
 
 %numbering
@@ -42,7 +43,7 @@
 
 \begin{document}
 	
-\section{Apresentação}
+%\section{Apresentação}
 	
 \begin{frame}
 	\titlepage
@@ -82,6 +83,7 @@ Construir modelos numéricos de longo, médio e curto prazo para avaliação de 
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=\textwidth]{apresentacao/passo_2}
+		\caption{Interpretação e modelagem geológica.}
 	\end{center}
 \end{figure}
 
@@ -96,9 +98,91 @@ A abordagem tradicional para a criação de modelos geológicos tridimensionais 
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.6\textwidth]{capitulo_1/explicitmodeling}
+		\caption{Esquema do método tradicional.}
 	\end{center}
 \end{figure}
 
+\end{frame}
+
+\begin{frame}{Desvantagens do método tradicional}
+	\begin{itemize}
+		\item Tedioso e demorado;
+		\item Exige um profissional especializado e experiente;
+		\item Geometria dos corpos precisa ser simplificada;
+		\item Subjetivo;
+		\item Não replicável;
+		\item Inflexível;
+		\item Não avalia a incerteza.
+	\end{itemize}
+\end{frame}
+
+\subsection{Incerteza do modelo geológico}
+
+\begin{frame}{Incerteza do modelo geológico}
+
+Em muitos casos, a incerteza do modelo geológico pode ser uma fonte de incerteza crucial e deve ser avaliada.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\textwidth]{capitulo_1/incerteza_limites}
+		\caption{Incerteza do modelo geológico.}
+	\end{center}
+\end{figure}
+\end{frame}
+
+\subsection{Métodos matemáticos}
+
+\begin{frame}{Métodos matemáticos}
+
+	\begin{columns}[t]
+		\begin{column}{0.5\textwidth}
+			\begin{center}
+				\textit{Métodos determinísticos}
+			\end{center}
+			\begin{itemize}
+				\item Vizinho mais próximo;
+				\item Krigagem dos indicadores.
+			\end{itemize}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\begin{center}
+				\textit{Métodos estocásticos}
+			\end{center}
+			\begin{itemize}
+				\item Simulação sequencial dos indicadores;
+				\item Simulação gaussiana/plurigaussiana truncada;
+				\item Simulação multi ponto;
+				\item Simulação baseada em objetos;
+			\end{itemize}
+		\end{column}
+	\end{columns}
+	
+\end{frame}
+
+\subsection{Métodos implícitos}
+
+\begin{frame}{Métodos implícitos}
+	\begin{figure}[H]
+		\begin{center}
+			\includegraphics[width=0.8\textwidth]{capitulo_1/implicit_modelig_pt_1}
+			\caption{Esquema dos métodos implícitos.}
+		\end{center}
+	\end{figure}
+\end{frame}
+
+\section{Modelagem geológica implícita com funções distância assinaladas}
+
+\begin{frame}{O banco de dados}
+
+72 furos totalizando 3349 amostras distribuídas entre 3 diferentes categorias.
+
+	\begin{figure}
+		\centering
+		\subfloat[Proporções.]{\includegraphics[width=.25\textwidth]{capitulo_2/prop_hist_big.png}}\hspace{35mm}
+		\subfloat[Vista das amostras.]{\includegraphics[width=.4\textwidth]{capitulo_2/dados.jpeg}}
+		\caption{O banco de dados.}
+	\end{figure}
+		
 \end{frame}
 
 \end{document}
