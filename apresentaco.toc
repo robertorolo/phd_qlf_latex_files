@@ -6,3 +6,11 @@
 \beamer@subsectionintoc {1}{4}{M\IeC {\'e}todos matem\IeC {\'a}ticos}{8}{0}{1}
 \beamer@subsectionintoc {1}{5}{M\IeC {\'e}todos impl\IeC {\'\i }citos}{9}{0}{1}
 \beamer@sectionintoc {2}{Modelagem geol\IeC {\'o}gica impl\IeC {\'\i }cita com fun\IeC {\c c}\IeC {\~o}es dist\IeC {\^a}ncia assinaladas}{10}{0}{2}
+\beamer@subsectionintoc {2}{1}{O banco de dados}{10}{0}{2}
+\beamer@subsectionintoc {2}{2}{Codificando as amostras em indicadores}{11}{0}{2}
+\beamer@subsectionintoc {2}{3}{Calculando a fun\IeC {\c c}\IeC {\~a}o dist\IeC {\^a}ncia assinalada}{12}{0}{2}
+\beamer@subsectionintoc {2}{4}{Variografia das dist\IeC {\^a}ncias assinaladas}{14}{0}{2}
+\beamer@subsectionintoc {2}{5}{Interpola\IeC {\c c}\IeC {\~a}o das dist\IeC {\^a}ncias assinaladas}{18}{0}{2}
+\beamer@subsectionintoc {2}{6}{Visualiza\IeC {\c c}\IeC {\~a}o do modelo geol\IeC {\'o}gico}{24}{0}{2}
+\beamer@subsectionintoc {2}{7}{Adapta\IeC {\c c}\IeC {\~a}o para m\IeC {\'u}ltiplas categorias simultaneamente}{27}{0}{2}
+\beamer@sectionintoc {3}{Refer\IeC {\^e}ncias bibliogr\IeC {\'a}ficas}{30}{0}{3}

@@ -3,7 +3,7 @@
 
 \mode<presentation>
 {
-	\usetheme{Montpellier}
+	\usetheme{Default}
 	\usecolortheme{whale}
 	\usefonttheme{default}
 	\setbeamertemplate{navigation symbols}{}
@@ -172,6 +172,8 @@ Em muitos casos, a incerteza do modelo geológico pode ser uma fonte de incertez
 
 \section{Modelagem geológica implícita com funções distância assinaladas}
 
+\subsection{O banco de dados}
+
 \begin{frame}{O banco de dados}
 
 72 furos totalizando 3349 amostras distribuídas entre 3 diferentes categorias.
@@ -184,6 +186,8 @@ Em muitos casos, a incerteza do modelo geológico pode ser uma fonte de incertez
 	\end{figure}
 		
 \end{frame}
+
+\subsection{Codificando as amostras em indicadores}
 
 \begin{frame}{Codificando as amostras em indicadores}
 	\begin{equation}
@@ -200,6 +204,257 @@ Em muitos casos, a incerteza do modelo geológico pode ser uma fonte de incertez
 		\subfloat[][Categoria 2]{\includegraphics[width=.3\textwidth]{capitulo_2/inddf2.jpeg}\label{<figure2>}}
 		\subfloat[][Categoria 3]{\includegraphics[width=.3\textwidth]{capitulo_2/inddf3.jpeg}\label{<figure2>}}
 	\end{figure}
+\end{frame}
+
+\subsection{Calculando a função distância assinalada}
+
+\begin{frame}{Calculando a função distância assinalada}
+
+\begin{equation}
+d_k(u_\alpha)=\begin{cases}
+-\parallel u_\alpha-u_\beta\parallel,\:\textrm{se $u_\alpha$ pertence ao domínio}\\
++\parallel u_\alpha-u_\beta\parallel,\:\textrm{se $u_\alpha$ não pertence ao domínio}\end{cases}
+\label{eq_mult_sg}
+\end{equation}
+
+O local $u_\beta$ corresponde à amostra mais próxima codificada com um indicador diferente de $u_\alpha$.
+\begin{figure}[H]
+	\caption{\label{2d_ex}Ilustração esquemática mostrando o cálculo das distâncias assinaladas.}
+	\begin{center}
+		\includegraphics[width=0.3\textwidth]{capitulo_2/2d_ex.jpg}
+	\end{center}
+	%\legend{Modificado de \citeonline{martin2017implicitmodeling}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Calculando a função distância assinalada} 
+	\begin{figure}[H]
+		\caption{Distâncias assinaladas calculadas para cada uma das categorias do banco de dados.} \label{indcalc}
+		\centering
+		\subfloat[][Categoria 1]{\includegraphics[width=.3\textwidth]{capitulo_2/df1.jpeg}\label{<figure1>}}
+		\subfloat[][Categoria 2]{\includegraphics[width=.3\textwidth]{capitulo_2/df2.jpeg}\label{<figure2>}}
+		\subfloat[][Categoria 3]{\includegraphics[width=.3\textwidth]{capitulo_2/df3.jpeg}\label{<figure2>}}
+	\end{figure}
+\end{frame}
+
+\subsection{Variografia das distâncias assinaladas}
+
+\begin{frame}{Variografia das distâncias assinaladas}
+
+Distâncias assinaladas não são estacionárias, o variograma não se estabiliza em um patamar. Além disso, o caráter extremamente contínuo das distâncias torna a identificação analítica das direções principais um processo embaraçoso.
+
+\begin{itemize}
+	\item Treinar o variograma usando validação cruzada;
+	\item Tentar modelar interativamente os variogramas experimentais;
+	\item Calcular e modelar os variogramas para as propriedades de indicadores e transformá-los em um equivalente gaussiano para as distâncias assinaladas;
+	\item inferir um modelo de covariância plausível visualmente a partir das amostras ou de mapas delineados a mão.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Variogramas das distâncias assinaladas}
+\begin{figure}[H] 
+	\caption{Variogramas experimentais das distâncias assinaladas e modelos para cada uma das categorias do banco de dados.} \label{sd_var}
+	\centering
+	\subfloat[][Categoria 1]{\includegraphics[width=.3\textwidth]{capitulo_2/var_DF_1.png}\label{<figure1>}}
+	\subfloat[][Categoria 2]{\includegraphics[width=.3\textwidth]{capitulo_2/var_DF_2.png}\label{<figure2>}}
+	\subfloat[][Categoria 3]{\includegraphics[width=.3\textwidth]{capitulo_2/var_DF_3.png}\label{<figure2>}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Variogramas dos indicadores}
+	\begin{figure}[H] 
+		\caption{Variogramas experimentais dos indicadores e modelos para cada uma das categorias do banco de dados.} \label{ind_var}
+		\centering
+		\subfloat[][Categoria 1]{\includegraphics[width=.3\textwidth]{capitulo_2/var_Ind_DF_1.png}\label{<figure1>}}
+		\subfloat[][Categoria 2]{\includegraphics[width=.3\textwidth]{capitulo_2/var_Ind_DF_2.png}\label{<figure2>}}
+		\subfloat[][Categoria 3]{\includegraphics[width=.3\textwidth]{capitulo_2/var_Ind_DF_3.png}\label{<figure2>}}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Alternativa ao cálculo e modelagem dos variogramas}
+	\begin{figure}[H]
+		\caption{\label{cov_table}Fluxograma da modelagem geológica implícita usando tabelas de covariância.}
+		\begin{center}
+			\includegraphics[width=0.7\textwidth]{capitulo_2/cov_table.png}
+		\end{center}
+		%\legend{\citeonline{kloechner_cov_table}}
+	\end{figure}
+\end{frame}
+
+\subsection{Interpolação das distâncias assinaladas}
+
+\begin{frame}{Resolução do grid}
+
+\begin{figure}[H]
+	\caption{\label{grid_res}Efeito da resolução do \textit{grid} na reprodução de estruturas geológicas.}
+	\begin{center}
+		\includegraphics[width=0.4\textwidth]{capitulo_2/grid_res.png}
+	\end{center}
+	%\legend{Fonte: \citeonline{martin2017implicitmodeling}}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{Grids criados}
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{lrr}
+			& \multicolumn{1}{l}{Grosso} & \multicolumn{1}{l}{Fino} \\ \hline
+			nx & 49 & 97 \\
+			ny & 49 & 98 \\
+			nz & 51 & 102 \\
+			sx & 10m & 5m \\
+			sy & 10m & 5m \\
+			sz & 4m & 2m \\
+			num & 122451 & 969612 \\ \hline
+		\end{tabular}
+		\caption{Parâmetros dos \textit{grids} de definição dos modelos geológicos implícitos.} \label{grid_def}
+	\end{table}
+\end{frame}
+
+\begin{frame}{Métodos de interpolação}
+	\begin{itemize}
+		\item \cite{hosseini_deutsch_iqd} utilizaram inverso da distância;
+		\item \cite{silvaenhancedgeomodeling} utilizou krigagem ordinária global;
+		\item \cite{rolo_dissertacao} utilizou krigagem ordinária;
+		\item \cite{silva_dual} aplicaram \textit{dual kriging};
+		\item \cite{boisvert_geomodeling} gerou modelos implícitos através de distâncias assinaladas com anisotropia variável local (\textit{Locally varying anisotropy kriging - LVA});
+		\item \cite{manchuck_MLS} propuseram a utilização de mínimos quadrados móveis para incorporar interpretação manual e avaliar incerteza.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Métodos de interpolação}
+	\begin{figure}[H] 
+		\caption{Interpolação das distâncias calculadas por diferentes métodos.} \label{interpo}
+		\centering
+		\subfloat[][OK com 40 amostras]{\includegraphics[width=.3\textwidth]{capitulo_2/kt3d40.jpeg}\label{<figure1>}}
+		\subfloat[][OK com 100 amostras]{\includegraphics[width=.3\textwidth]{capitulo_2/kt3d100.jpeg}\label{<figure2>}}
+		\subfloat[][RBF global]{\includegraphics[width=.3\textwidth]{capitulo_2/rbf.jpeg}\label{<figure2>}}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Decomposição do domínio}
+\begin{figure}[H]
+	\caption{\label{pou}Particionamento.}
+	\begin{center}
+		\includegraphics[width=0.9\textwidth]{capitulo_2/pou.jpg}
+	\end{center}
+	%\legend{Fonte: \citeonline{martin_boisvert_review_rbf}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Benchmark}
+
+Todos os algoritmos utilizados são da biblioteca GSLib e foram executados em um core i7 7700HQ @ 2.8 GHz com 16 Gb de RAM.
+
+\begin{table}[H]
+	\centering
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{lllll}
+			Método & Tempo grid grosso & Tempo grid fino & Classificação errônea grosso & Classificação errônea fino \\ \hline
+			krigagem global isotrópica & 28min &  & 121 &  \\
+			krigagem global anisotrópica & 30min 34s &  & 282 &  \\
+			krigagem ordinária anisotrópica (40) & 1min 3s & 38min & 137 & 135 \\
+			krigagem ordinária anisotrópica (100) &  & 45min 51s &  & 181 \\
+			RBF isotrópico & 21.5s &  & 57 &  \\
+			RBF anisotrópico &  & 1min 22s &  & 38 \\
+			Particionado RBF anisotrópico &  & 1min 2s &  & 39 \\
+			Particionado RBF artefatos & 16.5s &  &  & 29 \\
+			LVA OK &  &  & 8 &  \\
+			LVA RBF &  &  &  & 8 \\
+			Krigagem dos indicadores &  & 33min 27s &  & 2 \\ \hline
+		\end{tabular}%
+	}
+	\caption{\textit{Benchmark} dos diferentes métodos de interpolação.} \label{bench}
+\end{table}
+\end{frame}
+
+\subsection{Visualização do modelo geológico}
+
+\begin{frame}{Visualização do modelo geológico}
+\begin{figure}[H]
+	\caption{Iso superfícies para a categoria 1 extraída dos diferentes modelos implícitos.} \label{isosup}
+	\centering
+	\subfloat[][OK com 40 amostras]{\includegraphics[width=.3\textwidth]{capitulo_2/isokt3d40.jpeg}\label{<figure1>}}
+	\subfloat[][OK com 100 amostras]{\includegraphics[width=.3\textwidth]{capitulo_2/isokt3dn100.jpeg}\label{<figure2>}}
+	\subfloat[][RBF global]{\includegraphics[width=.3\textwidth]{capitulo_2/isorbf.jpeg}\label{<figure2>}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Visualização do modelo geológico}
+	\begin{figure}[H]
+		\caption{Iso superfície extraída do modelo implícito interpolado por RBF para a categoria 1.} \label{iso_cat1}
+		\centering
+		\subfloat[][Vista 1]{\includegraphics[width=.5\textwidth]{capitulo_2/iso_cat1_rbf.jpeg}\label{<figure1>}}
+		\subfloat[][Vista 2]{\includegraphics[width=.5\textwidth]{capitulo_2/iso_cat1_rbf2.jpeg}\label{<figure2>}}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Visualização do modelo geológico}
+\begin{figure}[H] 
+	\caption{Iso superfície extraída do modelo implícito interpolado por RBF para a categoria 2.} \label{iso_cat2}
+	\centering
+	\subfloat[][Vista 1]{\includegraphics[width=.5\textwidth]{capitulo_2/iso_cat2_rbf.jpeg}\label{<figure1>}}
+	\subfloat[][Vista 2]{\includegraphics[width=.5\textwidth]{capitulo_2/iso_cat2_rbr2.jpeg}\label{<figure2>}}
+\end{figure}
+\end{frame}
+
+\subsection{Adaptação para múltiplas categorias simultaneamente}
+
+\begin{frame}{Adaptação para múltiplas categorias simultaneamente}
+
+\begin{equation}
+i_k(u_\alpha)=\begin{cases}
+1,\:\textrm{se}\:z(u_\alpha)=k\\
+0,\:\textrm{se}\:z(u_\alpha)\:\textrm{caso contrário}\end{cases} k=1,...,K
+\label{eq_mult_ind}
+\end{equation}
+
+\begin{equation}
+d_k(u_\alpha)=\begin{cases}
+-\parallel u_\alpha-u_\beta\parallel,\:\textrm{se}\:i_k(u_\alpha)=1\\
++\parallel u_\alpha-u_\beta\parallel,\:\textrm{se}\:i_k(u_\alpha)=0\end{cases} k=1,...,K
+\label{eq_mult_sg}
+\end{equation}
+
+\begin{equation}
+d_k^*(u)=\sum\limits_{\alpha=1}^n \lambda_\alpha(u)d_k(u_\alpha)\quad k=1,...,K
+\label{eq_mult_ok}
+\end{equation}
+
+\begin{equation}
+i^*(u)=k'\;\text{de modo que}\;d_{k'}^*=min\{d_k^*(u)\}_{k=1}^K
+\label{eq_mult_rt}
+\end{equation}
+
+\end{frame}
+
+\begin{frame}{Adaptação para múltiplas categorias simultaneamente}
+\begin{figure}[H]
+	\caption{\label{mult_cat}Esquema para criação de um modelo implícito multi categórico.}
+	\begin{center}
+		\includegraphics[width=\textwidth]{capitulo_2/mult_cat_legenda.jpg}
+	\end{center}
+	%\legend{Fonte: Modificado de \citeonline{silvageostatlessons}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Adaptação para múltiplas categorias simultaneamente}
+\begin{figure}[H]
+	\caption{Modelo geológico multi categórico.} 
+	\label{multi_cat_rbf}
+	\centering
+\subfloat[][Seções em XZ do modelo implícito gerado por RBF no \textit{grid} fino.]{\includegraphics[width=.5\textwidth]{capitulo_2/anisofinexz.png}\label{<figure1>}}
+\subfloat[][Seções em YZ do modelo implícito gerado por RBF no \textit{grid} fino.]{\includegraphics[width=.5\textwidth]{capitulo_2/anisofineryz.png}\label{<figure2>}}
+\end{figure}
+
+\end{frame}
+
+\section{Referências bibliográficas}
+
+\begin{frame}{Referências bibliográficas}
+	\bibliographystyle{apa}
+	\bibliography{bibliografia}
 \end{frame}
 
 \end{document}

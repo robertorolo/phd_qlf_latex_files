@@ -32,12 +32,70 @@
 \headcommand {\beamer@sectionpages {3}{9}}
 \headcommand {\beamer@subsectionpages {9}{9}}
 \headcommand {\sectionentry {2}{Modelagem geol\IeC {\'o}gica impl\IeC {\'\i }cita com fun\IeC {\c c}\IeC {\~o}es dist\IeC {\^a}ncia assinaladas}{10}{Modelagem geol\IeC {\'o}gica impl\IeC {\'\i }cita com fun\IeC {\c c}\IeC {\~o}es dist\IeC {\^a}ncia assinaladas}{0}}
-\headcommand {\slideentry {2}{0}{1}{10/10}{}{0}}
+\headcommand {\beamer@subsectionpages {10}{9}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{10}{O banco de dados}}
+\headcommand {\slideentry {2}{1}{1}{10/10}{O banco de dados}{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\slideentry {2}{0}{2}{11/11}{}{0}}
+\headcommand {\beamer@subsectionpages {10}{10}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{11}{Codificando as amostras em indicadores}}
+\headcommand {\slideentry {2}{2}{1}{11/11}{Codificando as amostras em indicadores}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\beamer@partpages {1}{11}}
-\headcommand {\beamer@subsectionpages {10}{11}}
-\headcommand {\beamer@sectionpages {10}{11}}
-\headcommand {\beamer@documentpages {11}}
-\headcommand {\gdef \inserttotalframenumber {11}}
+\headcommand {\beamer@subsectionpages {11}{11}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{12}{Calculando a fun\IeC {\c c}\IeC {\~a}o dist\IeC {\^a}ncia assinalada}}
+\headcommand {\slideentry {2}{3}{1}{12/12}{Calculando a fun\IeC {\c c}\IeC {\~a}o dist\IeC {\^a}ncia assinalada}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\slideentry {2}{3}{2}{13/13}{Calculando a fun\IeC {\c c}\IeC {\~a}o dist\IeC {\^a}ncia assinalada}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\beamer@subsectionpages {12}{13}}
+\headcommand {\beamer@subsectionentry {0}{2}{4}{14}{Variografia das dist\IeC {\^a}ncias assinaladas}}
+\headcommand {\slideentry {2}{4}{1}{14/14}{Variografia das dist\IeC {\^a}ncias assinaladas}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\slideentry {2}{4}{2}{15/15}{Variografia das dist\IeC {\^a}ncias assinaladas}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\slideentry {2}{4}{3}{16/16}{Variografia das dist\IeC {\^a}ncias assinaladas}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\slideentry {2}{4}{4}{17/17}{Variografia das dist\IeC {\^a}ncias assinaladas}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\beamer@subsectionpages {14}{17}}
+\headcommand {\beamer@subsectionentry {0}{2}{5}{18}{Interpola\IeC {\c c}\IeC {\~a}o das dist\IeC {\^a}ncias assinaladas}}
+\headcommand {\slideentry {2}{5}{1}{18/18}{Interpola\IeC {\c c}\IeC {\~a}o das dist\IeC {\^a}ncias assinaladas}{0}}
+\headcommand {\beamer@framepages {18}{18}}
+\headcommand {\slideentry {2}{5}{2}{19/19}{Interpola\IeC {\c c}\IeC {\~a}o das dist\IeC {\^a}ncias assinaladas}{0}}
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\slideentry {2}{5}{3}{20/20}{Interpola\IeC {\c c}\IeC {\~a}o das dist\IeC {\^a}ncias assinaladas}{0}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\slideentry {2}{5}{4}{21/21}{Interpola\IeC {\c c}\IeC {\~a}o das dist\IeC {\^a}ncias assinaladas}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\slideentry {2}{5}{5}{22/22}{Interpola\IeC {\c c}\IeC {\~a}o das dist\IeC {\^a}ncias assinaladas}{0}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\slideentry {2}{5}{6}{23/23}{Interpola\IeC {\c c}\IeC {\~a}o das dist\IeC {\^a}ncias assinaladas}{0}}
+\headcommand {\beamer@framepages {23}{23}}
+\headcommand {\beamer@subsectionpages {18}{23}}
+\headcommand {\beamer@subsectionentry {0}{2}{6}{24}{Visualiza\IeC {\c c}\IeC {\~a}o do modelo geol\IeC {\'o}gico}}
+\headcommand {\slideentry {2}{6}{1}{24/24}{Visualiza\IeC {\c c}\IeC {\~a}o do modelo geol\IeC {\'o}gico}{0}}
+\headcommand {\beamer@framepages {24}{24}}
+\headcommand {\slideentry {2}{6}{2}{25/25}{Visualiza\IeC {\c c}\IeC {\~a}o do modelo geol\IeC {\'o}gico}{0}}
+\headcommand {\beamer@framepages {25}{25}}
+\headcommand {\slideentry {2}{6}{3}{26/26}{Visualiza\IeC {\c c}\IeC {\~a}o do modelo geol\IeC {\'o}gico}{0}}
+\headcommand {\beamer@framepages {26}{26}}
+\headcommand {\beamer@subsectionpages {24}{26}}
+\headcommand {\beamer@subsectionentry {0}{2}{7}{27}{Adapta\IeC {\c c}\IeC {\~a}o para m\IeC {\'u}ltiplas categorias simultaneamente}}
+\headcommand {\slideentry {2}{7}{1}{27/27}{Adapta\IeC {\c c}\IeC {\~a}o para m\IeC {\'u}ltiplas categorias simultaneamente}{0}}
+\headcommand {\beamer@framepages {27}{27}}
+\headcommand {\slideentry {2}{7}{2}{28/28}{Adapta\IeC {\c c}\IeC {\~a}o para m\IeC {\'u}ltiplas categorias simultaneamente}{0}}
+\headcommand {\beamer@framepages {28}{28}}
+\headcommand {\slideentry {2}{7}{3}{29/29}{Adapta\IeC {\c c}\IeC {\~a}o para m\IeC {\'u}ltiplas categorias simultaneamente}{0}}
+\headcommand {\beamer@framepages {29}{29}}
+\headcommand {\beamer@sectionpages {10}{29}}
+\headcommand {\beamer@subsectionpages {27}{29}}
+\headcommand {\sectionentry {3}{Refer\IeC {\^e}ncias bibliogr\IeC {\'a}ficas}{30}{Refer\IeC {\^e}ncias bibliogr\IeC {\'a}ficas}{0}}
+\headcommand {\beamer@sectionpages {30}{29}}
+\headcommand {\beamer@subsectionpages {30}{29}}
+\headcommand {\sectionentry {4}{Refer\^encias}{30}{Refer\^encias}{0}}
+\headcommand {\slideentry {4}{0}{0}{30/30}{}{0}}
+\headcommand {\beamer@framepages {30}{30}}
+\headcommand {\beamer@partpages {1}{30}}
+\headcommand {\beamer@subsectionpages {30}{30}}
+\headcommand {\beamer@sectionpages {30}{30}}
+\headcommand {\beamer@documentpages {30}}
+\headcommand {\gdef \inserttotalframenumber {30}}

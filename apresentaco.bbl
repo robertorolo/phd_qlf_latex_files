@@ -1,0 +1,36 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\astroncite{Boisvert}{2013}]{boisvert_geomodeling}
+Boisvert, J. (2013).
+\newblock Automatic geological modeling with iterative refinement.
+\newblock {\em CCG Annual Report}.
+
+\bibitem[\protect\astroncite{Hosseini and Deutsch}{2007}]{hosseini_deutsch_iqd}
+Hosseini, A. and Deutsch, C.~V. (2007).
+\newblock A distance function based algorithm to quantify uncertainty in areal
+  limits.
+\newblock {\em CCG Annual Report}.
+
+\bibitem[\protect\astroncite{Manchuck and Deutsch}{2018}]{manchuck_MLS}
+Manchuck, J. and Deutsch, C. (2018).
+\newblock Mls for boundary interpretations with uncertainty.
+\newblock {\em CCG Annual Report}.
+
+\bibitem[\protect\astroncite{Rolo}{2017}]{rolo_dissertacao}
+Rolo, R. (2017).
+\newblock Modelagem geológica implícita com funções distância assinaladas.
+\newblock Master's thesis, Universidade Federal do Rio Grande do Sul.
+
+\bibitem[\protect\astroncite{Silva and Deutsch}{2015}]{silva_dual}
+Silva, D. and Deutsch, C. (2015).
+\newblock Speeding up the signed distance implicit geologic modeling method for
+  multiple rock types.
+\newblock {\em CCG Annual Report}.
+
+\bibitem[\protect\astroncite{Silva}{2015}]{silvaenhancedgeomodeling}
+Silva, D. M.~A. (2015).
+\newblock {\em Enhanced geologic modeling with data-driven training images for
+  improved resources and recoverable reserves}.
+\newblock PhD thesis, University of Alberta.
+
+\end{thebibliography}
