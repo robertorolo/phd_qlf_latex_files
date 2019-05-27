@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.1)  23 MAY 2019 16:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.26)  27 MAY 2019 10:54
 entering extended mode
 **./apresentaco.tex
 (apresentaco.tex
@@ -167,11 +167,11 @@ Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ties\pgfrcs.code.tex"
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf\pgf.r
 evision.tex")
-Package: pgfrcs 2019/04/04 v3.1.2 (3.1.2)
+Package: pgfrcs 2019/05/09 v3.1.3 (3.1.3)
 ))
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
 mlayer\pgfsys.code.tex"
-Package: pgfsys 2019/04/04 v3.1.2 (3.1.2)
+Package: pgfsys 2019/05/09 v3.1.3 (3.1.3)
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utili
 ties\pgfkeys.code.tex"
@@ -190,6 +190,8 @@ ties\pgfkeysfiltered.code.tex"
 \pgf@yb=\dimen135
 \pgf@xc=\dimen136
 \pgf@yc=\dimen137
+\pgf@xd=\dimen138
+\pgf@yd=\dimen139
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
 \c@pgf@counta=\count108
@@ -203,27 +205,27 @@ ties\pgfkeysfiltered.code.tex"
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
 mlayer\pgf.cfg"
-File: pgf.cfg 2019/04/04 v3.1.2 (3.1.2)
+File: pgf.cfg 2019/05/09 v3.1.3 (3.1.3)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
 mlayer\pgfsys-pdftex.def"
-File: pgfsys-pdftex.def 2019/04/04 v3.1.2 (3.1.2)
+File: pgfsys-pdftex.def 2019/05/09 v3.1.3 (3.1.3)
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
 mlayer\pgfsys-common-pdf.def"
-File: pgfsys-common-pdf.def 2019/04/04 v3.1.2 (3.1.2)
+File: pgfsys-common-pdf.def 2019/05/09 v3.1.3 (3.1.3)
 )))
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
 mlayer\pgfsyssoftpath.code.tex"
-File: pgfsyssoftpath.code.tex 2019/04/04 v3.1.2 (3.1.2)
+File: pgfsyssoftpath.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \pgfsyssoftpath@smallbuffer@items=\count113
 \pgfsyssoftpath@bigbuffer@items=\count114
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
 mlayer\pgfsysprotocol.code.tex"
-File: pgfsysprotocol.code.tex 2019/04/04 v3.1.2 (3.1.2)
+File: pgfsysprotocol.code.tex 2019/05/09 v3.1.3 (3.1.3)
 ))
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcol
 or.sty"
@@ -246,7 +248,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcore.code.tex"
-Package: pgfcore 2019/04/04 v3.1.2 (3.1.2)
+Package: pgfcore 2019/05/09 v3.1.3 (3.1.3)
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
 pgfmath.code.tex"
@@ -256,7 +258,7 @@ pgfmathcalc.code.tex"
 pgfmathutil.code.tex")
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
 pgfmathparser.code.tex"
-\pgfmath@dimen=\dimen138
+\pgfmath@dimen=\dimen140
 \pgfmath@count=\count115
 \pgfmath@box=\box36
 \pgfmath@toks=\toks23
@@ -285,39 +287,41 @@ pgfmathfunctions.integerarithmetics.code.tex")))
 pgfmathfloat.code.tex"
 \c@pgfmathroundto@lastzeros=\count116
 ))
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfint.code.tex")
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorepoints.code.tex"
-File: pgfcorepoints.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgf@picminx=\dimen139
-\pgf@picmaxx=\dimen140
-\pgf@picminy=\dimen141
-\pgf@picmaxy=\dimen142
-\pgf@pathminx=\dimen143
-\pgf@pathmaxx=\dimen144
-\pgf@pathminy=\dimen145
-\pgf@pathmaxy=\dimen146
-\pgf@xx=\dimen147
-\pgf@xy=\dimen148
-\pgf@yx=\dimen149
-\pgf@yy=\dimen150
-\pgf@zx=\dimen151
-\pgf@zy=\dimen152
+File: pgfcorepoints.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgf@picminx=\dimen141
+\pgf@picmaxx=\dimen142
+\pgf@picminy=\dimen143
+\pgf@picmaxy=\dimen144
+\pgf@pathminx=\dimen145
+\pgf@pathmaxx=\dimen146
+\pgf@pathminy=\dimen147
+\pgf@pathmaxy=\dimen148
+\pgf@xx=\dimen149
+\pgf@xy=\dimen150
+\pgf@yx=\dimen151
+\pgf@yy=\dimen152
+\pgf@zx=\dimen153
+\pgf@zy=\dimen154
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorepathconstruct.code.tex"
-File: pgfcorepathconstruct.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgf@path@lastx=\dimen153
-\pgf@path@lasty=\dimen154
+File: pgfcorepathconstruct.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgf@path@lastx=\dimen155
+\pgf@path@lasty=\dimen156
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorepathusage.code.tex"
-File: pgfcorepathusage.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgf@shorten@end@additional=\dimen155
-\pgf@shorten@start@additional=\dimen156
+File: pgfcorepathusage.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgf@shorten@end@additional=\dimen157
+\pgf@shorten@start@additional=\dimen158
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorescopes.code.tex"
-File: pgfcorescopes.code.tex 2019/04/04 v3.1.2 (3.1.2)
+File: pgfcorescopes.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \pgfpic=\box37
 \pgf@hbox=\box38
 \pgf@layerbox@main=\box39
@@ -325,64 +329,64 @@ File: pgfcorescopes.code.tex 2019/04/04 v3.1.2 (3.1.2)
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcoregraphicstate.code.tex"
-File: pgfcoregraphicstate.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgflinewidth=\dimen157
+File: pgfcoregraphicstate.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgflinewidth=\dimen159
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcoretransformations.code.tex"
-File: pgfcoretransformations.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgf@pt@x=\dimen158
-\pgf@pt@y=\dimen159
-\pgf@pt@temp=\dimen160
+File: pgfcoretransformations.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgf@pt@x=\dimen160
+\pgf@pt@y=\dimen161
+\pgf@pt@temp=\dimen162
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorequick.code.tex"
-File: pgfcorequick.code.tex 2019/04/04 v3.1.2 (3.1.2)
+File: pgfcorequick.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcoreobjects.code.tex"
-File: pgfcoreobjects.code.tex 2019/04/04 v3.1.2 (3.1.2)
+File: pgfcoreobjects.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorepathprocessing.code.tex"
-File: pgfcorepathprocessing.code.tex 2019/04/04 v3.1.2 (3.1.2)
+File: pgfcorepathprocessing.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorearrows.code.tex"
-File: pgfcorearrows.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgfarrowsep=\dimen161
+File: pgfcorearrows.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgfarrowsep=\dimen163
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcoreshade.code.tex"
-File: pgfcoreshade.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgf@max=\dimen162
+File: pgfcoreshade.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgf@max=\dimen164
 \pgf@sys@shading@range@num=\count118
 \pgf@shadingcount=\count119
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcoreimage.code.tex"
-File: pgfcoreimage.code.tex 2019/04/04 v3.1.2 (3.1.2)
+File: pgfcoreimage.code.tex 2019/05/09 v3.1.3 (3.1.3)
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcoreexternal.code.tex"
-File: pgfcoreexternal.code.tex 2019/04/04 v3.1.2 (3.1.2)
+File: pgfcoreexternal.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \pgfexternal@startupbox=\box40
 ))
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorelayers.code.tex"
-File: pgfcorelayers.code.tex 2019/04/04 v3.1.2 (3.1.2)
+File: pgfcorelayers.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcoretransparency.code.tex"
-File: pgfcoretransparency.code.tex 2019/04/04 v3.1.2 (3.1.2)
+File: pgfcoretransparency.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorepatterns.code.tex"
-File: pgfcorepatterns.code.tex 2019/04/04 v3.1.2 (3.1.2)
+File: pgfcorepatterns.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorerdf.code.tex"
-File: pgfcorerdf.code.tex 2019/04/04 v3.1.2 (3.1.2)
+File: pgfcorerdf.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )))
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utiliti
 es\xxcolor.sty"
@@ -454,7 +458,7 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 options.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen163
+\@linkdim=\dimen165
 \Hy@linkcounter=\count122
 \Hy@pagecounter=\count123
 
@@ -488,10 +492,10 @@ Package hyperref Info: Bookmarks ON on input line 4772.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5125.
-\XeTeXLinkMargin=\dimen164
+\XeTeXLinkMargin=\dimen166
 \Fld@menulength=\count126
-\Field@Width=\dimen165
-\Fld@charsize=\dimen166
+\Field@Width=\dimen167
+\Fld@charsize=\dimen168
 Package hyperref Info: Hyper figures OFF on input line 6380.
 Package hyperref Info: Link nesting OFF on input line 6385.
 Package hyperref Info: Hyper index ON on input line 6388.
@@ -581,14 +585,14 @@ erbaseframe.sty"
 \beamer@zoombox=\box43
 \beamer@zoomcount=\count137
 \beamer@zoomframecount=\count138
-\beamer@frametextheight=\dimen167
+\beamer@frametextheight=\dimen169
 \c@subsectionslide=\count139
 \beamer@frametopskip=\skip45
 \beamer@framebottomskip=\skip46
 \beamer@frametopskipautobreak=\skip47
 \beamer@framebottomskipautobreak=\skip48
 \beamer@envbody=\toks27
-\framewidth=\dimen168
+\framewidth=\dimen170
 \c@framenumber=\count140
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
@@ -599,7 +603,7 @@ erbaseverbatim.sty"
 erbaseframesize.sty"
 \beamer@splitbox=\box44
 \beamer@autobreakcount=\count141
-\beamer@autobreaklastheight=\dimen169
+\beamer@autobreaklastheight=\dimen171
 \beamer@frametitletoks=\toks28
 \beamer@framesubtitletoks=\toks29
 )
@@ -628,12 +632,12 @@ erbaseboxes.sty"
 \bmb@boxshadow=\box49
 \bmb@boxshadowball=\box50
 \bmb@boxshadowballlarge=\box51
-\bmb@temp=\dimen170
-\bmb@dima=\dimen171
-\bmb@dimb=\dimen172
-\bmb@prevheight=\dimen173
+\bmb@temp=\dimen172
+\bmb@dima=\dimen173
+\bmb@dimb=\dimen174
+\bmb@prevheight=\dimen175
 )
-\beamer@blockheadheight=\dimen174
+\beamer@blockheadheight=\dimen176
 ))
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
 erbaselocalstructure.sty"
@@ -649,7 +653,7 @@ Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
 erbasenavigation.sty"
-\beamer@section@min@dim=\dimen175
+\beamer@section@min@dim=\dimen177
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
 erbasetheorems.sty"
@@ -668,12 +672,12 @@ Package: amstext 2000/06/29 v2.01 AMS text
 gen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks32
-\ex@=\dimen176
+\ex@=\dimen178
 ))
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\ams
 bsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen177
+\pmbraise@=\dimen179
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\ams
 opn.sty"
@@ -691,7 +695,7 @@ LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
 \Mathstrutbox@=\box52
 \strutbox@=\box53
-\big@size=\dimen178
+\big@size=\dimen180
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \macc@depth=\count149
@@ -704,12 +708,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \column@=\count154
 \maxfields@=\count155
 \andhelp@=\toks34
-\eqnshift@=\dimen179
-\alignsep@=\dimen180
-\tagshift@=\dimen181
-\tagwidth@=\dimen182
-\totwidth@=\dimen183
-\lineht@=\dimen184
+\eqnshift@=\dimen181
+\alignsep@=\dimen182
+\tagshift@=\dimen183
+\tagwidth@=\dimen184
+\totwidth@=\dimen185
+\lineht@=\dimen186
 \@envbody=\toks35
 \multlinegap=\skip52
 \multlinetaggap=\skip53
@@ -742,8 +746,8 @@ erfontthemedefault.sty")
 ercolorthemedefault.sty")
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
 erinnerthemedefault.sty"
-\beamer@dima=\dimen185
-\beamer@dimb=\dimen186
+\beamer@dima=\dimen187
+\beamer@dimb=\dimen188
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
 erouterthemedefault.sty")))
@@ -784,7 +788,7 @@ Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 el.def"
 File: babel.def 2018/11/13 3.27 Babel common definitions
 \babel@savecnt=\count158
-\U@D=\dimen187
+\U@D=\dimen189
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txt
 babel.def")
@@ -845,13 +849,13 @@ Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 tion3.sty"
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen188
-\captionmargin@=\dimen189
-\captionwidth=\dimen190
-\caption@tempdima=\dimen191
-\caption@indent=\dimen192
-\caption@parindent=\dimen193
-\caption@hangindent=\dimen194
+\captionmargin=\dimen190
+\captionmargin@=\dimen191
+\captionwidth=\dimen192
+\caption@tempdima=\dimen193
+\caption@indent=\dimen194
+\caption@parindent=\dimen195
+\caption@hangindent=\dimen196
 )
 \c@caption@flags=\count162
 \c@ContinuedFloat=\count163
@@ -862,7 +866,7 @@ Package caption Info: Hyperref support is turned off
 )
 \c@KVtest=\count164
 \sf@farskip=\skip59
-\sf@captopadj=\dimen195
+\sf@captopadj=\dimen197
 \sf@capskip=\skip60
 \sf@nearskip=\skip61
 \c@subfigure=\count165
@@ -881,7 +885,14 @@ File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 40.
 
-(apresentaco.aux)
+(apresentaco.aux
+
+LaTeX Warning: Label `<figure2>' multiply defined.
+
+
+LaTeX Warning: Label `sub@<figure2>' multiply defined.
+
+)
 \openout1 = `apresentaco.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
@@ -938,13 +949,13 @@ LaTeX Font Info:    ... okay on input line 44.
 \supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count170
-\scratchdimen=\dimen196
+\scratchdimen=\dimen198
 \scratchbox=\box54
 \nofMPsegments=\count171
 \nofMParguments=\count172
 \everyMPshowfont=\toks48
 \MPscratchCnt=\count173
-\MPscratchDim=\dimen197
+\MPscratchDim=\dimen199
 \MPnumerator=\count174
 \makeMPintoPDFobject=\count175
 \everyMPtoPDFconversion=\toks49
@@ -1101,7 +1112,7 @@ Overfull \hbox (139.81221pt too wide) has occurred while \output is active
 [3
 
 ]
-<apresentacao/passo_2.png, id=91, 1220.56pt x 295.1025pt>
+<apresentacao/passo_2.png, id=92, 1220.56pt x 295.1025pt>
 File: apresentacao/passo_2.png Graphic file (type png)
 <use apresentacao/passo_2.png>
 Package pdftex.def Info: apresentacao/passo_2.png  used on input line 90.
@@ -1114,7 +1125,7 @@ Overfull \hbox (139.81221pt too wide) has occurred while \output is active
 [4
 
  <./apresentacao/passo_2.png>]
-<capitulo_1/explicitmodeling.jpg, id=106, 858.20625pt x 467.7475pt>
+<capitulo_1/explicitmodeling.jpg, id=107, 858.20625pt x 467.7475pt>
 File: capitulo_1/explicitmodeling.jpg Graphic file (type jpg)
 <use capitulo_1/explicitmodeling.jpg>
 Package pdftex.def Info: capitulo_1/explicitmodeling.jpg  used on input line 10
@@ -1139,7 +1150,7 @@ Overfull \hbox (139.81221pt too wide) has occurred while \output is active
 [6
 
 ]
-<capitulo_1/incerteza_limites.jpg, id=132, 894.34125pt x 753.81625pt>
+<capitulo_1/incerteza_limites.jpg, id=133, 894.34125pt x 753.81625pt>
 File: capitulo_1/incerteza_limites.jpg Graphic file (type jpg)
 <use capitulo_1/incerteza_limites.jpg>
 Package pdftex.def Info: capitulo_1/incerteza_limites.jpg  used on input line 1
@@ -1164,7 +1175,7 @@ Overfull \hbox (139.81221pt too wide) has occurred while \output is active
 [8
 
 ]
-<capitulo_1/implicit_modelig_pt_1.jpg, id=159, 1051.33832pt x 379.60768pt>
+<capitulo_1/implicit_modelig_pt_1.jpg, id=160, 1051.33832pt x 379.60768pt>
 File: capitulo_1/implicit_modelig_pt_1.jpg Graphic file (type jpg)
 <use capitulo_1/implicit_modelig_pt_1.jpg>
 Package pdftex.def Info: capitulo_1/implicit_modelig_pt_1.jpg  used on input li
@@ -1178,12 +1189,12 @@ Overfull \hbox (139.81221pt too wide) has occurred while \output is active
 [9
 
  <./capitulo_1/implicit_modelig_pt_1.jpg>]
-<capitulo_2/prop_hist_big.png, id=172, 1796.7125pt x 1847.90375pt>
+<capitulo_2/prop_hist_big.png, id=173, 1796.7125pt x 1847.90375pt>
 File: capitulo_2/prop_hist_big.png Graphic file (type png)
 <use capitulo_2/prop_hist_big.png>
 Package pdftex.def Info: capitulo_2/prop_hist_big.png  used on input line 186.
 (pdftex.def)             Requested size: 99.58464pt x 102.41043pt.
-<capitulo_2/dados.jpeg, id=173, 1082.0425pt x 821.0675pt>
+<capitulo_2/dados.jpeg, id=174, 1082.0425pt x 821.0675pt>
 File: capitulo_2/dados.jpeg Graphic file (type jpg)
 <use capitulo_2/dados.jpeg>
 Package pdftex.def Info: capitulo_2/dados.jpeg  used on input line 186.
@@ -1200,6 +1211,60 @@ Overfull \hbox (139.81221pt too wide) has occurred while \output is active
 [10
 
  <./capitulo_2/prop_hist_big.png> <./capitulo_2/dados.jpeg>]
+LaTeX Font Info:    Try loading font information for U+msa on input line 203.
+
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\um
+sa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 203.
+
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\um
+sb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
+line 203.
+
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/sansmathacc
+ent\ot1mathkerncmss.fd"
+File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
+<capitulo_2/inddf1.jpeg, id=184, 1082.0425pt x 821.0675pt>
+File: capitulo_2/inddf1.jpeg Graphic file (type jpg)
+<use capitulo_2/inddf1.jpeg>
+Package pdftex.def Info: capitulo_2/inddf1.jpeg  used on input line 203.
+(pdftex.def)             Requested size: 119.50279pt x 90.6685pt.
+<capitulo_2/inddf2.jpeg, id=185, 1082.0425pt x 821.0675pt>
+File: capitulo_2/inddf2.jpeg Graphic file (type jpg)
+<use capitulo_2/inddf2.jpeg>
+Package pdftex.def Info: capitulo_2/inddf2.jpeg  used on input line 203.
+(pdftex.def)             Requested size: 119.50279pt x 90.6685pt.
+<capitulo_2/inddf3.jpeg, id=186, 1082.0425pt x 821.0675pt>
+File: capitulo_2/inddf3.jpeg Graphic file (type jpg)
+<use capitulo_2/inddf3.jpeg>
+Package pdftex.def Info: capitulo_2/inddf3.jpeg  used on input line 203.
+(pdftex.def)             Requested size: 119.50279pt x 90.6685pt.
+
+Overfull \vbox (39.31714pt too high) detected at line 203
+ []
+
+
+Overfull \hbox (139.81221pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[11
+
+pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
+as been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.203 \end{frame}
+                  <./capitulo_2/inddf1.jpeg> <./capitulo_2/inddf2.jpeg> <./capi
+tulo_2/inddf3.jpeg>]
 \tf@nav=\write6
 \openout6 = `apresentaco.nav'.
 
@@ -1209,35 +1274,47 @@ Overfull \hbox (139.81221pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `apresentaco.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 188.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
-
-(apresentaco.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 188.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 188.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 205.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 205.
+ (apresentaco.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 205.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 205.
 Package rerunfilecheck Info: File `apresentaco.out' has not changed.
 (rerunfilecheck)             Checksum: BA5218462C16365A2EF3652F2400E7C9;562.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 20233 strings out of 492945
- 383289 string characters out of 3123143
- 474840 words of memory out of 3000000
- 23655 multiletter control sequences out of 15000+200000
- 10450 words of font info for 24 fonts, out of 3000000 for 9000
+ 20434 strings out of 492945
+ 387513 string characters out of 3123142
+ 479771 words of memory out of 3000000
+ 23817 multiletter control sequences out of 15000+200000
+ 20402 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,69p,780b,583s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Roberto Rolo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/
-dpi600\ecss0900.pk> <C:\Users\Roberto Rolo\AppData\Local\MiKTeX\2.9\fonts/pk/lj
-four/jknappen/ec/dpi600\ecsi1095.pk> <C:\Users\Roberto Rolo\AppData\Local\MiKTe
-X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0800.pk> <C:\Users\Roberto Rolo\Ap
-pData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1000.pk> <C:\User
+dpi600\ecrm1095.pk> <C:\Users\Roberto Rolo\AppData\Local\MiKTeX\2.9\fonts/pk/lj
+four/jknappen/ec/dpi600\ecss0900.pk> <C:\Users\Roberto Rolo\AppData\Local\MiKTe
+X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsi1095.pk> <C:\Users\Roberto Rolo\Ap
+pData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0800.pk> <C:\User
 s\Roberto Rolo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecss
-1095.pk> <C:\Users\Roberto Rolo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknapp
-en/ec/dpi600\ecss1440.pk> <C:\Users\Roberto Rolo\AppData\Local\MiKTeX\2.9\fonts
-/pk/ljfour/jknappen/ec/dpi600\ecss0600.pk>
-Output written on apresentaco.pdf (10 pages, 970798 bytes).
+1000.pk> <C:\Users\Roberto Rolo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknapp
+en/ec/dpi600\ecss1095.pk> <C:\Users\Roberto Rolo\AppData\Local\MiKTeX\2.9\fonts
+/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C:\Users\Roberto Rolo\AppData\Local
+\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0600.pk><C:/Users/Roberto Ro
+lo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+<C:/Users/Roberto Rolo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb><C:/Users/Roberto Rolo/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Roberto Rolo/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/Roberto Ro
+lo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb
+><C:/Users/Roberto Rolo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmssi8.pfb>
+Output written on apresentaco.pdf (11 pages, 1687391 bytes).
 PDF statistics:
- 466 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
- 129 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 538 PDF objects out of 1000 (max. 8388607)
+ 34 named destinations out of 1000 (max. 500000)
+ 144 words of extra memory for PDF output out of 10000 (max. 10000000)
 
