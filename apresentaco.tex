@@ -167,7 +167,14 @@ Em muitos casos, a incerteza do modelo geológico pode ser uma fonte de incertez
 			\caption{Esquema dos métodos implícitos.}
 		\end{center}
 	\end{figure}
+
+\begin{itemize}
+	\item \cite{mallet2004space} propõe uma função volumétrica cronológica, levando em consideração a posição estratigráfica das diferentes unidades geológicas;
+	\item \cite{lajaunie1997foliation} usam co-krigagem de incrementos em um campo potencial, omitindo a função volume.
+\end{itemize}
+
 \end{frame}
+
 
 \section{Modelagem geológica implícita com funções distância assinaladas}
 
@@ -333,8 +340,11 @@ Distâncias assinaladas não são estacionárias, o variograma não se estabiliz
 \end{frame}
 
 \begin{frame}{Decomposição do domínio}
+
+Transforma um problema volumoso e que demanda muito esforço computacional em diversos problemas menores e eficientes que são, ao final, unidos.
+
 \begin{figure}[H]
-	\caption{\label{pou}Particionamento.}
+	\caption{\label{pou}Esquema mostrando o particionamento.}
 	\begin{center}
 		\includegraphics[width=0.9\textwidth]{capitulo_2/pou.jpg}
 	\end{center}
@@ -371,6 +381,9 @@ Todos os algoritmos utilizados são da biblioteca GSLib e foram executados em um
 \subsection{Visualização do modelo geológico}
 
 \begin{frame}{Visualização do modelo geológico}
+
+Um bom palpite inicial para a interface que separa os domínios no espaço, seria a linha (em duas dimensões) ou superfície (em três dimensões) que corresponda ao valor zero da função distância assinalada
+
 \begin{figure}[H]
 	\caption{Iso superfícies para a categoria 1 extraída dos diferentes modelos implícitos.} \label{isosup}
 	\centering
@@ -495,10 +508,13 @@ i^*(u)=k'\;\text{de modo que}\;d_{k'}^*=min\{d_k^*(u)\}_{k=1}^K
 \subsubsection{Refinamento iterativo}
 
 \begin{frame}{Refinamento iterativo}
+
+Extrair orientações locais de um modelo criado com anisotropia global e utilizar essas orientações em uma nova interpolação não estacionária resulta em um modelo geológico mais refinado considerando informação local.
+
 	\begin{figure}[H]
 		\caption{\label{iterref} Esquema mostrando etapas usando o refinamento iterativo para funções de bases radiais.}
 		\begin{center}
-			\includegraphics[width=0.5\textwidth]{capitulo_2/iterref.jpg}
+			\includegraphics[width=0.3\textwidth]{capitulo_2/iterref.jpg}
 		\end{center}
 		%\legend{Fonte: \citeonline{martin2017implicitmodeling}}
 	\end{figure}
@@ -507,10 +523,13 @@ i^*(u)=k'\;\text{de modo que}\;d_{k'}^*=min\{d_k^*(u)\}_{k=1}^K
 \subsection{Incorporação de informação secundária}
 
 \begin{frame}{Incorporação de informação secundária}
+
+\cite{manchuck_MLS} propõe o uso de uma regressão linear local chamada mínimos quadrados móveis (\textit{Moving least squares - MLS}) que ajusta uma função aos dados para integrar modelagem geológica implícita e explicita.
+
 	\begin{figure}[H]
 		\caption{Modelo geológico híbrido criado a partir de furos de sondagem e seções interpretadas.}\label{mls_model}
-			\subfloat[][Seção mostrando furos e seções interpretadas.]{\includegraphics[width=0.5\textwidth]{capitulo_2/secoes.jpg}\label{a}}
-			\subfloat[][Modelo implícito.]{\includegraphics[width=0.5\textwidth]{capitulo_2/modelo_mls.jpg}\label{b}}
+			\subfloat[][Seção mostrando furos e seções interpretadas.]{\includegraphics[width=0.3\textwidth]{capitulo_2/secoes.jpg}\label{a}}
+			\subfloat[][Modelo implícito.]{\includegraphics[width=0.3\textwidth]{capitulo_2/modelo_mls.jpg}\label{b}}
 			%\legend{Fonte: \citeonline{manchuck_MLS}}
 	\end{figure}
 \end{frame}
@@ -521,7 +540,7 @@ i^*(u)=k'\;\text{de modo que}\;d_{k'}^*=min\{d_k^*(u)\}_{k=1}^K
 
 \begin{frame}{Avaliação heurística da incerteza}
 
-Transformação das distâncias em probabilidades:
+Transformação das distâncias em probabilidades.
 	\begin{equation}
 	P(i(u)=k)=\frac{e^\frac{-d^*_k(u)}{\gamma}}{\sum_{k'=1}^{K}e^\frac{-d^*_k(u)}{\gamma}}
 	\label{eq_softmax}
@@ -540,7 +559,7 @@ Transformação das distâncias em probabilidades:
 
 \begin{frame}{BOUNDSIM}
 
-Bootstrap espacial da média, amostragem do histograma e krigagem simples:
+Krigagem simples com médias tomadas do histograma da média.
 
 \begin{columns}
 	\begin{column}{0.5\textwidth}
@@ -554,14 +573,13 @@ Bootstrap espacial da média, amostragem do histograma e krigagem simples:
 	\end{column}
 	\begin{column}{0.5\textwidth}  %%<--- here
 	\begin{table}[H]
-		\begin{center}
+					\centering
 			\begin{tabular}{lr}
 				Percentil & \multicolumn{1}{l}{Blocos dentro} \\ \hline
 				10 & 109886 \\
 				50 & 110446 \\
 				90 & 111069 \\ \hline
 			\end{tabular}
-		\end{center}
 		\caption{Blocos classificados como pertencentes à categoria 1.}\label{boundsim_table}
 	\end{table}
 	\end{column}
@@ -572,6 +590,8 @@ Bootstrap espacial da média, amostragem do histograma e krigagem simples:
 \subsection{Simulação direta das distâncias assinaladas}
 
 \begin{frame}{Simulação direta das distâncias assinaladas}
+
+Simulação direta e classificação dos blocos baseada na menor distância simulada.
 
 O primeiro passo é o cálculo do coeficiente U:
 
@@ -614,6 +634,9 @@ Simulação das distâncias na zona de incerteza:
 \end{frame}
 
 \begin{frame}{Simulação direta das distâncias assinaladas}
+
+Classificação dos blocos.
+
 	\begin{figure}[H]
 		\caption{Diferentes realizações do modelo geológico.} 
 		\label{dif_real}
@@ -639,6 +662,8 @@ Simulação das distâncias na zona de incerteza:
 \subsection{Simulação multi ponto}
 
 \begin{frame}{Simulação multi ponto}
+
+MPS em uma TI gerada pela interpolação das distâncias assinaladas.
 	\begin{figure}[H]
 		\caption{Diferentes realizações do modelo geológico.} 
 		\label{snesim_real}
@@ -650,6 +675,9 @@ Simulação das distâncias na zona de incerteza:
 \subsection{Boundary simulation}
 
 \begin{frame}{Boundary simulation}
+
+Comparação de valores simulados e interpolados.
+
 	\begin{equation}
 	d_k(u_\alpha)=\begin{cases}
 	-\parallel u_\alpha-u_\beta\parallel - C,\:\textrm{se $u_\alpha$ pertence ao domínio}\\
@@ -702,6 +730,9 @@ onde: $df'(u)$ é o valor da função distância simulada, $y'(u)$ o valor norma
 \end{frame}
 
 \begin{frame}{Boundary simulation}
+
+Blocos classificados.
+
 	\begin{figure}[H]
 		\caption{Seções verticais de uma realização para a categoria 1.} 
 		\label{cpar_real}

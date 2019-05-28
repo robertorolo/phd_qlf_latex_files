@@ -11,6 +11,17 @@ Hosseini, A. and Deutsch, C.~V. (2007).
   limits.
 \newblock {\em CCG Annual Report}.
 
+\bibitem[\protect\astroncite{Lajaunie et~al.}{1997}]{lajaunie1997foliation}
+Lajaunie, C., Courrioux, G., and Manuel, L. (1997).
+\newblock Foliation fields and 3d cartography in geology: principles of a
+  method based on potential interpolation.
+\newblock {\em Mathematical Geology}, 29(4):571--584.
+
+\bibitem[\protect\astroncite{Mallet}{2004}]{mallet2004space}
+Mallet, J.-L. (2004).
+\newblock Space--time mathematical framework for sedimentary geology.
+\newblock {\em Mathematical geology}, 36(1):1--32.
+
 \bibitem[\protect\astroncite{Manchuck and Deutsch}{2018}]{manchuck_MLS}
 Manchuck, J. and Deutsch, C. (2018).
 \newblock Mls for boundary interpretations with uncertainty.
