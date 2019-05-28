@@ -26,6 +26,7 @@
 \usepackage{enumerate}
 \usepackage{subfig}
 %\usepackage{biblatex}
+\usepackage{booktabs} % To thicken table lines
 
 %numbering
 \addtobeamertemplate{navigation symbols}{}{%
@@ -50,10 +51,8 @@
 \end{frame}
 
 %sumário
-\begin{frame}{Estrutura}
-\begin{scriptsize}
-	\tableofcontents
-\end{scriptsize}
+\begin{frame}[allowframebreaks]{sumário}
+\tableofcontents
 \end{frame}
 
 \section{Introdução}
@@ -447,6 +446,303 @@ i^*(u)=k'\;\text{de modo que}\;d_{k'}^*=min\{d_k^*(u)\}_{k=1}^K
 \subfloat[][Seções em XZ do modelo implícito gerado por RBF no \textit{grid} fino.]{\includegraphics[width=.5\textwidth]{capitulo_2/anisofinexz.png}\label{<figure1>}}
 \subfloat[][Seções em YZ do modelo implícito gerado por RBF no \textit{grid} fino.]{\includegraphics[width=.5\textwidth]{capitulo_2/anisofineryz.png}\label{<figure2>}}
 \end{figure}
+
+\end{frame}
+
+\subsection{Incorporação da não estacionariedade de segunda ordem}
+
+\begin{frame}{krigagem com anisotropia local variável}
+
+\begin{figure}[H]
+	\caption{\label{lva_krig_cartoon}Esquema mostrando os vetores de anisotropia local para cada nó do \textit{grid}.}
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{capitulo_2/lvakrig1.jpg}
+	\end{center}
+	%\legend{Fonte: \citeonline{martin2017implicitmodeling}}
+\end{figure}
+	
+\end{frame}
+
+\begin{frame}
+	\begin{figure}[H] 
+		\caption{Iso superfície para a categoria 1 extraída de um modelo implícita gerado por krigagem com anisotropia local variável mostrando os vetores.} \label{lva_krig}
+		\centering
+		\subfloat[][Todos os vetores de anisotropia local]{\includegraphics[width=.5\textwidth]{capitulo_2/lva_krig.jpeg}\label{<figure1>}}
+		\subfloat[][Um vetor a cada 100.000 blocos]{\includegraphics[width=.5\textwidth]{capitulo_2/lva_krig_100000.jpeg}\label{<figure2>}}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Funções de bases radiais com anisotropia local variável}
+	\begin{figure}[H]
+		\caption{\label{lva_rbf+cartoon} Esquema mostrando os vetores de anisotropia local para cada centro de partição.}
+		\begin{center}
+			\includegraphics[width=0.8\textwidth]{capitulo_2/lvarbf1.jpg}
+		\end{center}
+		%\legend{Fonte: \citeonline{martin2017implicitmodeling}}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Funções de bases radiais com anisotropia local variável}
+	\begin{figure}[H]
+		\caption{\label{rbf_iterref}Iso superfície para a categoria 1 extraída de um modelo implícita gerado por krigagem com anisotropia local variável mostrando os vetores.}
+		\begin{center}
+			\includegraphics[width=0.5\textwidth]{capitulo_2/rbf_iterref.jpeg}
+		\end{center}
+		%\legend{Fonte: Modificado de \citeonline{silvageostatlessons}}
+	\end{figure}
+\end{frame}
+
+\subsubsection{Refinamento iterativo}
+
+\begin{frame}{Refinamento iterativo}
+	\begin{figure}[H]
+		\caption{\label{iterref} Esquema mostrando etapas usando o refinamento iterativo para funções de bases radiais.}
+		\begin{center}
+			\includegraphics[width=0.5\textwidth]{capitulo_2/iterref.jpg}
+		\end{center}
+		%\legend{Fonte: \citeonline{martin2017implicitmodeling}}
+	\end{figure}
+\end{frame}
+
+\subsection{Incorporação de informação secundária}
+
+\begin{frame}{Incorporação de informação secundária}
+	\begin{figure}[H]
+		\caption{Modelo geológico híbrido criado a partir de furos de sondagem e seções interpretadas.}\label{mls_model}
+			\subfloat[][Seção mostrando furos e seções interpretadas.]{\includegraphics[width=0.5\textwidth]{capitulo_2/secoes.jpg}\label{a}}
+			\subfloat[][Modelo implícito.]{\includegraphics[width=0.5\textwidth]{capitulo_2/modelo_mls.jpg}\label{b}}
+			%\legend{Fonte: \citeonline{manchuck_MLS}}
+	\end{figure}
+\end{frame}
+
+\section{Avaliação da incerteza}
+
+\subsection{Avaliação heurística da incerteza}
+
+\begin{frame}{Avaliação heurística da incerteza}
+
+Transformação das distâncias em probabilidades:
+	\begin{equation}
+	P(i(u)=k)=\frac{e^\frac{-d^*_k(u)}{\gamma}}{\sum_{k'=1}^{K}e^\frac{-d^*_k(u)}{\gamma}}
+	\label{eq_softmax}
+	\end{equation}
+	
+	\begin{figure}[H]
+		\caption{\label{softmax_grafico}Distâncias estimadas em (a) e transformadas em probabilidades em (b) para um mesmo bloco, com cinco categorias.}
+		\begin{center}
+			\includegraphics[width=0.7\textwidth]{capitulo_2/softmax_bars_final.jpg}
+		\end{center}
+		%\legend{Fonte: \citeonline{rolo_dissertacao}}
+	\end{figure}
+\end{frame}
+
+\subsection{BOUNDSIM}
+
+\begin{frame}{BOUNDSIM}
+
+Bootstrap espacial da média, amostragem do histograma e krigagem simples:
+
+\begin{columns}
+	\begin{column}{0.5\textwidth}
+	\begin{figure}[H]
+		\caption{\label{bs_df_1}Histograma do bootstrap espacial da média das distâncias assinaladas para a categoria 1.}
+		\begin{center}
+			\includegraphics[width=\textwidth]{capitulo_2/BS_DF_1.png}
+		\end{center}
+		%\legend{Fonte: \citeonline{rolo_dissertacao}}
+	\end{figure}
+	\end{column}
+	\begin{column}{0.5\textwidth}  %%<--- here
+	\begin{table}[H]
+		\begin{center}
+			\begin{tabular}{lr}
+				Percentil & \multicolumn{1}{l}{Blocos dentro} \\ \hline
+				10 & 109886 \\
+				50 & 110446 \\
+				90 & 111069 \\ \hline
+			\end{tabular}
+		\end{center}
+		\caption{Blocos classificados como pertencentes à categoria 1.}\label{boundsim_table}
+	\end{table}
+	\end{column}
+\end{columns}
+
+\end{frame}
+
+\subsection{Simulação direta das distâncias assinaladas}
+
+\begin{frame}{Simulação direta das distâncias assinaladas}
+
+O primeiro passo é o cálculo do coeficiente U:
+
+\begin{equation}\label{u_eq}
+U(u)=\frac{max\{D_{min}\}-min\{d^*_k(u)\}^K_{k=1}}{max\{D_{min}\}-min\{D_{min}\}}
+\end{equation}
+
+Onde:
+
+\begin{equation}
+D_{min}=\{min\{d^*_k(u_1)\},...,\{min\{d^*_k(u_n)\}^K_{k=1}\}
+\end{equation}
+
+E $d^*_k(u)$ é a distância estimada no local u para a categoria k.
+
+
+\end{frame}
+
+\begin{frame}{Simulação direta das distâncias assinaladas}
+	\begin{figure}[H]
+		\caption{\label{u_fig}Coeficiente U calculado para todos os nós do \textit{grid}.}
+		\begin{center}
+			\includegraphics[width=0.8\textwidth]{capitulo_2/u_coef.png}
+		\end{center}
+		%\legend{Fonte: \citeonline{rolo_dissertacao}}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Simulação direta das distâncias assinaladas}
+
+Simulação das distâncias na zona de incerteza:
+
+	\begin{figure}[H] 
+		\caption{Distâncias simuladas na zona de incerteza para as categorias do banco de dados.} \label{dist_sim_u}
+		\centering
+		\subfloat[][Categoria 1]{\includegraphics[width=.3\textwidth]{capitulo_2/Ucutoff1.png}\label{<figure1>}}
+		\subfloat[][Categoria 2]{\includegraphics[width=.3\textwidth]{capitulo_2/Ucutoff2.png}\label{<figure2>}}
+		\subfloat[][Categoria 3]{\includegraphics[width=.3\textwidth]{capitulo_2/ucutoff3.png}\label{<figure2>}}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Simulação direta das distâncias assinaladas}
+	\begin{figure}[H]
+		\caption{Diferentes realizações do modelo geológico.} 
+		\label{dif_real}
+			\subfloat[][Realização 1]{\includegraphics[width=0.5\textwidth]{capitulo_2/directsimreal1.png}\label{a}}
+			\subfloat[][Realização 2]{\includegraphics[width=0.5\textwidth]{capitulo_2/directsimreal2.png}\label{b}}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Simulação direta das distâncias assinaladas}
+	\begin{enumerate}
+		\item Cálculo das distâncias assinaladas para todas as amostras e categorias;
+		\item Variografia das distâncias no espaço original para todas as categorias;
+		\item Interpolação das distâncias; 
+		\item criação do modelo com base na menor distância interpolada;
+		\item Criação da zona de incerteza;
+		\item Transformação Gaussiana das distâncias;
+		\item Variografia das distâncias no espaço gaussiano para todas as categorias;
+		\item Geração de múltiplos modelos baseados na menor distância simulada;
+		\item Validação e pós processamento das realizações.
+	\end{enumerate}
+\end{frame}
+
+\subsection{Simulação multi ponto}
+
+\begin{frame}{Simulação multi ponto}
+	\begin{figure}[H]
+		\caption{Diferentes realizações do modelo geológico.} 
+		\label{snesim_real}
+			\subfloat[][Realização 1]{\includegraphics[width=0.5\textwidth]{capitulo_2/snesim_real1.png}\label{a}}
+			\subfloat[][Realização 2]{\includegraphics[width=0.5\textwidth]{capitulo_2/snesim_real2.png}\label{b}}
+	\end{figure}
+\end{frame}
+
+\subsection{Boundary simulation}
+
+\begin{frame}{Boundary simulation}
+	\begin{equation}
+	d_k(u_\alpha)=\begin{cases}
+	-\parallel u_\alpha-u_\beta\parallel - C,\:\textrm{se $u_\alpha$ pertence ao domínio}\\
+	+\parallel u_\alpha-u_\beta\parallel + C,\:\textrm{se $u_\alpha$ não pertence ao domínio}\end{cases}
+	\label{C_dist}
+	\end{equation}
+	
+	\begin{figure}[H]
+		\caption{\label{class}Classificação dos locais comparando valores estimados e simulados.}
+		\begin{center}
+			\includegraphics[width=0.8\textwidth]{capitulo_2/classificacao.png}
+		\end{center}
+		%\legend{Fonte: Modificado de \citeonline{wilde_sim_bound_reals}}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Boundary simulation}
+
+Calibração do parâmetro C:
+
+	\begin{figure}[H]
+		\caption{\label{c_param_1}Calibração do parâmetro C para a categoria 1.}
+		\begin{center}
+			\includegraphics[width=0.6\textwidth]{capitulo_2/uncert_1.png}
+		\end{center}
+		%\legend{Fonte: \citeonline{rolo_dissertacao}}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Boundary simulation}
+Para que a simulação seja realizada de forma uniforme entre –C e +C, o desvio padrão $y`(u)$, deve ser simulado e transformado pela relação:
+
+
+	\begin{equation}
+	df'(u)=2*C*G^-1(y'(u))-C
+	\end{equation}
+	
+onde: $df'(u)$ é o valor da função distância simulada, $y'(u)$ o valor normal padrão da simulação não condicional, e $G^-1$ representa a determinação do valor da distribuição acumulada padrão normal correspondente a $y'(u)$. Para garantir que os valores pertençam a região estabelecida, os valores são multiplicados por 2C e subtraídos de C.
+	
+\end{frame}
+
+\begin{frame}{Boundary simulation}
+	\begin{figure}[H] 
+		\caption{Interpolação, simulação e classificação na zona de incerteza.} \label{cat1_bound_sim}
+		\centering
+		\subfloat[][Distâncias interpoladas]{\includegraphics[width=.3\textwidth]{capitulo_2/interpolated.jpeg}\label{<figure1>}}
+		\subfloat[][Distâncias simuladas]{\includegraphics[width=.3\textwidth]{capitulo_2/simulated.jpeg}\label{<figure2>}}
+		\subfloat[][Classificação]{\includegraphics[width=.3\textwidth]{capitulo_2/classification.jpeg}\label{<figure2>}}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Boundary simulation}
+	\begin{figure}[H]
+		\caption{Seções verticais de uma realização para a categoria 1.} 
+		\label{cpar_real}
+			\subfloat[][Seção em XY]{\includegraphics[width=0.5\textwidth]{capitulo_2/cpar1.png}\label{a}}
+			\subfloat[][Seção em YZ]{\includegraphics[width=0.5\textwidth]{capitulo_2/cparyz.png}\label{b}}
+	\end{figure}
+\end{frame}
+
+\subsubsection{Abordagem hierárquica}
+
+\begin{frame}{Abordagem hierárquica}
+	\begin{figure}[H]
+		\caption{\label{hier_ex}Esquema do método mostrando os passos necessários.}
+		\begin{center}
+			\includegraphics[width=\textwidth]{capitulo_2/hier_example.png}
+		\end{center}
+		%\legend{Fonte: Modificado de \citeonline{amarante_incerteza_associada}}
+	\end{figure}
+\end{frame}
+
+\subsection{Sumário dos métodos de avaliação de incerteza}
+
+\begin{frame}{Sumário dos métodos de avaliação de incerteza}
+	
+
+	\begin{table}[H]
+		\centering
+		\resizebox{\textwidth}{!}{
+			\begin{tabular}{lcccccc}
+				Método & \multicolumn{1}{l}{Simplicidade} & \multicolumn{1}{l}{Velocidade} & \multicolumn{1}{l}{Multi categórico} & \multicolumn{1}{l}{Realismo geológico} & \multicolumn{1}{l}{Controle da incerteza} & \multicolumn{1}{l}{Controle do tipo de contato} \\
+				\midrule
+				Heurístico & simples & rápido & sim   & não   & sim   & não \\
+				Boundsim & simples & rápido & não   & sim   & não   & não \\
+				Simulação direta & complexo & demorado & sim   & não   & sim   & não \\
+				MPS   & simples & rápido & sim   & sim   & não   & não \\
+				Boundary simulation & simples  & rápido & não   & sim   & sim   & sim \\
+				\bottomrule
+			\end{tabular}
+		}
+		\caption{Sumário dos métodos de avaliação de incerteza de modelos geológicos.}\label{sumario}%
+	\end{table}
 
 \end{frame}
 
