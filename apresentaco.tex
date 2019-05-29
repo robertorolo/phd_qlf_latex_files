@@ -781,8 +781,10 @@ Blocos classificados.
 
 \subsection{Problemas}
 
-\begin{frame}{Problemas}
+\begin{frame}[allowframebreaks]{Problemas}
+
 	\begin{itemize}
+
 		\item Não estacionariedade da função distância assinalada torna a modelagem dos variogramas arbitrária e questionável
 		\item não estacionariedade da função distância assinalada torna a modelagem dos variogramas arbitrária e questionável;
 		\item É preciso encontrar um balanço entre número de nós e resolução necessária. A resolução do \textit{grid} influencia diretamente a avaliação de incertezas;
@@ -792,14 +794,35 @@ Blocos classificados.
 		\item Estruturas geológicas específicas, como lentes ou diques, podem desaparecer, ou não serem bem reproduzidas nos modelos implícitos;
 		\item É necessário checar se os modelos implícitos honram a geologia do depósito e serão úteis para o processo de avaliação de recursos/reservas.
 	\end{itemize}
+
 \end{frame}
 
 \subsection{Interpolador}
 
 \begin{frame}{Interpolador}
-	pass
+	
+	\cite{samson_estimation_ml} desenvolveram um algoritmo, usando TensorFlow.
+
+	\begin{figure}[H] 
+		\caption{Comparação de modelos gerados por diferentes métodos de estimativas.} \label{comparation}
+		 \centering
+		 \subfloat[][Realidade]{\includegraphics[width=.3\textwidth]{capitulo_3/actual.png}\label{<figure1>}}
+		 \subfloat[][Estimativas por SK]{\includegraphics[width=.3\textwidth]{capitulo_3/krig.png}\label{<figure2>}}
+		 \subfloat[][Estimativas por ML]{\includegraphics[width=.3\textwidth]{capitulo_3/ml.png}\label{<figure2>}}
+		 %\legend{Fonte: \citeonline{samson_estimation_ml}}
+	\end{figure}
 	
 \end{frame}
+
+\subsection{Zona de incerteza}
+
+\begin{frame}{Zona de incerteza}
+
+	pass another test with vscode sdfsdfsdfsdfsdf adfdfdaf
+
+\end{frame}
+
+
 
 \section{Referências bibliográficas}
 

@@ -32,6 +32,11 @@ Rolo, R. (2017).
 \newblock Modelagem geológica implícita com funções distância assinaladas.
 \newblock Master's thesis, Universidade Federal do Rio Grande do Sul.
 
+\bibitem[\protect\astroncite{Samson and Deutsch}{2018}]{samson_estimation_ml}
+Samson, M. and Deutsch, C. (2018).
+\newblock Estimation with machine learning.
+\newblock {\em CCG Annual Report}.
+
 \bibitem[\protect\astroncite{Silva and Deutsch}{2015}]{silva_dual}
 Silva, D. and Deutsch, C. (2015).
 \newblock Speeding up the signed distance implicit geologic modeling method for
