@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.26)  30 MAY 2019 10:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.26)  30 MAY 2019 10:30
 entering extended mode
 **./apresentaco.tex
 (apresentaco.tex
@@ -1816,7 +1816,10 @@ Package pdftex.def Info: capitulo_2/rbf_iterref.jpeg  used on input line 519.
 File: capitulo_2/iterref.jpg Graphic file (type jpg)
 <use capitulo_2/iterref.jpg>
 Package pdftex.def Info: capitulo_2/iterref.jpg  used on input line 534.
-(pdftex.def)             Requested size: 119.50279pt x 110.49947pt.
+(pdftex.def)             Requested size: 147.38333pt x 136.28598pt.
+
+Overfull \vbox (4.8505pt too high) detected at line 534
+ []
 
 [36
 
@@ -1825,12 +1828,12 @@ Package pdftex.def Info: capitulo_2/iterref.jpg  used on input line 534.
 File: capitulo_2/secoes.jpg Graphic file (type jpg)
 <use capitulo_2/secoes.jpg>
 Package pdftex.def Info: capitulo_2/secoes.jpg  used on input line 548.
-(pdftex.def)             Requested size: 119.50279pt x 66.77888pt.
+(pdftex.def)             Requested size: 199.1693pt x 111.30142pt.
 <capitulo_2/modelo_mls.jpg, id=505, 1325.95375pt x 708.6475pt>
 File: capitulo_2/modelo_mls.jpg Graphic file (type jpg)
 <use capitulo_2/modelo_mls.jpg>
 Package pdftex.def Info: capitulo_2/modelo_mls.jpg  used on input line 548.
-(pdftex.def)             Requested size: 119.50279pt x 63.86201pt.
+(pdftex.def)             Requested size: 199.1693pt x 106.44392pt.
  [37
 
  <./capitulo_2/secoes.jpg> <./capitulo_2/modelo_mls.jpg>]
@@ -1865,7 +1868,7 @@ Package pdftex.def Info: capitulo_2/u_coef.png  used on input line 636.
 File: capitulo_2/Ucutoff1.png Graphic file (type png)
 <use capitulo_2/Ucutoff1.png>
 Package pdftex.def Info: capitulo_2/Ucutoff1.png  used on input line 649.
-(pdftex.def)             Requested size: 119.50279pt x 52.79721pt.
+(pdftex.def)             Requested size: 139.42093pt x 61.61946pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure1>}) h
 as been already used, duplicate ignored
 <to be read again> 
@@ -1876,7 +1879,7 @@ l.649 \end{frame}
 File: capitulo_2/Ucutoff2.png Graphic file (type png)
 <use capitulo_2/Ucutoff2.png>
 Package pdftex.def Info: capitulo_2/Ucutoff2.png  used on input line 649.
-(pdftex.def)             Requested size: 119.50279pt x 52.79721pt.
+(pdftex.def)             Requested size: 139.42093pt x 61.61946pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
@@ -1887,13 +1890,18 @@ l.649 \end{frame}
 File: capitulo_2/ucutoff3.png Graphic file (type png)
 <use capitulo_2/ucutoff3.png>
 Package pdftex.def Info: capitulo_2/ucutoff3.png  used on input line 649.
-(pdftex.def)             Requested size: 119.50279pt x 52.79721pt.
+(pdftex.def)             Requested size: 139.42093pt x 61.61946pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.649 \end{frame}
-                  [42
+                 
+Overfull \hbox (19.9242pt too wide) in paragraph at lines 649--649
+ [][][] 
+ []
+
+[42
 
  <./capitulo_2/Ucutoff1.png> <./capitulo_2/Ucutoff2.png> <./capitulo_2/ucutoff3
 .png>]
@@ -2268,10 +2276,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21607 strings out of 492945
- 404162 string characters out of 3123142
- 484619 words of memory out of 3000000
- 24682 multiletter control sequences out of 15000+200000
+ 21604 strings out of 492945
+ 404136 string characters out of 3123142
+ 484340 words of memory out of 3000000
+ 24679 multiletter control sequences out of 15000+200000
  27222 words of font info for 72 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,14n,69p,780b,743s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2305,9 +2313,9 @@ rs/Roberto Rolo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmsy6.pfb><C:/Users/Roberto Rolo/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Roberto Rolo/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on apresentaco.pdf (75 pages, 17293260 bytes).
+Output written on apresentaco.pdf (75 pages, 17292783 bytes).
 PDF statistics:
- 1331 PDF objects out of 1440 (max. 8388607)
+ 1330 PDF objects out of 1440 (max. 8388607)
  265 named destinations out of 1000 (max. 500000)
  702 words of extra memory for PDF output out of 10000 (max. 10000000)
 
