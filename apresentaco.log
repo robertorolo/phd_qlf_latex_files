@@ -1,14 +1,17 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.5.29)  29 MAY 2019 23:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.26)  30 MAY 2019 10:18
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**apresentaco.tex
-(./apresentaco.tex
+**./apresentaco.tex
+(apresentaco.tex
 LaTeX2e <2018-12-01>
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
+
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+er.cls"
 Document Class: beamer 2018/12/02 v3.55 A class for typesetting presentations
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erbasemodes.sty"
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\et
+oolbox.sty"
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count80
 )
@@ -16,14 +19,16 @@ Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
 \beamer@tempcount=\count81
 \c@beamerpauses=\count82
 
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erbasedecode.sty"
 \beamer@slideinframe=\count83
 \beamer@minimum=\count84
 )
 \beamer@commentbox=\box28
 \beamer@modecount=\count85
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\
+ifpdf.sty"
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
 \headdp=\dimen102
@@ -69,22 +74,27 @@ Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 \beamer@sectionadjust=\count103
 \beamer@tocsectionnumber=\count104
 
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erbaseoptions.sty"
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\ke
+yval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 ))
 \beamer@paperwidth=\skip42
 \beamer@paperheight=\skip43
 
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\ge
+ometry.sty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\
+ifvtex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\i
+fxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count105
@@ -99,57 +109,77 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen124
 \Gm@layoutvoffset=\dimen125
 \Gm@dimlist=\toks15
-)
-(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\ge
+ometry.cfg"))
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size11
+.clo"
 File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basicla
+yer\pgfcore.sty"
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\gr
+aphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\gr
+aphics.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\tr
+ig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cf
+g\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-de
+f\pdftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen126
 \Gin@req@width=\dimen127
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/systeml
+ayer\pgfsys.sty"
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utiliti
+es\pgfrcs.sty"
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utili
+ties\pgfutil-common.tex"
 \pgfutil@everybye=\toks16
 \pgfutil@tempdima=\dimen128
 \pgfutil@tempdimb=\dimen129
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
-ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utili
+ties\pgfutil-common-lists.tex"))
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utili
+ties\pgfutil-latex.def"
 \pgfutil@abb=\box35
-(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\everyshi
+.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
-Package: pgfrcs 2019/02/02 v3.1.1 (3.1.1)
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utili
+ties\pgfrcs.code.tex"
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf\pgf.r
+evision.tex")
+Package: pgfrcs 2019/05/09 v3.1.3 (3.1.3)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2019/02/02 v3.1.1 (3.1.1)
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
+mlayer\pgfsys.code.tex"
+Package: pgfsys 2019/05/09 v3.1.3 (3.1.3)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utili
+ties\pgfkeys.code.tex"
 \pgfkeys@pathtoks=\toks17
 \pgfkeys@temptoks=\toks18
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
-ex
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utili
+ties\pgfkeysfiltered.code.tex"
 \pgfkeys@tmptoks=\toks19
 ))
 \pgf@x=\dimen130
@@ -160,6 +190,8 @@ ex
 \pgf@yb=\dimen135
 \pgf@xc=\dimen136
 \pgf@yc=\dimen137
+\pgf@xd=\dimen138
+\pgf@yd=\dimen139
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
 \c@pgf@counta=\count108
@@ -170,31 +202,37 @@ ex
 \t@pgf@tokb=\toks21
 \t@pgf@tokc=\toks22
 \pgf@sys@id@count=\count112
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
-File: pgf.cfg 2019/02/02 v3.1.1 (3.1.1)
+
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
+mlayer\pgf.cfg"
+File: pgf.cfg 2019/05/09 v3.1.3 (3.1.3)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2019/02/02 v3.1.1 (3.1.1)
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
+mlayer\pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2019/05/09 v3.1.3 (3.1.3)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
-f
-File: pgfsys-common-pdf.def 2019/02/02 v3.1.1 (3.1.1)
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
+mlayer\pgfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2019/05/09 v3.1.3 (3.1.3)
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
-tex
-File: pgfsyssoftpath.code.tex 2019/02/02 v3.1.1 (3.1.1)
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
+mlayer\pgfsyssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \pgfsyssoftpath@smallbuffer@items=\count113
 \pgfsyssoftpath@bigbuffer@items=\count114
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
-tex
-File: pgfsysprotocol.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
+mlayer\pgfsysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2019/05/09 v3.1.3 (3.1.3)
+))
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcol
+or.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cf
+g\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -208,155 +246,177 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2019/02/02 v3.1.1 (3.1.1)
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcore.code.tex"
+Package: pgfcore 2019/05/09 v3.1.3 (3.1.3)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen138
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmath.code.tex"
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmathcalc.code.tex"
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmathutil.code.tex")
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmathparser.code.tex"
+\pgfmath@dimen=\dimen140
 \pgfmath@count=\count115
 \pgfmath@box=\box36
 \pgfmath@toks=\toks23
 \pgfmath@stack@operand=\toks24
 \pgfmath@stack@operation=\toks25
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
-ric.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
-e.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
-.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
-thmetics.code.tex)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmathfunctions.code.tex"
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmathfunctions.basic.code.tex")
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmathfunctions.trigonometric.code.tex")
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmathfunctions.random.code.tex")
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmathfunctions.comparison.code.tex")
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmathfunctions.base.code.tex")
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmathfunctions.round.code.tex")
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmathfunctions.misc.code.tex")
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmathfunctions.integerarithmetics.code.tex")))
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmathfloat.code.tex"
 \c@pgfmathroundto@lastzeros=\count116
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
-x
-File: pgfcorepoints.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@picminx=\dimen139
-\pgf@picmaxx=\dimen140
-\pgf@picminy=\dimen141
-\pgf@picmaxy=\dimen142
-\pgf@pathminx=\dimen143
-\pgf@pathmaxx=\dimen144
-\pgf@pathminy=\dimen145
-\pgf@pathmaxy=\dimen146
-\pgf@xx=\dimen147
-\pgf@xy=\dimen148
-\pgf@yx=\dimen149
-\pgf@yy=\dimen150
-\pgf@zx=\dimen151
-\pgf@zy=\dimen152
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfint.code.tex")
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgf@picminx=\dimen141
+\pgf@picmaxx=\dimen142
+\pgf@picminy=\dimen143
+\pgf@picmaxy=\dimen144
+\pgf@pathminx=\dimen145
+\pgf@pathmaxx=\dimen146
+\pgf@pathminy=\dimen147
+\pgf@pathmaxy=\dimen148
+\pgf@xx=\dimen149
+\pgf@xy=\dimen150
+\pgf@yx=\dimen151
+\pgf@yy=\dimen152
+\pgf@zx=\dimen153
+\pgf@zy=\dimen154
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
-code.tex
-File: pgfcorepathconstruct.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@path@lastx=\dimen153
-\pgf@path@lasty=\dimen154
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcorepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgf@path@lastx=\dimen155
+\pgf@path@lasty=\dimen156
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
-.tex
-File: pgfcorepathusage.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@shorten@end@additional=\dimen155
-\pgf@shorten@start@additional=\dimen156
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgf@shorten@end@additional=\dimen157
+\pgf@shorten@start@additional=\dimen158
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
-x
-File: pgfcorescopes.code.tex 2019/02/02 v3.1.1 (3.1.1)
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \pgfpic=\box37
 \pgf@hbox=\box38
 \pgf@layerbox@main=\box39
 \pgf@picture@serial@count=\count117
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
-ode.tex
-File: pgfcoregraphicstate.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgflinewidth=\dimen157
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcoregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgflinewidth=\dimen159
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
-s.code.tex
-File: pgfcoretransformations.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@pt@x=\dimen158
-\pgf@pt@y=\dimen159
-\pgf@pt@temp=\dimen160
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcoretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgf@pt@x=\dimen160
+\pgf@pt@y=\dimen161
+\pgf@pt@temp=\dimen162
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2019/02/02 v3.1.1 (3.1.1)
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcorequick.code.tex"
+File: pgfcorequick.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
-ex
-File: pgfcoreobjects.code.tex 2019/02/02 v3.1.1 (3.1.1)
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
-.code.tex
-File: pgfcorepathprocessing.code.tex 2019/02/02 v3.1.1 (3.1.1)
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcorepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
-x
-File: pgfcorearrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfarrowsep=\dimen161
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgfarrowsep=\dimen163
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@max=\dimen162
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgf@max=\dimen164
 \pgf@sys@shading@range@num=\count118
+\pgf@shadingcount=\count119
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2019/02/02 v3.1.1 (3.1.1)
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2019/05/09 v3.1.3 (3.1.3)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
-tex
-File: pgfcoreexternal.code.tex 2019/02/02 v3.1.1 (3.1.1)
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \pgfexternal@startupbox=\box40
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
-x
-File: pgfcorelayers.code.tex 2019/02/02 v3.1.1 (3.1.1)
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
-ode.tex
-File: pgfcoretransparency.code.tex 2019/02/02 v3.1.1 (3.1.1)
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcoretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
-tex
-File: pgfcorepatterns.code.tex 2019/02/02 v3.1.1 (3.1.1)
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2019/02/02 v3.1.1 (3.1.1)
-))) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcorerdf.code.tex"
+File: pgfcorerdf.code.tex 2019/05/09 v3.1.3 (3.1.3)
+)))
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utiliti
+es\xxcolor.sty"
 Package: xxcolor 2003/10/24 ver 0.1
-\XC@nummixins=\count119
-\XC@countmixins=\count120
+\XC@nummixins=\count120
+\XC@countmixins=\count121
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\
+atbegshi.sty"
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\
+infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\
+ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hy
+perref.sty"
 Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\
+hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\
+hobsub-generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -390,24 +450,28 @@ Package hobsub Info: Skipping package `atbegshi' (already loaded).
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\au
+xhook.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kv
+options.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen163
-\Hy@linkcounter=\count121
-\Hy@pagecounter=\count122
+\@linkdim=\dimen165
+\Hy@linkcounter=\count122
+\Hy@pagecounter=\count123
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd
+1enc.def"
 File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count123
+\Hy@SavedSpaceFactor=\count124
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\hy
+perref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `bookmarks' set `true' on input line 4393.
@@ -420,17 +484,18 @@ Package hyperref Info: Plain pages OFF on input line 4534.
 Package hyperref Info: Backreferencing OFF on input line 4539.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
 Package hyperref Info: Bookmarks ON on input line 4772.
-\c@Hy@tempcnt=\count124
+\c@Hy@tempcnt=\count125
 
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty
+"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5125.
-\XeTeXLinkMargin=\dimen164
-\Fld@menulength=\count125
-\Field@Width=\dimen165
-\Fld@charsize=\dimen166
+\XeTeXLinkMargin=\dimen166
+\Fld@menulength=\count126
+\Field@Width=\dimen167
+\Fld@charsize=\dimen168
 Package hyperref Info: Hyper figures OFF on input line 6380.
 Package hyperref Info: Link nesting OFF on input line 6385.
 Package hyperref Info: Hyper index ON on input line 6388.
@@ -440,30 +505,38 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6405.
 Package hyperref Info: PDF/A mode OFF on input line 6410.
 LaTeX Info: Redefining \ref on input line 6450.
 LaTeX Info: Redefining \pageref on input line 6454.
-\Hy@abspage=\count126
+\Hy@abspage=\count127
 
 
 Package hyperref Message: Stopped early.
 
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
-\Fld@listcount=\count127
-\c@bookmark@seq@number=\count128
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hp
+dftex.def"
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count128
+\c@bookmark@seq@number=\count129
+
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\re
+runfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecompatibility.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasefont.sty
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erbaserequires.sty"
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erbasecompatibility.sty")
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erbasefont.sty"
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\am
+ssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\am
+sfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks26
 \symAMSa=\mathgroup4
@@ -471,147 +544,176 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/sansmathacc
+ent\sansmathaccent.sty"
 Package: sansmathaccent 2013/03/28
 
-(/usr/share/texlive/texmf-dist/tex/latex/filehook/filehook.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/filehook\fi
+lehook.sty"
 Package: filehook 2011/10/12 v0.5d Hooks for input files
 )))
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erbasetranslator.sty"
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\
+translator.sty"
 Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemisc.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
-\beamer@argscount=\count129
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erbasemisc.sty")
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erbasetwoscreens.sty")
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erbaseoverlay.sty"
+\beamer@argscount=\count130
 \beamer@lastskipcover=\skip44
-\beamer@trivlistdepth=\count130
+\beamer@trivlistdepth=\count131
 )
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetitle.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasesection.sty
-\c@lecture=\count131
-\c@part=\count132
-\c@section=\count133
-\c@subsection=\count134
-\c@subsubsection=\count135
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erbasetitle.sty")
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erbasesection.sty"
+\c@lecture=\count132
+\c@part=\count133
+\c@section=\count134
+\c@subsection=\count135
+\c@subsubsection=\count136
 )
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erbaseframe.sty"
 \beamer@framebox=\box41
 \beamer@frametitlebox=\box42
 \beamer@zoombox=\box43
-\beamer@zoomcount=\count136
-\beamer@zoomframecount=\count137
-\beamer@frametextheight=\dimen167
-\c@subsectionslide=\count138
+\beamer@zoomcount=\count137
+\beamer@zoomframecount=\count138
+\beamer@frametextheight=\dimen169
+\c@subsectionslide=\count139
 \beamer@frametopskip=\skip45
 \beamer@framebottomskip=\skip46
 \beamer@frametopskipautobreak=\skip47
 \beamer@framebottomskipautobreak=\skip48
 \beamer@envbody=\toks27
-\framewidth=\dimen168
-\c@framenumber=\count139
+\framewidth=\dimen170
+\c@framenumber=\count140
 )
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erbaseverbatim.sty"
 \beamer@verbatimfileout=\write4
 )
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erbaseframesize.sty"
 \beamer@splitbox=\box44
-\beamer@autobreakcount=\count140
-\beamer@autobreaklastheight=\dimen169
+\beamer@autobreakcount=\count141
+\beamer@autobreaklastheight=\dimen171
 \beamer@frametitletoks=\toks28
 \beamer@framesubtitletoks=\toks29
 )
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erbaseframecomponents.sty"
 \beamer@footins=\box45
 )
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecolor.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erbasecolor.sty")
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erbasenotes.sty"
 \beamer@frameboxcopy=\box46
 )
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetoc.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erbasetoc.sty")
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erbasetemplates.sty"
 \beamer@sbttoks=\toks30
 
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erbaseauxtemplates.sty"
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erbaseboxes.sty"
 \bmb@box=\box47
 \bmb@colorbox=\box48
 \bmb@boxshadow=\box49
 \bmb@boxshadowball=\box50
 \bmb@boxshadowballlarge=\box51
-\bmb@temp=\dimen170
-\bmb@dima=\dimen171
-\bmb@dimb=\dimen172
-\bmb@prevheight=\dimen173
+\bmb@temp=\dimen172
+\bmb@dima=\dimen173
+\bmb@dimb=\dimen174
+\bmb@prevheight=\dimen175
 )
-\beamer@blockheadheight=\dimen174
+\beamer@blockheadheight=\dimen176
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.sty
-(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erbaselocalstructure.sty"
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\enume
+rate.sty"
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks31
 )
-\c@figure=\count141
-\c@table=\count142
+\c@figure=\count142
+\c@table=\count143
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 )
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
-\beamer@section@min@dim=\dimen175
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erbasenavigation.sty"
+\beamer@section@min@dim=\dimen177
 )
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erbasetheorems.sty"
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\ams
+math.sty"
 Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\ams
+text.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\ams
+gen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks32
-\ex@=\dimen176
+\ex@=\dimen178
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\ams
+bsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen177
+\pmbraise@=\dimen179
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\ams
+opn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count143
+\inf@bad=\count144
 LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count144
-\leftroot@=\count145
+\uproot@=\count145
+\leftroot@=\count146
 LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count146
-\DOTSCASE@=\count147
+\classnum@=\count147
+\DOTSCASE@=\count148
 LaTeX Info: Redefining \ldots on input line 482.
 LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
 \Mathstrutbox@=\box52
 \strutbox@=\box53
-\big@size=\dimen178
+\big@size=\dimen180
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count148
-\c@MaxMatrixCols=\count149
+\macc@depth=\count149
+\c@MaxMatrixCols=\count150
 \dotsspace@=\muskip11
-\c@parentequation=\count150
-\dspbrk@lvl=\count151
+\c@parentequation=\count151
+\dspbrk@lvl=\count152
 \tag@help=\toks33
-\row@=\count152
-\column@=\count153
-\maxfields@=\count154
+\row@=\count153
+\column@=\count154
+\maxfields@=\count155
 \andhelp@=\toks34
-\eqnshift@=\dimen179
-\alignsep@=\dimen180
-\tagshift@=\dimen181
-\tagwidth@=\dimen182
-\totwidth@=\dimen183
-\lineht@=\dimen184
+\eqnshift@=\dimen181
+\alignsep@=\dimen182
+\tagshift@=\dimen183
+\tagwidth@=\dimen184
+\totwidth@=\dimen185
+\lineht@=\dimen186
 \@envbody=\toks35
 \multlinegap=\skip52
 \multlinetaggap=\skip53
@@ -619,7 +721,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amscls\amst
+hm.sty"
 Package: amsthm 2017/10/31 v2.20.4
 \thm@style=\toks37
 \thm@bodyfont=\toks38
@@ -631,138 +734,171 @@ Package: amsthm 2017/10/31 v2.20.4
 \thm@headsep=\skip56
 \dth@everypar=\toks42
 )
-\c@theorem=\count155
+\c@theorem=\count156
 )
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasethemes.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemedefault.sty
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
-\beamer@dima=\dimen185
-\beamer@dimb=\dimen186
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erbasethemes.sty"))
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erthemedefault.sty"
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erfontthemedefault.sty")
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+ercolorthemedefault.sty")
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erinnerthemedefault.sty"
+\beamer@dima=\dimen187
+\beamer@dimb=\dimen188
 )
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemebeaver.sty)
-\c@saveenumi=\count156
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+erouterthemedefault.sty")))
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
+ercolorthemebeaver.sty")
+\c@saveenumi=\count157
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\bab
+el.sty"
 Package: babel 2018/11/13 3.27 The Babel package
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\swi
+tch.def"
 File: switch.def 2018/11/13 3.27 Babel switching mechanism
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
+*************************************
+* Local config file bblopts.cfg used
+*
+
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblop
+ts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-portu
+ges\portuges.ldf"
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\bab
+el.def"
 File: babel.def 2018/11/13 3.27 Babel common definitions
-\babel@savecnt=\count157
-\U@D=\dimen187
+\babel@savecnt=\count158
+\U@D=\dimen189
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txt
+babel.def")
 LaTeX Info: Redefining \textlatin on input line 2003.
-\bbl@dirlevel=\count158
+\bbl@dirlevel=\count159
 )
 Package babel Info: Making " an active character on input line 145.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inpute
+nc.sty"
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks43
 \inpenc@posthook=\toks44
 
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/utf8x.def
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\utf8x.d
+ef"
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucs.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\ucs.sty
+"
 Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
 
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-global.def
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-glo
+bal.def"
 File: uni-global.def 2013/05/13 UCS: Unicode global data
 )
-\uc@secondtry=\count159
+\uc@secondtry=\count160
 \uc@combtoks=\toks45
 \uc@combtoksb=\toks46
 \uc@temptokena=\toks47
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fonten
+c.sty"
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1enc.
+def"
 File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/natbib\natb
+ib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip57
 \bibsep=\skip58
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count160
+\c@NAT@ctr=\count161
 )
-(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfig\subf
+ig.sty"
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\cap
+tion.sty"
 Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\cap
+tion3.sty"
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen188
-\captionmargin@=\dimen189
-\captionwidth=\dimen190
-\caption@tempdima=\dimen191
-\caption@indent=\dimen192
-\caption@parindent=\dimen193
-\caption@hangindent=\dimen194
+\captionmargin=\dimen190
+\captionmargin@=\dimen191
+\captionwidth=\dimen192
+\caption@tempdima=\dimen193
+\caption@indent=\dimen194
+\caption@parindent=\dimen195
+\caption@hangindent=\dimen196
 )
-\c@caption@flags=\count161
-\c@ContinuedFloat=\count162
+\c@caption@flags=\count162
+\c@ContinuedFloat=\count163
 Package caption Info: beamer document class.
 Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
 )
-\c@KVtest=\count163
+\c@KVtest=\count164
 \sf@farskip=\skip59
-\sf@captopadj=\dimen195
+\sf@captopadj=\dimen197
 \sf@capskip=\skip60
 \sf@nearskip=\skip61
-\c@subfigure=\count164
-\c@subfigure@save=\count165
-\c@depth=\count166
-\c@subtable=\count167
-\c@subtable@save=\count168
+\c@subfigure=\count165
+\c@subfigure@save=\count166
+\c@depth=\count167
+\c@subtable=\count168
+\c@subtable@save=\count169
 \sf@top=\skip62
 \sf@bottom=\skip63
 )
-(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
-Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen196
-\lightrulewidth=\dimen197
-\cmidrulewidth=\dimen198
-\belowrulesep=\dimen199
-\belowbottomsep=\dimen256
-\aboverulesep=\dimen257
-\abovetopsep=\dimen258
-\cmidrulesep=\dimen259
-\cmidrulekern=\dimen260
-\defaultaddspace=\dimen261
-\@cmidla=\count169
-\@cmidlb=\count170
-\@aboverulesep=\dimen262
-\@belowrulesep=\dimen263
-\@thisruleclass=\count171
-\@lastruleclass=\count172
-\@thisrulewidth=\dimen264
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/booktabs\bo
+oktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen198
+\lightrulewidth=\dimen199
+\cmidrulewidth=\dimen256
+\belowrulesep=\dimen257
+\belowbottomsep=\dimen258
+\aboverulesep=\dimen259
+\abovetopsep=\dimen260
+\cmidrulesep=\dimen261
+\cmidrulekern=\dimen262
+\defaultaddspace=\dimen263
+\@cmidla=\count170
+\@cmidlb=\count171
+\@aboverulesep=\dimen264
+\@belowrulesep=\dimen265
+\@thisruleclass=\count172
+\@lastruleclass=\count173
+\@thisrulewidth=\dimen266
 )
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-0.d
+ef"
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 41.
+(hyperref)                removing `\\' on input line 54.
 
-(./apresentaco.aux
+(apresentaco.aux
 
 LaTeX Warning: Label `<figure2>' multiply defined.
 
@@ -1000,23 +1136,35 @@ LaTeX Warning: Label `<figure2>' multiply defined.
 
 LaTeX Warning: Label `sub@<figure2>' multiply defined.
 
+
+LaTeX Warning: Label `a' multiply defined.
+
+
+LaTeX Warning: Label `sub@a' multiply defined.
+
+
+LaTeX Warning: Label `b' multiply defined.
+
+
+LaTeX Warning: Label `sub@b' multiply defined.
+
 )
 \openout1 = `apresentaco.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1052,23 +1200,28 @@ LaTeX Font Info:    ... okay on input line 45.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii
+\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count173
-\scratchdimen=\dimen265
+\scratchcounter=\count174
+\scratchdimen=\dimen267
 \scratchbox=\box54
-\nofMPsegments=\count174
-\nofMParguments=\count175
+\nofMPsegments=\count175
+\nofMParguments=\count176
 \everyMPshowfont=\toks48
-\MPscratchCnt=\count176
-\MPscratchDim=\dimen266
-\MPnumerator=\count177
-\makeMPintoPDFobject=\count178
+\MPscratchCnt=\count177
+\MPscratchDim=\dimen268
+\MPnumerator=\count178
+\makeMPintoPDFobject=\count179
 \everyMPtoPDFconversion=\toks49
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+)
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\ep
+stopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\gr
+fext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1077,865 +1230,1019 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-ABD: EveryShipout initializing macros
+) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box55
-Package hyperref Info: Link coloring OFF on input line 45.
+Package hyperref Info: Link coloring OFF on input line 58.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\na
+meref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\
+gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count179
+\c@section@level=\count180
 )
-LaTeX Info: Redefining \ref on input line 45.
-LaTeX Info: Redefining \pageref on input line 45.
-LaTeX Info: Redefining \nameref on input line 45.
-
-(./apresentaco.out) (./apresentaco.out)
+LaTeX Info: Redefining \ref on input line 58.
+LaTeX Info: Redefining \pageref on input line 58.
+LaTeX Info: Redefining \nameref on input line 58.
+ (apresentaco.out) (apresentaco.out)
 \@outlinefile=\write5
 \openout5 = `apresentaco.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 45.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 58.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 45.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 58.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 45.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 45.
+(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 58.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/bx/n on input line 45.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/bx/n on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/bx/n on input line 45.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 45.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/bx/n on input line 58.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 45.
+(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 45.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 45.
+(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 58.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 45.
+(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 45.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 45.
+(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 58.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 45.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 45.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 58.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/bx/n on input line 45.
+(Font)                  T1/cmss/m/n --> T1/cmss/bx/n on input line 58.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/bx/it on input line 45.
+(Font)                  T1/cmss/m/it --> T1/cmss/bx/it on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmr/bx/n on input line 45.
+(Font)                  OT1/cmss/bx/n --> T1/cmr/bx/n on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/cmss/bx/n --> T1/cmss/bx/n on input line 45.
+(Font)                  T1/cmss/bx/n --> T1/cmss/bx/n on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/bx/n on input line 45.
+(Font)                  T1/cmss/m/n --> T1/cmss/bx/n on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/bx/it on input line 45.
+(Font)                  T1/cmss/m/it --> T1/cmss/bx/it on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/bx/n on input line 45.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 45.
+(Font)                  T1/cmtt/m/n --> T1/cmtt/bx/n on input line 58.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 58.
 LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `normal' on input line 45
+(Font)              `pureletters' in the math version `normal' on input line 58
 .
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  T1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 45
+(Font)                  T1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 58
 .
 LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `bold' on input line 45.
+(Font)              `pureletters' in the math version `bold' on input line 58.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 4
-5.
+(Font)                  T1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 5
+8.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 45.
+ut line 58.
 
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
--English.dict
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\
+translator-basic-dictionary-English.dict"
 Dictionary: translator-basic-dictionary, Language: English 
 )
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-bibliography-dic
-tionary-English.dict
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\
+translator-bibliography-dictionary-English.dict"
 Dictionary: translator-bibliography-dictionary, Language: English 
 )
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-environment-dict
-ionary-English.dict
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\
+translator-environment-dictionary-English.dict"
 Dictionary: translator-environment-dictionary, Language: English 
 )
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-months-dictionar
-y-English.dict
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\
+translator-months-dictionary-English.dict"
 Dictionary: translator-months-dictionary, Language: English 
 )
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-numbers-dictiona
-ry-English.dict
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\
+translator-numbers-dictionary-English.dict"
 Dictionary: translator-numbers-dictionary, Language: English 
 )
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictiona
-ry-English.dict
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\
+translator-theorem-dictionary-English.dict"
 Dictionary: translator-theorem-dictionary, Language: English 
-) (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
+)
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\ucsencs
+.def"
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
+ (apresentaco.nav) [1{C:/Users/Roberto Rolo/AppData/Local/MiKTeX/2.9/pdftex/con
+fig/pdftex.map}
 
-(./apresentaco.nav) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-]
-(./apresentaco.toc) [2
+] (apresentaco.toc) [2
 
 ] [3
 
 
 ] [4
 
+
+] [5
+
 ]
-<apresentacao/passo_2.png, id=213, 1220.56pt x 295.1025pt>
+<apresentacao/passo_2.png, id=245, 1220.56pt x 295.1025pt>
 File: apresentacao/passo_2.png Graphic file (type png)
 <use apresentacao/passo_2.png>
-Package pdftex.def Info: apresentacao/passo_2.png  used on input line 89.
+Package pdftex.def Info: apresentacao/passo_2.png  used on input line 102.
 (pdftex.def)             Requested size: 398.3386pt x 96.30792pt.
- [5
-
- <./apresentacao/passo_2.png>]
-<capitulo_1/explicitmodeling.jpg, id=220, 858.20625pt x 467.7475pt>
-File: capitulo_1/explicitmodeling.jpg Graphic file (type jpg)
-<use capitulo_1/explicitmodeling.jpg>
-Package pdftex.def Info: capitulo_1/explicitmodeling.jpg  used on input line 10
-4.
-(pdftex.def)             Requested size: 239.00558pt x 130.26181pt.
  [6
 
- <./capitulo_1/explicitmodeling.jpg>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 116.
+ <./apresentacao/passo_2.png>]
+<capitulo_1/explicitmodeling.jpg, id=252, 858.20625pt x 467.7475pt>
+File: capitulo_1/explicitmodeling.jpg Graphic file (type jpg)
+<use capitulo_1/explicitmodeling.jpg>
+Package pdftex.def Info: capitulo_1/explicitmodeling.jpg  used on input line 11
+7.
+(pdftex.def)             Requested size: 239.00558pt x 130.26181pt.
+ [7
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+ <./capitulo_1/explicitmodeling.jpg>]
+LaTeX Font Info:    Try loading font information for U+msa on input line 129.
+
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\um
+sa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 116.
+LaTeX Font Info:    Try loading font information for U+msb on input line 129.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\um
+sb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 116.
+line 129.
 
-(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/sansmathacc
+ent\ot1mathkerncmss.fd"
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-)
-[7
+) [8
 
 ]
-<capitulo_1/incerteza_limites.jpg, id=232, 894.34125pt x 753.81625pt>
+<capitulo_1/incerteza_limites.jpg, id=264, 894.34125pt x 753.81625pt>
 File: capitulo_1/incerteza_limites.jpg Graphic file (type jpg)
 <use capitulo_1/incerteza_limites.jpg>
 Package pdftex.def Info: capitulo_1/incerteza_limites.jpg  used on input line 1
-30.
+43.
 (pdftex.def)             Requested size: 159.333pt x 134.28929pt.
- [8
+ [9
 
- <./capitulo_1/incerteza_limites.jpg>] [9
+ <./capitulo_1/incerteza_limites.jpg>] [10
 
 ]
-<capitulo_1/implicit_modelig_pt_1.jpg, id=242, 1051.33832pt x 379.60768pt>
+<capitulo_1/implicit_modelig_pt_1.jpg, id=274, 1051.33832pt x 379.60768pt>
 File: capitulo_1/implicit_modelig_pt_1.jpg Graphic file (type jpg)
 <use capitulo_1/implicit_modelig_pt_1.jpg>
 Package pdftex.def Info: capitulo_1/implicit_modelig_pt_1.jpg  used on input li
-ne 176.
+ne 189.
 (pdftex.def)             Requested size: 318.67209pt x 115.06482pt.
- [10
+
+[11
 
  <./capitulo_1/implicit_modelig_pt_1.jpg>]
-<capitulo_2/prop_hist_big.png, id=251, 1796.7125pt x 1847.90375pt>
+<capitulo_2/prop_hist_big.png, id=283, 1796.7125pt x 1847.90375pt>
 File: capitulo_2/prop_hist_big.png Graphic file (type png)
 <use capitulo_2/prop_hist_big.png>
-Package pdftex.def Info: capitulo_2/prop_hist_big.png  used on input line 194.
+Package pdftex.def Info: capitulo_2/prop_hist_big.png  used on input line 207.
 (pdftex.def)             Requested size: 99.58464pt x 102.41043pt.
-<capitulo_2/dados.jpeg, id=252, 1082.0425pt x 821.0675pt>
+<capitulo_2/dados.jpeg, id=284, 1082.0425pt x 821.0675pt>
 File: capitulo_2/dados.jpeg Graphic file (type jpg)
 <use capitulo_2/dados.jpeg>
-Package pdftex.def Info: capitulo_2/dados.jpeg  used on input line 194.
+Package pdftex.def Info: capitulo_2/dados.jpeg  used on input line 207.
 (pdftex.def)             Requested size: 159.333pt x 120.89969pt.
- [11
+ [12
 
  <./capitulo_2/prop_hist_big.png> <./capitulo_2/dados.jpeg>]
-<capitulo_2/inddf1.jpeg, id=258, 1082.0425pt x 821.0675pt>
+<capitulo_2/inddf1.jpeg, id=290, 1082.0425pt x 821.0675pt>
 File: capitulo_2/inddf1.jpeg Graphic file (type jpg)
 <use capitulo_2/inddf1.jpeg>
-Package pdftex.def Info: capitulo_2/inddf1.jpeg  used on input line 213.
+Package pdftex.def Info: capitulo_2/inddf1.jpeg  used on input line 226.
 (pdftex.def)             Requested size: 119.50279pt x 90.6685pt.
-<capitulo_2/inddf2.jpeg, id=259, 1082.0425pt x 821.0675pt>
+<capitulo_2/inddf2.jpeg, id=291, 1082.0425pt x 821.0675pt>
 File: capitulo_2/inddf2.jpeg Graphic file (type jpg)
 <use capitulo_2/inddf2.jpeg>
-Package pdftex.def Info: capitulo_2/inddf2.jpeg  used on input line 213.
+Package pdftex.def Info: capitulo_2/inddf2.jpeg  used on input line 226.
 (pdftex.def)             Requested size: 119.50279pt x 90.6685pt.
-<capitulo_2/inddf3.jpeg, id=260, 1082.0425pt x 821.0675pt>
+<capitulo_2/inddf3.jpeg, id=292, 1082.0425pt x 821.0675pt>
 File: capitulo_2/inddf3.jpeg Graphic file (type jpg)
 <use capitulo_2/inddf3.jpeg>
-Package pdftex.def Info: capitulo_2/inddf3.jpeg  used on input line 213.
+Package pdftex.def Info: capitulo_2/inddf3.jpeg  used on input line 226.
 (pdftex.def)             Requested size: 119.50279pt x 90.6685pt.
-[12
+ [13
 
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.213 \end{frame}
+l.226 \end{frame}
                   <./capitulo_2/inddf1.jpeg> <./capitulo_2/inddf2.jpeg> <./capi
 tulo_2/inddf3.jpeg>]
-<capitulo_2/2d_ex.jpg, id=276, 1469.49pt x 1050.92625pt>
+<capitulo_2/2d_ex.jpg, id=309, 1469.49pt x 1050.92625pt>
 File: capitulo_2/2d_ex.jpg Graphic file (type jpg)
 <use capitulo_2/2d_ex.jpg>
-Package pdftex.def Info: capitulo_2/2d_ex.jpg  used on input line 234.
+Package pdftex.def Info: capitulo_2/2d_ex.jpg  used on input line 247.
 (pdftex.def)             Requested size: 119.50279pt x 85.4549pt.
- [13
+ [14
 
  <./capitulo_2/2d_ex.jpg>]
-<capitulo_2/df1.jpeg, id=285, 1082.0425pt x 821.0675pt>
+<capitulo_2/df1.jpeg, id=317, 1082.0425pt x 821.0675pt>
 File: capitulo_2/df1.jpeg Graphic file (type jpg)
 <use capitulo_2/df1.jpeg>
-Package pdftex.def Info: capitulo_2/df1.jpeg  used on input line 244.
+Package pdftex.def Info: capitulo_2/df1.jpeg  used on input line 257.
 (pdftex.def)             Requested size: 119.50279pt x 90.6685pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure1>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.244 \end{frame}
+l.257 \end{frame}
                  
-<capitulo_2/df2.jpeg, id=286, 1082.0425pt x 821.0675pt>
+<capitulo_2/df2.jpeg, id=318, 1082.0425pt x 821.0675pt>
 File: capitulo_2/df2.jpeg Graphic file (type jpg)
 <use capitulo_2/df2.jpeg>
-Package pdftex.def Info: capitulo_2/df2.jpeg  used on input line 244.
+Package pdftex.def Info: capitulo_2/df2.jpeg  used on input line 257.
 (pdftex.def)             Requested size: 119.50279pt x 90.6685pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.244 \end{frame}
+l.257 \end{frame}
                  
-<capitulo_2/df3.jpeg, id=287, 1082.0425pt x 821.0675pt>
+<capitulo_2/df3.jpeg, id=319, 1082.0425pt x 821.0675pt>
 File: capitulo_2/df3.jpeg Graphic file (type jpg)
 <use capitulo_2/df3.jpeg>
-Package pdftex.def Info: capitulo_2/df3.jpeg  used on input line 244.
+Package pdftex.def Info: capitulo_2/df3.jpeg  used on input line 257.
 (pdftex.def)             Requested size: 119.50279pt x 90.6685pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.244 \end{frame}
-                  [14
+l.257 \end{frame}
+                  [15
 
- <./capitulo_2/df1.jpeg> <./capitulo_2/df2.jpeg> <./capitulo_2/df3.jpeg>] [15
+ <./capitulo_2/df1.jpeg> <./capitulo_2/df2.jpeg> <./capitulo_2/df3.jpeg>] [16
 
 ]
-<capitulo_2/var_DF_1.png, id=298, 1882.03125pt x 1342.01375pt>
+<capitulo_2/var_DF_1.png, id=330, 1882.03125pt x 1342.01375pt>
 File: capitulo_2/var_DF_1.png Graphic file (type png)
 <use capitulo_2/var_DF_1.png>
-Package pdftex.def Info: capitulo_2/var_DF_1.png  used on input line 268.
+Package pdftex.def Info: capitulo_2/var_DF_1.png  used on input line 281.
 (pdftex.def)             Requested size: 119.50279pt x 85.20668pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure1>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.268 \end{frame}
+l.281 \end{frame}
                  
-<capitulo_2/var_DF_2.png, id=299, 1882.03125pt x 1342.01375pt>
+<capitulo_2/var_DF_2.png, id=331, 1882.03125pt x 1342.01375pt>
 File: capitulo_2/var_DF_2.png Graphic file (type png)
 <use capitulo_2/var_DF_2.png>
-Package pdftex.def Info: capitulo_2/var_DF_2.png  used on input line 268.
+Package pdftex.def Info: capitulo_2/var_DF_2.png  used on input line 281.
 (pdftex.def)             Requested size: 119.50279pt x 85.20668pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.268 \end{frame}
+l.281 \end{frame}
                  
-<capitulo_2/var_DF_3.png, id=300, 1882.03125pt x 1342.01375pt>
+<capitulo_2/var_DF_3.png, id=332, 1882.03125pt x 1342.01375pt>
 File: capitulo_2/var_DF_3.png Graphic file (type png)
 <use capitulo_2/var_DF_3.png>
-Package pdftex.def Info: capitulo_2/var_DF_3.png  used on input line 268.
+Package pdftex.def Info: capitulo_2/var_DF_3.png  used on input line 281.
 (pdftex.def)             Requested size: 119.50279pt x 85.20668pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.268 \end{frame}
-                  [16
+l.281 \end{frame}
+                  [17
 
  <./capitulo_2/var_DF_1.png> <./capitulo_2/var_DF_2.png> <./capitulo_2/var_DF_3
 .png>]
-<capitulo_2/var_Ind_DF_1.png, id=310, 1882.03125pt x 1344.02126pt>
+<capitulo_2/var_Ind_DF_1.png, id=342, 1882.03125pt x 1344.02126pt>
 File: capitulo_2/var_Ind_DF_1.png Graphic file (type png)
 <use capitulo_2/var_Ind_DF_1.png>
-Package pdftex.def Info: capitulo_2/var_Ind_DF_1.png  used on input line 278.
+Package pdftex.def Info: capitulo_2/var_Ind_DF_1.png  used on input line 291.
 (pdftex.def)             Requested size: 119.50279pt x 85.33414pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure1>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.278 \end{frame}
+l.291 \end{frame}
                  
-<capitulo_2/var_Ind_DF_2.png, id=311, 1882.03125pt x 1344.02126pt>
+<capitulo_2/var_Ind_DF_2.png, id=343, 1882.03125pt x 1344.02126pt>
 File: capitulo_2/var_Ind_DF_2.png Graphic file (type png)
 <use capitulo_2/var_Ind_DF_2.png>
-Package pdftex.def Info: capitulo_2/var_Ind_DF_2.png  used on input line 278.
+Package pdftex.def Info: capitulo_2/var_Ind_DF_2.png  used on input line 291.
 (pdftex.def)             Requested size: 119.50279pt x 85.33414pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.278 \end{frame}
+l.291 \end{frame}
                  
-<capitulo_2/var_Ind_DF_3.png, id=312, 1882.03125pt x 1344.02126pt>
+<capitulo_2/var_Ind_DF_3.png, id=344, 1882.03125pt x 1344.02126pt>
 File: capitulo_2/var_Ind_DF_3.png Graphic file (type png)
 <use capitulo_2/var_Ind_DF_3.png>
-Package pdftex.def Info: capitulo_2/var_Ind_DF_3.png  used on input line 278.
+Package pdftex.def Info: capitulo_2/var_Ind_DF_3.png  used on input line 291.
 (pdftex.def)             Requested size: 119.50279pt x 85.33414pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.278 \end{frame}
-                  [17
+l.291 \end{frame}
+                  [18
 
  <./capitulo_2/var_Ind_DF_1.png> <./capitulo_2/var_Ind_DF_2.png> <./capitulo_2/
 var_Ind_DF_3.png>]
-<capitulo_2/cov_table.png, id=322, 487.8225pt x 316.93407pt>
+<capitulo_2/cov_table.png, id=354, 487.8225pt x 316.93407pt>
 File: capitulo_2/cov_table.png Graphic file (type png)
 <use capitulo_2/cov_table.png>
-Package pdftex.def Info: capitulo_2/cov_table.png  used on input line 288.
+Package pdftex.def Info: capitulo_2/cov_table.png  used on input line 301.
 (pdftex.def)             Requested size: 278.83578pt x 181.15723pt.
- [18
+ [19
 
  <./capitulo_2/cov_table.png>]
-<capitulo_2/grid_res.png, id=330, 348.55219pt x 365.11406pt>
+<capitulo_2/grid_res.png, id=363, 348.55219pt x 365.11406pt>
 File: capitulo_2/grid_res.png Graphic file (type png)
 <use capitulo_2/grid_res.png>
-Package pdftex.def Info: capitulo_2/grid_res.png  used on input line 302.
+Package pdftex.def Info: capitulo_2/grid_res.png  used on input line 315.
 (pdftex.def)             Requested size: 159.333pt x 166.90155pt.
 
-[19
+[20
 
- <./capitulo_2/grid_res.png>] [20
+ <./capitulo_2/grid_res.png>] [21
 
-] [21
+] [22
 
 ]
-<capitulo_2/kt3d40.jpeg, id=363, 1082.0425pt x 821.0675pt>
+<capitulo_2/kt3d40.jpeg, id=393, 1082.0425pt x 821.0675pt>
 File: capitulo_2/kt3d40.jpeg Graphic file (type jpg)
 <use capitulo_2/kt3d40.jpeg>
-Package pdftex.def Info: capitulo_2/kt3d40.jpeg  used on input line 340.
+Package pdftex.def Info: capitulo_2/kt3d40.jpeg  used on input line 353.
 (pdftex.def)             Requested size: 119.50279pt x 90.6685pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure1>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.340 \end{frame}
+l.353 \end{frame}
                  
-<capitulo_2/kt3d100.jpeg, id=364, 1082.0425pt x 821.0675pt>
+<capitulo_2/kt3d100.jpeg, id=394, 1082.0425pt x 821.0675pt>
 File: capitulo_2/kt3d100.jpeg Graphic file (type jpg)
 <use capitulo_2/kt3d100.jpeg>
-Package pdftex.def Info: capitulo_2/kt3d100.jpeg  used on input line 340.
+Package pdftex.def Info: capitulo_2/kt3d100.jpeg  used on input line 353.
 (pdftex.def)             Requested size: 119.50279pt x 90.6685pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.340 \end{frame}
+l.353 \end{frame}
                  
-<capitulo_2/rbf.jpeg, id=365, 1082.0425pt x 821.0675pt>
+<capitulo_2/rbf.jpeg, id=395, 1082.0425pt x 821.0675pt>
 File: capitulo_2/rbf.jpeg Graphic file (type jpg)
 <use capitulo_2/rbf.jpeg>
-Package pdftex.def Info: capitulo_2/rbf.jpeg  used on input line 340.
+Package pdftex.def Info: capitulo_2/rbf.jpeg  used on input line 353.
 (pdftex.def)             Requested size: 119.50279pt x 90.6685pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.340 \end{frame}
-                  [22
+l.353 \end{frame}
+                  [23
 
  <./capitulo_2/kt3d40.jpeg> <./capitulo_2/kt3d100.jpeg> <./capitulo_2/rbf.jpeg>
 ]
-<capitulo_2/pou.jpg, id=372, 809.0225pt x 301.125pt>
+<capitulo_2/pou.jpg, id=402, 809.0225pt x 301.125pt>
 File: capitulo_2/pou.jpg Graphic file (type jpg)
 <use capitulo_2/pou.jpg>
-Package pdftex.def Info: capitulo_2/pou.jpg  used on input line 353.
+Package pdftex.def Info: capitulo_2/pou.jpg  used on input line 366.
 (pdftex.def)             Requested size: 358.50229pt x 133.43733pt.
- [23
+ [24
 
- <./capitulo_2/pou.jpg>] [24
+ <./capitulo_2/pou.jpg>] [25
 
 ]
-<capitulo_2/isokt3d40.jpeg, id=385, 1082.0425pt x 821.0675pt>
+<capitulo_2/isokt3d40.jpeg, id=415, 1082.0425pt x 821.0675pt>
 File: capitulo_2/isokt3d40.jpeg Graphic file (type jpg)
 <use capitulo_2/isokt3d40.jpeg>
-Package pdftex.def Info: capitulo_2/isokt3d40.jpeg  used on input line 394.
+Package pdftex.def Info: capitulo_2/isokt3d40.jpeg  used on input line 407.
 (pdftex.def)             Requested size: 119.50279pt x 90.6685pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure1>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.394 \end{frame}
+l.407 \end{frame}
                  
-<capitulo_2/isokt3dn100.jpeg, id=386, 1082.0425pt x 821.0675pt>
+<capitulo_2/isokt3dn100.jpeg, id=416, 1082.0425pt x 821.0675pt>
 File: capitulo_2/isokt3dn100.jpeg Graphic file (type jpg)
 <use capitulo_2/isokt3dn100.jpeg>
-Package pdftex.def Info: capitulo_2/isokt3dn100.jpeg  used on input line 394.
+Package pdftex.def Info: capitulo_2/isokt3dn100.jpeg  used on input line 407.
 (pdftex.def)             Requested size: 119.50279pt x 90.6685pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.394 \end{frame}
+l.407 \end{frame}
                  
-<capitulo_2/isorbf.jpeg, id=387, 1082.0425pt x 821.0675pt>
+<capitulo_2/isorbf.jpeg, id=417, 1082.0425pt x 821.0675pt>
 File: capitulo_2/isorbf.jpeg Graphic file (type jpg)
 <use capitulo_2/isorbf.jpeg>
-Package pdftex.def Info: capitulo_2/isorbf.jpeg  used on input line 394.
+Package pdftex.def Info: capitulo_2/isorbf.jpeg  used on input line 407.
 (pdftex.def)             Requested size: 119.50279pt x 90.6685pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.394 \end{frame}
-                  [25
+l.407 \end{frame}
+                  [26
 
  <./capitulo_2/isokt3d40.jpeg> <./capitulo_2/isokt3dn100.jpeg> <./capitulo_2/is
 orbf.jpeg>]
-<capitulo_2/iso_cat1_rbf.jpeg, id=394, 1113.15875pt x 821.0675pt>
+<capitulo_2/iso_cat1_rbf.jpeg, id=423, 1113.15875pt x 821.0675pt>
 File: capitulo_2/iso_cat1_rbf.jpeg Graphic file (type jpg)
 <use capitulo_2/iso_cat1_rbf.jpeg>
-Package pdftex.def Info: capitulo_2/iso_cat1_rbf.jpeg  used on input line 403.
+Package pdftex.def Info: capitulo_2/iso_cat1_rbf.jpeg  used on input line 416.
 (pdftex.def)             Requested size: 199.1693pt x 146.90878pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure1>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.403 \end{frame}
+l.416 \end{frame}
                  
-<capitulo_2/iso_cat1_rbf2.jpeg, id=395, 1113.15875pt x 821.0675pt>
+<capitulo_2/iso_cat1_rbf2.jpeg, id=424, 1113.15875pt x 821.0675pt>
 File: capitulo_2/iso_cat1_rbf2.jpeg Graphic file (type jpg)
 <use capitulo_2/iso_cat1_rbf2.jpeg>
-Package pdftex.def Info: capitulo_2/iso_cat1_rbf2.jpeg  used on input line 403.
+Package pdftex.def Info: capitulo_2/iso_cat1_rbf2.jpeg  used on input line 416.
 
 (pdftex.def)             Requested size: 199.1693pt x 146.90878pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.403 \end{frame}
-                  [26
+l.416 \end{frame}
+                  [27
 
  <./capitulo_2/iso_cat1_rbf.jpeg> <./capitulo_2/iso_cat1_rbf2.jpeg>]
-<capitulo_2/iso_cat2_rbf.jpeg, id=402, 1113.15875pt x 821.0675pt>
+<capitulo_2/iso_cat2_rbf.jpeg, id=431, 1113.15875pt x 821.0675pt>
 File: capitulo_2/iso_cat2_rbf.jpeg Graphic file (type jpg)
 <use capitulo_2/iso_cat2_rbf.jpeg>
-Package pdftex.def Info: capitulo_2/iso_cat2_rbf.jpeg  used on input line 412.
+Package pdftex.def Info: capitulo_2/iso_cat2_rbf.jpeg  used on input line 425.
 (pdftex.def)             Requested size: 199.1693pt x 146.90878pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure1>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.412 \end{frame}
+l.425 \end{frame}
                  
-<capitulo_2/iso_cat2_rbr2.jpeg, id=403, 1113.15875pt x 821.0675pt>
+<capitulo_2/iso_cat2_rbr2.jpeg, id=432, 1113.15875pt x 821.0675pt>
 File: capitulo_2/iso_cat2_rbr2.jpeg Graphic file (type jpg)
 <use capitulo_2/iso_cat2_rbr2.jpeg>
-Package pdftex.def Info: capitulo_2/iso_cat2_rbr2.jpeg  used on input line 412.
+Package pdftex.def Info: capitulo_2/iso_cat2_rbr2.jpeg  used on input line 425.
 
 (pdftex.def)             Requested size: 199.1693pt x 146.90878pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.412 \end{frame}
-                  [27
+l.425 \end{frame}
+                  [28
 
  <./capitulo_2/iso_cat2_rbf.jpeg> <./capitulo_2/iso_cat2_rbr2.jpeg>]pdfTeX warn
 ing (ext4): destination with the same identifier (name{eq_mult_sg}) has been al
 ready used, duplicate ignored
 <to be read again> 
                    \relax 
-l.442 \end{frame}
-                  [28
+l.455 \end{frame}
+                  [29
 
 ]
-<capitulo_2/mult_cat_legenda.jpg, id=420, 658.46pt x 288.07625pt>
+<capitulo_2/mult_cat_legenda.jpg, id=449, 658.46pt x 288.07625pt>
 File: capitulo_2/mult_cat_legenda.jpg Graphic file (type jpg)
 <use capitulo_2/mult_cat_legenda.jpg>
-Package pdftex.def Info: capitulo_2/mult_cat_legenda.jpg  used on input line 45
-2.
+Package pdftex.def Info: capitulo_2/mult_cat_legenda.jpg  used on input line 46
+5.
 (pdftex.def)             Requested size: 398.3386pt x 174.27567pt.
- [29
+ [30
 
  <./capitulo_2/mult_cat_legenda.jpg>]
-<capitulo_2/anisofinexz.png, id=427, 4942.465pt x 2232.34pt>
+<capitulo_2/anisofinexz.png, id=456, 4942.465pt x 2232.34pt>
 File: capitulo_2/anisofinexz.png Graphic file (type png)
 <use capitulo_2/anisofinexz.png>
-Package pdftex.def Info: capitulo_2/anisofinexz.png  used on input line 463.
+Package pdftex.def Info: capitulo_2/anisofinexz.png  used on input line 476.
 (pdftex.def)             Requested size: 199.1693pt x 89.92558pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure1>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.463 \end{frame}
+l.476 \end{frame}
                  
-<capitulo_2/anisofineryz.png, id=428, 4942.465pt x 2212.265pt>
+<capitulo_2/anisofineryz.png, id=457, 4942.465pt x 2212.265pt>
 File: capitulo_2/anisofineryz.png Graphic file (type png)
 <use capitulo_2/anisofineryz.png>
-Package pdftex.def Info: capitulo_2/anisofineryz.png  used on input line 463.
+Package pdftex.def Info: capitulo_2/anisofineryz.png  used on input line 476.
 (pdftex.def)             Requested size: 199.1693pt x 89.1169pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.463 \end{frame}
-                  [30
+l.476 \end{frame}
+                  [31
 
  <./capitulo_2/anisofinexz.png> <./capitulo_2/anisofineryz.png>]
-<capitulo_2/lvakrig1.jpg, id=438, 1422.31375pt x 730.73pt>
+<capitulo_2/lvakrig1.jpg, id=468, 1422.31375pt x 730.73pt>
 File: capitulo_2/lvakrig1.jpg Graphic file (type jpg)
 <use capitulo_2/lvakrig1.jpg>
-Package pdftex.def Info: capitulo_2/lvakrig1.jpg  used on input line 477.
+Package pdftex.def Info: capitulo_2/lvakrig1.jpg  used on input line 490.
 (pdftex.def)             Requested size: 318.67209pt x 163.71585pt.
- [31
+ [32
 
  <./capitulo_2/lvakrig1.jpg>]
-<capitulo_2/lva_krig.jpeg, id=445, 1037.8775pt x 821.0675pt>
+<capitulo_2/lva_krig.jpeg, id=474, 1037.8775pt x 821.0675pt>
 File: capitulo_2/lva_krig.jpeg Graphic file (type jpg)
 <use capitulo_2/lva_krig.jpeg>
-Package pdftex.def Info: capitulo_2/lva_krig.jpeg  used on input line 486.
+Package pdftex.def Info: capitulo_2/lva_krig.jpeg  used on input line 499.
 (pdftex.def)             Requested size: 199.1693pt x 157.55797pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure1>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.486 \end{frame}
+l.499 \end{frame}
                  
-<capitulo_2/lva_krig_100000.jpeg, id=446, 1037.8775pt x 821.0675pt>
+<capitulo_2/lva_krig_100000.jpeg, id=475, 1037.8775pt x 821.0675pt>
 File: capitulo_2/lva_krig_100000.jpeg Graphic file (type jpg)
 <use capitulo_2/lva_krig_100000.jpeg>
-Package pdftex.def Info: capitulo_2/lva_krig_100000.jpeg  used on input line 48
-6.
+Package pdftex.def Info: capitulo_2/lva_krig_100000.jpeg  used on input line 49
+9.
 (pdftex.def)             Requested size: 199.1693pt x 157.55797pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.486 \end{frame}
-                  [32
+l.499 \end{frame}
+                  [33
 
  <./capitulo_2/lva_krig.jpeg> <./capitulo_2/lva_krig_100000.jpeg>]
-<capitulo_2/lvarbf1.jpg, id=453, 1422.31375pt x 730.73pt>
+<capitulo_2/lvarbf1.jpg, id=482, 1422.31375pt x 730.73pt>
 File: capitulo_2/lvarbf1.jpg Graphic file (type jpg)
 <use capitulo_2/lvarbf1.jpg>
-Package pdftex.def Info: capitulo_2/lvarbf1.jpg  used on input line 496.
+Package pdftex.def Info: capitulo_2/lvarbf1.jpg  used on input line 509.
 (pdftex.def)             Requested size: 318.67209pt x 163.71585pt.
- [33
-
- <./capitulo_2/lvarbf1.jpg>]
-<capitulo_2/rbf_iterref.jpeg, id=460, 1037.8775pt x 821.0675pt>
-File: capitulo_2/rbf_iterref.jpeg Graphic file (type jpg)
-<use capitulo_2/rbf_iterref.jpeg>
-Package pdftex.def Info: capitulo_2/rbf_iterref.jpeg  used on input line 506.
-(pdftex.def)             Requested size: 199.1693pt x 157.55797pt.
  [34
 
+ <./capitulo_2/lvarbf1.jpg>]
+<capitulo_2/rbf_iterref.jpeg, id=489, 1037.8775pt x 821.0675pt>
+File: capitulo_2/rbf_iterref.jpeg Graphic file (type jpg)
+<use capitulo_2/rbf_iterref.jpeg>
+Package pdftex.def Info: capitulo_2/rbf_iterref.jpeg  used on input line 519.
+(pdftex.def)             Requested size: 199.1693pt x 157.55797pt.
+ [35
+
  <./capitulo_2/rbf_iterref.jpeg>]
-<capitulo_2/iterref.jpg, id=467, 1760.5775pt x 1628.0825pt>
+<capitulo_2/iterref.jpg, id=496, 1760.5775pt x 1628.0825pt>
 File: capitulo_2/iterref.jpg Graphic file (type jpg)
 <use capitulo_2/iterref.jpg>
-Package pdftex.def Info: capitulo_2/iterref.jpg  used on input line 521.
+Package pdftex.def Info: capitulo_2/iterref.jpg  used on input line 534.
 (pdftex.def)             Requested size: 119.50279pt x 110.49947pt.
 
-[35
+[36
 
  <./capitulo_2/iterref.jpg>]
-<capitulo_2/secoes.jpg, id=475, 1151.30125pt x 643.40375pt>
+<capitulo_2/secoes.jpg, id=504, 1151.30125pt x 643.40375pt>
 File: capitulo_2/secoes.jpg Graphic file (type jpg)
 <use capitulo_2/secoes.jpg>
-Package pdftex.def Info: capitulo_2/secoes.jpg  used on input line 535.
+Package pdftex.def Info: capitulo_2/secoes.jpg  used on input line 548.
 (pdftex.def)             Requested size: 119.50279pt x 66.77888pt.
-<capitulo_2/modelo_mls.jpg, id=476, 1325.95375pt x 708.6475pt>
+<capitulo_2/modelo_mls.jpg, id=505, 1325.95375pt x 708.6475pt>
 File: capitulo_2/modelo_mls.jpg Graphic file (type jpg)
 <use capitulo_2/modelo_mls.jpg>
-Package pdftex.def Info: capitulo_2/modelo_mls.jpg  used on input line 535.
+Package pdftex.def Info: capitulo_2/modelo_mls.jpg  used on input line 548.
 (pdftex.def)             Requested size: 119.50279pt x 63.86201pt.
- [36
+ [37
 
  <./capitulo_2/secoes.jpg> <./capitulo_2/modelo_mls.jpg>]
-<capitulo_2/softmax_bars_final.jpg, id=484, 1081.03876pt x 341.275pt>
+<capitulo_2/softmax_bars_final.jpg, id=514, 1081.03876pt x 341.275pt>
 File: capitulo_2/softmax_bars_final.jpg Graphic file (type jpg)
 <use capitulo_2/softmax_bars_final.jpg>
 Package pdftex.def Info: capitulo_2/softmax_bars_final.jpg  used on input line 
-556.
+569.
 (pdftex.def)             Requested size: 278.83578pt x 88.0264pt.
- [37
-
- <./capitulo_2/softmax_bars_final.jpg>]
-<capitulo_2/BS_DF_1.png, id=493, 1849.91125pt x 1337.99875pt>
-File: capitulo_2/BS_DF_1.png Graphic file (type png)
-<use capitulo_2/BS_DF_1.png>
-Package pdftex.def Info: capitulo_2/BS_DF_1.png  used on input line 588.
-(pdftex.def)             Requested size: 199.1693pt x 144.03622pt.
  [38
 
- <./capitulo_2/BS_DF_1.png>] [39
+ <./capitulo_2/softmax_bars_final.jpg>]
+<capitulo_2/BS_DF_1.png, id=522, 1849.91125pt x 1337.99875pt>
+File: capitulo_2/BS_DF_1.png Graphic file (type png)
+<use capitulo_2/BS_DF_1.png>
+Package pdftex.def Info: capitulo_2/BS_DF_1.png  used on input line 603.
+(pdftex.def)             Requested size: 199.1693pt x 144.03622pt.
+ [39
+
+ <./capitulo_2/BS_DF_1.png>] [40
 
 ]
-<capitulo_2/u_coef.png, id=507, 5008.7125pt x 2232.34pt>
+<capitulo_2/u_coef.png, id=534, 5008.7125pt x 2232.34pt>
 File: capitulo_2/u_coef.png Graphic file (type png)
 <use capitulo_2/u_coef.png>
-Package pdftex.def Info: capitulo_2/u_coef.png  used on input line 621.
+Package pdftex.def Info: capitulo_2/u_coef.png  used on input line 636.
 (pdftex.def)             Requested size: 318.67209pt x 142.00748pt.
- [40
+ [41
 
  <./capitulo_2/u_coef.png>]
-<capitulo_2/Ucutoff1.png, id=515, 5050.87pt x 2232.34pt>
+<capitulo_2/Ucutoff1.png, id=542, 5050.87pt x 2232.34pt>
 File: capitulo_2/Ucutoff1.png Graphic file (type png)
 <use capitulo_2/Ucutoff1.png>
-Package pdftex.def Info: capitulo_2/Ucutoff1.png  used on input line 634.
+Package pdftex.def Info: capitulo_2/Ucutoff1.png  used on input line 649.
 (pdftex.def)             Requested size: 119.50279pt x 52.79721pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure1>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.634 \end{frame}
+l.649 \end{frame}
                  
-<capitulo_2/Ucutoff2.png, id=516, 5050.87pt x 2232.34pt>
+<capitulo_2/Ucutoff2.png, id=543, 5050.87pt x 2232.34pt>
 File: capitulo_2/Ucutoff2.png Graphic file (type png)
 <use capitulo_2/Ucutoff2.png>
-Package pdftex.def Info: capitulo_2/Ucutoff2.png  used on input line 634.
+Package pdftex.def Info: capitulo_2/Ucutoff2.png  used on input line 649.
 (pdftex.def)             Requested size: 119.50279pt x 52.79721pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.634 \end{frame}
+l.649 \end{frame}
                  
-<capitulo_2/ucutoff3.png, id=517, 5050.87pt x 2232.34pt>
+<capitulo_2/ucutoff3.png, id=544, 5050.87pt x 2232.34pt>
 File: capitulo_2/ucutoff3.png Graphic file (type png)
 <use capitulo_2/ucutoff3.png>
-Package pdftex.def Info: capitulo_2/ucutoff3.png  used on input line 634.
+Package pdftex.def Info: capitulo_2/ucutoff3.png  used on input line 649.
 (pdftex.def)             Requested size: 119.50279pt x 52.79721pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.634 \end{frame}
-                  [41
+l.649 \end{frame}
+                  [42
 
  <./capitulo_2/Ucutoff1.png> <./capitulo_2/Ucutoff2.png> <./capitulo_2/ucutoff3
 .png>]
-<capitulo_2/directsimreal1.png, id=527, 4942.465pt x 2212.265pt>
+<capitulo_2/directsimreal1.png, id=554, 4942.465pt x 2212.265pt>
 File: capitulo_2/directsimreal1.png Graphic file (type png)
 <use capitulo_2/directsimreal1.png>
-Package pdftex.def Info: capitulo_2/directsimreal1.png  used on input line 646.
+Package pdftex.def Info: capitulo_2/directsimreal1.png  used on input line 661.
 
 (pdftex.def)             Requested size: 199.1693pt x 89.1169pt.
 pdfTeX warning (ext4): destination with the same identifier (name{a}) has been 
 already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.646 \end{frame}
+l.661 \end{frame}
                  
-<capitulo_2/directsimreal2.png, id=528, 4942.465pt x 2212.265pt>
+<capitulo_2/directsimreal2.png, id=555, 4942.465pt x 2212.265pt>
 File: capitulo_2/directsimreal2.png Graphic file (type png)
 <use capitulo_2/directsimreal2.png>
-Package pdftex.def Info: capitulo_2/directsimreal2.png  used on input line 646.
+Package pdftex.def Info: capitulo_2/directsimreal2.png  used on input line 661.
 
 (pdftex.def)             Requested size: 199.1693pt x 89.1169pt.
 pdfTeX warning (ext4): destination with the same identifier (name{b}) has been 
 already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.646 \end{frame}
-                  [42
+l.661 \end{frame}
+                  [43
 
- <./capitulo_2/directsimreal1.png> <./capitulo_2/directsimreal2.png>] [43
+ <./capitulo_2/directsimreal1.png> <./capitulo_2/directsimreal2.png>] [44
 
 ]
-<capitulo_2/snesim_real1.png, id=543, 4942.465pt x 2232.34pt>
+<capitulo_2/snesim_real1.png, id=570, 4942.465pt x 2232.34pt>
 File: capitulo_2/snesim_real1.png Graphic file (type png)
 <use capitulo_2/snesim_real1.png>
-Package pdftex.def Info: capitulo_2/snesim_real1.png  used on input line 673.
+Package pdftex.def Info: capitulo_2/snesim_real1.png  used on input line 688.
 (pdftex.def)             Requested size: 199.1693pt x 89.92558pt.
 pdfTeX warning (ext4): destination with the same identifier (name{a}) has been 
 already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.673 \end{frame}
+l.688 \end{frame}
                  
-<capitulo_2/snesim_real2.png, id=544, 4942.465pt x 2232.34pt>
+<capitulo_2/snesim_real2.png, id=571, 4942.465pt x 2232.34pt>
 File: capitulo_2/snesim_real2.png Graphic file (type png)
 <use capitulo_2/snesim_real2.png>
-Package pdftex.def Info: capitulo_2/snesim_real2.png  used on input line 673.
+Package pdftex.def Info: capitulo_2/snesim_real2.png  used on input line 688.
 (pdftex.def)             Requested size: 199.1693pt x 89.92558pt.
 pdfTeX warning (ext4): destination with the same identifier (name{b}) has been 
 already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.673 \end{frame}
-                  [44
+l.688 \end{frame}
+                  [45
 
  <./capitulo_2/snesim_real1.png> <./capitulo_2/snesim_real2.png>]
-<capitulo_2/classificacao.png, id=552, 423.83344pt x 190.46156pt>
+<capitulo_2/classificacao.png, id=579, 423.83344pt x 190.46156pt>
 File: capitulo_2/classificacao.png Graphic file (type png)
 <use capitulo_2/classificacao.png>
-Package pdftex.def Info: capitulo_2/classificacao.png  used on input line 695.
-(pdftex.def)             Requested size: 318.67209pt x 143.20908pt.
+Package pdftex.def Info: capitulo_2/classificacao.png  used on input line 710.
+(pdftex.def)             Requested size: 278.83578pt x 125.30685pt.
 
-Overfull \vbox (21.39526pt too high) detected at line 695
+Overfull \vbox (3.49304pt too high) detected at line 710
  []
 
-[45
+[46
 
  <./capitulo_2/classificacao.png>]
-<capitulo_2/uncert_1.png, id=560, 1364.09625pt x 841.1425pt>
+<capitulo_2/uncert_1.png, id=587, 1364.09625pt x 841.1425pt>
 File: capitulo_2/uncert_1.png Graphic file (type png)
 <use capitulo_2/uncert_1.png>
-Package pdftex.def Info: capitulo_2/uncert_1.png  used on input line 708.
+Package pdftex.def Info: capitulo_2/uncert_1.png  used on input line 723.
 (pdftex.def)             Requested size: 239.00558pt x 147.36899pt.
- [46
+ [47
 
  <./capitulo_2/uncert_1.png>]
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-32.
+def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [47
+) [48
 
 ]
-<capitulo_2/interpolated.jpeg, id=573, 1113.15875pt x 821.0675pt>
+<capitulo_2/interpolated.jpeg, id=600, 1113.15875pt x 821.0675pt>
 File: capitulo_2/interpolated.jpeg Graphic file (type jpg)
 <use capitulo_2/interpolated.jpeg>
-Package pdftex.def Info: capitulo_2/interpolated.jpeg  used on input line 730.
+Package pdftex.def Info: capitulo_2/interpolated.jpeg  used on input line 745.
 (pdftex.def)             Requested size: 119.50279pt x 88.13774pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure1>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.730 \end{frame}
+l.745 \end{frame}
                  
-<capitulo_2/simulated.jpeg, id=574, 1113.15875pt x 821.0675pt>
+<capitulo_2/simulated.jpeg, id=601, 1113.15875pt x 821.0675pt>
 File: capitulo_2/simulated.jpeg Graphic file (type jpg)
 <use capitulo_2/simulated.jpeg>
-Package pdftex.def Info: capitulo_2/simulated.jpeg  used on input line 730.
+Package pdftex.def Info: capitulo_2/simulated.jpeg  used on input line 745.
 (pdftex.def)             Requested size: 119.50279pt x 88.13774pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.730 \end{frame}
+l.745 \end{frame}
                  
-<capitulo_2/classification.jpeg, id=575, 1113.15875pt x 821.0675pt>
+<capitulo_2/classification.jpeg, id=602, 1113.15875pt x 821.0675pt>
 File: capitulo_2/classification.jpeg Graphic file (type jpg)
 <use capitulo_2/classification.jpeg>
-Package pdftex.def Info: capitulo_2/classification.jpeg  used on input line 730
+Package pdftex.def Info: capitulo_2/classification.jpeg  used on input line 745
 .
 (pdftex.def)             Requested size: 119.50279pt x 88.13774pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.730 \end{frame}
-                  [48
+l.745 \end{frame}
+                  [49
 
  <./capitulo_2/interpolated.jpeg> <./capitulo_2/simulated.jpeg> <./capitulo_2/c
 lassification.jpeg>]
-<capitulo_2/cpar1.png, id=582, 4979.60374pt x 2232.34pt>
+<capitulo_2/cpar1.png, id=610, 4979.60374pt x 2232.34pt>
 File: capitulo_2/cpar1.png Graphic file (type png)
 <use capitulo_2/cpar1.png>
-Package pdftex.def Info: capitulo_2/cpar1.png  used on input line 742.
+Package pdftex.def Info: capitulo_2/cpar1.png  used on input line 757.
 (pdftex.def)             Requested size: 199.1693pt x 89.27838pt.
 pdfTeX warning (ext4): destination with the same identifier (name{a}) has been 
 already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.742 \end{frame}
+l.757 \end{frame}
                  
-<capitulo_2/cparyz.png, id=583, 4979.60374pt x 2232.34pt>
+<capitulo_2/cparyz.png, id=611, 4979.60374pt x 2232.34pt>
 File: capitulo_2/cparyz.png Graphic file (type png)
 <use capitulo_2/cparyz.png>
-Package pdftex.def Info: capitulo_2/cparyz.png  used on input line 742.
+Package pdftex.def Info: capitulo_2/cparyz.png  used on input line 757.
 (pdftex.def)             Requested size: 199.1693pt x 89.27838pt.
 pdfTeX warning (ext4): destination with the same identifier (name{b}) has been 
 already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.742 \end{frame}
-                  [49
+l.757 \end{frame}
+                  [50
 
  <./capitulo_2/cpar1.png> <./capitulo_2/cparyz.png>]
-<capitulo_2/hier_example.png, id=593, 429.7656pt x 198.0198pt>
+<capitulo_2/hier_example.png, id=620, 429.7656pt x 198.0198pt>
 File: capitulo_2/hier_example.png Graphic file (type png)
 <use capitulo_2/hier_example.png>
-Package pdftex.def Info: capitulo_2/hier_example.png  used on input line 754.
+Package pdftex.def Info: capitulo_2/hier_example.png  used on input line 769.
 (pdftex.def)             Requested size: 398.3386pt x 183.54314pt.
 
-[50
+[51
 
- <./capitulo_2/hier_example.png>] [51
-
-] [52
+ <./capitulo_2/hier_example.png>] [52
 
 ] [53
 
+] [54
+
 
 ]
-<capitulo_3/actual.png, id=615, 306.14375pt x 278.03876pt>
+<capitulo_3/actual.png, id=641, 306.14375pt x 278.03876pt>
 File: capitulo_3/actual.png Graphic file (type png)
 <use capitulo_3/actual.png>
-Package pdftex.def Info: capitulo_3/actual.png  used on input line 815.
+Package pdftex.def Info: capitulo_3/actual.png  used on input line 830.
 (pdftex.def)             Requested size: 119.50279pt x 108.53224pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure1>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.815 \end{frame}
+l.830 \end{frame}
                  
-<capitulo_3/krig.png, id=616, 306.14375pt x 278.03876pt>
+<capitulo_3/krig.png, id=642, 306.14375pt x 278.03876pt>
 File: capitulo_3/krig.png Graphic file (type png)
 <use capitulo_3/krig.png>
-Package pdftex.def Info: capitulo_3/krig.png  used on input line 815.
+Package pdftex.def Info: capitulo_3/krig.png  used on input line 830.
 (pdftex.def)             Requested size: 119.50279pt x 108.53224pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.815 \end{frame}
+l.830 \end{frame}
                  
-<capitulo_3/ml.png, id=617, 306.14375pt x 278.03876pt>
+<capitulo_3/ml.png, id=643, 306.14375pt x 278.03876pt>
 File: capitulo_3/ml.png Graphic file (type png)
 <use capitulo_3/ml.png>
-Package pdftex.def Info: capitulo_3/ml.png  used on input line 815.
+Package pdftex.def Info: capitulo_3/ml.png  used on input line 830.
 (pdftex.def)             Requested size: 119.50279pt x 108.53224pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.815 \end{frame}
-                  [54
+l.830 \end{frame}
+                  [55
 
- <./capitulo_3/actual.png> <./capitulo_3/krig.png> <./capitulo_3/ml.png>] [55
+ <./capitulo_3/actual.png> <./capitulo_3/krig.png> <./capitulo_3/ml.png>]
+<capitulo_3/NN_ex.png, id=652, 883.3pt x 436.63126pt>
+File: capitulo_3/NN_ex.png Graphic file (type png)
+<use capitulo_3/NN_ex.png>
+Package pdftex.def Info: capitulo_3/NN_ex.png  used on input line 846.
+(pdftex.def)             Requested size: 278.83578pt x 137.83272pt.
+ [56
 
-] (./apresentaco.bbl)
-Overfull \vbox (39.66461pt too high) detected at line 832
+ <./capitulo_3/NN_ex.png>]
+<capitulo_3/zona1.jpg, id=659, 803.0pt x 602.25pt>
+File: capitulo_3/zona1.jpg Graphic file (type jpg)
+<use capitulo_3/zona1.jpg>
+Package pdftex.def Info: capitulo_3/zona1.jpg  used on input line 861.
+(pdftex.def)             Requested size: 159.333pt x 119.50133pt.
+<capitulo_3/zona2.jpg, id=660, 803.0pt x 602.25pt>
+File: capitulo_3/zona2.jpg Graphic file (type jpg)
+<use capitulo_3/zona2.jpg>
+Package pdftex.def Info: capitulo_3/zona2.jpg  used on input line 861.
+(pdftex.def)             Requested size: 159.333pt x 119.50133pt.
+
+Overfull \vbox (1.06584pt too high) detected at line 861
  []
 
-[56
+[57
+
+ <./capitulo_3/zona1.jpg> <./capitulo_3/zona2.jpg>]
+<capitulo_3/bloco1.jpg, id=668, 481.8pt x 290.08376pt>
+File: capitulo_3/bloco1.jpg Graphic file (type jpg)
+<use capitulo_3/bloco1.jpg>
+Package pdftex.def Info: capitulo_3/bloco1.jpg  used on input line 876.
+(pdftex.def)             Requested size: 159.333pt x 95.93153pt.
+<capitulo_3/bloco2.jpg, id=669, 481.8pt x 290.08376pt>
+File: capitulo_3/bloco2.jpg Graphic file (type jpg)
+<use capitulo_3/bloco2.jpg>
+Package pdftex.def Info: capitulo_3/bloco2.jpg  used on input line 876.
+(pdftex.def)             Requested size: 159.333pt x 95.93153pt.
+ [58
+
+ <./capitulo_3/bloco1.jpg> <./capitulo_3/bloco2.jpg>]
+<capitulo_3/entropy_20.png, id=678, 5102.06125pt x 2232.34pt>
+File: capitulo_3/entropy_20.png Graphic file (type png)
+<use capitulo_3/entropy_20.png>
+Package pdftex.def Info: capitulo_3/entropy_20.png  used on input line 885.
+(pdftex.def)             Requested size: 199.1693pt x 87.13243pt.
+pdfTeX warning (ext4): destination with the same identifier (name{a}) has been 
+already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.885 \end{frame}
+                 
+<capitulo_3/entropy_10.png, id=679, 5103.065pt x 2232.34pt>
+File: capitulo_3/entropy_10.png Graphic file (type png)
+<use capitulo_3/entropy_10.png>
+Package pdftex.def Info: capitulo_3/entropy_10.png  used on input line 885.
+(pdftex.def)             Requested size: 199.1693pt x 87.09837pt.
+pdfTeX warning (ext4): destination with the same identifier (name{b}) has been 
+already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.885 \end{frame}
+                  [59
+
+ <./capitulo_3/entropy_20.png> <./capitulo_3/entropy_10.png>]
+<capitulo_3/classificacao_multi.jpg, id=690, 428.29485pt x 192.46642pt>
+File: capitulo_3/classificacao_multi.jpg Graphic file (type jpg)
+<use capitulo_3/classificacao_multi.jpg>
+Package pdftex.def Info: capitulo_3/classificacao_multi.jpg  used on input line
+ 899.
+(pdftex.def)             Requested size: 318.67209pt x 143.20703pt.
+ [60
+
+ <./capitulo_3/classificacao_multi.jpg>] [61
+
+]
+<capitulo_3/gauss_trunc_sketch.png, id=705, 374.90062pt x 168.63pt>
+File: capitulo_3/gauss_trunc_sketch.png Graphic file (type png)
+<use capitulo_3/gauss_trunc_sketch.png>
+Package pdftex.def Info: capitulo_3/gauss_trunc_sketch.png  used on input line 
+917.
+(pdftex.def)             Requested size: 199.1693pt x 89.58704pt.
+ [62
+
+ <./capitulo_3/gauss_trunc_sketch.png>]
+<capitulo_3/pluri_sketch.png, id=713, 304.88907pt x 281.55188pt>
+File: capitulo_3/pluri_sketch.png Graphic file (type png)
+<use capitulo_3/pluri_sketch.png>
+Package pdftex.def Info: capitulo_3/pluri_sketch.png  used on input line 927.
+(pdftex.def)             Requested size: 199.1693pt x 183.9302pt.
+ [63
+
+ <./capitulo_3/pluri_sketch.png>]
+<capitulo_3/trunc_rules.png, id=721, 572.89032pt x 246.1697pt>
+File: capitulo_3/trunc_rules.png Graphic file (type png)
+<use capitulo_3/trunc_rules.png>
+Package pdftex.def Info: capitulo_3/trunc_rules.png  used on input line 937.
+(pdftex.def)             Requested size: 199.1693pt x 85.58221pt.
+ [64
+
+ <./capitulo_3/trunc_rules.png>] [65
+
+] [66
+
+
+]
+<capitulo_3/pluri_mds.png, id=753, 356.33125pt x 357.335pt>
+File: capitulo_3/pluri_mds.png Graphic file (type png)
+<use capitulo_3/pluri_mds.png>
+Package pdftex.def Info: capitulo_3/pluri_mds.png  used on input line 957.
+(pdftex.def)             Requested size: 159.333pt x 159.77965pt.
+ [67
+
+ <./capitulo_3/pluri_mds.png>]
+<capitulo_3/trunc_rules_prop.jpg, id=761, 1027.84pt x 770.88pt>
+File: capitulo_3/trunc_rules_prop.jpg Graphic file (type jpg)
+<use capitulo_3/trunc_rules_prop.jpg>
+Package pdftex.def Info: capitulo_3/trunc_rules_prop.jpg  used on input line 96
+7.
+(pdftex.def)             Requested size: 239.00558pt x 179.25127pt.
+
+Overfull \vbox (4.88713pt too high) detected at line 967
+ []
+
+[68
+
+ <./capitulo_3/trunc_rules_prop.jpg>]
+<capitulo_3/blob.jpg, id=768, 662.08646pt x 445.27646pt>
+File: capitulo_3/blob.jpg Graphic file (type jpg)
+<use capitulo_3/blob.jpg>
+Package pdftex.def Info: capitulo_3/blob.jpg  used on input line 979.
+(pdftex.def)             Requested size: 278.83578pt x 187.5312pt.
+
+Overfull \vbox (1.16707pt too high) detected at line 979
+ []
+
+[69
+
+ <./capitulo_3/blob.jpg>] [70
+
+] [71
+
+]
+<capitulo_3/cronograma_novo.png, id=782, 1258.7025pt x 302.12875pt>
+File: capitulo_3/cronograma_novo.png Graphic file (type png)
+<use capitulo_3/cronograma_novo.png>
+Package pdftex.def Info: capitulo_3/cronograma_novo.png  used on input line 103
+7.
+(pdftex.def)             Requested size: 398.3386pt x 95.61362pt.
+ [72
+
+ <./capitulo_3/cronograma_novo.png>]
+(apresentaco.bbl) [73
+
+] [74
+
+
+] [75
+
 
 ]
 \tf@nav=\write6
@@ -1947,50 +2254,60 @@ Overfull \vbox (39.66461pt too high) detected at line 832
 \tf@snm=\write8
 \openout8 = `apresentaco.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 834.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 834.
- (./apresentaco.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 834.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 834.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1048.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1048.
+ (apresentaco.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1048.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1048.
+
 Package rerunfilecheck Info: File `apresentaco.out' has not changed.
-(rerunfilecheck)             Checksum: 5C021E51D394522D75783B0F9DEB4033;2356.
+(rerunfilecheck)             Checksum: 216CCFC1517DD1B2EC54DB85D70180A9;2670.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21203 strings out of 492615
- 387328 string characters out of 6131390
- 479661 words of memory out of 5000000
- 24384 multiletter control sequences out of 15000+600000
- 22042 words of font info for 55 fonts, out of 8000000 for 9000
+ 21607 strings out of 492945
+ 404162 string characters out of 3123142
+ 484619 words of memory out of 3000000
+ 24682 multiletter control sequences out of 15000+200000
+ 27222 words of font info for 72 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,14n,69p,778b,743s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/shar
-e/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/
-public/cm-super/sfsi0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi
-1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi1095.pfb></usr/share
-/texmf/fonts/type1/public/cm-super/sfss0600.pfb></usr/share/texmf/fonts/type1/p
-ublic/cm-super/sfss0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0
-900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/
-texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf/fonts/type1/pu
-blic/cm-super/sfss1440.pfb>
-Output written on apresentaco.pdf (56 pages, 15817031 bytes).
+ 56i,14n,69p,780b,743s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Roberto Rolo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/
+dpi600\ecsi0900.pk> <C:\Users\Roberto Rolo\AppData\Local\MiKTeX\2.9\fonts/pk/lj
+four/jknappen/ec/dpi600\ecsi1000.pk> <C:\Users\Roberto Rolo\AppData\Local\MiKTe
+X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\Roberto Rolo\Ap
+pData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsi1095.pk> <C:\User
+s\Roberto Rolo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecss
+0900.pk> <C:\Users\Roberto Rolo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknapp
+en/ec/dpi600\ecss0800.pk> <C:\Users\Roberto Rolo\AppData\Local\MiKTeX\2.9\fonts
+/pk/ljfour/jknappen/ec/dpi600\ecss1000.pk> <C:\Users\Roberto Rolo\AppData\Local
+\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1095.pk> <C:\Users\Roberto R
+olo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C
+:\Users\Roberto Rolo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecss0600.pk><C:/Users/Roberto Rolo/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmex10.pfb><C:/Users/Roberto Rolo/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Roberto Rolo/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Us
+ers/Roberto Rolo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi8.pfb><C:/Users/Roberto Rolo/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Roberto Rolo/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/Roberto Rolo/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/User
+s/Roberto Rolo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmss9.pfb><C:/Users/Roberto Rolo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmssi10.pfb><C:/Users/Roberto Rolo/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/Roberto Rolo/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Use
+rs/Roberto Rolo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmsy6.pfb><C:/Users/Roberto Rolo/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Roberto Rolo/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on apresentaco.pdf (75 pages, 17293260 bytes).
 PDF statistics:
- 750 PDF objects out of 1000 (max. 8388607)
- 569 compressed objects within 6 object streams
- 201 named destinations out of 1000 (max. 500000)
- 595 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1331 PDF objects out of 1440 (max. 8388607)
+ 265 named destinations out of 1000 (max. 500000)
+ 702 words of extra memory for PDF output out of 10000 (max. 10000000)
 

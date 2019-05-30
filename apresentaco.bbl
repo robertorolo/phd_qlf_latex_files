@@ -1,9 +1,34 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\astroncite{Allard et~al.}{2012}]{allard2012non}
+Allard, D., D’Or, D., Biver, P., and Froidevaux, R. (2012).
+\newblock Non-parametric diagrams for plurigaussian simulations of lithologies.
+\newblock In {\em 9th international geostatistical congress, Oslo, Norway},
+  volume 1115.
+
+\bibitem[\protect\astroncite{Astrakova et~al.}{2015}]{astrakova2015truncation}
+Astrakova, A., Oliver, D.~S., and Lantu{\'e}joul, C. (2015).
+\newblock Truncation map estimation based on bivariate probabilities and
+  validation for the truncated plurigaussian model.
+\newblock {\em arXiv preprint arXiv:1508.01090}.
+
 \bibitem[\protect\astroncite{Boisvert}{2013}]{boisvert_geomodeling}
 Boisvert, J. (2013).
 \newblock Automatic geological modeling with iterative refinement.
 \newblock {\em CCG Annual Report}.
+
+\bibitem[\protect\astroncite{Deutsch and
+  Deutsch}{2014}]{deutsch2014multidimensional}
+Deutsch, J.~L. and Deutsch, C.~V. (2014).
+\newblock A multidimensional scaling approach to enforce reproduction of
+  transition probabilities in truncated plurigaussian simulation.
+\newblock {\em Stochastic environmental research and risk assessment},
+  28(3):707--716.
+
+\bibitem[\protect\astroncite{Froidevaux}{1993}]{froidevaux1993probability}
+Froidevaux, R. (1993).
+\newblock Probability field simulation.
+\newblock In {\em Geostatistics tr{\'o}ia’92}, pages 73--83. Springer.
 
 \bibitem[\protect\astroncite{Hosseini and Deutsch}{2007}]{hosseini_deutsch_iqd}
 Hosseini, A. and Deutsch, C.~V. (2007).
@@ -16,6 +41,13 @@ Lajaunie, C., Courrioux, G., and Manuel, L. (1997).
 \newblock Foliation fields and 3d cartography in geology: principles of a
   method based on potential interpolation.
 \newblock {\em Mathematical Geology}, 29(4):571--584.
+
+\bibitem[\protect\astroncite{Madani and Emery}{2015}]{madani2015simulation}
+Madani, N. and Emery, X. (2015).
+\newblock Simulation of geo-domains accounting for chronology and contact
+  relationships: application to the r{\'\i}o blanco copper deposit.
+\newblock {\em Stochastic environmental research and risk assessment},
+  29(8):2173--2191.
 
 \bibitem[\protect\astroncite{Mallet}{2004}]{mallet2004space}
 Mallet, J.-L. (2004).
@@ -32,6 +64,11 @@ Rolo, R. (2017).
 \newblock Modelagem geológica implícita com funções distância assinaladas.
 \newblock Master's thesis, Universidade Federal do Rio Grande do Sul.
 
+\bibitem[\protect\astroncite{Sadeghi and Boisvert}{2012}]{sadeghi_optimizing}
+Sadeghi, S. and Boisvert, J. (2012).
+\newblock Optimizing tresholds in truncated plori-gaussian simulation.
+\newblock {\em CCG Annual Report}.
+
 \bibitem[\protect\astroncite{Samson and Deutsch}{2018}]{samson_estimation_ml}
 Samson, M. and Deutsch, C. (2018).
 \newblock Estimation with machine learning.
@@ -41,6 +78,11 @@ Samson, M. and Deutsch, C. (2018).
 Silva, D. and Deutsch, C. (2015).
 \newblock Speeding up the signed distance implicit geologic modeling method for
   multiple rock types.
+\newblock {\em CCG Annual Report}.
+
+\bibitem[\protect\astroncite{Silva and Deutsch}{2016}]{hier_plurigauss}
+Silva, D. and Deutsch, C. (2016).
+\newblock Hierarchical approach to truncated plurigaussian simulation.
 \newblock {\em CCG Annual Report}.
 
 \bibitem[\protect\astroncite{Silva}{2015}]{silvaenhancedgeomodeling}

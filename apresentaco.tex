@@ -27,6 +27,19 @@
 \usepackage{subfig}
 %\usepackage{biblatex}
 \usepackage{booktabs} % To thicken table lines
+\usepackage{ amssymb }
+
+%checkboxes
+
+%\usepackage{enumitem,amssymb}
+%\newlist{todolist}{itemize}{2}
+%\setlist[todolist]{label=$\square$}
+%\usepackage{pifont}
+%\newcommand{\cmark}{\ding{51}}%
+%\newcommand{\xmark}{\ding{55}}%
+%\newcommand{\done}{\rlap{$\square$}{\raisebox{2pt}{\large\hspace{1pt}\cmark}}%
+%	\hspace{-2.5pt}}
+%\newcommand{\wontfix}{\rlap{$\square$}{\large\hspace{1pt}\xmark}}
 
 %numbering
 \addtobeamertemplate{navigation symbols}{}{%
@@ -314,7 +327,7 @@ Distâncias assinaladas não são estacionárias, o variograma não se estabiliz
 			sz & 4m & 2m \\
 			num & 122451 & 969612 \\ \hline
 		\end{tabular}
-		\caption{Parâmetros dos \textit{grids} de definição dos modelos geológicos implícitos.} \label{grid_def}
+		%\caption{Parâmetros dos \textit{grids} de definição dos modelos geológicos implícitos.} \label{grid_def}
 	\end{table}
 \end{frame}
 
@@ -374,7 +387,7 @@ Todos os algoritmos utilizados são da biblioteca GSLib e foram executados em um
 			Krigagem dos indicadores &  & 33min 27s &  & 2 \\ \hline
 		\end{tabular}%
 	}
-	\caption{\textit{Benchmark} dos diferentes métodos de interpolação.} \label{bench}
+	%\caption{\textit{Benchmark} dos diferentes métodos de interpolação.} \label{bench}
 \end{table}
 \end{frame}
 
@@ -573,14 +586,16 @@ Krigagem simples com médias tomadas do histograma da média.
 	\end{column}
 	\begin{column}{0.5\textwidth}  %%<--- here
 	\begin{table}[H]
-					\centering
-			\begin{tabular}{lr}
-				Percentil & \multicolumn{1}{l}{Blocos dentro} \\ \hline
-				10 & 109886 \\
-				50 & 110446 \\
-				90 & 111069 \\ \hline
-			\end{tabular}
-		\caption{Blocos classificados como pertencentes à categoria 1.}\label{boundsim_table}
+			\begin{center}
+					\begin{tabular}{lr}
+					Percentil & \multicolumn{1}{l}{Blocos dentro} \\ \hline
+					10 & 109886 \\
+					50 & 110446 \\
+					90 & 111069 \\ \hline
+				\end{tabular}
+
+			\end{center}
+						%\caption{Blocos classificados como pertencentes à categoria 1.}\label{boundsim_table}
 	\end{table}
 	\end{column}
 \end{columns}
@@ -688,7 +703,7 @@ Comparação de valores simulados e interpolados.
 	\begin{figure}[H]
 		\caption{\label{class}Classificação dos locais comparando valores estimados e simulados.}
 		\begin{center}
-			\includegraphics[width=0.8\textwidth]{capitulo_2/classificacao.png}
+			\includegraphics[width=0.7\textwidth]{capitulo_2/classificacao.png}
 		\end{center}
 		%\legend{Fonte: Modificado de \citeonline{wilde_sim_bound_reals}}
 	\end{figure}
@@ -772,7 +787,7 @@ Blocos classificados.
 				\bottomrule
 			\end{tabular}
 		}
-		\caption{Sumário dos métodos de avaliação de incerteza de modelos geológicos.}\label{sumario}%
+		%\caption{Sumário dos métodos de avaliação de incerteza de modelos geológicos.}\label{sumario}%
 	\end{table}
 
 \end{frame}
@@ -814,19 +829,218 @@ Blocos classificados.
 	
 \end{frame}
 
+\begin{frame}{Interpolador}
+
+Redes neurais trabalham em um sistema binário de zeros e uns e por isso podem se basear nas propriedades da função sigmóide.
+
+\cite{samson_estimation_ml} desenvolveram um algoritmo, usando TensorFlow.
+
+\begin{figure}[H]
+	\caption{\label{nn_ex}Rede neural.}
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{capitulo_3/NN_ex.png}
+	\end{center}
+	%\legend{Fonte: \citeonline{samson_intro_ml}}
+\end{figure}
+
+\end{frame}
+
 \subsection{Zona de incerteza}
 
 \begin{frame}{Zona de incerteza}
 
-	bla bla bla
+	Gerar múltiplas realizações com a finalidade de avaliar a incerteza de modelos geológicos em todos os nós do \textit{grid} é desperdício de tempo e poder computacional, já que no interior dos domínios não há incerteza. 
+	
+	\begin{figure}[H] 
+		\caption{Zonas de incerteza e contatos.} \label{zonas}
+		\centering
+		\subfloat[][Zona de incerteza 1]{\includegraphics[width=.4\textwidth]{capitulo_3/zona1.jpg}\label{zona1}}\qquad
+		\subfloat[][Zona de incerteza 2]{\includegraphics[width=.4\textwidth]{capitulo_3/zona2.jpg}\label{zona2 2}}
+	\end{figure}
 
+\end{frame}
+
+\begin{frame}{Zona de incerteza}
+	Em física, a entropia é uma media do grau de desordem em um sistema.
+	
+	\begin{equation}
+	H(X)=H(p_1, ..., p_n)=-\sum^n_{i=1}p_ilog_{2}p_i
+	\end{equation}
+	
+	\begin{figure}[H] 
+		\caption{Probabilidades de cada categoria em dois diferentes blocos.} \label{entro_block}
+		\centering
+		\subfloat[][Bloco 1]{\includegraphics[width=.4\textwidth]{capitulo_3/bloco1.jpg}\label{bloco1}}
+		\subfloat[][Bloco 2]{\includegraphics[width=.4\textwidth]{capitulo_3/bloco2.jpg}\label{bloco 2}}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Zona de incerteza}
+\begin{figure}[H]
+	\caption{Entropias calculadas para diferentes valores de $\gamma$.} 
+	\label{entro_gamma}
+		\subfloat[][$\gamma=20$]{\includegraphics[width=0.5\textwidth]{capitulo_3/entropy_20.png}\label{a}}
+		\subfloat[][$\gamma=10$]{\includegraphics[width=0.5\textwidth]{capitulo_3/entropy_10.png}\label{b}}
+\end{figure}
+\end{frame}
+
+\subsection{Avaliação da incerteza}
+
+\subsubsection{Boundary simulation multi categórico}
+
+\begin{frame}{Boundary simulation multi categórico}
+	\begin{figure}[H]
+		\caption{\label{comp_multi}Comparação multi categórica.}
+		\begin{center}
+			\includegraphics[width=0.8\textwidth]{capitulo_3/classificacao_multi.jpg}
+		\end{center}
+		%\legend{Fonte: \citeonline{samson_intro_ml}}
+	\end{figure}
+\end{frame}
+
+\subsubsection{P-field}
+
+\begin{frame}{P-field}
+	Uma alternativa à simulação não condicional das distâncias na zona de incerteza são os campos de probabilidade (\textit{P-field}). A ideia central desse método de simulação é dissociar a tarefa de estimar distribuições de probabilidades locais para geração de múltiplas realizações equiprováveis \cite{froidevaux1993probability}. Uma premissa é de que as distribuições locais são conhecidas, o que é uma premissa razoável, já que as distribuições locais podem ser calculadas pela \autoref{eq_softmax}.
+\end{frame}
+
+\subsubsection{Simulação plurigaussiana truncada}
+
+\begin{frame}{Simulação plurigaussiana truncada}
+	\begin{figure}[H]
+		\caption{\label{trunc_gauss}Esquema da SGT. Note que as litologias sandstone e shale não aparecerão juntas nas realizações.}
+		\begin{center}
+			\includegraphics[width=0.5\textwidth]{capitulo_3/gauss_trunc_sketch.png}
+		\end{center}
+		%\legend{Fonte: \citeonline{deutsch2014multidimensional}}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Simulação plurigaussiana truncada}
+\begin{figure}[H]
+	\caption{\label{trunc_pluri}Esquema da SPT. Note que as litologias 1 e 3 não aparecerão juntas nas realizações.}
+	\begin{center}
+		\includegraphics[width=0.5\textwidth]{capitulo_3/pluri_sketch.png}
+	\end{center}
+	%\legend{Fonte: \citeonline{deutsch2014multidimensional}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Simulação plurigaussiana truncada}
+	\begin{figure}[H]
+		\caption{\label{trunc_rules}Diferentes templates, para o caso de duas variáveis latentes e quatro categorias.}
+		\begin{center}
+			\includegraphics[width=0.5\textwidth]{capitulo_3/trunc_rules.png}
+		\end{center}
+		%\legend{Fonte: Modificado de \citeonline{armstrong2011plurigaussian}}
+	\end{figure}
+\end{frame}
+
+\begin{frame}[allowframebreaks]{Regras de truncagem}
+	\begin{itemize}
+		\item \cite{allard2012non} introduziram o \textit{assignation diagram}, que automaticamente constrói a regra de truncagem para o caso bivariado usando regressão baseada em kernel em variáveis auxiliares;
+		\item \cite{sadeghi_optimizing} usaram \textit{simulated annealing} para otimizar a regra de truncagem. A função objetivo é a minimização da classificação errônea entre as probabilidades de transição calculadas de realizações e das probabilidades de transição calculadas a partir dos dados.
+		\item \cite{deutsch2014multidimensional} usaram \textit{multidimensional scaling} (MDS) para definir regras de truncagem complexas com o foco em reproduzir as probabilidades de transição. Essa metodologia pode ser aplicada para qualquer número de variáveis gaussianas.		 
+		\item \cite{astrakova2015truncation} propuseram uma metodologia semelhante a de \cite{deutsch2014multidimensional} usando entropia bayesiana máxima em conjunto com \textit{simulated annealing} para otimizar a regra de truncagem bigaussiana;
+		\item \cite{madani2015simulation} e \cite{hier_plurigauss} propuseram uma abordagem hierárquica para definir a regra de truncagem em espaços multi dimensionais.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Regra de truncagem via MDS}
+			\begin{figure}[H]
+		\caption{\label{pluri_mds}Esquema do uso de MDS para definição da regra de truncagem.}
+		\begin{center}
+			\includegraphics[width=0.4\textwidth]{capitulo_3/pluri_mds.png}
+		\end{center}
+		%\legend{Fonte: \citeonline{deutsch2014multidimensional}}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Regra dinâmica de truncagem}
+\begin{figure}[H]
+	\caption{\label{trunc_rules_prop}Diferentes regras de truncagem definidas para cada bloco a partir das probabilidades calibradas e calculadas.}
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{capitulo_3/trunc_rules_prop.jpg}
+	\end{center}
+	%\legend{Fonte: Modificado de \citeonline{armstrong2011plurigaussian}}
+\end{figure}	
+\end{frame}
+
+\subsection{Validação}
+
+\begin{frame}{Validação}
+	\begin{figure}[H]
+		\caption{\label{blob}Modelo implícito ruim, com a presença de estruturas e formas indesejadas (\textit{"blobs"}).}
+		\begin{center}
+			\includegraphics[width=0.7\textwidth]{capitulo_3/blob.jpg}
+		\end{center}
+		%\legend{Fonte: \url{https://www.linkedin.com/pulse/implicit-modelling-disasters-making-part-1-ron-reid/}, acesso em junho de 2019}
+	\end{figure}
+\end{frame}
+
+\subsection{Sumário}
+
+\begin{frame}{Sumário}
+	Em suma, essa tese propõe desenvolver e investigar:
+
+
+\begin{itemize}
+	\item Um interpolador baseado em redes neurais independente de variograma para a variável distância assinalada;
+	\item Uma metodologia para calibração e definição de uma zona de incerteza multi categórica estatisticamente justa, livre de viés e que seja de fato incerta;
+	\begin{itemize}
+		\item{Calibração do parâmetro $\gamma$;}
+		\item{Truncagem no campo de entropia.}
+	\end{itemize}
+	\item Uma metodologia para avaliação da incerteza que gere múltiplas realizações de modelos geológicos multi categóricos dentro da zona de incerteza, sem ruído e com a possibilidade de controlar a natureza dos contatos.\
+	\begin{itemize}
+		\item{Definição de uma regra de truncagem local para cada bloco.}
+		\item{Definição de um modelo de covariância para cada variável latente, que seja representativo.}
+	\end{itemize}
+	\item Uma metodologia para validação de modelos geológicos implícitos.
+	\begin{itemize}
+		\item{Identificação automática de estruturas indesejadas.}
+	\end{itemize}
+ 
+\end{itemize}
+
+\end{frame}
+
+\subsection{Cronograma e atividades}
+
+\begin{frame}{Progresso de desenvolvimento}
+	\begin{itemize}
+
+			\item Cálculo das distâncias assinaladas \checkmark
+			\item Validação cruzada \checkmark
+			\item Interpolação tradicional por RBF \checkmark
+			\item Interpolação baseada em redes neurais
+			\item Calibração do parâmetro $\gamma$ a partir das amostras \checkmark
+			\item Calibração do parâmetro $\gamma$ (nova abordagem)
+			\item Cálculo das probabilidades \checkmark
+			\item Cálculo da entropia \checkmark
+			\item Definição do \textit{cutt-off} no campo de entropia
+			\item Simulação da variável contínua auxiliar
+			\item Definição da regra de truncagem local
+			\item Algoritmo de validação visual
+
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Cronograma}
+	\begin{figure}[H]
+		\caption{\label{cronograma}Cronograma de atividades.}
+		\begin{center}
+			\includegraphics[width=\textwidth]{capitulo_3/cronograma_novo.png}
+		\end{center}
+		%\legend{Fonte: \citeonline{samson_intro_ml}}
+	\end{figure}
 \end{frame}
 
 %Referencias
 
 \section{Referências bibliográficas}
 
-\begin{frame}{Referências bibliográficas}
+\begin{frame}[allowframebreaks]{Referências bibliográficas}
 	\bibliographystyle{apa}
 	\bibliography{bibliografia}
 \end{frame}
