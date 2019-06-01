@@ -1,7 +1,7 @@
 Slide 1
 ********
 
-Uma boa tarde, gostaria primeiramente de agradecer a presença de todos, em especial doutor Diego, doutor Luís Eduardo, Professor João Felipe. 
+Um boa dia a todos, gostaria primeiramente de agradecer a presença de todos vocês, em especial doutor Diego, doutor Luís Eduardo, Professor João Felipe. 
 
 Meu nome é Roberto Rolo sou engenheiro de minas, fiz meu mestrado aqui na UFRGS com o professor joão Felipe intitulado modelagem geológica implícita com funções distâncias assinaladas. 
 Minha proposta de tese é uma extensão natural do trabalho desenvolvido no meu mestrado: eu proponho aprimoramentos em modelagem geológica implícita com funções distância assinaladas.
@@ -9,21 +9,34 @@ Minha proposta de tese é uma extensão natural do trabalho desenvolvido no meu 
 Slide 2
 ********
 
+Nessa apresentação eu ser breve na introdução ao assunto modelagem geológica, vou falar sobre a metodologia tradicional, explícita, sobre métodos automáticos e modelagem implícita, dando destaque para a modelagem implícitas com funções ditância assinaladas.
+
+Então vou apresentar o estado da arte em modelagem geológica implícita com distâncias assinaladas usando um banco de dados tridimensional pra mostrar a mecânica do método os diferentes métodos para avaliação de incerteza de modelos geológicos implícitos.
+
+Depois disso eu vou apontar os principais problemas da metodologia e apresentar minha proposta de tese que tem como objetivo eliminar alguns desses problemas.
+
 Slide 3
 *********
 
 Estimativas de recursos e reservas minerais demandam a construção de modelos numéricos de teores: 
 
-* de longo prazo, que abrangem toda a extensão do depósito mineral e compreendem todo o tempo de vida da mina. Esses modelos são atualizados em intervalos de um a três anos de operação. 
-* Modelos de médio prazo podem ser construídos para planejar de um a seis meses no futuro do empreendimento. 
-* Enquanto modelos de curto prazo, são construídos com o objetivo de balizar, semanalmente ou diariamente, as decisões relativas a controle de teores e planejamento detalhado da mina.
+* de longo prazo, que abrangem toda a extensão do depósito mineral e compreendem todo o tempo de vida da mina;
+
+* Modelos de médio prazo para planejar de um a seis meses no futuro ;
+
+* E  curto prazo pra balizar semanalmente ou diariamente as decisões relativas a controle de teores e planejamento mais detalhado da mina.
 
 A construção desses modelos exige quatro grandes atividades:
 
-* Coleta e gerenciamento de dados
-* Interpretação e modelagem geológica
-* Atribuição de teores 
+* Coleta e gerenciamento de dados;
+
+* Interpretação e modelagem geológica;
+
+* Atribuição de teores;
+ 
 * e Avaliação e gerenciamento da incerteza geológica e de teores.
+
+O escopo dessa tese está no passo 2: interpretação e modelagem geológica.
 
 Após a coleta, gerenciamento e checagem dos dados, é necessário identificar diferentes domínios. A determinação dos domínios deve ser baseada no conhecimento geológico, i.e. zonas de oxidação, litologias, alteração ou limites estruturais e deve ser suportada por extensiva análise estatística (análise exploratória dos dados), incluindo análises variográficas.
 
