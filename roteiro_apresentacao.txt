@@ -36,9 +36,54 @@ A construção desses modelos exige quatro grandes atividades:
  
 * e Avaliação e gerenciamento da incerteza geológica e de teores.
 
-O escopo dessa tese está no passo 2: interpretação e modelagem geológica.
+O escopo dessa proposta tese está no passo 2: interpretação e modelagem geológica.
 
-Após a coleta, gerenciamento e checagem dos dados, é necessário identificar diferentes domínios. A determinação dos domínios deve ser baseada no conhecimento geológico, i.e. zonas de oxidação, litologias, alteração ou limites estruturais e deve ser suportada por extensiva análise estatística (análise exploratória dos dados), incluindo análises variográficas.
+Slide 4
+*********
+
+Após a coleta, gerenciamento e checagem dos dados, é necessário identificar diferentes domínios. A determinação dos domínios deve ser baseada no conhecimento geológico, como zonas de oxidação, diferentes litologias, alteração ou limites estruturais e deve ser suportada por uma extensiva análise estatística e variográfica e pode ser baseada na combinação de uma ou mais variáveis.
+
+A definição de diferentes domínios é necessária porque a inferência geostatística exige a decisão de estacionariedade. Os teores em cada domínio estacionários pertencem a populações estatística diferentes caracterizadas por seu modelo de distribuição de probabilidades (o histograma) e seu modelo de covariâncias (o variograma).
+
+Uma vez que os domínios tenham sido definidos um modelo tridimensional que dene os limites de cada função aleatória estacionária deve ser construído. Esse é o modelo geológico: Ele define a jurisdição espacial de cada função aleatória. O modelo geológico é o alicerce para para todo o trabalho de estimativa subsequente e muitas vezes é o fator de maior importância na estimativa das tonelagens mineralizadas.
+
+Slide 5
+*********
+
+Tradicionalmente os modelos geológico são construídos de forma explícita: o geomodelador digitaliza manualmente polilinhas em seções verticais e horizontais a partir dos dados de sondagem, as polilinhas são unidas por linhas guias e trianguladas gerando uma representação do sólido geológico.
+
+Slide 6
+********
+
+Embora a metodologia tradicional seja direta e simples e que softwares de mineração forneçam ferramentas computacionais para agilizar o processo, ainda existem uma série de desvantagens e limitações:
+
+* O processo é tedioso e demorado. Em depósitos de alta complexidade não é raro o geomodelador rabalhar por três meses no modelo geológico.
+
+* Digitaliazar manualmente as polilinhas exige muito tempo de um profissional experiente;
+
+* A geometria dos corpos geolóigcos muitas vezes precisa ser simplificada para que o modelo seja concebido em tempo hábil;
+
+* O processo é subjetivo, Geomodeladores diferentes criam modelos geológicos diferentes a partir do mesmo banco de dados;
+
+* Por esse motivo os modelos geológicos criados a partir do método tradicional não são replicáveis consequentemente não auditáveis;
+
+* O método é inflexível, já que a meidida que novas amostras são obtidas, a atualização do modelo demanda nova gigitalização manual;
+
+* Em muitas minas, talvez na grande maioria delas, apenas um modelo geológico é construído e mantido por questões de tempo. Assim não há a oportunidade de modelar interpretações geológicas alterantivas e comparar estimavas de recursos baseadas em diferentes modelos. Além da redigitalização manual não existe forma direta de incorporar múltiplas realizações possíveis para a localização dos limites entre os diferentes domínios no método tradicional.
+
+Slide 7
+*********
+
+No interior dos domínios não existe incerteza relacionada ao modelo geoógico, No esquema do slide azul é azul e vermelho é vermelho, a incerteza é associada ao limite que separa os diferentes domínios. Sua definição, em sub superfície, é um mero palpite.
+
+Em muitos casos a incerteza do modelo geológico pode ser uma fonte de incerteza crucial. Em depósitos de veio de ouro por exemplo, o volume mineralizado é um indicador economico vital do projeto e está diretamente ligado ao modelo geológico, ignorar a incerteza do modelo geológico pode ser devastador para o empredimento. A incerteza do modelo geológico DEVE ser avaliada. 
+
+Slide 8
+********
+
+As desvantagens do método explícito impulsionaram a criação de métodos automáticos, ou pelo menos semi automáticos, de modelagem geológica. Para a criação de modelos determinísticos, 
+
+
 
 
 
