@@ -1,3 +1,6 @@
+Parte 1
+=========
+
 Slide 1
 ********
 
@@ -81,9 +84,30 @@ Em muitos casos a incerteza do modelo geológico pode ser uma fonte de incerteza
 Slide 8
 ********
 
-As desvantagens do método explícito impulsionaram a criação de métodos automáticos, ou pelo menos semi automáticos, de modelagem geológica. Para a criação de modelos determinísticos, podem ser utilizados desde métodos matemáticos mais simples como o vizinho mais próximo, até métodos geostatístico com a krigagem dos indicadores. 
+As desvantagens do método explícito impulsionaram a criação de métodos automáticos, ou pelo menos semi automáticos, de modelagem geológica. Para a criação de modelos determinísticos, podem ser utilizados desde métodos matemáticos mais simples como o vizinho mais próximo, ou geostatístico com a krigagem dos indicadores. 
 
-Já a necessidade de avaliação da incerteza impulsionou o desenvolvimento de métodos estocásticos, baseados em múltiplas realizações equiprováveis do modelo geológico.  
+Já a necessidade de avaliação da incerteza impulsionou o desenvolvimento de métodos estocásticos, baseados em múltiplas realizações equiprováveis do modelo geológico. Metodologias estabelecidas da geostatística clássica, baseadas no variograma, são a simulação sequencial dos indicadores, simulação gaussiana truncada e siulação plurigaussiana truncada. Outros métodos não baseados no variograma também foram desenvolvidos: simulação multi ponto, simulação baseada em objetos são os principais expoentes. 
+
+Slide 9
+**********
+
+Uma outra família de métodos que impotaram técnicas da computação gráfica são os métodos implícitos. A idéia central é usar uma função implícita para demarcar regiões no espaço. 
+
+Todos os métodos implícitos compartilham da mesma mecânica. A partir de dados esparsos que podem ser categorias, dados estruturais, podem ser em pontos ou linhas... Uma função implícita é derivada, o campo escalar, que têm um número infinito de isosuperfícies. Para visualizar o modelo geológico uma isosuperfície expecífica deve ser extraída desse modelo implícito, geralmente a isosuperfície 0.
+
+O que difere os métodos implícitos é a função volume, que é interpolada para criação do modelo implícito. mallet propôs uma função volume cronológica, baseada na posição estratigráfica das unidades geológicas. Um outro método implícito, nascido na escola de minas da frança, usa co-krigagem de incrementos em campo potencial omitindo a função volume.
+
+De longe a função volume mais comum é a função distância assinalada, aplicações desse método são encontradas por toda a literatura de interpolação de dados esparços. Na modelagem geológica o método é competente em capturar a geometria e extensão de corpos geológicos e tem sido aplicada com sucesso há mais de 10 anos na exploração mineral. Nos últimos anos vem ganhado espaço em diversos softwares comerciais o maior exemplo é o leapfrog.  
+
+Parte 2
+==========
+
+Slide 10
+**********
+
+
+
+
 
 
 
