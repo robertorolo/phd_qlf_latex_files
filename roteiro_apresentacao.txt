@@ -81,7 +81,9 @@ Em muitos casos a incerteza do modelo geológico pode ser uma fonte de incerteza
 Slide 8
 ********
 
-As desvantagens do método explícito impulsionaram a criação de métodos automáticos, ou pelo menos semi automáticos, de modelagem geológica. Para a criação de modelos determinísticos, 
+As desvantagens do método explícito impulsionaram a criação de métodos automáticos, ou pelo menos semi automáticos, de modelagem geológica. Para a criação de modelos determinísticos, podem ser utilizados desde métodos matemáticos mais simples como o vizinho mais próximo, até métodos geostatístico com a krigagem dos indicadores. 
+
+Já a necessidade de avaliação da incerteza impulsionou o desenvolvimento de métodos estocásticos, baseados em múltiplas realizações equiprováveis do modelo geológico.  
 
 
 
