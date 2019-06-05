@@ -105,7 +105,9 @@ Parte 2
 Slide 10
 **********
 
+Nos próximos slides a modelagem geológica implícita com distâncias assinaladas é explicada passo a passo e os métodos para avaliação de inceteza disponíveis na literatura são apresentadas. 
 
+Um banco de dados sintético que emula um depósito de cobre pórfiro é usado para exempleficar e comparar os métodos. São 72 furos, totalizando cerca de 3 mil amostras, distribuídas entre três categorias: uma rocha encaixante e duas intrusões: uma vertical e uma tabular com mrgulho. O slide mostra as proprções de cada litologia e uma vista em perspectiva das amostras.
 
 
 
