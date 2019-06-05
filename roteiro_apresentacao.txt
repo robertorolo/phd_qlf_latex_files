@@ -109,9 +109,110 @@ Nos próximos slides a modelagem geológica implícita com distâncias assinalad
 
 Um banco de dados sintético que emula um depósito de cobre pórfiro é usado para exempleficar e comparar os métodos. São 72 furos, totalizando cerca de 3 mil amostras, distribuídas entre três categorias: uma rocha encaixante e duas intrusões: uma vertical e uma tabular com mrgulho. O slide mostra as proprções de cada litologia e uma vista em perspectiva das amostras.
 
+Slide 11
+**********
+
+O primeiro passo é codificar as amostras em indicadores: uma amostra recebe o indicador 1 se pertencer ao domínio que está sendo modelado e 0 caso contrário. O slide mostra as amostras amostas codificadas em indicadores para as categorias 1, 2 e 3.
+
+Slide 12
+***********
+
+O segundo passo é o cáculo das distâncias assinaladas: para cada ponto amostral, a menor distância euclideana até um outro ponto amostal que pertença à um indicador oposto é computada e atribuída aquele ponto. Com o sinal negativo caso pertença ao domínio que está sendo modelado e com o sinal positivo caso contrário.
+
+Para o esquema do slide: pra essa amostra preta aqui em cima, ela não pertence ao domínio, então foi codificada com o indicador 0, eu vou computar então a menor distância entre ela e uma outra amostra codificada com o indicador oposto, uma amostra vermelha, que pertence ao domínio. são 12 metros, então essa amostra preta vai receber o valor 12 metros com o sinal positivo, porque não pertence ao domínio. Para a amostra vermelha, vou computar a menor ditância até uma amostra preta, que é essa daqui, 8 metros, então ela recebe 8 metros com o sinal negativo porque pertence ao domínio que está sendo modelado. E finalmente a ultima amostra preta está a 8 metros da vermelha, recebe 8 com o sinal positivo, porque está fora do domínio modelado.
+
+Slide 13
+***********
+
+Esse slide mostra as distâncias assinaladas calculadas para as litologias 1, 2 e 3.
+
+Slide 14
+***********
+
+Agora as distâncias calculadas precisam ser interpoladas, alguns dos métodos de interpolação, que eu vou detalhar daaqui a pouco, exigem uma função de covariância, que pode ser obtida a partir dos dados.
+
+Aqui surge o primeiro problema do método: as distâncias assinaladas não são estacionárias, isso quer dizer que o variograma não se estabiliza em um patamar, ele cresce indefinidamente à medida que o lag aumenta, dificultando a inferência do alcance. Além disso, as distâncias apresentam um comportamento extremamaente contínuo, que torna difícil a indentificação de direções principais. Esse caráter contínuo das distâncias faz com que o modelo gaussiano seja o mais indicado pra ajustar os variogramas.
+
+A literatura sugere alternativas:
+
+* Treinar o vvariograma usando validação cruzada;
+
+* Tentar modelera de fato os variogramas experimtnais;
+
+* Calcular e modelar o variograma dos indicadores e transformá-los em um equivalente gaussiano;
+
+* Inferir um modelo de covariância plausível visualmente, a partir das amostras ou mapas delineados.
+
+Slide 15
+**********
+
+Esse slide mostra os variogramas das distâncias asssinaladas calculados e modelados a partir do modelo gaussiano para as três litologias. Aqui eu calculei o variograma estandarizado, Então defino o range na na variância igual a um, mas note que o valor da variância continua aumentando.
+
+Slide 16
+**********
+
+Já esse slide mostra os variograma calculados e modelados a partir do modelo esférico para os indicadores de cada categoria. Em tese, os variogramas dos indicadores são mais fáceis de modelar esão estacionários. Mas na prática, muitas vezes os variogramas dos indicadores são mais ruidosos e menos estruturados do 	que o das das distâncias assinaladas.
+
+Slide 17
+***********
+
+Além das alternativas sugeridas pela literatura para modelagem do variograma, aqui no laboratório a gente testou as tabelas de covariância: nesse método a partir dos dados eu crio um modelo base de covariância de onde é possível derivar, usando transformada de fourrier, a tabela de covariâcia qu epode ser usada no processo de estimativa ou simulação. 
+
+Os resultados são promissores, torna o método completamente automático, sem nenhuma interferência do usuário. Porém, ainda existem alguns problemas operacionais com as tableas de covariância que nãopermitem uma aplicação geral pra qualquer tipo de depósito.
+
+Slide 18
+**********
+
+Essas ditâncias calculadas e variografadas devem ser interpoladas para todos os nós de um grid. Para um número constante de amostras o tempo necessário para interpolar a função volume aumenta linearmente com o número de nós. Os parâmetros do grid, muitas vezes são determinados por parâmetros técnicos do projeto. Para a definição do modelo geológico é impotante que o grid possa reproduzir a menor estrutura geológica de interesse.
+
+Essa imagem mostra um modelo geológico multi categórico em grids de diferentes resoluões: para as dimensões 15 por 10 parecem muito grosseiros e as categorias dos pontos amostrais não são reproduzidas, já a dimensão 25 por 15 eu ganho um pouco de resolução, mas as estruturas  ainda não tem uma forma geológica. Pra 50 por 35 as formas o modelo se suavizam, mas ainda tem algum serrilhado, 100 por 75 as formas estão bastante suaves e as categorias das amostras são reproduzidas. Pra 150 por 120 não parece haver significativa melhora em relação ao modelo anterior. 
+
+Então é preciso encontrar um balanço entre resolução e tempo de interpolação, nesse caso algo entre 50 por 35 e 100 por 75, a resolução pode aumnetar a medida que o projeto avança e mais amostras são obtidas.
+
+Slide 19
+*********
+
+Par aesse estudo de caso, dois grid foram criados, um grosso com aproximadamente 100 mil nós e um fino com aproximadamente 1 milhão de nós.
+
+Slide 20
+*********
+
+Qualquer método de interpolação pode ser usado para as distâncias assinaladas, até mesmo métodos do inverso da distância produzem resultados realistas. A krigagem e as funções de bases radiais permitem incorporar informaçõ adicional através dos modelos de covariância, porém a literatura recomenda o uso de métodos globais, ouseja, que usa, todas as amostras em todas as estimativas.
+
+Diferentes métodos de interpolação podem ser encontrados na literatura:
+
+* housseini e deutcsh usaram iqd;
+
+* SIlva usou krigagem ordinária global;
+
+* Eu usei krigagem ordinária na minha dissertação;
+
+* O Boisvert usa LVA kriging pra interpolar com anistropia local;
+
+* e o jonh manchuck e o clayton propusera um novo método de interpolação que integra seções digitalizadas e amostras.
+
+Slide 21
+**********
+
+Esse slide mostra o porquê  de usar métodos globais. O primeiro modelo foi interpolado por krigagem ordinária usando 40 amostras por estimaitva, e fica bem evidente o surgimento de artefatos, causados pel aestratégia de busca. O segundo modelo foi interpolado com 100 amostras por estimativa e mesmo assim ainda é possível observar artefatos no modelo. O último modelo foi interpolado por RBF, que é um método global e gera modelos suaves e livres de artefatos.
+
+
+Slide 22
+**********
+
+Apesar de que nos métodos globais a matriz de covariâcias das amostras com elas mesmo só precise ser invertida uma vez, para bancos de dados volumosos isso ainda é uma tarefa que demanda um grande esformço computacional, então, é possível particionar o problema em problemas menores, sobrepostos, que são mais eficientes, e unir todas as partes.
+
+Slide 23
+*********
+
+Essa tabela mostra um benchmark dos métodos de interpolação para o banco de dados apresentado, as distâncias foram interpoladas por diferentes métodos no grid grosso que tem 100 mil nós e no grid fino com 1 milhão.
 
 
 
 
 
+
+
+
+  
 
