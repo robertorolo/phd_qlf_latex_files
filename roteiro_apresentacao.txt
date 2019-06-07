@@ -237,6 +237,65 @@ E o mesmo para a categoria 2.
 Slide 27
 *********
 
+Silva e Deutsch propuseram uma adaptação para o método para modelar múltiplas categorias simultânemanete. Se existirem K multiplos dominios no depósito mineral as amostras devem ser codificadas em indicadores K vezes, as distâncias assinaladas devem ser calculadas para as K categorias, As K propriedades distâncias asssinaladas devem ser interpoladas para um mesmo grid, e a categoria responsável pela menor distância assinalada, a mais negativa, deve ser retida no local não amostrado.
+
+Slide 27
+**********
+
+Esse slide mostra um esquema da modelagem geológica implícita para múltiplos domínios simultâneos: nas bases dos gráficos estão as amostras, no nivel superior a projeção das distâncias assinaladas interpoladas, para categoria 1 as distancias são negativas onde tem amostra da categoria 1, que ;e na parte central da área. mema coisa para as categorias 2, 3 e 4. Pra cirar o modelo geológico é só reter a categoria responsável pela menor distância. na região central é a categoria 1, na parte noroeste a 3 nordeste a 4 e em volta do centro a categoria 2.
+
+Slide 28
+************
+
+Esse slide mostra 4 seções em xy e 4 seções em yz do modelo implicito multi categórico para o banco de dados do estudo de caso.
+
+Slide 29
+**********
+
+Corpos geológicos podem ser bastante complexos E modelá-los considerando estacionariedade de segunda ordem, quer dizer, a função de covariância é estaciária, então a mesma anisotropia vale para toda região, pode ser muito restritivo.
+
+Uma alternativa é interpolar as distâncias por krigagem com anisotropia local variável, nesse método, para cada bloco a anisotropia local é derivada, então as distâncias são interpoladas por krigagem ordinária. Esse método pode demandar bastante esforço computacional já que em cada bloco a anistropia local deve ser calculada. 
+
+Slide 30
+***********
+
+Esse slide mostra os vetores de anostropia local em todos os um milhão de blocos do grid fino e a iso superfície extraída para a categoria 1, e ao lado mostrando um vetor a cada 10.000 blocos.
+
+Slide 31
+***********
+
+Pra o fluxo de trabalho usando RBF também é possível implementar não estacionariedade de segunda ordem, baseado no particionamento do domínio que eu mostrei alguns slides pra trás. Dessa forma, pra cada partição a anistropia local é derivada. Esse método demanda menos esforço computacional, já que os vetores de anisotropia não precisam ser calculados para cada bloco.
+
+Slide 32
+**********
+
+Esse slide mostra os vetores de anostropia local para cada partição e a iso superfície extraída para a categoria 1.
+
+Slide 33
+**********
+
+Pra obter resultados melhores é possível derivar os vetores de anisotropia local, interpolar as distâncias usando essa anisotropia local, então a partir das distâncias interpoladas, derivo novamente a anisotropia local e interpolo novamente, esse processo iterativo continua até que um cirtétio de parada pré estabelecido seja atingido.
+
+a imagem mostra uma dobra em que os flancos vão se definindo com as iterações. Apesar de ser um método iterativo, ele é bastante eficiente porque o critério de parada pode ser atingido em diferentes iterações em cada partição.
+
+Slide 34
+***********
+
+Ainda no assunto interpolação, o jonh manchuck e o proferssor clayton desenvolveram uma metodologia para incorporar seções digitalizadas na modelagem implícita. Para isso as distancias mais seções digitalizadas devem ser interpoladas por mínimos quadrados móveis. Porém, o método ainda é recente e segundo os autores ainda apresenta alguns problemas operacionais.
+
+Slide 35
+**********
+
+
+
+
+
+
+
+
+
+
+
 
 
 
