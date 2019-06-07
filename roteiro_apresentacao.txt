@@ -163,7 +163,9 @@ Os resultados são promissores, torna o método completamente automático, sem n
 Slide 18
 **********
 
-Essas ditâncias calculadas e variografadas devem ser interpoladas para todos os nós de um grid. Para um número constante de amostras o tempo necessário para interpolar a função volume aumenta linearmente com o número de nós. Os parâmetros do grid, muitas vezes são determinados por parâmetros técnicos do projeto. Para a definição do modelo geológico é impotante que o grid possa reproduzir a menor estrutura geológica de interesse.
+Essas ditâncias calculadas e variografadas devem ser interpoladas para todos os nós de um grid. Embora os métodos implícitos sejam gridless, que dizer, eles não dependem de um grid, os algoritmos de extração de iso superfícice exigem que a propriedade exista em um grid regular.  
+
+Para um número constante de amostras o tempo necessário para interpolar a função volume aumenta linearmente com o número de nós. Os parâmetros do grid, muitas vezes são determinados por parâmetros técnicos do projeto. Para a definição do modelo geológico é impotante que o grid possa reproduzir a menor estrutura geológica de interesse.
 
 Essa imagem mostra um modelo geológico multi categórico em grids de diferentes resoluões: para as dimensões 15 por 10 parecem muito grosseiros e as categorias dos pontos amostrais não são reproduzidas, já a dimensão 25 por 15 eu ganho um pouco de resolução, mas as estruturas  ainda não tem uma forma geológica. Pra 50 por 35 as formas o modelo se suavizam, mas ainda tem algum serrilhado, 100 por 75 as formas estão bastante suaves e as categorias das amostras são reproduzidas. Pra 150 por 120 não parece haver significativa melhora em relação ao modelo anterior. 
 
@@ -206,6 +208,37 @@ Slide 23
 *********
 
 Essa tabela mostra um benchmark dos métodos de interpolação para o banco de dados apresentado, as distâncias foram interpoladas por diferentes métodos no grid grosso que tem 100 mil nós e no grid fino com 1 milhão.
+
+Todos os algoritmos são da biblioteca GSLib e foram rodados em um notebook comercial high end, para as três categorias.
+
+Eu queria destacar algus pontos: não é possível interpolar as distância no grid fino por krigagem global, mesmo com 16gb de ram. A krigagem ordinária no grid fino, isso para as três categorias, leva 45 minutos, enquanto o RBF leva apenas pouco mais de um minuto, ainda é possível reduzir esse tempo particionando o grid.
+
+Não é difícil perceber porque o RBF é o método preferido para interpolação de distâncias assinaladas, além de produzir modelos suaves, desejáveis nesse contexto de modelagem geológica, é 10 vezes mais rápido que a krigagem.
+
+A Leapgfrog tem um algoritmo de rbf patenteado, chamado fast rbf, que é ainda mais rápido.
+
+Slide 24
+**********
+
+O modelo implícito, que é função distância interpolada, tem infinitas iso usperfícies, pra visualizar o modelo geológico eu preciso extrair uma dessas superfície, e o melhor palpite pra onde se localiza a interface é a iso superfície zero. esse slide mosra a isosuperfície zero extraída, usando o algoritmo de cubos marchantes no software paraview, para a categoria 1. A partir dos modelos implícitos apresentados anteriormente. krigagem ordinária com 40 amostras, 100 amostras e rbf.
+
+É possível observar que os artefatos dos modelos implícitos são transferidos para as isosuperfícies, e que métodos globais que geram modelos suaves, naturalemtne geram iso superfícies suaves, que apresentam realismo geológico.
+
+Slide 25
+***********
+
+Esse slide mostra dias vistas diferentes da iso superficie zera extraida do modelo implicita interpolado por rbf para a categoria 1, unto com as amostras. Além de criar modelos realistas o rbf honra as amotras.
+
+Slide 26
+**********
+
+E o mesmo para a categoria 2.
+
+Slide 27
+*********
+
+
+
 
 
 
