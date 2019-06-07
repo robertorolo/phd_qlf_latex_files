@@ -286,25 +286,4 @@ Ainda no assunto interpolação, o jonh manchuck e o proferssor clayton desenvol
 Slide 35
 **********
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
+Os próximos slides vão apresentar os métodos de avaliação de incerteza disponíveis na literatura.  
