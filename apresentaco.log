@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.26)  30 MAY 2019 10:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.26)  8 JUN 2019 14:13
 entering extended mode
 **./apresentaco.tex
 (apresentaco.tex
@@ -1957,65 +1957,61 @@ l.688 \end{frame}
                   [45
 
  <./capitulo_2/snesim_real1.png> <./capitulo_2/snesim_real2.png>]
-<capitulo_2/classificacao.png, id=579, 423.83344pt x 190.46156pt>
-File: capitulo_2/classificacao.png Graphic file (type png)
-<use capitulo_2/classificacao.png>
-Package pdftex.def Info: capitulo_2/classificacao.png  used on input line 710.
-(pdftex.def)             Requested size: 278.83578pt x 125.30685pt.
-
-Overfull \vbox (3.49304pt too high) detected at line 710
- []
-
-[46
-
- <./capitulo_2/classificacao.png>]
-<capitulo_2/uncert_1.png, id=587, 1364.09625pt x 841.1425pt>
+<capitulo_2/uncert_1.png, id=579, 1364.09625pt x 841.1425pt>
 File: capitulo_2/uncert_1.png Graphic file (type png)
 <use capitulo_2/uncert_1.png>
-Package pdftex.def Info: capitulo_2/uncert_1.png  used on input line 723.
+Package pdftex.def Info: capitulo_2/uncert_1.png  used on input line 703.
 (pdftex.def)             Requested size: 239.00558pt x 147.36899pt.
- [47
+ [46
 
  <./capitulo_2/uncert_1.png>]
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-32.
 def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [48
+) [47
 
 ]
+<capitulo_2/classificacao.png, id=592, 423.83344pt x 190.46156pt>
+File: capitulo_2/classificacao.png Graphic file (type png)
+<use capitulo_2/classificacao.png>
+Package pdftex.def Info: capitulo_2/classificacao.png  used on input line 737.
+(pdftex.def)             Requested size: 278.83578pt x 125.30685pt.
+ [48
+
+ <./capitulo_2/classificacao.png>]
 <capitulo_2/interpolated.jpeg, id=600, 1113.15875pt x 821.0675pt>
 File: capitulo_2/interpolated.jpeg Graphic file (type jpg)
 <use capitulo_2/interpolated.jpeg>
-Package pdftex.def Info: capitulo_2/interpolated.jpeg  used on input line 745.
+Package pdftex.def Info: capitulo_2/interpolated.jpeg  used on input line 747.
 (pdftex.def)             Requested size: 119.50279pt x 88.13774pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure1>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.745 \end{frame}
+l.747 \end{frame}
                  
 <capitulo_2/simulated.jpeg, id=601, 1113.15875pt x 821.0675pt>
 File: capitulo_2/simulated.jpeg Graphic file (type jpg)
 <use capitulo_2/simulated.jpeg>
-Package pdftex.def Info: capitulo_2/simulated.jpeg  used on input line 745.
+Package pdftex.def Info: capitulo_2/simulated.jpeg  used on input line 747.
 (pdftex.def)             Requested size: 119.50279pt x 88.13774pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.745 \end{frame}
+l.747 \end{frame}
                  
 <capitulo_2/classification.jpeg, id=602, 1113.15875pt x 821.0675pt>
 File: capitulo_2/classification.jpeg Graphic file (type jpg)
 <use capitulo_2/classification.jpeg>
-Package pdftex.def Info: capitulo_2/classification.jpeg  used on input line 745
+Package pdftex.def Info: capitulo_2/classification.jpeg  used on input line 747
 .
 (pdftex.def)             Requested size: 119.50279pt x 88.13774pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.745 \end{frame}
+l.747 \end{frame}
                   [49
 
  <./capitulo_2/interpolated.jpeg> <./capitulo_2/simulated.jpeg> <./capitulo_2/c
@@ -2023,31 +2019,31 @@ lassification.jpeg>]
 <capitulo_2/cpar1.png, id=610, 4979.60374pt x 2232.34pt>
 File: capitulo_2/cpar1.png Graphic file (type png)
 <use capitulo_2/cpar1.png>
-Package pdftex.def Info: capitulo_2/cpar1.png  used on input line 757.
+Package pdftex.def Info: capitulo_2/cpar1.png  used on input line 759.
 (pdftex.def)             Requested size: 199.1693pt x 89.27838pt.
 pdfTeX warning (ext4): destination with the same identifier (name{a}) has been 
 already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.757 \end{frame}
+l.759 \end{frame}
                  
 <capitulo_2/cparyz.png, id=611, 4979.60374pt x 2232.34pt>
 File: capitulo_2/cparyz.png Graphic file (type png)
 <use capitulo_2/cparyz.png>
-Package pdftex.def Info: capitulo_2/cparyz.png  used on input line 757.
+Package pdftex.def Info: capitulo_2/cparyz.png  used on input line 759.
 (pdftex.def)             Requested size: 199.1693pt x 89.27838pt.
 pdfTeX warning (ext4): destination with the same identifier (name{b}) has been 
 already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.757 \end{frame}
+l.759 \end{frame}
                   [50
 
  <./capitulo_2/cpar1.png> <./capitulo_2/cparyz.png>]
 <capitulo_2/hier_example.png, id=620, 429.7656pt x 198.0198pt>
 File: capitulo_2/hier_example.png Graphic file (type png)
 <use capitulo_2/hier_example.png>
-Package pdftex.def Info: capitulo_2/hier_example.png  used on input line 769.
+Package pdftex.def Info: capitulo_2/hier_example.png  used on input line 771.
 (pdftex.def)             Requested size: 398.3386pt x 183.54314pt.
 
 [51
@@ -2063,42 +2059,42 @@ Package pdftex.def Info: capitulo_2/hier_example.png  used on input line 769.
 <capitulo_3/actual.png, id=641, 306.14375pt x 278.03876pt>
 File: capitulo_3/actual.png Graphic file (type png)
 <use capitulo_3/actual.png>
-Package pdftex.def Info: capitulo_3/actual.png  used on input line 830.
+Package pdftex.def Info: capitulo_3/actual.png  used on input line 832.
 (pdftex.def)             Requested size: 119.50279pt x 108.53224pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure1>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.830 \end{frame}
+l.832 \end{frame}
                  
 <capitulo_3/krig.png, id=642, 306.14375pt x 278.03876pt>
 File: capitulo_3/krig.png Graphic file (type png)
 <use capitulo_3/krig.png>
-Package pdftex.def Info: capitulo_3/krig.png  used on input line 830.
+Package pdftex.def Info: capitulo_3/krig.png  used on input line 832.
 (pdftex.def)             Requested size: 119.50279pt x 108.53224pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.830 \end{frame}
+l.832 \end{frame}
                  
 <capitulo_3/ml.png, id=643, 306.14375pt x 278.03876pt>
 File: capitulo_3/ml.png Graphic file (type png)
 <use capitulo_3/ml.png>
-Package pdftex.def Info: capitulo_3/ml.png  used on input line 830.
+Package pdftex.def Info: capitulo_3/ml.png  used on input line 832.
 (pdftex.def)             Requested size: 119.50279pt x 108.53224pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.830 \end{frame}
+l.832 \end{frame}
                   [55
 
  <./capitulo_3/actual.png> <./capitulo_3/krig.png> <./capitulo_3/ml.png>]
 <capitulo_3/NN_ex.png, id=652, 883.3pt x 436.63126pt>
 File: capitulo_3/NN_ex.png Graphic file (type png)
 <use capitulo_3/NN_ex.png>
-Package pdftex.def Info: capitulo_3/NN_ex.png  used on input line 846.
+Package pdftex.def Info: capitulo_3/NN_ex.png  used on input line 848.
 (pdftex.def)             Requested size: 278.83578pt x 137.83272pt.
  [56
 
@@ -2106,15 +2102,15 @@ Package pdftex.def Info: capitulo_3/NN_ex.png  used on input line 846.
 <capitulo_3/zona1.jpg, id=659, 803.0pt x 602.25pt>
 File: capitulo_3/zona1.jpg Graphic file (type jpg)
 <use capitulo_3/zona1.jpg>
-Package pdftex.def Info: capitulo_3/zona1.jpg  used on input line 861.
+Package pdftex.def Info: capitulo_3/zona1.jpg  used on input line 863.
 (pdftex.def)             Requested size: 159.333pt x 119.50133pt.
 <capitulo_3/zona2.jpg, id=660, 803.0pt x 602.25pt>
 File: capitulo_3/zona2.jpg Graphic file (type jpg)
 <use capitulo_3/zona2.jpg>
-Package pdftex.def Info: capitulo_3/zona2.jpg  used on input line 861.
+Package pdftex.def Info: capitulo_3/zona2.jpg  used on input line 863.
 (pdftex.def)             Requested size: 159.333pt x 119.50133pt.
 
-Overfull \vbox (1.06584pt too high) detected at line 861
+Overfull \vbox (1.06584pt too high) detected at line 863
  []
 
 [57
@@ -2123,12 +2119,12 @@ Overfull \vbox (1.06584pt too high) detected at line 861
 <capitulo_3/bloco1.jpg, id=668, 481.8pt x 290.08376pt>
 File: capitulo_3/bloco1.jpg Graphic file (type jpg)
 <use capitulo_3/bloco1.jpg>
-Package pdftex.def Info: capitulo_3/bloco1.jpg  used on input line 876.
+Package pdftex.def Info: capitulo_3/bloco1.jpg  used on input line 878.
 (pdftex.def)             Requested size: 159.333pt x 95.93153pt.
 <capitulo_3/bloco2.jpg, id=669, 481.8pt x 290.08376pt>
 File: capitulo_3/bloco2.jpg Graphic file (type jpg)
 <use capitulo_3/bloco2.jpg>
-Package pdftex.def Info: capitulo_3/bloco2.jpg  used on input line 876.
+Package pdftex.def Info: capitulo_3/bloco2.jpg  used on input line 878.
 (pdftex.def)             Requested size: 159.333pt x 95.93153pt.
  [58
 
@@ -2136,24 +2132,24 @@ Package pdftex.def Info: capitulo_3/bloco2.jpg  used on input line 876.
 <capitulo_3/entropy_20.png, id=678, 5102.06125pt x 2232.34pt>
 File: capitulo_3/entropy_20.png Graphic file (type png)
 <use capitulo_3/entropy_20.png>
-Package pdftex.def Info: capitulo_3/entropy_20.png  used on input line 885.
+Package pdftex.def Info: capitulo_3/entropy_20.png  used on input line 887.
 (pdftex.def)             Requested size: 199.1693pt x 87.13243pt.
 pdfTeX warning (ext4): destination with the same identifier (name{a}) has been 
 already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.885 \end{frame}
+l.887 \end{frame}
                  
 <capitulo_3/entropy_10.png, id=679, 5103.065pt x 2232.34pt>
 File: capitulo_3/entropy_10.png Graphic file (type png)
 <use capitulo_3/entropy_10.png>
-Package pdftex.def Info: capitulo_3/entropy_10.png  used on input line 885.
+Package pdftex.def Info: capitulo_3/entropy_10.png  used on input line 887.
 (pdftex.def)             Requested size: 199.1693pt x 87.09837pt.
 pdfTeX warning (ext4): destination with the same identifier (name{b}) has been 
 already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.885 \end{frame}
+l.887 \end{frame}
                   [59
 
  <./capitulo_3/entropy_20.png> <./capitulo_3/entropy_10.png>]
@@ -2161,7 +2157,7 @@ l.885 \end{frame}
 File: capitulo_3/classificacao_multi.jpg Graphic file (type jpg)
 <use capitulo_3/classificacao_multi.jpg>
 Package pdftex.def Info: capitulo_3/classificacao_multi.jpg  used on input line
- 899.
+ 901.
 (pdftex.def)             Requested size: 318.67209pt x 143.20703pt.
  [60
 
@@ -2172,7 +2168,7 @@ Package pdftex.def Info: capitulo_3/classificacao_multi.jpg  used on input line
 File: capitulo_3/gauss_trunc_sketch.png Graphic file (type png)
 <use capitulo_3/gauss_trunc_sketch.png>
 Package pdftex.def Info: capitulo_3/gauss_trunc_sketch.png  used on input line 
-917.
+919.
 (pdftex.def)             Requested size: 199.1693pt x 89.58704pt.
  [62
 
@@ -2180,7 +2176,7 @@ Package pdftex.def Info: capitulo_3/gauss_trunc_sketch.png  used on input line
 <capitulo_3/pluri_sketch.png, id=713, 304.88907pt x 281.55188pt>
 File: capitulo_3/pluri_sketch.png Graphic file (type png)
 <use capitulo_3/pluri_sketch.png>
-Package pdftex.def Info: capitulo_3/pluri_sketch.png  used on input line 927.
+Package pdftex.def Info: capitulo_3/pluri_sketch.png  used on input line 929.
 (pdftex.def)             Requested size: 199.1693pt x 183.9302pt.
  [63
 
@@ -2188,7 +2184,7 @@ Package pdftex.def Info: capitulo_3/pluri_sketch.png  used on input line 927.
 <capitulo_3/trunc_rules.png, id=721, 572.89032pt x 246.1697pt>
 File: capitulo_3/trunc_rules.png Graphic file (type png)
 <use capitulo_3/trunc_rules.png>
-Package pdftex.def Info: capitulo_3/trunc_rules.png  used on input line 937.
+Package pdftex.def Info: capitulo_3/trunc_rules.png  used on input line 939.
 (pdftex.def)             Requested size: 199.1693pt x 85.58221pt.
  [64
 
@@ -2201,7 +2197,7 @@ Package pdftex.def Info: capitulo_3/trunc_rules.png  used on input line 937.
 <capitulo_3/pluri_mds.png, id=753, 356.33125pt x 357.335pt>
 File: capitulo_3/pluri_mds.png Graphic file (type png)
 <use capitulo_3/pluri_mds.png>
-Package pdftex.def Info: capitulo_3/pluri_mds.png  used on input line 957.
+Package pdftex.def Info: capitulo_3/pluri_mds.png  used on input line 959.
 (pdftex.def)             Requested size: 159.333pt x 159.77965pt.
  [67
 
@@ -2210,10 +2206,10 @@ Package pdftex.def Info: capitulo_3/pluri_mds.png  used on input line 957.
 File: capitulo_3/trunc_rules_prop.jpg Graphic file (type jpg)
 <use capitulo_3/trunc_rules_prop.jpg>
 Package pdftex.def Info: capitulo_3/trunc_rules_prop.jpg  used on input line 96
-7.
+9.
 (pdftex.def)             Requested size: 239.00558pt x 179.25127pt.
 
-Overfull \vbox (4.88713pt too high) detected at line 967
+Overfull \vbox (4.88713pt too high) detected at line 969
  []
 
 [68
@@ -2222,10 +2218,10 @@ Overfull \vbox (4.88713pt too high) detected at line 967
 <capitulo_3/blob.jpg, id=768, 662.08646pt x 445.27646pt>
 File: capitulo_3/blob.jpg Graphic file (type jpg)
 <use capitulo_3/blob.jpg>
-Package pdftex.def Info: capitulo_3/blob.jpg  used on input line 979.
+Package pdftex.def Info: capitulo_3/blob.jpg  used on input line 981.
 (pdftex.def)             Requested size: 278.83578pt x 187.5312pt.
 
-Overfull \vbox (1.16707pt too high) detected at line 979
+Overfull \vbox (1.16707pt too high) detected at line 981
  []
 
 [69
@@ -2239,7 +2235,7 @@ Overfull \vbox (1.16707pt too high) detected at line 979
 File: capitulo_3/cronograma_novo.png Graphic file (type png)
 <use capitulo_3/cronograma_novo.png>
 Package pdftex.def Info: capitulo_3/cronograma_novo.png  used on input line 103
-7.
+9.
 (pdftex.def)             Requested size: 398.3386pt x 95.61362pt.
  [72
 
@@ -2262,11 +2258,11 @@ Package pdftex.def Info: capitulo_3/cronograma_novo.png  used on input line 103
 \tf@snm=\write8
 \openout8 = `apresentaco.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1048.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1048.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1050.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1050.
  (apresentaco.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1048.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1048.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1050.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1050.
 
 Package rerunfilecheck Info: File `apresentaco.out' has not changed.
 (rerunfilecheck)             Checksum: 216CCFC1517DD1B2EC54DB85D70180A9;2670.
@@ -2313,7 +2309,7 @@ rs/Roberto Rolo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmsy6.pfb><C:/Users/Roberto Rolo/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Roberto Rolo/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on apresentaco.pdf (75 pages, 17292783 bytes).
+Output written on apresentaco.pdf (75 pages, 17292674 bytes).
 PDF statistics:
  1330 PDF objects out of 1440 (max. 8388607)
  265 named destinations out of 1000 (max. 500000)

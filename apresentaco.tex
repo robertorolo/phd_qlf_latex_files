@@ -691,7 +691,18 @@ MPS em uma TI gerada pela interpolação das distâncias assinaladas.
 
 \begin{frame}{Boundary simulation}
 
-Comparação de valores simulados e interpolados.
+Calibração do parâmetro C:
+
+\begin{figure}[H]
+	\caption{\label{c_param_1}Calibração do parâmetro C para a categoria 1.}
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{capitulo_2/uncert_1.png}
+	\end{center}
+	%\legend{Fonte: \citeonline{rolo_dissertacao}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Boundary simulation}
 
 	\begin{equation}
 	d_k(u_\alpha)=\begin{cases}
@@ -700,38 +711,29 @@ Comparação de valores simulados e interpolados.
 	\label{C_dist}
 	\end{equation}
 	
-	\begin{figure}[H]
-		\caption{\label{class}Classificação dos locais comparando valores estimados e simulados.}
-		\begin{center}
-			\includegraphics[width=0.7\textwidth]{capitulo_2/classificacao.png}
-		\end{center}
-		%\legend{Fonte: Modificado de \citeonline{wilde_sim_bound_reals}}
-	\end{figure}
-\end{frame}
-
-\begin{frame}{Boundary simulation}
-
-Calibração do parâmetro C:
-
-	\begin{figure}[H]
-		\caption{\label{c_param_1}Calibração do parâmetro C para a categoria 1.}
-		\begin{center}
-			\includegraphics[width=0.6\textwidth]{capitulo_2/uncert_1.png}
-		\end{center}
-		%\legend{Fonte: \citeonline{rolo_dissertacao}}
-	\end{figure}
-\end{frame}
-
-\begin{frame}{Boundary simulation}
-Para que a simulação seja realizada de forma uniforme entre –C e +C, o desvio padrão $y`(u)$, deve ser simulado e transformado pela relação:
-
-
+	Para que a simulação seja realizada de forma uniforme entre –C e +C, o desvio padrão $y`(u)$, deve ser simulado e transformado pela relação:
+	
+	
 	\begin{equation}
 	df'(u)=2*C*G^-1(y'(u))-C
 	\end{equation}
 	
-onde: $df'(u)$ é o valor da função distância simulada, $y'(u)$ o valor normal padrão da simulação não condicional, e $G^-1$ representa a determinação do valor da distribuição acumulada padrão normal correspondente a $y'(u)$. Para garantir que os valores pertençam a região estabelecida, os valores são multiplicados por 2C e subtraídos de C.
-	
+	onde: $df'(u)$ é o valor da função distância simulada, $y'(u)$ o valor normal padrão da simulação não condicional, e $G^-1$ representa a determinação do valor da distribuição acumulada padrão normal correspondente a $y'(u)$. Para garantir que os valores pertençam a região estabelecida, os valores são multiplicados por 2C e subtraídos de C.
+
+\end{frame}
+
+\begin{frame}{Boundary simulation}
+
+	Classificação dos blocos.
+
+	\begin{figure}[H]
+	\caption{\label{class}Classificação dos locais comparando valores estimados e simulados.}
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{capitulo_2/classificacao.png}
+	\end{center}
+	%\legend{Fonte: Modificado de \citeonline{wilde_sim_bound_reals}}
+\end{figure}
+
 \end{frame}
 
 \begin{frame}{Boundary simulation}

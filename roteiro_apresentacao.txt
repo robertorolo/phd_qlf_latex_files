@@ -286,4 +286,128 @@ Ainda no assunto interpolação, o jonh manchuck e o proferssor clayton desenvol
 Slide 35
 **********
 
-Os próximos slides vão apresentar os métodos de avaliação de incerteza disponíveis na literatura.  
+Os próximos slides vão apresentar os métodos de avaliação de incerteza disponíveis na literatura e comentar um pouco sobre as características de cada um deles. 
+
+O método mais simples, é uma avaliação heirística da incerteza, porque não é baseado em múltiplas realizações. Consiste em transformar as distâncias em probabilidades. na equação para calcular a probabilidade da categoria k no local não amostrado i, o d* é a ditância estimada para a categoria k e gamma é um parametro que controla a incerteza. Quanto maior gamma maior a diferença entre as probabilidades calculadas. 
+
+o grafico de barras mostra as ditâncias assinaladas interpaladas para um bloco em particular, e ao lado as distâncias transformadas em probabilidades, quanto menor a distância, quanto mais negativa, maior a probabilidade. 
+
+Esse é um método bem simples, rápido e direto e funciona pra multiplas categorias simultâneas. Em contrapartida, a escolha do parâmetro gamma é subjetiva, alguns autores indicam que seja a amior distância estimada entre todas as categorias, e dependendo do gamma escolhido nem blocos co locados com amostras recebem prbabilidade 100%.
+
+Slide 36
+***********
+
+O próximo método, aumentando um pouco a complexidade, consiste, primeiramente em realizar um bootstrap espacial da média da distância assinalada, o bootstrap espacial só leva em consideração amostras não correlaciadas. Assim eu tenho um histograma da média, que é mostrado no slide, a partir desse histograma eu posso tomar valores, como o p10, p50 e p90 por exemplo, e intepolar as ditâncias assinaladas por krigagem simples, usando esses valores tomados como média. Em tese, eu poderia extrair diferentes iso superfícies zero dos modelos interpolados com diferentes médias. 
+
+Porém na prática, dependendo da configuração espacial das amostras a krigagem simples não é sensível à media, para a categoria do banco de dados do estudo de caso, a diferença de volume entre as isosuperficies extraidas do modelo p10 e p90 é menor que 1%. O método não avalia adequadamente a incerteza, além disso, trabalha com uma categoria por vez, na presença de múltiplos domínios é necessário uma abordagem heirárquica.
+
+Slide 37
+***********
+
+O próximo método é a primeira ideia que surge em mente em relação à avaliação de incerteza de modelos geológicos implícitos: a simulação direta das distâncias. 
+
+O primeiro passo é calcular um coeficiente U de incerteza. Antes de qualquer coisa eu preciso criar uma lista com as menors distâncias interpoaldas em cada bloco. Então pra cada bloco eu eu subtraio do valor maximo dessa lista a menor distância estimada naquele bloco. O denominador é pra estandardizar entre 0 e 1.
+
+Slide 38
+***********
+
+Esse slide mostra 4 seções verticais do coeficiente U, esse coeficiente basicamente delinea os contatos, ele é mais próximo de 1 onde há mais incerteza e mais próximo de zero onde não há.
+
+Agora é necessário fazer uma truncagem entre 0 e 1 no coeficiente U pra delimitar uma zona e incerteza, quanto mais perto de 1 mais estreita é a zona de incerteza. As distâncias não precisam ser simuladas em todos os nós do grid, porque no interior dos domínios não há incerteza.
+
+Slide 39
+***********
+
+Esse slide mostra uma realização das distâncias simuladas na zona de incerteza pra cada uma das litologias do banco de dados.
+
+Os blocos fora da zona de incerteza ficam congelados, e recebem a a categoria respons;avel pela menor ditânca estimada, enquanto os blocos na zona de incerteza recebem a categoria responsável pela menor distância simulada, em cada realização.
+
+Slide 40
+***********
+
+Esse slide mostra seções verticais de duas realizações do modelo. É possível observar nas regiões destacas bastante ruído, que gera formas não realistas. Além disso, em muitos casos, não existe um bom encaixe entre os blocos congelados e os blocos simulados. A simulação é muito sensível aos parâmetros e a zona de incerteza definida só serve pra dimuir o numero de blocos simulados, os limites dos modelos dependem somente dos parâmetros do algoritmo de simulação. 
+
+Porém o método trabalha com múltiplas categorias e é baseado em múltiplas realizações, o priduto final pode ser usado nas proximas etapas da avaliação de recursos e planejamento mineiro.
+
+Slide 41
+***********
+
+Além das desvantagens apresentadas o método possui um número execivo de passos:
+
+As distancias devem ser calculadas pra cada litogia, variogradas e interpoaldas. Um modelo deterministico baseado na menor distancia deve ser criado, com base nas distancias interpoladas posso calcular o parametro u e definir a zona de incerteza, entao as distancias devem ser transfomradas para o espaco gaussiano, variografadas no espaco gaussiano, simuladas na zona de incerteza, retro transformadas e validadas. Aí sim posso gerar as realizações do modelo geológico baseadas na menor ditância simulada.
+
+É difícil justificar a escolha desse método.
+
+Slide 42
+**********
+
+Em sua tese de doutorado silva propôs integrar modelagem geológica implícita com simulação multi ponto. No seu trabalho ele propõe integrar múltiplas imagens de treinamento, uma metodologia pra calibrar a contribuição de cada TI e uma medida de entropia multi ponto ao longo dos furos. O esqueleto do método é criar uma TI a partir dos dados, que ele chama de data driven training image, usando funções distância assinaladas e aplicar MPS nessa TI.
+
+O slide mostra seções verticais de uma das realizações de um modelo criado usando essa metodologia no banco de dados do estudo de caso. As formas são geológicas, os modelos não apresentam ruído excessivo, além disso, o método não depende de muitos parâmetros. Em contra partida, não é possível definir uma zona de incerteza para que os contatos variem em seu interior, tampouco controlar a natureza dos contatos.
+
+Slide 43
+***********
+
+O próximo e último método, é o que produz os melhores resultados e o que tem sido mais usado pra avaliação de incerteza de modelos geológicos implíocitos. O primeiro passo é calibrar um parâmetro de incerteza de C. A calibração é feita por um método similar ao jacknife. 
+
+O parametro C é uma constante que vai ser somada às distâncias positivas e subtraído das distâncias negativas, isso faz com a diferença entre os valores das distâncias seja maior, é como se eu tivesse abrindo o histograma das distancias.
+
+Eu começo a calibração com c =0, então as distancias não estão modificadas ainda. Eu defino uma proporção de furos do banco de dados pra ser removida, pra categoria 1 do banco de dados do estudo de caso eu escolhi 25%. Então eu removi do banco de dados, aleatoriamente, 25% dos furos, 50 vezes, gerando 50 bancos de dados diferentes. Que são os pontos verticais no x=0. Então eu vou estimar a distância assinaladas onde eu removi as amostras, e checar se eu acerto se pertence ou não ao domínio, quer dizer se eu acerto o sinal da amostra, não estou interessado no valor da distância assinalada. Aí eu marco no eixo y, o índice de amostras classificadas de forma errada, pra cada um dos 50 banco de dados. 
+
+Então eu inceremento C, nesse exemplo o c variou de 0 ate 250, e repito o processo. quanto maior for C, menor vai ser o indice de classificação errônea.
+A partir dos resultados da calibração eu preciso escolher um valor de C. Alguns autores dizem que deve ser o valor reponsavel por 2,5% de classificação errônea, outros autores dizem que deve ser o valor de C onde a curva se estabiliza. Aqui eu tomei o valor 130, que corresponde a 2% de classificação errônea.
+
+Slide 44
+*************
+
+A partir do valor escolhido para C, eu modifico as distâncias calculadas, somando C às distâncias positivas e subtraindo C das distâncias negativas.
+
+Então essas distâncias modificadas são interpoladas para todos os nós do grid, uma truncagem no modelo interpolado deve ser feita entra -c e +c pra definir a zona de incerteza.
+
+Na zona de incerteza eu realizao uma simulação gaussiana não condicional, o variograma pode ser o mesmo usado para interpolar as distâncias assinaladas. Para tornar a simulação gaussiana entre +c e -c dve ser tomado su valor acumulado, multiplicado por 2c e subtraído de C.
+
+Slide 45
+***********
+
+Agora finalmente eu posso classificar os blocos comparando as distâncias assinaladas modificadas com a simulação não condicional, blocos onde a simulação é menor que a interpolação não pertencem ao domínio enquanto blocos em que a simulação é maior que a interpolação, pertencem ao domínio.
+
+Slide 46
+***********
+
+Esse slide mostra as distâncias interpoladas na zona de incerteza para a categoria 1, as distancias simuladas na zona de incerteza, e os blocos classificados comparando ditancias intepoladas e simuladas.
+
+Slide 47
+************
+
+O próximo slide mostra seções verticas em xy e xz de uma das realizações para a categoria 1. É possível observar que não há presença de ruído, as formas são suaves e realistas, além disso, ao contrário da simulação direta das distâncias, aqui o contato varia dentro da zona de incerteza, se a zona for larga a posição do contato e consequente o volume do solido vai ter grabnde variação, se for estrito terá pouca variação, o variograma controla a natureza do contato, um range maior produz contatos suaves enquanto ranges menores e efeito pepita produzem contatos rugosos. Apesar dessas vantagens a escolha do C pode ser subjetiva, e o método trabalha de forma binária, uma litologia por vez.
+
+Slide 48
+**********
+
+Aqui no laboratório nós desenvolvelmos uma metodologia pra trabalhar com múltiplas categorias simultânes de forma hierárquica, porém a escolha dos gruipos é subjetiva e depende de conhecimento a respeito da gênese do depósito.
+
+Slide 49
+***********
+
+Essa tabela mostra um sumário dos métodos de avaliação de incerteza apresentados, o método heuristico é simple's, rápido, multi categorico, porem nao produz modelo com realismo geologico, mas controla a incerteza por meio do parametro gamma mas nao o tipo de contato.
+
+o metodo boundsim é simples, rapido, não trabalha com diferentes categorias, não apresenta realismo geologico, em tese seria possivel controlar a incerteza tomando diferentes valores para a media, mas isso nao acontece na pratica, tambe, nao é possivel controlar o tipo de contato.
+
+A simulacao direta das distancias é um metodo complexo e demorado que trabalha com multiplas categorias simultaneamente porem nao apresenta realismo geologico nem permite o controle do tipo de contato, mas permite controlar a incerteza por meio dos parametros da simulacao.
+
+O metodo que mescla mps com modelagem implicita é simples rapido, multicategorico apresenta realismo geologico mas nao permite controlar a incerteza nem o tipo do contato.
+
+FInalmente o ultimo método, bounmdary simulation, é simples, rapido ja que a simulacao nao é condicional, nao é multi categorico mas apresenta realismo geologico, permite controle da incerteza e do tipo de contato. é o método que marca mais checkboxes disponivel na literatura.
+
+Parte 3
+==========
+
+Slide 50
+************
+
+
+
+
+
+
+
