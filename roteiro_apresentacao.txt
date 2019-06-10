@@ -426,11 +426,51 @@ Embora a modelagem geoógica implícita seja um método consagrado que vem sendo
 Slide 51
 **********
 
+O primeiro aprimoramento que essa tese propões é um novo interpolador para as distâncias assinaladas. 
+
+Redes neurais são baseadas em neurônios, e usadas tipicmente em problemas de identificação.
+
+Esse slide esquematiza uma rede neural. Os nós x na camada um da rede representam os inputs, os nós a na camada dois e três representam as camadas escondidas e a camada 4 é o nó de output e representa a hipótese.
+
+As redes neurais trabalham em um sistema binário de zeros e uns e por isso podem se basear nas propriedades da função sigmoide, que tem seu valor em y entre zero e um para qualquer valor de x. Em uma rede neural uma hipótese é gerada para cada nó e é determinado se seu valor será zero ou um, um valor binário é passado para a próxima camada.
 
 
+Slide 52
+**********
 
+Samson e deutsh propuseram um algoritmo usando tensor flow, que é uma biblioteca da google de código aberto para aprendizado de máquina, para implementar a arquitetura da rede neural. O método é baseado em aprendizado não supervisionado, com o algorito k means e supervisionado com uma rede neural de bases radiais.
 
+Redes neurais de bases radiais apresentam uma arquitetura semelhante as redes neurais artificais, a primcipal diferença é que nas redes neurais de bases radiais só há uma camada escondida e a função de ativação é uma função de base radial ao invés de uma função sigmoide.
 
+Em seu trabalho os autores dividiram o banco de dados em 2/3 para treinamento e 1/3 para teste. Usaram o algoritmo k-means pra determinar o numero de unidades de bases radiais na rede neural. A função de ativação alimentou o algoritmo com coordenadas x, y e z e teores das 5 amostras mais próximas do local a ser estimado.
 
+As imagens mostram mostram a realidade estimativas por krigagem simples e estimativas pelo metodo proposto, que reprodu as caracteristicas visuais da imagem de referencia bem como o variograma e histograma.
+
+Esse algoritmo resolve o problema do interpolador e do variograma ja que essa tecnica nao exige calculo e modelagem da covariância. A pesqusa de samsom e deutsch ainda está em seus estágios iniciais, els nao treinaram o parametro beta da funcao de base radial por exemplo. 
+
+Essa técnica tem um potencial enorme de aplicação na modelagem geológica implicita, porque evita a modelagem do variograma e a escolha de um interpolador. Além disso a função radial gaussiana já é a mais indicada e utilizada com sucesso na interpolação das distâncias. O método ainda pode evoluir para um algoritmo de simulação pra avaliar incerteza dos modelos gelógicos.
+
+Slide 53
+************ 
+
+Um outro objetivo dessa tese é desenvolver uma metodologia objetiva e direta para a definição da zona de incerteza. Ás metodologias disponíveis na literatura podem gerar zonas de incerteza em interseçao com amostras.
+
+É necessário definir essas zonas de incerteza porque eu não preciso simular o grid inteiro, reduzindo o tempo e o esforço computacional e além disso, o método de avaliação de incerteza proposto nessa tese depende de diretamente da largura da zona de incerteza, os contatos variam em seu interior, zonas de incerteza maiores gera maior variação de volume dos corpos geológicos.
+
+A ideia central da metodologia proposta é a entropia, que é calculada como: menos o somatório do produto da probabilidade de cada de cada litologia pelo logaritmo da probabilidade. Dessa forma, a entropia pode ser vista como uma medida da incerteza. 
+
+suponha dois blocos e as probabilidades deles pertecerem a cada uma de três litologias, as probabilidades podem ser facilmente calculadas transformando distâncias estimadas em probabilidades, como mostrado no método heurístico de avaliação de incerteza. A entropia do primeiro bloco é baixa, já que a a categoria 1 tem probabilidade 80% enquanro a entropia do bloco 2 é alta, porque todas as categorias têm probabilidades similares.
+
+Slide 54
+***********
+
+A transformação das distâncias em probabilidades envolve um paâmetro gamma, que contrala a incerteza, esse slide mostra duas seções verticais da entropia calculada para o banco de dados do estudo de caso, com dois valores de gamma diferentes. 
+
+O desafio é desenvolver uma metodologia para calibrar o parametro gamma, de forma que onde existam amostras a entropia seja máxima.
+
+depois de calcular a entropia, uma truncagem deve ser realizada para definição da zona de incerteza. Essa truncagem pode ser baseada no tipo de depósito, depositos com menor entropia de formação, como de bauxita, por exemplo, terão uma zona de incerteza mais estreita. enquanto depositos com alta entropia de formação, como os de ouro, terão zonas de incertezas mais largas.
+
+Slide 55
+***********
 
 
