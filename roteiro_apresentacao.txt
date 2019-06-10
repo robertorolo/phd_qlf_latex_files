@@ -399,11 +399,34 @@ O metodo que mescla mps com modelagem implicita é simples rapido, multicategori
 
 FInalmente o ultimo método, bounmdary simulation, é simples, rapido ja que a simulacao nao é condicional, nao é multi categorico mas apresenta realismo geologico, permite controle da incerteza e do tipo de contato. é o método que marca mais checkboxes disponivel na literatura.
 
+Isso encerra o estado da arte e os próximos slides tratam da minha proposta de tes
+
 Parte 3
 ==========
 
 Slide 50
 ************
+
+Embora a modelagem geoógica implícita seja um método consagrado que vem sendo usado com sucesso há mais de uma década, a metodologia apresenta alguns problemas pontuais:
+
+* o ponto mais critico, que todos os revisores de artigo questionam e é uma dificuldade prática pra quem usa método também é a não estacionariedade das distâncias, que torna a modelgaem do variograma questionável;
+
+* A escolha dos parametros do grid pode ser subjetiva;
+
+* Assim como a escolha do interpolaor;
+
+* Na presença de multiplos dominios, para geologias complexas, simplesemnte tomar a menor distância não produz bons resultados, é necessário uma abordagem hierárquica baseada na gênese do depósito;
+
+* Nos métodos de avaliação de incerteza que usam algum tipo de zona de incerteza, muitas vezes, essa zona não é de fato incerta, existem amotras dentro das zona;
+
+* Estruturas geológicas específicas, como lentes, diques, falhas, odbras, podem não ser reproduzida ou desaparecerem dos modelos;
+
+* é necessário checar se os modelos implítos honram a geologia do depósito e serão úteis nas fases seguntes do processo de avaliação de recursos.
+
+Slide 51
+**********
+
+
 
 
 
