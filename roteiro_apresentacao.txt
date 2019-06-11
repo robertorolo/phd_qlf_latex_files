@@ -12,9 +12,9 @@ Minha proposta de tese é uma extensão natural do trabalho desenvolvido no meu 
 Slide 2
 ********
 
-Nessa apresentação eu ser breve na introdução ao assunto modelagem geológica, vou falar sobre a metodologia tradicional, explícita, sobre métodos automáticos e modelagem implícita, dando destaque para a modelagem implícitas com funções ditância assinaladas.
+Nessa apresentação eu ser breve na introdução ao assunto modelagem geológica, vou falar sobre a metodologia tradicional, explícita,  métodos automáticos e modelagem implícita, dando destaque para a modelagem implícitas com funções ditância assinaladas.
 
-Então vou apresentar o estado da arte em modelagem geológica implícita com distâncias assinaladas usando um banco de dados tridimensional pra mostrar a mecânica do método os diferentes métodos para avaliação de incerteza de modelos geológicos implícitos.
+Então vou apresentar o estado da arte em modelagem geológica implícita com distâncias assinaladas usando um banco de dados tridimensional pra mostrar a mecânica e os diferentes métodos para avaliação de incerteza de modelos geológicos implícitos.
 
 Depois disso eu vou apontar os principais problemas da metodologia e apresentar minha proposta de tese que tem como objetivo eliminar alguns desses problemas.
 
@@ -25,7 +25,7 @@ Estimativas de recursos e reservas minerais demandam a construção de modelos n
 
 * de longo prazo, que abrangem toda a extensão do depósito mineral e compreendem todo o tempo de vida da mina;
 
-* Modelos de médio prazo para planejar de um a seis meses no futuro ;
+* Modelos de médio prazo para planejar de um a seis meses no futuro;
 
 * E  curto prazo pra balizar semanalmente ou diariamente as decisões relativas a controle de teores e planejamento mais detalhado da mina.
 
@@ -48,7 +48,7 @@ Após a coleta, gerenciamento e checagem dos dados, é necessário identificar d
 
 A definição de diferentes domínios é necessária porque a inferência geostatística exige a decisão de estacionariedade. Os teores em cada domínio estacionários pertencem a populações estatística diferentes caracterizadas por seu modelo de distribuição de probabilidades (o histograma) e seu modelo de covariâncias (o variograma).
 
-Uma vez que os domínios tenham sido definidos um modelo tridimensional que dene os limites de cada função aleatória estacionária deve ser construído. Esse é o modelo geológico: Ele define a jurisdição espacial de cada função aleatória. O modelo geológico é o alicerce para para todo o trabalho de estimativa subsequente e muitas vezes é o fator de maior importância na estimativa das tonelagens mineralizadas.
+Uma vez que os domínios tenham sido definidos um modelo tridimensional que define os limites de cada função aleatória estacionária deve ser construído. Esse é o modelo geológico: Ele define a jurisdição espacial de cada função aleatória. O modelo geológico é o alicerce para para todo o trabalho de estimativa subsequente e muitas vezes é o fator de maior importância na estimativa das tonelagens mineralizadas.
 
 Slide 5
 *********
@@ -84,7 +84,7 @@ Em muitos casos a incerteza do modelo geológico pode ser uma fonte de incerteza
 Slide 8
 ********
 
-As desvantagens do método explícito impulsionaram a criação de métodos automáticos, ou pelo menos semi automáticos, de modelagem geológica. Para a criação de modelos determinísticos, podem ser utilizados desde métodos matemáticos mais simples como o vizinho mais próximo, ou geostatístico com a krigagem dos indicadores. 
+As desvantagens do método explícito impulsionaram a criação de métodos automáticos, ou pelo menos semi automáticos, de modelagem geológica. Para a criação de modelos determinísticos, podem ser utilizados desde métodos matemáticos mais simples como o vizinho mais próximo, como geostatísticos como a krigagem dos indicadores. 
 
 Já a necessidade de avaliação da incerteza impulsionou o desenvolvimento de métodos estocásticos, baseados em múltiplas realizações equiprováveis do modelo geológico. Metodologias estabelecidas da geostatística clássica, baseadas no variograma, são a simulação sequencial dos indicadores, simulação gaussiana truncada e siulação plurigaussiana truncada. Outros métodos não baseados no variograma também foram desenvolvidos: simulação multi ponto, simulação baseada em objetos são os principais expoentes. 
 
@@ -107,12 +107,12 @@ Slide 10
 
 Nos próximos slides a modelagem geológica implícita com distâncias assinaladas é explicada passo a passo e os métodos para avaliação de inceteza disponíveis na literatura são apresentadas. 
 
-Um banco de dados sintético que emula um depósito de cobre pórfiro é usado para exempleficar e comparar os métodos. São 72 furos, totalizando cerca de 3 mil amostras, distribuídas entre três categorias: uma rocha encaixante e duas intrusões: uma vertical e uma tabular com mrgulho. O slide mostra as proprções de cada litologia e uma vista em perspectiva das amostras.
+Um banco de dados sintético que emula um depósito de cobre pórfiro é usado para exemplificar e comparar os métodos. São 72 furos, totalizando cerca de 3 mil amostras, distribuídas entre três categorias: uma rocha encaixante e duas intrusões: uma vertical e uma tabular com mergulho. O slide mostra as proprções de cada litologia e uma vista em perspectiva das amostras.
 
 Slide 11
 **********
 
-O primeiro passo é codificar as amostras em indicadores: uma amostra recebe o indicador 1 se pertencer ao domínio que está sendo modelado e 0 caso contrário. O slide mostra as amostras amostas codificadas em indicadores para as categorias 1, 2 e 3.
+O primeiro passo é codificar as amostras em indicadores: uma amostra recebe o indicador 1 se pertencer ao domínio que está sendo modelado e 0 caso contrário. O slide mostra as amostras codificadas em indicadores para as categorias 1, 2 e 3.
 
 Slide 12
 ***********
@@ -129,15 +129,15 @@ Esse slide mostra as distâncias assinaladas calculadas para as litologias 1, 2 
 Slide 14
 ***********
 
-Agora as distâncias calculadas precisam ser interpoladas, alguns dos métodos de interpolação, que eu vou detalhar daaqui a pouco, exigem uma função de covariância, que pode ser obtida a partir dos dados.
+Agora as distâncias calculadas precisam ser interpoladas, alguns dos métodos de interpolação, que eu vou detalhar daqui a pouco, exigem uma função de covariância, que pode ser obtida a partir dos dados.
 
 Aqui surge o primeiro problema do método: as distâncias assinaladas não são estacionárias, isso quer dizer que o variograma não se estabiliza em um patamar, ele cresce indefinidamente à medida que o lag aumenta, dificultando a inferência do alcance. Além disso, as distâncias apresentam um comportamento extremamaente contínuo, que torna difícil a indentificação de direções principais. Esse caráter contínuo das distâncias faz com que o modelo gaussiano seja o mais indicado pra ajustar os variogramas.
 
 A literatura sugere alternativas:
 
-* Treinar o vvariograma usando validação cruzada;
+* Treinar o variograma usando validação cruzada;
 
-* Tentar modelera de fato os variogramas experimtnais;
+* Tentar modelar de fato os variogramas experimtnais;
 
 * Calcular e modelar o variograma dos indicadores e transformá-los em um equivalente gaussiano;
 
@@ -146,26 +146,26 @@ A literatura sugere alternativas:
 Slide 15
 **********
 
-Esse slide mostra os variogramas das distâncias asssinaladas calculados e modelados a partir do modelo gaussiano para as três litologias. Aqui eu calculei o variograma estandarizado, Então defino o range na na variância igual a um, mas note que o valor da variância continua aumentando.
+Esse slide mostra os variogramas das distâncias asssinaladas calculados e modelados a partir do modelo gaussiano para as três litologias. Aqui eu calculei o variograma estandarizado, Então defino o range na variância igual a um, mas note que o valor da variância continua aumentando.
 
 Slide 16
 **********
 
-Já esse slide mostra os variograma calculados e modelados a partir do modelo esférico para os indicadores de cada categoria. Em tese, os variogramas dos indicadores são mais fáceis de modelar esão estacionários. Mas na prática, muitas vezes os variogramas dos indicadores são mais ruidosos e menos estruturados do 	que o das das distâncias assinaladas.
+Já esse slide mostra os variograma calculados e modelados a partir do modelo esférico para os indicadores de cada categoria. Em tese, os variogramas dos indicadores são mais fáceis de modelar e são estacionários. Mas na prática, muitas vezes os variogramas dos indicadores são mais ruidosos e menos estruturados do 	que o das das distâncias assinaladas.
 
 Slide 17
 ***********
 
-Além das alternativas sugeridas pela literatura para modelagem do variograma, aqui no laboratório a gente testou as tabelas de covariância: nesse método a partir dos dados eu crio um modelo base de covariância de onde é possível derivar, usando transformada de fourrier, a tabela de covariâcia qu epode ser usada no processo de estimativa ou simulação. 
+Além das alternativas sugeridas pela literatura para modelagem do variograma, aqui no laboratório a gente testou as tabelas de covariância: nesse método a partir dos dados eu crio um modelo base de covariância de onde é possível derivar, usando transformada de fourrier, a tabela de covariâcia que pode ser usada no processo de estimativa ou simulação. 
 
-Os resultados são promissores, torna o método completamente automático, sem nenhuma interferência do usuário. Porém, ainda existem alguns problemas operacionais com as tableas de covariância que nãopermitem uma aplicação geral pra qualquer tipo de depósito.
+Os resultados são promissores, torna o método completamente automático, sem nenhuma interferência do usuário. Porém, ainda existem alguns problemas operacionais com as tableas de covariância que não permitem uma aplicação geral pra qualquer tipo de depósito.
 
 Slide 18
 **********
 
 Essas ditâncias calculadas e variografadas devem ser interpoladas para todos os nós de um grid. Embora os métodos implícitos sejam gridless, que dizer, eles não dependem de um grid, os algoritmos de extração de iso superfícice exigem que a propriedade exista em um grid regular.  
 
-Para um número constante de amostras o tempo necessário para interpolar a função volume aumenta linearmente com o número de nós. Os parâmetros do grid, muitas vezes são determinados por parâmetros técnicos do projeto. Para a definição do modelo geológico é impotante que o grid possa reproduzir a menor estrutura geológica de interesse.
+Para um número constante de amostras o tempo necessário para interpolar a função volume aumenta linearmente com o número de nós. Os parâmetros do grid, muitas vezes são determinados por parâmetros técnicos do projeto. Porém, para a definição do modelo geológico é impotante que o grid possa reproduzir a menor estrutura geológica de interesse.
 
 Essa imagem mostra um modelo geológico multi categórico em grids de diferentes resoluões: para as dimensões 15 por 10 parecem muito grosseiros e as categorias dos pontos amostrais não são reproduzidas, já a dimensão 25 por 15 eu ganho um pouco de resolução, mas as estruturas  ainda não tem uma forma geológica. Pra 50 por 35 as formas o modelo se suavizam, mas ainda tem algum serrilhado, 100 por 75 as formas estão bastante suaves e as categorias das amostras são reproduzidas. Pra 150 por 120 não parece haver significativa melhora em relação ao modelo anterior. 
 
@@ -196,7 +196,7 @@ Diferentes métodos de interpolação podem ser encontrados na literatura:
 Slide 21
 **********
 
-Esse slide mostra o porquê  de usar métodos globais. O primeiro modelo foi interpolado por krigagem ordinária usando 40 amostras por estimaitva, e fica bem evidente o surgimento de artefatos, causados pel aestratégia de busca. O segundo modelo foi interpolado com 100 amostras por estimativa e mesmo assim ainda é possível observar artefatos no modelo. O último modelo foi interpolado por RBF, que é um método global e gera modelos suaves e livres de artefatos.
+Esse slide mostra o porquê  de usar métodos globais. O primeiro modelo foi interpolado por krigagem ordinária usando 40 amostras por estimaitva, e fica bem evidente o surgimento de artefatos, causados pela estratégia de busca. O segundo modelo foi interpolado com 100 amostras por estimativa e mesmo assim ainda é possível observar artefatos no modelo. O último modelo foi interpolado por RBF, que é um método global e gera modelos suaves e livres de artefatos.
 
 
 Slide 22
@@ -220,14 +220,14 @@ A Leapgfrog tem um algoritmo de rbf patenteado, chamado fast rbf, que é ainda m
 Slide 24
 **********
 
-O modelo implícito, que é função distância interpolada, tem infinitas iso usperfícies, pra visualizar o modelo geológico eu preciso extrair uma dessas superfície, e o melhor palpite pra onde se localiza a interface é a iso superfície zero. esse slide mosra a isosuperfície zero extraída, usando o algoritmo de cubos marchantes no software paraview, para a categoria 1. A partir dos modelos implícitos apresentados anteriormente. krigagem ordinária com 40 amostras, 100 amostras e rbf.
+O modelo implícito, que é a função distância interpolada, tem infinitas iso usperfícies, pra visualizar o modelo geológico eu preciso extrair uma dessas superfície, e o melhor palpite pra onde se localiza a interface é a iso superfície zero. esse slide mostra a isosuperfície zero extraída, usando o algoritmo de cubos marchantes no software paraview, para a categoria 1. A partir dos modelos implícitos apresentados anteriormente. krigagem ordinária com 40 amostras, 100 amostras e rbf.
 
 É possível observar que os artefatos dos modelos implícitos são transferidos para as isosuperfícies, e que métodos globais que geram modelos suaves, naturalemtne geram iso superfícies suaves, que apresentam realismo geológico.
 
 Slide 25
 ***********
 
-Esse slide mostra dias vistas diferentes da iso superficie zera extraida do modelo implicita interpolado por rbf para a categoria 1, unto com as amostras. Além de criar modelos realistas o rbf honra as amotras.
+Esse slide mostra duas vistas diferentes da iso superficie zera extraida do modelo implicita interpolado por rbf para a categoria 1, junto com as amostras. Além de criar modelos realistas o rbf honra as amotras.
 
 Slide 26
 **********
@@ -242,7 +242,7 @@ Silva e Deutsch propuseram uma adaptação para o método para modelar múltipla
 Slide 27
 **********
 
-Esse slide mostra um esquema da modelagem geológica implícita para múltiplos domínios simultâneos: nas bases dos gráficos estão as amostras, no nivel superior a projeção das distâncias assinaladas interpoladas, para categoria 1 as distancias são negativas onde tem amostra da categoria 1, que ;e na parte central da área. mema coisa para as categorias 2, 3 e 4. Pra cirar o modelo geológico é só reter a categoria responsável pela menor distância. na região central é a categoria 1, na parte noroeste a 3 nordeste a 4 e em volta do centro a categoria 2.
+Esse slide mostra um esquema da modelagem geológica implícita para múltiplos domínios simultâneos: nas bases dos gráficos estão as amostras, no nivel superior a projeção das distâncias assinaladas interpoladas, para categoria 1 as distancias são negativas onde tem amostra da categoria 1, que é na parte central da área. mesma coisa para as categorias 2, 3 e 4. Pra cirar o modelo geológico é só reter a categoria responsável pela menor distância. na região central é a categoria 1, na parte noroeste a 3 nordeste a 4 e em volta do centro a categoria 2.
 
 Slide 28
 ************
@@ -274,7 +274,7 @@ Esse slide mostra os vetores de anostropia local para cada partição e a iso su
 Slide 33
 **********
 
-Pra obter resultados melhores é possível derivar os vetores de anisotropia local, interpolar as distâncias usando essa anisotropia local, então a partir das distâncias interpoladas, derivo novamente a anisotropia local e interpolo novamente, esse processo iterativo continua até que um cirtétio de parada pré estabelecido seja atingido.
+Pra obter resultados melhores é possível derivar os vetores de anisotropia local, interpolar as distâncias usando essa anisotropia local, então a partir das distâncias interpoladas, derivar novamente a anisotropia local e interpolar novamente, esse processo iterativo continua até que um cirtétio de parada pré estabelecido seja atingido.
 
 a imagem mostra uma dobra em que os flancos vão se definindo com as iterações. Apesar de ser um método iterativo, ele é bastante eficiente porque o critério de parada pode ser atingido em diferentes iterações em cada partição.
 
@@ -292,12 +292,12 @@ O método mais simples, é uma avaliação heirística da incerteza, porque não
 
 o grafico de barras mostra as ditâncias assinaladas interpaladas para um bloco em particular, e ao lado as distâncias transformadas em probabilidades, quanto menor a distância, quanto mais negativa, maior a probabilidade. 
 
-Esse é um método bem simples, rápido e direto e funciona pra multiplas categorias simultâneas. Em contrapartida, a escolha do parâmetro gamma é subjetiva, alguns autores indicam que seja a amior distância estimada entre todas as categorias, e dependendo do gamma escolhido nem blocos co locados com amostras recebem prbabilidade 100%.
+Esse é um método bem simples, rápido e direto e funciona pra multiplas categorias simultâneas. Em contrapartida, a escolha do parâmetro gamma é subjetiva, alguns autores indicam que seja a maior distância estimada entre todas as categorias, e dependendo do gamma escolhido nem blocos co locados com amostras recebem prbabilidade 100%.
 
 Slide 36
 ***********
 
-O próximo método, aumentando um pouco a complexidade, consiste, primeiramente em realizar um bootstrap espacial da média da distância assinalada, o bootstrap espacial só leva em consideração amostras não correlaciadas. Assim eu tenho um histograma da média, que é mostrado no slide, a partir desse histograma eu posso tomar valores, como o p10, p50 e p90 por exemplo, e intepolar as ditâncias assinaladas por krigagem simples, usando esses valores tomados como média. Em tese, eu poderia extrair diferentes iso superfícies zero dos modelos interpolados com diferentes médias. 
+O próximo método, aumentando um pouco a complexidade, consiste, primeiramente em realizar um bootstrap espacial da média da distância assinalada, o bootstrap espacial só leva em consideração amostras não correlacionadas. Assim eu tenho um histograma da média, que é mostrado no slide, a partir desse histograma eu posso tomar valores, como o p10, p50 e p90 por exemplo, e intepolar as ditâncias assinaladas por krigagem simples, usando esses valores tomados como média. Em tese, eu poderia extrair diferentes iso superfícies zero dos modelos interpolados com diferentes médias. 
 
 Porém na prática, dependendo da configuração espacial das amostras a krigagem simples não é sensível à media, para a categoria do banco de dados do estudo de caso, a diferença de volume entre as isosuperficies extraidas do modelo p10 e p90 é menor que 1%. O método não avalia adequadamente a incerteza, além disso, trabalha com uma categoria por vez, na presença de múltiplos domínios é necessário uma abordagem heirárquica.
 
@@ -364,7 +364,7 @@ A partir do valor escolhido para C, eu modifico as distâncias calculadas, soman
 
 Então essas distâncias modificadas são interpoladas para todos os nós do grid, uma truncagem no modelo interpolado deve ser feita entra -c e +c pra definir a zona de incerteza.
 
-Na zona de incerteza eu realizao uma simulação gaussiana não condicional, o variograma pode ser o mesmo usado para interpolar as distâncias assinaladas. Para tornar a simulação gaussiana entre +c e -c dve ser tomado su valor acumulado, multiplicado por 2c e subtraído de C.
+Na zona de incerteza eu realizao uma simulação gaussiana não condicional, o variograma pode ser o mesmo usado para interpolar as distâncias assinaladas. Para tornar a simulação gaussiana entre +c e -c deve ser tomado seu valor acumulado, multiplicado por 2c e subtraído de C.
 
 Slide 45
 ***********
@@ -391,13 +391,13 @@ Slide 49
 
 Essa tabela mostra um sumário dos métodos de avaliação de incerteza apresentados, o método heuristico é simple's, rápido, multi categorico, porem nao produz modelo com realismo geologico, mas controla a incerteza por meio do parametro gamma mas nao o tipo de contato.
 
-o metodo boundsim é simples, rapido, não trabalha com diferentes categorias, não apresenta realismo geologico, em tese seria possivel controlar a incerteza tomando diferentes valores para a media, mas isso nao acontece na pratica, tambe, nao é possivel controlar o tipo de contato.
+o metodo boundsim é simples, rapido, não trabalha com diferentes categorias, não apresenta realismo geologico, em tese seria possivel controlar a incerteza tomando diferentes valores para a media, mas isso nao acontece na pratica, também nao é possivel controlar o tipo de contato.
 
 A simulacao direta das distancias é um metodo complexo e demorado que trabalha com multiplas categorias simultaneamente porem nao apresenta realismo geologico nem permite o controle do tipo de contato, mas permite controlar a incerteza por meio dos parametros da simulacao.
 
 O metodo que mescla mps com modelagem implicita é simples rapido, multicategorico apresenta realismo geologico mas nao permite controlar a incerteza nem o tipo do contato.
 
-FInalmente o ultimo método, bounmdary simulation, é simples, rapido ja que a simulacao nao é condicional, nao é multi categorico mas apresenta realismo geologico, permite controle da incerteza e do tipo de contato. é o método que marca mais checkboxes disponivel na literatura.
+Finalmente o ultimo método, boundary simulation, é simples, rapido ja que a simulacao nao é condicional, nao é multi categorico mas apresenta realismo geologico, permite controle da incerteza e do tipo de contato. é o método que marca mais checkboxes disponivel na literatura.
 
 Isso encerra o estado da arte e os próximos slides tratam da minha proposta de tes
 
@@ -411,7 +411,7 @@ Embora a modelagem geoógica implícita seja um método consagrado que vem sendo
 
 * o ponto mais critico, que todos os revisores de artigo questionam e é uma dificuldade prática pra quem usa método também é a não estacionariedade das distâncias, que torna a modelgaem do variograma questionável;
 
-* A escolha dos parametros do grid pode ser subjetiva;
+* além disso, a escolha dos parametros do grid pode ser subjetiva;
 
 * Assim como a escolha do interpolaor;
 
@@ -419,7 +419,7 @@ Embora a modelagem geoógica implícita seja um método consagrado que vem sendo
 
 * Nos métodos de avaliação de incerteza que usam algum tipo de zona de incerteza, muitas vezes, essa zona não é de fato incerta, existem amotras dentro das zona;
 
-* Estruturas geológicas específicas, como lentes, diques, falhas, odbras, podem não ser reproduzida ou desaparecerem dos modelos;
+* Estruturas geológicas específicas, como lentes, diques, falhas, dobras, podem não ser reproduzida ou desaparecerem dos modelos;
 
 * é necessário checar se os modelos implítos honram a geologia do depósito e serão úteis nas fases seguntes do processo de avaliação de recursos.
 
@@ -440,7 +440,7 @@ Slide 52
 
 Samson e deutsh propuseram um algoritmo usando tensor flow, que é uma biblioteca da google de código aberto para aprendizado de máquina, para implementar a arquitetura da rede neural. O método é baseado em aprendizado não supervisionado, com o algorito k means e supervisionado com uma rede neural de bases radiais.
 
-Redes neurais de bases radiais apresentam uma arquitetura semelhante as redes neurais artificais, a primcipal diferença é que nas redes neurais de bases radiais só há uma camada escondida e a função de ativação é uma função de base radial ao invés de uma função sigmoide.
+Redes neurais de bases radiais apresentam uma arquitetura semelhante as redes neurais artificais, a principal diferença é que nas redes neurais de bases radiais só há uma camada escondida e a função de ativação é uma função de base radial ao invés de uma função sigmoide.
 
 Em seu trabalho os autores dividiram o banco de dados em 2/3 para treinamento e 1/3 para teste. Usaram o algoritmo k-means pra determinar o numero de unidades de bases radiais na rede neural. A função de ativação alimentou o algoritmo com coordenadas x, y e z e teores das 5 amostras mais próximas do local a ser estimado.
 
@@ -475,7 +475,7 @@ Slide 55
 
 Essa tese também propões investigar diferentes ténicas para a avaliação da incerteza em modelos geológico multi categóricos. Para que os modelos gerados sejam livres de ruído, tenham contatos suaves e contínuos e para que o que método seja rápido e não exija muito esforço computacional é preciso que esses métodos sejam baseados em uma variável auxiliar contínua, gerada por simulação não condicional. 
 
-O primeiro método que eu quero investigar é baseado no boundary simulation, que mostrei alguns slides atrás. A diferença aqui é que pra múltiplas categorias preciso de múltiplas distâncias simuladas que serão comparadas às estimadas ou estandardizar as distâncias interpoladas para que possam ser coparadas com uma única variável simulada.
+O primeiro método que eu quero investigar é baseado no boundary simulation, que mostrei alguns slides atrás. A diferença aqui é que pra múltiplas categorias preciso de múltiplas distâncias simuladas que serão comparadas às estimadas ou será necessário estandardizar as distâncias interpoladas para que possam ser coparadas com uma única variável simulada.
 
 Slide 56
 **********
@@ -491,25 +491,25 @@ Na simulação gaussiana truncada, uma variável continua gaussiana é simulada,
 
 A imagem mostra a representação de um histograma de uma variável gaussiana, entao toda vez que o valor simulado para um bloco cair nessa regiao da esquerda ela é classificada como arenito, arenito-xisto na regiao central e xisto na região à direita.
 
-O uso de apenas uma variável gaussina pra derivar a variável categórica, em muitos casos é restritivo demais, porque limita a técnica ambiantes estratificados, onde algumas das litogias não se tocam.
+O uso de apenas uma variável gaussina pra derivar a variável categórica, em muitos casos é restritivo demais, porque limita a técnica ambientes estratificados, onde algumas das litogias não se tocam.
 
 Slide 58
 ***********
 
-Uma evolução natural da simulação gaussiana truncada, é a simulação pluri gaussiana truncda, que usa mais de uma variável gaussiana para derivar a variável categórica, permitindo a reprodução de estruturas mais complexas. Embora seja possível usar quantas variáveis gaussianas eu desejar, o uso geralemtne é limitado à apenas duas, pela dificuldade em se criar regras de truncagem em mais de duas dimensões.
+Uma evolução natural da simulação gaussiana truncada, é a simulação pluri gaussiana truncda, que usa mais de uma variável gaussiana para derivar a variável categórica, permitindo a reprodução de estruturas mais complexas. Embora seja possível usar quantas variáveis gaussianas se desejar, o uso geralemtne é limitado à apenas duas, pela dificuldade em se criar regras de truncagem em mais de duas dimensões.
 
 Regra de truncagem é uma parte importante da metodologia, ja que ela controla os contatos entre as categorias, suas trabsições e proporções. A regra de truncagem, tradicionalemnte, é baseada nas probabilidades de transição calculadas a partir dos dados.
 
-Essa figura mostra dias variaveis gaussianas x e y, e uma regra de truncagem definida para quatro categorias, diferentemente da simulacao ogaissiana truncada, eu preciso observar o valor das duas gaussianas simultaneamente, e a partir da regra de truncagem, classificar o bloco simulado. Entao se na gaussiana y o valor simulado caiu nessa regiao, e na gaussiana x, caiu nessa, por exemplo, o bloco é classificado como litologia 3.
+Essa figura mostra duas variaveis gaussianas x e y, e uma regra de truncagem definida para quatro categorias, diferentemente da simulacao gaussiana truncada, eu preciso observar o valor das duas gaussianas simultaneamente, e a partir da regra de truncagem, classificar o bloco simulado. Entao se na gaussiana y o valor simulado caiu nessa regiao, e na gaussiana x, caiu nessa, por exemplo, o bloco é classificado como litologia 3.
 
 Slide 59
 **********
 
 Diferentes regras de truncagem pode ser definidas, geralmente o espaço gaussiano multivariado é particionado em paralelepípedos, como os mostrados no slide, mas diferentes tecnicas para a regra de truncagem foram propostas:
 
-* A allard constroi automaticamente a regra de truncagem usando regressao baseada em kernel
+* Allard constroi automaticamente a regra de truncagem usando regressao baseada em kernel
 
-* sadeghi e boisvert usaram sumaled anealing para otiizar a regra de truncagem
+* sadeghi e boisvert usaram sikulated anealing para otimizar a regra de truncagem
 
 * deutch pai e dutsh filho usaram MDS pra definir regras de truncage complexas
 
@@ -520,16 +520,16 @@ Diferentes regras de truncagem pode ser definidas, geralmente o espaço gaussian
 Slide 60
 ************
 
-Geralmente essas regras de truncagem são definidas globalemtne e usadas para todo o deposito, mas em muitos casos as proporções não estacionárias matheron propos em 1987 curvas de proporções verticas, nesse caso, a regra de truncagem variava com a profundidade.
+Geralmente essas regras de truncagem são definidas globalemtne e usadas para todo o deposito, mas em muitos casos as proporções não são estacionárias matheron propos em 1987 curvas de proporções verticas, nesse caso, a regra de truncagem variava com a profundidade.
 
 Essa tese propõe a definição dinâmica da regra de truncagem, bivariada, pra cada bloco mas somente dentro da zona de incerteza. A regra de truncagem é contruída a partir das probabilidades locais, que foram derivadas a partir das distâncias estimadas. 
 
-O slide mostra dois blocos em duas regiões diferentes do depósit, dentro da zona de incertza. Entao pra esse bloco debaixo existe uma probabilidade alta dele pertence a categoria rosa, e uma probabilidade mais baixa de pertencer a azul, ja o bloco de cima, existe a probabilidade de pertencer as tres categorias, a partir dessas probabilidades eu posso construir uma regra de truncagem, simular duas gaussianas nao condicionais, comparar o valor das duas com a regra de truncagem e classificar o bloco em cada realização.
+O slide mostra dois blocos em duas regiões diferentes do depósito, dentro da zona de incertza. Entao pra esse bloco debaixo existe uma probabilidade alta dele pertence a categoria rosa, e uma probabilidade mais baixa de pertencer a azul, ja o bloco de cima, existe a probabilidade de pertencer as tres categorias, a partir dessas probabilidades eu posso construir uma regra de truncagem, simular duas gaussianas nao condicionais, comparar o valor das duas com a regra de truncagem e classificar o bloco em cada realização.
 
 Slide 60
 **********
 
-Essa regra de truncagem deve ser definida de forma automática pra cada bloco, uma das técnicas que eu acredito ser mais promissora é a proposta por deutshc pai e deutsh filho, que constrói a regra de truncagem a partir de MDS e decomposição de voronoi.
+Essa regra de truncagem deve ser definida de forma automática pra cada bloco, uma das técnicas que eu acredito ser bastante promissora é a proposta por deutshc pai e deutsh filho, que constrói a regra de truncagem a partir de MDS e decomposição de voronoi.
 
 Um outro desafio é definir os variograms das variáveis gaussianas que controlam a continuidade dos domínios.
 
@@ -538,9 +538,9 @@ Slide 61
 
 Finalmente, o ultimo aprimoramento proposto nessa tese é um método de validação de modelos geológicos implícitos. 
 
-O estatistico box diz que todos os modelos estão errados mas alguns são úteis. O jun coan que é um dos precursores da modelagem implicita, hoje trabalha na leapfrog, é um grande critico da modelagem implicita, ele diz que a modelagm implicta cria modelos de forma fácil e rápida mas cria modelos ruins de forma facil e rápida. 
+O estatistico box diz que todos os modelos estão errados mas alguns são úteis. O jun cowan que é um dos precursores da modelagem implicita, hoje trabalha na leapfrog, é um grande critico da modelagem implicita, ele diz que a modelagm implicta cria modelos de forma fácil e rápida mas cria modelos ruins de forma facil e rápida. 
 
-A modelagem implicta tende a gerar estrutas circulares ou em forma de salsicha ao redor dos furos, como essas mostradas no slide, que não são estruturas geológicas.   
+A modelagem implicta tende a gerar estrutas esféricas ou em forma de salsicha ao redor dos furos, como essas mostradas no slide, que não são estruturas geológicas.   
 
 Minha proposta é desenvolver um algoritmo para chegagem visual automática de modelos geológicos implícitos, esse algoritmo deve reconhecer padrões indesejadas, que serão corrigidas com a alteração de parâmtros ou utilizando outros métodos.
 
@@ -551,27 +551,23 @@ Em suma essa tese propõe:
 
 * O desenvolvimento de um interpolador baseado em redes neurais que não depende de um variograma;
 
-* O desenvolvimento de uma metodologia para calibra;cão de uma zona de incerteza justa e livre de viés, pra isso é preciso calibrar o parametro gamma, usado na tranformação das distâncias em probabilidades e truncar o campo de entropia, com base no tipo de depósito;
+* O desenvolvimento de uma metodologia para calibracão de uma zona de incerteza justa e livre de viés, pra isso é preciso calibrar o parametro gamma, usado na tranformação das distâncias em probabilidades e truncar o campo de entropia, com base no tipo de depósito;
 
-* uma metodologia para avaliação de incerteza que gere modelos continuos, livres de ruido, pra isso é preciso definir uma regra de truncagem local em cada bloco e definir um modelo de covariancia pra cada variavel latenta, ou variavel gaussiana auxiliar.
+* uma metodologia para avaliação de incerteza que gere modelos continuos, livres de ruido, pra isso é preciso definir uma regra de truncagem local em cada bloco e definir um modelo de covariancia pra cada variavel latente, ou variavel gaussiana auxiliar.
 
 * e finalemtne uma metodologia pra validar modelos implícitos, que identifique de forma automatica padroes indesejáveis.
 
 Slide 62
 ***********
 
-Eu já venho desenvolvendo uma biblioteca de modelagem geológica implícita em python, tá no github, convido todos os colegas a testarem e editarem o código. Por enquanto ala calcula as distâncias, faz validação cruzada baseadas em k-folds, interpola por rbf, eu fiz eu trabalhei numa primeira tentativa de calibrar o gamma a partir das moastras, mas não deu muito certo, então estou trabalhando em uma nova abordagem. A biblioteca ainda calcula as probabilidades, e calcula a entropia, por enquanto.
+Eu já venho desenvolvendo uma biblioteca de modelagem geológica implícita em python, tá no github, convido todos os colegas a testarem e editarem o código. Por enquanto ala calcula as distâncias, faz validação cruzada baseadas em k-folds, interpola por rbf, eu trabalhei numa primeira tentativa de calibrar o gamma a partir das moastras, mas não deu muito certo, então estou trabalhando em uma nova abordagem. A biblioteca ainda calcula as probabilidades, e calcula a entropia, por enquanto.
 
 Slide 63
 ***********
 
-Estou entrando no segundo ano de doutorado, a revisão biliográfica já est;a feita, eu comecei a trabalhar no desenvolvimento de software, no momento estou trabalhando na definição da zona de incerza, e dando os primeiros passos nas metodologias de avaliação de incerteza, para os proximoms meses o planejamento é também começar a trabalhar no interpolador. Os ultimos meses serão dedicados à escrita da tese e publicação dos resultados.
+Estou entrando no segundo ano de doutorado, a revisão biliográfica já foi feita, eu comecei a trabalhar no desenvolvimento de software, no momento estou trabalhando na definição da zona de incerza, e dando os primeiros passos nas metodologias de avaliação de incerteza, para os proximoms meses o planejamento é também começar a trabalhar no interpolador. Os últimos meses serão dedicados à escrita da tese e publicação dos resultados.
 
 Slide 64
 *********
 
-Por fim as referências bibliográficas e eu gostaria de agradecer novamente a preseça de todos, ao LPM e à capes. Muito obrigado! 
-
-
-
-
+Por fim as referências bibliográficas e eu gostaria de agradecer novamente a preseça de todos, ao LPM e à capes. Muito obrigado!
