@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.1)  11 JUN 2019 09:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.26)  11 JUN 2019 13:42
 entering extended mode
 **./apresentaco.tex
 (apresentaco.tex
@@ -167,11 +167,11 @@ Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ties\pgfrcs.code.tex"
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf\pgf.r
 evision.tex")
-Package: pgfrcs 2019/04/04 v3.1.2 (3.1.2)
+Package: pgfrcs 2019/05/09 v3.1.3 (3.1.3)
 ))
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
 mlayer\pgfsys.code.tex"
-Package: pgfsys 2019/04/04 v3.1.2 (3.1.2)
+Package: pgfsys 2019/05/09 v3.1.3 (3.1.3)
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utili
 ties\pgfkeys.code.tex"
@@ -190,6 +190,8 @@ ties\pgfkeysfiltered.code.tex"
 \pgf@yb=\dimen135
 \pgf@xc=\dimen136
 \pgf@yc=\dimen137
+\pgf@xd=\dimen138
+\pgf@yd=\dimen139
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
 \c@pgf@counta=\count108
@@ -203,27 +205,27 @@ ties\pgfkeysfiltered.code.tex"
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
 mlayer\pgf.cfg"
-File: pgf.cfg 2019/04/04 v3.1.2 (3.1.2)
+File: pgf.cfg 2019/05/09 v3.1.3 (3.1.3)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
 mlayer\pgfsys-pdftex.def"
-File: pgfsys-pdftex.def 2019/04/04 v3.1.2 (3.1.2)
+File: pgfsys-pdftex.def 2019/05/09 v3.1.3 (3.1.3)
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
 mlayer\pgfsys-common-pdf.def"
-File: pgfsys-common-pdf.def 2019/04/04 v3.1.2 (3.1.2)
+File: pgfsys-common-pdf.def 2019/05/09 v3.1.3 (3.1.3)
 )))
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
 mlayer\pgfsyssoftpath.code.tex"
-File: pgfsyssoftpath.code.tex 2019/04/04 v3.1.2 (3.1.2)
+File: pgfsyssoftpath.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \pgfsyssoftpath@smallbuffer@items=\count113
 \pgfsyssoftpath@bigbuffer@items=\count114
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
 mlayer\pgfsysprotocol.code.tex"
-File: pgfsysprotocol.code.tex 2019/04/04 v3.1.2 (3.1.2)
+File: pgfsysprotocol.code.tex 2019/05/09 v3.1.3 (3.1.3)
 ))
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcol
 or.sty"
@@ -246,7 +248,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcore.code.tex"
-Package: pgfcore 2019/04/04 v3.1.2 (3.1.2)
+Package: pgfcore 2019/05/09 v3.1.3 (3.1.3)
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
 pgfmath.code.tex"
@@ -256,7 +258,7 @@ pgfmathcalc.code.tex"
 pgfmathutil.code.tex")
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
 pgfmathparser.code.tex"
-\pgfmath@dimen=\dimen138
+\pgfmath@dimen=\dimen140
 \pgfmath@count=\count115
 \pgfmath@box=\box36
 \pgfmath@toks=\toks23
@@ -285,39 +287,41 @@ pgfmathfunctions.integerarithmetics.code.tex")))
 pgfmathfloat.code.tex"
 \c@pgfmathroundto@lastzeros=\count116
 ))
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfint.code.tex")
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorepoints.code.tex"
-File: pgfcorepoints.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgf@picminx=\dimen139
-\pgf@picmaxx=\dimen140
-\pgf@picminy=\dimen141
-\pgf@picmaxy=\dimen142
-\pgf@pathminx=\dimen143
-\pgf@pathmaxx=\dimen144
-\pgf@pathminy=\dimen145
-\pgf@pathmaxy=\dimen146
-\pgf@xx=\dimen147
-\pgf@xy=\dimen148
-\pgf@yx=\dimen149
-\pgf@yy=\dimen150
-\pgf@zx=\dimen151
-\pgf@zy=\dimen152
+File: pgfcorepoints.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgf@picminx=\dimen141
+\pgf@picmaxx=\dimen142
+\pgf@picminy=\dimen143
+\pgf@picmaxy=\dimen144
+\pgf@pathminx=\dimen145
+\pgf@pathmaxx=\dimen146
+\pgf@pathminy=\dimen147
+\pgf@pathmaxy=\dimen148
+\pgf@xx=\dimen149
+\pgf@xy=\dimen150
+\pgf@yx=\dimen151
+\pgf@yy=\dimen152
+\pgf@zx=\dimen153
+\pgf@zy=\dimen154
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorepathconstruct.code.tex"
-File: pgfcorepathconstruct.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgf@path@lastx=\dimen153
-\pgf@path@lasty=\dimen154
+File: pgfcorepathconstruct.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgf@path@lastx=\dimen155
+\pgf@path@lasty=\dimen156
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorepathusage.code.tex"
-File: pgfcorepathusage.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgf@shorten@end@additional=\dimen155
-\pgf@shorten@start@additional=\dimen156
+File: pgfcorepathusage.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgf@shorten@end@additional=\dimen157
+\pgf@shorten@start@additional=\dimen158
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorescopes.code.tex"
-File: pgfcorescopes.code.tex 2019/04/04 v3.1.2 (3.1.2)
+File: pgfcorescopes.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \pgfpic=\box37
 \pgf@hbox=\box38
 \pgf@layerbox@main=\box39
@@ -325,64 +329,64 @@ File: pgfcorescopes.code.tex 2019/04/04 v3.1.2 (3.1.2)
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcoregraphicstate.code.tex"
-File: pgfcoregraphicstate.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgflinewidth=\dimen157
+File: pgfcoregraphicstate.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgflinewidth=\dimen159
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcoretransformations.code.tex"
-File: pgfcoretransformations.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgf@pt@x=\dimen158
-\pgf@pt@y=\dimen159
-\pgf@pt@temp=\dimen160
+File: pgfcoretransformations.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgf@pt@x=\dimen160
+\pgf@pt@y=\dimen161
+\pgf@pt@temp=\dimen162
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorequick.code.tex"
-File: pgfcorequick.code.tex 2019/04/04 v3.1.2 (3.1.2)
+File: pgfcorequick.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcoreobjects.code.tex"
-File: pgfcoreobjects.code.tex 2019/04/04 v3.1.2 (3.1.2)
+File: pgfcoreobjects.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorepathprocessing.code.tex"
-File: pgfcorepathprocessing.code.tex 2019/04/04 v3.1.2 (3.1.2)
+File: pgfcorepathprocessing.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorearrows.code.tex"
-File: pgfcorearrows.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgfarrowsep=\dimen161
+File: pgfcorearrows.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgfarrowsep=\dimen163
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcoreshade.code.tex"
-File: pgfcoreshade.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgf@max=\dimen162
+File: pgfcoreshade.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgf@max=\dimen164
 \pgf@sys@shading@range@num=\count118
 \pgf@shadingcount=\count119
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcoreimage.code.tex"
-File: pgfcoreimage.code.tex 2019/04/04 v3.1.2 (3.1.2)
+File: pgfcoreimage.code.tex 2019/05/09 v3.1.3 (3.1.3)
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcoreexternal.code.tex"
-File: pgfcoreexternal.code.tex 2019/04/04 v3.1.2 (3.1.2)
+File: pgfcoreexternal.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \pgfexternal@startupbox=\box40
 ))
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorelayers.code.tex"
-File: pgfcorelayers.code.tex 2019/04/04 v3.1.2 (3.1.2)
+File: pgfcorelayers.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcoretransparency.code.tex"
-File: pgfcoretransparency.code.tex 2019/04/04 v3.1.2 (3.1.2)
+File: pgfcoretransparency.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorepatterns.code.tex"
-File: pgfcorepatterns.code.tex 2019/04/04 v3.1.2 (3.1.2)
+File: pgfcorepatterns.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
 layer\pgfcorerdf.code.tex"
-File: pgfcorerdf.code.tex 2019/04/04 v3.1.2 (3.1.2)
+File: pgfcorerdf.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )))
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utiliti
 es\xxcolor.sty"
@@ -454,7 +458,7 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 options.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen163
+\@linkdim=\dimen165
 \Hy@linkcounter=\count122
 \Hy@pagecounter=\count123
 
@@ -488,10 +492,10 @@ Package hyperref Info: Bookmarks ON on input line 4772.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5125.
-\XeTeXLinkMargin=\dimen164
+\XeTeXLinkMargin=\dimen166
 \Fld@menulength=\count126
-\Field@Width=\dimen165
-\Fld@charsize=\dimen166
+\Field@Width=\dimen167
+\Fld@charsize=\dimen168
 Package hyperref Info: Hyper figures OFF on input line 6380.
 Package hyperref Info: Link nesting OFF on input line 6385.
 Package hyperref Info: Hyper index ON on input line 6388.
@@ -581,14 +585,14 @@ erbaseframe.sty"
 \beamer@zoombox=\box43
 \beamer@zoomcount=\count137
 \beamer@zoomframecount=\count138
-\beamer@frametextheight=\dimen167
+\beamer@frametextheight=\dimen169
 \c@subsectionslide=\count139
 \beamer@frametopskip=\skip45
 \beamer@framebottomskip=\skip46
 \beamer@frametopskipautobreak=\skip47
 \beamer@framebottomskipautobreak=\skip48
 \beamer@envbody=\toks27
-\framewidth=\dimen168
+\framewidth=\dimen170
 \c@framenumber=\count140
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
@@ -599,7 +603,7 @@ erbaseverbatim.sty"
 erbaseframesize.sty"
 \beamer@splitbox=\box44
 \beamer@autobreakcount=\count141
-\beamer@autobreaklastheight=\dimen169
+\beamer@autobreaklastheight=\dimen171
 \beamer@frametitletoks=\toks28
 \beamer@framesubtitletoks=\toks29
 )
@@ -628,12 +632,12 @@ erbaseboxes.sty"
 \bmb@boxshadow=\box49
 \bmb@boxshadowball=\box50
 \bmb@boxshadowballlarge=\box51
-\bmb@temp=\dimen170
-\bmb@dima=\dimen171
-\bmb@dimb=\dimen172
-\bmb@prevheight=\dimen173
+\bmb@temp=\dimen172
+\bmb@dima=\dimen173
+\bmb@dimb=\dimen174
+\bmb@prevheight=\dimen175
 )
-\beamer@blockheadheight=\dimen174
+\beamer@blockheadheight=\dimen176
 ))
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
 erbaselocalstructure.sty"
@@ -649,7 +653,7 @@ Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
 erbasenavigation.sty"
-\beamer@section@min@dim=\dimen175
+\beamer@section@min@dim=\dimen177
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
 erbasetheorems.sty"
@@ -668,12 +672,12 @@ Package: amstext 2000/06/29 v2.01 AMS text
 gen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks32
-\ex@=\dimen176
+\ex@=\dimen178
 ))
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\ams
 bsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen177
+\pmbraise@=\dimen179
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\ams
 opn.sty"
@@ -691,7 +695,7 @@ LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
 \Mathstrutbox@=\box52
 \strutbox@=\box53
-\big@size=\dimen178
+\big@size=\dimen180
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \macc@depth=\count149
@@ -704,12 +708,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \column@=\count154
 \maxfields@=\count155
 \andhelp@=\toks34
-\eqnshift@=\dimen179
-\alignsep@=\dimen180
-\tagshift@=\dimen181
-\tagwidth@=\dimen182
-\totwidth@=\dimen183
-\lineht@=\dimen184
+\eqnshift@=\dimen181
+\alignsep@=\dimen182
+\tagshift@=\dimen183
+\tagwidth@=\dimen184
+\totwidth@=\dimen185
+\lineht@=\dimen186
 \@envbody=\toks35
 \multlinegap=\skip52
 \multlinetaggap=\skip53
@@ -742,13 +746,13 @@ erfontthemedefault.sty")
 ercolorthemedefault.sty")
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
 erinnerthemedefault.sty"
-\beamer@dima=\dimen185
-\beamer@dimb=\dimen186
+\beamer@dima=\dimen187
+\beamer@dimb=\dimen188
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
 erouterthemedefault.sty")))
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beam
-ercolorthemebeaver.sty")
+ercolorthemeDefault.sty")
 \c@saveenumi=\count157
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\bab
@@ -776,7 +780,7 @@ Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 el.def"
 File: babel.def 2018/11/13 3.27 Babel common definitions
 \babel@savecnt=\count158
-\U@D=\dimen187
+\U@D=\dimen189
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txt
 babel.def")
@@ -837,13 +841,13 @@ Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 tion3.sty"
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen188
-\captionmargin@=\dimen189
-\captionwidth=\dimen190
-\caption@tempdima=\dimen191
-\caption@indent=\dimen192
-\caption@parindent=\dimen193
-\caption@hangindent=\dimen194
+\captionmargin=\dimen190
+\captionmargin@=\dimen191
+\captionwidth=\dimen192
+\caption@tempdima=\dimen193
+\caption@indent=\dimen194
+\caption@parindent=\dimen195
+\caption@hangindent=\dimen196
 )
 \c@caption@flags=\count162
 \c@ContinuedFloat=\count163
@@ -854,7 +858,7 @@ Package caption Info: Hyperref support is turned off
 )
 \c@KVtest=\count164
 \sf@farskip=\skip59
-\sf@captopadj=\dimen195
+\sf@captopadj=\dimen197
 \sf@capskip=\skip60
 \sf@nearskip=\skip61
 \c@subfigure=\count165
@@ -868,31 +872,62 @@ Package caption Info: Hyperref support is turned off
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/booktabs\bo
 oktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen196
-\lightrulewidth=\dimen197
-\cmidrulewidth=\dimen198
-\belowrulesep=\dimen199
-\belowbottomsep=\dimen256
-\aboverulesep=\dimen257
-\abovetopsep=\dimen258
-\cmidrulesep=\dimen259
-\cmidrulekern=\dimen260
-\defaultaddspace=\dimen261
+\heavyrulewidth=\dimen198
+\lightrulewidth=\dimen199
+\cmidrulewidth=\dimen256
+\belowrulesep=\dimen257
+\belowbottomsep=\dimen258
+\aboverulesep=\dimen259
+\abovetopsep=\dimen260
+\cmidrulesep=\dimen261
+\cmidrulekern=\dimen262
+\defaultaddspace=\dimen263
 \@cmidla=\count170
 \@cmidlb=\count171
-\@aboverulesep=\dimen262
-\@belowrulesep=\dimen263
+\@aboverulesep=\dimen264
+\@belowrulesep=\dimen265
 \@thisruleclass=\count172
 \@lastruleclass=\count173
-\@thisrulewidth=\dimen264
+\@thisrulewidth=\dimen266
 )
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utiliti
+es\pgfpages.sty"
+Package: pgfpages 2011/01/05 ver 0.02
+
+("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.
+sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count174
+\calc@Bcount=\count175
+\calc@Adimen=\dimen267
+\calc@Bdimen=\dimen268
+\calc@Askip=\skip64
+\calc@Bskip=\skip65
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count176
+\calc@Cskip=\skip66
+)
+\pgf@logicalpages=\count177
+\pgf@firstshipout=\count178
+\pgf@lastshipout=\count179
+\pgf@currentshipout=\count180
+\pgf@cpn=\count181
+\pgf@shipoutnextto=\count182
+\pgfphysicalheight=\dimen269
+\pgfphysicalwidth=\dimen270
+\pgfpages@shipoutbox=\box54
+)
+\pgfpages@box@1=\box55
+\pgfpages@box@2=\box56
+
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-0.d
 ef"
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 54.
+(hyperref)                removing `\\' on input line 56.
 
 (apresentaco.aux
 
@@ -1147,20 +1182,20 @@ LaTeX Warning: Label `sub@b' multiply defined.
 )
 \openout1 = `apresentaco.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1200,16 +1235,16 @@ LaTeX Font Info:    ... okay on input line 58.
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii
 \supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count174
-\scratchdimen=\dimen265
-\scratchbox=\box54
-\nofMPsegments=\count175
-\nofMParguments=\count176
+\scratchcounter=\count183
+\scratchdimen=\dimen271
+\scratchbox=\box57
+\nofMPsegments=\count184
+\nofMParguments=\count185
 \everyMPshowfont=\toks48
-\MPscratchCnt=\count177
-\MPscratchDim=\dimen266
-\MPnumerator=\count178
-\makeMPintoPDFobject=\count179
+\MPscratchCnt=\count186
+\MPscratchDim=\dimen272
+\MPnumerator=\count187
+\makeMPintoPDFobject=\count188
 \everyMPtoPDFconversion=\toks49
 )
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\ep
@@ -1227,8 +1262,8 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 ) ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box55
-Package hyperref Info: Link coloring OFF on input line 58.
+\AtBeginShipoutBox=\box58
+Package hyperref Info: Link coloring OFF on input line 60.
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\na
 meref.sty"
@@ -1238,72 +1273,72 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count180
+\c@section@level=\count189
 )
-LaTeX Info: Redefining \ref on input line 58.
-LaTeX Info: Redefining \pageref on input line 58.
-LaTeX Info: Redefining \nameref on input line 58.
+LaTeX Info: Redefining \ref on input line 60.
+LaTeX Info: Redefining \pageref on input line 60.
+LaTeX Info: Redefining \nameref on input line 60.
  (apresentaco.out) (apresentaco.out)
 \@outlinefile=\write5
 \openout5 = `apresentaco.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 58.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 60.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 58.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 60.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 58.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 58.
+(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 60.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/bx/n on input line 58.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/bx/n on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/bx/n on input line 58.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 58.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/bx/n on input line 60.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 58.
+(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 58.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 58.
+(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 60.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 58.
+(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 58.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 58.
+(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 60.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 58.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 58.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 60.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/bx/n on input line 58.
+(Font)                  T1/cmss/m/n --> T1/cmss/bx/n on input line 60.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/bx/it on input line 58.
+(Font)                  T1/cmss/m/it --> T1/cmss/bx/it on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmr/bx/n on input line 58.
+(Font)                  OT1/cmss/bx/n --> T1/cmr/bx/n on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/cmss/bx/n --> T1/cmss/bx/n on input line 58.
+(Font)                  T1/cmss/bx/n --> T1/cmss/bx/n on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/bx/n on input line 58.
+(Font)                  T1/cmss/m/n --> T1/cmss/bx/n on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/bx/it on input line 58.
+(Font)                  T1/cmss/m/it --> T1/cmss/bx/it on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/bx/n on input line 58.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 58.
+(Font)                  T1/cmtt/m/n --> T1/cmtt/bx/n on input line 60.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 60.
 LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `normal' on input line 58
+(Font)              `pureletters' in the math version `normal' on input line 60
 .
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  T1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 58
+(Font)                  T1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 60
 .
 LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `bold' on input line 58.
+(Font)              `pureletters' in the math version `bold' on input line 60.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 5
-8.
+(Font)                  T1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 6
+0.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 58.
+ut line 60.
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\
 translator-basic-dictionary-English.dict"
@@ -1336,51 +1371,133 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
- (apresentaco.nav) [1{C:/Users/Roberto Rolo/AppData/Local/MiKTeX/2.9/pdftex/con
-fig/pdftex.map}
+ (apresentaco.nav) (apresentaco.toc) [2{C:/Users/Roberto Rolo/AppData/Local/MiK
+TeX/2.9/pdftex/config/pdftex.map}
 
-] (apresentaco.toc) [2
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation1})
+ has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.81 \end{frame}
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{page.1}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.81 \end{frame}
+                
 
 ] [3
 
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation2})
+ has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.81 \end{frame}
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{page.2}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.81 \end{frame}
+                
 
 ] [4
 
 
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation3})
+ has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.81 \end{frame}
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{page.3}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.81 \end{frame}
+                
+
 ] [5
 
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation4})
+ has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.114 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.4}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.114 \end{frame}
+                 
+
 ]
-<apresentacao/passo_2.png, id=245, 1220.56pt x 295.1025pt>
+<apresentacao/passo_2.png, id=285, 1220.56pt x 295.1025pt>
 File: apresentacao/passo_2.png Graphic file (type png)
 <use apresentacao/passo_2.png>
-Package pdftex.def Info: apresentacao/passo_2.png  used on input line 102.
+Package pdftex.def Info: apresentacao/passo_2.png  used on input line 137.
 (pdftex.def)             Requested size: 398.3386pt x 96.30792pt.
  [6
 
- <./apresentacao/passo_2.png>]
-<capitulo_1/explicitmodeling.jpg, id=252, 858.20625pt x 467.7475pt>
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation5})
+ has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.137 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.5}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.137 \end{frame}
+                 
+
+]
+<capitulo_1/explicitmodeling.jpg, id=296, 858.20625pt x 467.7475pt>
 File: capitulo_1/explicitmodeling.jpg Graphic file (type jpg)
 <use capitulo_1/explicitmodeling.jpg>
-Package pdftex.def Info: capitulo_1/explicitmodeling.jpg  used on input line 11
-7.
+Package pdftex.def Info: capitulo_1/explicitmodeling.jpg  used on input line 15
+2.
 (pdftex.def)             Requested size: 239.00558pt x 130.26181pt.
  [7
 
- <./capitulo_1/explicitmodeling.jpg>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 129.
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation6})
+ has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.152 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.6}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.152 \end{frame}
+                 
+
+ <./apresentacao/passo_2.png>]
+LaTeX Font Info:    Try loading font information for U+msa on input line 179.
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\um
 sa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 129.
+LaTeX Font Info:    Try loading font information for U+msb on input line 179.
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\um
 sb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 129.
+line 179.
 
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/sansmathacc
 ent\ot1mathkerncmss.fd"
@@ -1388,861 +1505,1816 @@ File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 ) [8
 
-]
-<capitulo_1/incerteza_limites.jpg, id=264, 894.34125pt x 753.81625pt>
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation7})
+ has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.179 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.7}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.179 \end{frame}
+                 
+
+ <./capitulo_1/explicitmodeling.jpg>]
+Overfull \vbox (44.38728pt too high) detected at line 179
+ []
+
+<capitulo_1/incerteza_limites.jpg, id=317, 894.34125pt x 753.81625pt>
 File: capitulo_1/incerteza_limites.jpg Graphic file (type jpg)
 <use capitulo_1/incerteza_limites.jpg>
 Package pdftex.def Info: capitulo_1/incerteza_limites.jpg  used on input line 1
-43.
+96.
 (pdftex.def)             Requested size: 159.333pt x 134.28929pt.
- [9
+[9
 
- <./capitulo_1/incerteza_limites.jpg>] [10
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation8})
+ has been already used, duplicate ignored
 
-]
-<capitulo_1/implicit_modelig_pt_1.jpg, id=274, 1051.33832pt x 379.60768pt>
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.196 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.8}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.196 \end{frame}
+                 
+
+] [10
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation9})
+ has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.227 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.9}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.227 \end{frame}
+                 
+
+ <./capitulo_1/incerteza_limites.jpg>]
+<capitulo_1/implicit_modelig_pt_1.jpg, id=338, 1051.33832pt x 379.60768pt>
 File: capitulo_1/implicit_modelig_pt_1.jpg Graphic file (type jpg)
 <use capitulo_1/implicit_modelig_pt_1.jpg>
 Package pdftex.def Info: capitulo_1/implicit_modelig_pt_1.jpg  used on input li
-ne 189.
+ne 250.
 (pdftex.def)             Requested size: 318.67209pt x 115.06482pt.
+ [11
 
-[11
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation10}
+) has been already used, duplicate ignored
 
- <./capitulo_1/implicit_modelig_pt_1.jpg>]
-<capitulo_2/prop_hist_big.png, id=283, 1796.7125pt x 1847.90375pt>
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.250 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.10}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.250 \end{frame}
+                 
+
+]
+Overfull \vbox (8.38728pt too high) detected at line 250
+ []
+
+<capitulo_2/prop_hist_big.png, id=351, 1796.7125pt x 1847.90375pt>
 File: capitulo_2/prop_hist_big.png Graphic file (type png)
 <use capitulo_2/prop_hist_big.png>
-Package pdftex.def Info: capitulo_2/prop_hist_big.png  used on input line 207.
+Package pdftex.def Info: capitulo_2/prop_hist_big.png  used on input line 270.
 (pdftex.def)             Requested size: 99.58464pt x 102.41043pt.
-<capitulo_2/dados.jpeg, id=284, 1082.0425pt x 821.0675pt>
+<capitulo_2/dados.jpeg, id=352, 1082.0425pt x 821.0675pt>
 File: capitulo_2/dados.jpeg Graphic file (type jpg)
 <use capitulo_2/dados.jpeg>
-Package pdftex.def Info: capitulo_2/dados.jpeg  used on input line 207.
+Package pdftex.def Info: capitulo_2/dados.jpeg  used on input line 270.
 (pdftex.def)             Requested size: 159.333pt x 120.89969pt.
- [12
+[12
 
- <./capitulo_2/prop_hist_big.png> <./capitulo_2/dados.jpeg>]
-<capitulo_2/inddf1.jpeg, id=290, 1082.0425pt x 821.0675pt>
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation11}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.270 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.11}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.270 \end{frame}
+                 
+
+ <./capitulo_1/implicit_modelig_pt_1.jpg>]
+<capitulo_2/inddf1.jpeg, id=366, 1082.0425pt x 821.0675pt>
 File: capitulo_2/inddf1.jpeg Graphic file (type jpg)
 <use capitulo_2/inddf1.jpeg>
-Package pdftex.def Info: capitulo_2/inddf1.jpeg  used on input line 226.
+Package pdftex.def Info: capitulo_2/inddf1.jpeg  used on input line 290.
 (pdftex.def)             Requested size: 119.50279pt x 90.6685pt.
-<capitulo_2/inddf2.jpeg, id=291, 1082.0425pt x 821.0675pt>
+<capitulo_2/inddf2.jpeg, id=367, 1082.0425pt x 821.0675pt>
 File: capitulo_2/inddf2.jpeg Graphic file (type jpg)
 <use capitulo_2/inddf2.jpeg>
-Package pdftex.def Info: capitulo_2/inddf2.jpeg  used on input line 226.
+Package pdftex.def Info: capitulo_2/inddf2.jpeg  used on input line 290.
 (pdftex.def)             Requested size: 119.50279pt x 90.6685pt.
-<capitulo_2/inddf3.jpeg, id=292, 1082.0425pt x 821.0675pt>
+<capitulo_2/inddf3.jpeg, id=368, 1082.0425pt x 821.0675pt>
 File: capitulo_2/inddf3.jpeg Graphic file (type jpg)
 <use capitulo_2/inddf3.jpeg>
-Package pdftex.def Info: capitulo_2/inddf3.jpeg  used on input line 226.
+Package pdftex.def Info: capitulo_2/inddf3.jpeg  used on input line 290.
 (pdftex.def)             Requested size: 119.50279pt x 90.6685pt.
  [13
 
-pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
-as been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation12}
+) has been already used, duplicate ignored
 
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.226 \end{frame}
-                  <./capitulo_2/inddf1.jpeg> <./capitulo_2/inddf2.jpeg> <./capi
-tulo_2/inddf3.jpeg>]
-<capitulo_2/2d_ex.jpg, id=309, 1469.49pt x 1050.92625pt>
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.290 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.12}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.290 \end{frame}
+                 
+
+ <./capitulo_2/prop_hist_big.png> <./capitulo_2/dados.jpeg>]
+<capitulo_2/2d_ex.jpg, id=379, 1469.49pt x 1050.92625pt>
 File: capitulo_2/2d_ex.jpg Graphic file (type jpg)
 <use capitulo_2/2d_ex.jpg>
-Package pdftex.def Info: capitulo_2/2d_ex.jpg  used on input line 247.
+Package pdftex.def Info: capitulo_2/2d_ex.jpg  used on input line 314.
 (pdftex.def)             Requested size: 119.50279pt x 85.4549pt.
- [14
 
- <./capitulo_2/2d_ex.jpg>]
-<capitulo_2/df1.jpeg, id=317, 1082.0425pt x 821.0675pt>
+[14
+
+pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
+as been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.314 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{Navigation13}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.314 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.13}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.314 \end{frame}
+                 
+
+ <./capitulo_2/inddf1.jpeg> <./capitulo_2/inddf2.jpeg> <./capitulo_2/inddf3.jpe
+g>]
+<capitulo_2/df1.jpeg, id=401, 1082.0425pt x 821.0675pt>
 File: capitulo_2/df1.jpeg Graphic file (type jpg)
 <use capitulo_2/df1.jpeg>
-Package pdftex.def Info: capitulo_2/df1.jpeg  used on input line 257.
+Package pdftex.def Info: capitulo_2/df1.jpeg  used on input line 326.
 (pdftex.def)             Requested size: 119.50279pt x 90.6685pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure1>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.257 \end{frame}
+l.326 \end{frame}
                  
-<capitulo_2/df2.jpeg, id=318, 1082.0425pt x 821.0675pt>
+<capitulo_2/df2.jpeg, id=402, 1082.0425pt x 821.0675pt>
 File: capitulo_2/df2.jpeg Graphic file (type jpg)
 <use capitulo_2/df2.jpeg>
-Package pdftex.def Info: capitulo_2/df2.jpeg  used on input line 257.
+Package pdftex.def Info: capitulo_2/df2.jpeg  used on input line 326.
 (pdftex.def)             Requested size: 119.50279pt x 90.6685pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.257 \end{frame}
+l.326 \end{frame}
                  
-<capitulo_2/df3.jpeg, id=319, 1082.0425pt x 821.0675pt>
+<capitulo_2/df3.jpeg, id=403, 1082.0425pt x 821.0675pt>
 File: capitulo_2/df3.jpeg Graphic file (type jpg)
 <use capitulo_2/df3.jpeg>
-Package pdftex.def Info: capitulo_2/df3.jpeg  used on input line 257.
+Package pdftex.def Info: capitulo_2/df3.jpeg  used on input line 326.
 (pdftex.def)             Requested size: 119.50279pt x 90.6685pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.257 \end{frame}
+l.326 \end{frame}
                   [15
 
- <./capitulo_2/df1.jpeg> <./capitulo_2/df2.jpeg> <./capitulo_2/df3.jpeg>] [16
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation14}
+) has been already used, duplicate ignored
 
-]
-<capitulo_2/var_DF_1.png, id=330, 1882.03125pt x 1342.01375pt>
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.326 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.14}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.326 \end{frame}
+                 
+
+ <./capitulo_2/2d_ex.jpg>] [16
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation15}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.353 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.15}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.353 \end{frame}
+                 
+
+ <./capitulo_2/df1.jpeg> <./capitulo_2/df2.jpeg> <./capitulo_2/df3.jpeg>]
+<capitulo_2/var_DF_1.png, id=427, 1882.03125pt x 1342.01375pt>
 File: capitulo_2/var_DF_1.png Graphic file (type png)
 <use capitulo_2/var_DF_1.png>
-Package pdftex.def Info: capitulo_2/var_DF_1.png  used on input line 281.
+Package pdftex.def Info: capitulo_2/var_DF_1.png  used on input line 365.
 (pdftex.def)             Requested size: 119.50279pt x 85.20668pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure1>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.281 \end{frame}
+l.365 \end{frame}
                  
-<capitulo_2/var_DF_2.png, id=331, 1882.03125pt x 1342.01375pt>
+<capitulo_2/var_DF_2.png, id=428, 1882.03125pt x 1342.01375pt>
 File: capitulo_2/var_DF_2.png Graphic file (type png)
 <use capitulo_2/var_DF_2.png>
-Package pdftex.def Info: capitulo_2/var_DF_2.png  used on input line 281.
+Package pdftex.def Info: capitulo_2/var_DF_2.png  used on input line 365.
 (pdftex.def)             Requested size: 119.50279pt x 85.20668pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.281 \end{frame}
+l.365 \end{frame}
                  
-<capitulo_2/var_DF_3.png, id=332, 1882.03125pt x 1342.01375pt>
+<capitulo_2/var_DF_3.png, id=429, 1882.03125pt x 1342.01375pt>
 File: capitulo_2/var_DF_3.png Graphic file (type png)
 <use capitulo_2/var_DF_3.png>
-Package pdftex.def Info: capitulo_2/var_DF_3.png  used on input line 281.
+Package pdftex.def Info: capitulo_2/var_DF_3.png  used on input line 365.
 (pdftex.def)             Requested size: 119.50279pt x 85.20668pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.281 \end{frame}
+l.365 \end{frame}
                   [17
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation16}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.365 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.16}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.365 \end{frame}
+                 
+
+]
+<capitulo_2/var_Ind_DF_1.png, id=439, 1882.03125pt x 1344.02126pt>
+File: capitulo_2/var_Ind_DF_1.png Graphic file (type png)
+<use capitulo_2/var_Ind_DF_1.png>
+Package pdftex.def Info: capitulo_2/var_Ind_DF_1.png  used on input line 377.
+(pdftex.def)             Requested size: 119.50279pt x 85.33414pt.
+pdfTeX warning (ext4): destination with the same identifier (name{<figure1>}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.377 \end{frame}
+                 
+<capitulo_2/var_Ind_DF_2.png, id=440, 1882.03125pt x 1344.02126pt>
+File: capitulo_2/var_Ind_DF_2.png Graphic file (type png)
+<use capitulo_2/var_Ind_DF_2.png>
+Package pdftex.def Info: capitulo_2/var_Ind_DF_2.png  used on input line 377.
+(pdftex.def)             Requested size: 119.50279pt x 85.33414pt.
+pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.377 \end{frame}
+                 
+<capitulo_2/var_Ind_DF_3.png, id=441, 1882.03125pt x 1344.02126pt>
+File: capitulo_2/var_Ind_DF_3.png Graphic file (type png)
+<use capitulo_2/var_Ind_DF_3.png>
+Package pdftex.def Info: capitulo_2/var_Ind_DF_3.png  used on input line 377.
+(pdftex.def)             Requested size: 119.50279pt x 85.33414pt.
+pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.377 \end{frame}
+                  [18
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation17}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.377 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.17}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.377 \end{frame}
+                 
 
  <./capitulo_2/var_DF_1.png> <./capitulo_2/var_DF_2.png> <./capitulo_2/var_DF_3
 .png>]
-<capitulo_2/var_Ind_DF_1.png, id=342, 1882.03125pt x 1344.02126pt>
-File: capitulo_2/var_Ind_DF_1.png Graphic file (type png)
-<use capitulo_2/var_Ind_DF_1.png>
-Package pdftex.def Info: capitulo_2/var_Ind_DF_1.png  used on input line 291.
-(pdftex.def)             Requested size: 119.50279pt x 85.33414pt.
-pdfTeX warning (ext4): destination with the same identifier (name{<figure1>}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.291 \end{frame}
-                 
-<capitulo_2/var_Ind_DF_2.png, id=343, 1882.03125pt x 1344.02126pt>
-File: capitulo_2/var_Ind_DF_2.png Graphic file (type png)
-<use capitulo_2/var_Ind_DF_2.png>
-Package pdftex.def Info: capitulo_2/var_Ind_DF_2.png  used on input line 291.
-(pdftex.def)             Requested size: 119.50279pt x 85.33414pt.
-pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.291 \end{frame}
-                 
-<capitulo_2/var_Ind_DF_3.png, id=344, 1882.03125pt x 1344.02126pt>
-File: capitulo_2/var_Ind_DF_3.png Graphic file (type png)
-<use capitulo_2/var_Ind_DF_3.png>
-Package pdftex.def Info: capitulo_2/var_Ind_DF_3.png  used on input line 291.
-(pdftex.def)             Requested size: 119.50279pt x 85.33414pt.
-pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.291 \end{frame}
-                  [18
-
- <./capitulo_2/var_Ind_DF_1.png> <./capitulo_2/var_Ind_DF_2.png> <./capitulo_2/
-var_Ind_DF_3.png>]
-<capitulo_2/cov_table.png, id=354, 487.8225pt x 316.93407pt>
+<capitulo_2/cov_table.png, id=456, 487.8225pt x 316.93407pt>
 File: capitulo_2/cov_table.png Graphic file (type png)
 <use capitulo_2/cov_table.png>
-Package pdftex.def Info: capitulo_2/cov_table.png  used on input line 301.
+Package pdftex.def Info: capitulo_2/cov_table.png  used on input line 390.
 (pdftex.def)             Requested size: 278.83578pt x 181.15723pt.
  [19
 
- <./capitulo_2/cov_table.png>]
-<capitulo_2/grid_res.png, id=363, 348.55219pt x 365.11406pt>
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation18}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.390 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.18}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.390 \end{frame}
+                 
+
+ <./capitulo_2/var_Ind_DF_1.png> <./capitulo_2/var_Ind_DF_2.png> <./capitulo_2/
+var_Ind_DF_3.png>]
+<capitulo_2/grid_res.png, id=471, 348.55219pt x 365.11406pt>
 File: capitulo_2/grid_res.png Graphic file (type png)
 <use capitulo_2/grid_res.png>
-Package pdftex.def Info: capitulo_2/grid_res.png  used on input line 315.
+Package pdftex.def Info: capitulo_2/grid_res.png  used on input line 411.
 (pdftex.def)             Requested size: 159.333pt x 166.90155pt.
+ [20
 
-[20
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation19}
+) has been already used, duplicate ignored
 
- <./capitulo_2/grid_res.png>] [21
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.411 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.19}) has been already used, duplicate ignored
 
-] [22
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.411 \end{frame}
+                 
+
+ <./capitulo_2/cov_table.png>]
+Overfull \vbox (15.2433pt too high) detected at line 411
+ []
+
+[21
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation20}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.430 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.20}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.430 \end{frame}
+                 
+
+ <./capitulo_2/grid_res.png>] [22
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation21}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.454 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.21}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.454 \end{frame}
+                 
 
 ]
-<capitulo_2/kt3d40.jpeg, id=393, 1082.0425pt x 821.0675pt>
+<capitulo_2/kt3d40.jpeg, id=513, 1082.0425pt x 821.0675pt>
 File: capitulo_2/kt3d40.jpeg Graphic file (type jpg)
 <use capitulo_2/kt3d40.jpeg>
-Package pdftex.def Info: capitulo_2/kt3d40.jpeg  used on input line 353.
+Package pdftex.def Info: capitulo_2/kt3d40.jpeg  used on input line 465.
 (pdftex.def)             Requested size: 119.50279pt x 90.6685pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure1>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.353 \end{frame}
+l.465 \end{frame}
                  
-<capitulo_2/kt3d100.jpeg, id=394, 1082.0425pt x 821.0675pt>
+<capitulo_2/kt3d100.jpeg, id=514, 1082.0425pt x 821.0675pt>
 File: capitulo_2/kt3d100.jpeg Graphic file (type jpg)
 <use capitulo_2/kt3d100.jpeg>
-Package pdftex.def Info: capitulo_2/kt3d100.jpeg  used on input line 353.
+Package pdftex.def Info: capitulo_2/kt3d100.jpeg  used on input line 465.
 (pdftex.def)             Requested size: 119.50279pt x 90.6685pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.353 \end{frame}
+l.465 \end{frame}
                  
-<capitulo_2/rbf.jpeg, id=395, 1082.0425pt x 821.0675pt>
+<capitulo_2/rbf.jpeg, id=515, 1082.0425pt x 821.0675pt>
 File: capitulo_2/rbf.jpeg Graphic file (type jpg)
 <use capitulo_2/rbf.jpeg>
-Package pdftex.def Info: capitulo_2/rbf.jpeg  used on input line 353.
+Package pdftex.def Info: capitulo_2/rbf.jpeg  used on input line 465.
 (pdftex.def)             Requested size: 119.50279pt x 90.6685pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.353 \end{frame}
+l.465 \end{frame}
                   [23
 
- <./capitulo_2/kt3d40.jpeg> <./capitulo_2/kt3d100.jpeg> <./capitulo_2/rbf.jpeg>
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation22}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.465 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.22}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.465 \end{frame}
+                 
+
 ]
-<capitulo_2/pou.jpg, id=402, 809.0225pt x 301.125pt>
+<capitulo_2/pou.jpg, id=538, 809.0225pt x 301.125pt>
 File: capitulo_2/pou.jpg Graphic file (type jpg)
 <use capitulo_2/pou.jpg>
-Package pdftex.def Info: capitulo_2/pou.jpg  used on input line 366.
+Package pdftex.def Info: capitulo_2/pou.jpg  used on input line 479.
 (pdftex.def)             Requested size: 358.50229pt x 133.43733pt.
  [24
 
- <./capitulo_2/pou.jpg>] [25
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation23}
+) has been already used, duplicate ignored
 
-]
-<capitulo_2/isokt3d40.jpeg, id=415, 1082.0425pt x 821.0675pt>
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.479 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.23}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.479 \end{frame}
+                 
+
+ <./capitulo_2/kt3d40.jpeg> <./capitulo_2/kt3d100.jpeg> <./capitulo_2/rbf.jpeg>
+] [25
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation24}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.514 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.24}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.514 \end{frame}
+                 
+
+ <./capitulo_2/pou.jpg>]
+<capitulo_2/isokt3d40.jpeg, id=561, 1082.0425pt x 821.0675pt>
 File: capitulo_2/isokt3d40.jpeg Graphic file (type jpg)
 <use capitulo_2/isokt3d40.jpeg>
-Package pdftex.def Info: capitulo_2/isokt3d40.jpeg  used on input line 407.
+Package pdftex.def Info: capitulo_2/isokt3d40.jpeg  used on input line 532.
 (pdftex.def)             Requested size: 119.50279pt x 90.6685pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure1>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.407 \end{frame}
+l.532 \end{frame}
                  
-<capitulo_2/isokt3dn100.jpeg, id=416, 1082.0425pt x 821.0675pt>
+<capitulo_2/isokt3dn100.jpeg, id=562, 1082.0425pt x 821.0675pt>
 File: capitulo_2/isokt3dn100.jpeg Graphic file (type jpg)
 <use capitulo_2/isokt3dn100.jpeg>
-Package pdftex.def Info: capitulo_2/isokt3dn100.jpeg  used on input line 407.
+Package pdftex.def Info: capitulo_2/isokt3dn100.jpeg  used on input line 532.
 (pdftex.def)             Requested size: 119.50279pt x 90.6685pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.407 \end{frame}
+l.532 \end{frame}
                  
-<capitulo_2/isorbf.jpeg, id=417, 1082.0425pt x 821.0675pt>
+<capitulo_2/isorbf.jpeg, id=563, 1082.0425pt x 821.0675pt>
 File: capitulo_2/isorbf.jpeg Graphic file (type jpg)
 <use capitulo_2/isorbf.jpeg>
-Package pdftex.def Info: capitulo_2/isorbf.jpeg  used on input line 407.
+Package pdftex.def Info: capitulo_2/isorbf.jpeg  used on input line 532.
 (pdftex.def)             Requested size: 119.50279pt x 90.6685pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.407 \end{frame}
+l.532 \end{frame}
                   [26
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation25}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.532 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.25}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.532 \end{frame}
+                 
+
+]
+<capitulo_2/iso_cat1_rbf.jpeg, id=575, 1113.15875pt x 821.0675pt>
+File: capitulo_2/iso_cat1_rbf.jpeg Graphic file (type jpg)
+<use capitulo_2/iso_cat1_rbf.jpeg>
+Package pdftex.def Info: capitulo_2/iso_cat1_rbf.jpeg  used on input line 542.
+(pdftex.def)             Requested size: 199.1693pt x 146.90878pt.
+pdfTeX warning (ext4): destination with the same identifier (name{<figure1>}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.542 \end{frame}
+                 
+<capitulo_2/iso_cat1_rbf2.jpeg, id=576, 1113.15875pt x 821.0675pt>
+File: capitulo_2/iso_cat1_rbf2.jpeg Graphic file (type jpg)
+<use capitulo_2/iso_cat1_rbf2.jpeg>
+Package pdftex.def Info: capitulo_2/iso_cat1_rbf2.jpeg  used on input line 542.
+
+(pdftex.def)             Requested size: 199.1693pt x 146.90878pt.
+pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.542 \end{frame}
+                  [27
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation26}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.542 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.26}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.542 \end{frame}
+                 
 
  <./capitulo_2/isokt3d40.jpeg> <./capitulo_2/isokt3dn100.jpeg> <./capitulo_2/is
 orbf.jpeg>]
-<capitulo_2/iso_cat1_rbf.jpeg, id=423, 1113.15875pt x 821.0675pt>
-File: capitulo_2/iso_cat1_rbf.jpeg Graphic file (type jpg)
-<use capitulo_2/iso_cat1_rbf.jpeg>
-Package pdftex.def Info: capitulo_2/iso_cat1_rbf.jpeg  used on input line 416.
-(pdftex.def)             Requested size: 199.1693pt x 146.90878pt.
-pdfTeX warning (ext4): destination with the same identifier (name{<figure1>}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.416 \end{frame}
-                 
-<capitulo_2/iso_cat1_rbf2.jpeg, id=424, 1113.15875pt x 821.0675pt>
-File: capitulo_2/iso_cat1_rbf2.jpeg Graphic file (type jpg)
-<use capitulo_2/iso_cat1_rbf2.jpeg>
-Package pdftex.def Info: capitulo_2/iso_cat1_rbf2.jpeg  used on input line 416.
-
-(pdftex.def)             Requested size: 199.1693pt x 146.90878pt.
-pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.416 \end{frame}
-                  [27
-
- <./capitulo_2/iso_cat1_rbf.jpeg> <./capitulo_2/iso_cat1_rbf2.jpeg>]
-<capitulo_2/iso_cat2_rbf.jpeg, id=431, 1113.15875pt x 821.0675pt>
+<capitulo_2/iso_cat2_rbf.jpeg, id=587, 1113.15875pt x 821.0675pt>
 File: capitulo_2/iso_cat2_rbf.jpeg Graphic file (type jpg)
 <use capitulo_2/iso_cat2_rbf.jpeg>
-Package pdftex.def Info: capitulo_2/iso_cat2_rbf.jpeg  used on input line 425.
+Package pdftex.def Info: capitulo_2/iso_cat2_rbf.jpeg  used on input line 553.
 (pdftex.def)             Requested size: 199.1693pt x 146.90878pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure1>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.425 \end{frame}
+l.553 \end{frame}
                  
-<capitulo_2/iso_cat2_rbr2.jpeg, id=432, 1113.15875pt x 821.0675pt>
+<capitulo_2/iso_cat2_rbr2.jpeg, id=588, 1113.15875pt x 821.0675pt>
 File: capitulo_2/iso_cat2_rbr2.jpeg Graphic file (type jpg)
 <use capitulo_2/iso_cat2_rbr2.jpeg>
-Package pdftex.def Info: capitulo_2/iso_cat2_rbr2.jpeg  used on input line 425.
+Package pdftex.def Info: capitulo_2/iso_cat2_rbr2.jpeg  used on input line 553.
 
 (pdftex.def)             Requested size: 199.1693pt x 146.90878pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.425 \end{frame}
+l.553 \end{frame}
                   [28
 
- <./capitulo_2/iso_cat2_rbf.jpeg> <./capitulo_2/iso_cat2_rbr2.jpeg>]pdfTeX warn
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation27}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.553 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.27}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.553 \end{frame}
+                 
+
+ <./capitulo_2/iso_cat1_rbf.jpeg> <./capitulo_2/iso_cat1_rbf2.jpeg>]pdfTeX warn
 ing (ext4): destination with the same identifier (name{eq_mult_sg}) has been al
 ready used, duplicate ignored
 <to be read again> 
                    \relax 
-l.455 \end{frame}
+l.585 \end{frame}
                   [29
 
-]
-<capitulo_2/mult_cat_legenda.jpg, id=449, 658.46pt x 288.07625pt>
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation28}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.585 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.28}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.585 \end{frame}
+                 
+
+ <./capitulo_2/iso_cat2_rbf.jpeg> <./capitulo_2/iso_cat2_rbr2.jpeg>]
+<capitulo_2/mult_cat_legenda.jpg, id=611, 658.46pt x 288.07625pt>
 File: capitulo_2/mult_cat_legenda.jpg Graphic file (type jpg)
 <use capitulo_2/mult_cat_legenda.jpg>
-Package pdftex.def Info: capitulo_2/mult_cat_legenda.jpg  used on input line 46
-5.
+Package pdftex.def Info: capitulo_2/mult_cat_legenda.jpg  used on input line 59
+6.
 (pdftex.def)             Requested size: 398.3386pt x 174.27567pt.
  [30
 
- <./capitulo_2/mult_cat_legenda.jpg>]
-<capitulo_2/anisofinexz.png, id=456, 4942.465pt x 2232.34pt>
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation29}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.596 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.29}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.596 \end{frame}
+                 
+
+]
+<capitulo_2/anisofinexz.png, id=627, 4942.465pt x 2232.34pt>
 File: capitulo_2/anisofinexz.png Graphic file (type png)
 <use capitulo_2/anisofinexz.png>
-Package pdftex.def Info: capitulo_2/anisofinexz.png  used on input line 476.
+Package pdftex.def Info: capitulo_2/anisofinexz.png  used on input line 608.
 (pdftex.def)             Requested size: 199.1693pt x 89.92558pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure1>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.476 \end{frame}
+l.608 \end{frame}
                  
-<capitulo_2/anisofineryz.png, id=457, 4942.465pt x 2212.265pt>
+<capitulo_2/anisofineryz.png, id=628, 4942.465pt x 2212.265pt>
 File: capitulo_2/anisofineryz.png Graphic file (type png)
 <use capitulo_2/anisofineryz.png>
-Package pdftex.def Info: capitulo_2/anisofineryz.png  used on input line 476.
+Package pdftex.def Info: capitulo_2/anisofineryz.png  used on input line 608.
 (pdftex.def)             Requested size: 199.1693pt x 89.1169pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.476 \end{frame}
+l.608 \end{frame}
                   [31
 
- <./capitulo_2/anisofinexz.png> <./capitulo_2/anisofineryz.png>]
-<capitulo_2/lvakrig1.jpg, id=468, 1422.31375pt x 730.73pt>
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation30}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.608 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.30}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.608 \end{frame}
+                 
+
+ <./capitulo_2/mult_cat_legenda.jpg>]
+<capitulo_2/lvakrig1.jpg, id=640, 1422.31375pt x 730.73pt>
 File: capitulo_2/lvakrig1.jpg Graphic file (type jpg)
 <use capitulo_2/lvakrig1.jpg>
-Package pdftex.def Info: capitulo_2/lvakrig1.jpg  used on input line 490.
+Package pdftex.def Info: capitulo_2/lvakrig1.jpg  used on input line 624.
 (pdftex.def)             Requested size: 318.67209pt x 163.71585pt.
  [32
 
- <./capitulo_2/lvakrig1.jpg>]
-<capitulo_2/lva_krig.jpeg, id=474, 1037.8775pt x 821.0675pt>
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation31}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.624 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.31}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.624 \end{frame}
+                 
+
+ <./capitulo_2/anisofinexz.png> <./capitulo_2/anisofineryz.png>]
+<capitulo_2/lva_krig.jpeg, id=656, 1037.8775pt x 821.0675pt>
 File: capitulo_2/lva_krig.jpeg Graphic file (type jpg)
 <use capitulo_2/lva_krig.jpeg>
-Package pdftex.def Info: capitulo_2/lva_krig.jpeg  used on input line 499.
+Package pdftex.def Info: capitulo_2/lva_krig.jpeg  used on input line 634.
 (pdftex.def)             Requested size: 199.1693pt x 157.55797pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure1>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.499 \end{frame}
+l.634 \end{frame}
                  
-<capitulo_2/lva_krig_100000.jpeg, id=475, 1037.8775pt x 821.0675pt>
+<capitulo_2/lva_krig_100000.jpeg, id=657, 1037.8775pt x 821.0675pt>
 File: capitulo_2/lva_krig_100000.jpeg Graphic file (type jpg)
 <use capitulo_2/lva_krig_100000.jpeg>
-Package pdftex.def Info: capitulo_2/lva_krig_100000.jpeg  used on input line 49
-9.
+Package pdftex.def Info: capitulo_2/lva_krig_100000.jpeg  used on input line 63
+4.
 (pdftex.def)             Requested size: 199.1693pt x 157.55797pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.499 \end{frame}
+l.634 \end{frame}
                   [33
 
- <./capitulo_2/lva_krig.jpeg> <./capitulo_2/lva_krig_100000.jpeg>]
-<capitulo_2/lvarbf1.jpg, id=482, 1422.31375pt x 730.73pt>
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation32}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.634 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.32}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.634 \end{frame}
+                 
+
+ <./capitulo_2/lvakrig1.jpg>]
+<capitulo_2/lvarbf1.jpg, id=668, 1422.31375pt x 730.73pt>
 File: capitulo_2/lvarbf1.jpg Graphic file (type jpg)
 <use capitulo_2/lvarbf1.jpg>
-Package pdftex.def Info: capitulo_2/lvarbf1.jpg  used on input line 509.
+Package pdftex.def Info: capitulo_2/lvarbf1.jpg  used on input line 645.
 (pdftex.def)             Requested size: 318.67209pt x 163.71585pt.
  [34
 
- <./capitulo_2/lvarbf1.jpg>]
-<capitulo_2/rbf_iterref.jpeg, id=489, 1037.8775pt x 821.0675pt>
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation33}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.645 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.33}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.645 \end{frame}
+                 
+
+ <./capitulo_2/lva_krig.jpeg> <./capitulo_2/lva_krig_100000.jpeg>]
+<capitulo_2/rbf_iterref.jpeg, id=680, 1037.8775pt x 821.0675pt>
 File: capitulo_2/rbf_iterref.jpeg Graphic file (type jpg)
 <use capitulo_2/rbf_iterref.jpeg>
-Package pdftex.def Info: capitulo_2/rbf_iterref.jpeg  used on input line 519.
+Package pdftex.def Info: capitulo_2/rbf_iterref.jpeg  used on input line 657.
 (pdftex.def)             Requested size: 199.1693pt x 157.55797pt.
  [35
 
- <./capitulo_2/rbf_iterref.jpeg>]
-<capitulo_2/iterref.jpg, id=496, 1760.5775pt x 1628.0825pt>
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation34}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.657 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.34}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.657 \end{frame}
+                 
+
+ <./capitulo_2/lvarbf1.jpg>]
+<capitulo_2/iterref.jpg, id=692, 1760.5775pt x 1628.0825pt>
 File: capitulo_2/iterref.jpg Graphic file (type jpg)
 <use capitulo_2/iterref.jpg>
-Package pdftex.def Info: capitulo_2/iterref.jpg  used on input line 534.
+Package pdftex.def Info: capitulo_2/iterref.jpg  used on input line 675.
 (pdftex.def)             Requested size: 147.38333pt x 136.28598pt.
+ [36
 
-Overfull \vbox (4.8505pt too high) detected at line 534
- []
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation35}
+) has been already used, duplicate ignored
 
-[36
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.675 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.35}) has been already used, duplicate ignored
 
- <./capitulo_2/iterref.jpg>]
-<capitulo_2/secoes.jpg, id=504, 1151.30125pt x 643.40375pt>
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.675 \end{frame}
+                 
+
+ <./capitulo_2/rbf_iterref.jpeg>]
+<capitulo_2/secoes.jpg, id=705, 1151.30125pt x 643.40375pt>
 File: capitulo_2/secoes.jpg Graphic file (type jpg)
 <use capitulo_2/secoes.jpg>
-Package pdftex.def Info: capitulo_2/secoes.jpg  used on input line 548.
+Package pdftex.def Info: capitulo_2/secoes.jpg  used on input line 690.
 (pdftex.def)             Requested size: 199.1693pt x 111.30142pt.
-<capitulo_2/modelo_mls.jpg, id=505, 1325.95375pt x 708.6475pt>
+<capitulo_2/modelo_mls.jpg, id=706, 1325.95375pt x 708.6475pt>
 File: capitulo_2/modelo_mls.jpg Graphic file (type jpg)
 <use capitulo_2/modelo_mls.jpg>
-Package pdftex.def Info: capitulo_2/modelo_mls.jpg  used on input line 548.
+Package pdftex.def Info: capitulo_2/modelo_mls.jpg  used on input line 690.
 (pdftex.def)             Requested size: 199.1693pt x 106.44392pt.
  [37
 
- <./capitulo_2/secoes.jpg> <./capitulo_2/modelo_mls.jpg>]
-<capitulo_2/softmax_bars_final.jpg, id=514, 1081.03876pt x 341.275pt>
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation36}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.690 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.36}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.690 \end{frame}
+                 
+
+ <./capitulo_2/iterref.jpg>]
+<capitulo_2/softmax_bars_final.jpg, id=718, 1081.03876pt x 341.275pt>
 File: capitulo_2/softmax_bars_final.jpg Graphic file (type jpg)
 <use capitulo_2/softmax_bars_final.jpg>
 Package pdftex.def Info: capitulo_2/softmax_bars_final.jpg  used on input line 
-569.
+718.
 (pdftex.def)             Requested size: 278.83578pt x 88.0264pt.
  [38
 
- <./capitulo_2/softmax_bars_final.jpg>]
-<capitulo_2/BS_DF_1.png, id=522, 1849.91125pt x 1337.99875pt>
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation37}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.718 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.37}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.718 \end{frame}
+                 
+
+ <./capitulo_2/secoes.jpg> <./capitulo_2/modelo_mls.jpg>]
+<capitulo_2/BS_DF_1.png, id=733, 1849.91125pt x 1337.99875pt>
 File: capitulo_2/BS_DF_1.png Graphic file (type png)
 <use capitulo_2/BS_DF_1.png>
-Package pdftex.def Info: capitulo_2/BS_DF_1.png  used on input line 603.
+Package pdftex.def Info: capitulo_2/BS_DF_1.png  used on input line 754.
 (pdftex.def)             Requested size: 199.1693pt x 144.03622pt.
- [39
 
- <./capitulo_2/BS_DF_1.png>] [40
+[39
 
-]
-<capitulo_2/u_coef.png, id=534, 5008.7125pt x 2232.34pt>
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation38}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.754 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.38}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.754 \end{frame}
+                 
+
+ <./capitulo_2/softmax_bars_final.jpg>] [40
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation39}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.779 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.39}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.779 \end{frame}
+                 
+
+ <./capitulo_2/BS_DF_1.png>]
+<capitulo_2/u_coef.png, id=757, 5008.7125pt x 2232.34pt>
 File: capitulo_2/u_coef.png Graphic file (type png)
 <use capitulo_2/u_coef.png>
-Package pdftex.def Info: capitulo_2/u_coef.png  used on input line 636.
+Package pdftex.def Info: capitulo_2/u_coef.png  used on input line 792.
 (pdftex.def)             Requested size: 318.67209pt x 142.00748pt.
  [41
 
- <./capitulo_2/u_coef.png>]
-<capitulo_2/Ucutoff1.png, id=542, 5050.87pt x 2232.34pt>
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation40}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.792 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.40}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.792 \end{frame}
+                 
+
+]
+<capitulo_2/Ucutoff1.png, id=768, 5050.87pt x 2232.34pt>
 File: capitulo_2/Ucutoff1.png Graphic file (type png)
 <use capitulo_2/Ucutoff1.png>
-Package pdftex.def Info: capitulo_2/Ucutoff1.png  used on input line 649.
+Package pdftex.def Info: capitulo_2/Ucutoff1.png  used on input line 808.
 (pdftex.def)             Requested size: 139.42093pt x 61.61946pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure1>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.649 \end{frame}
+l.808 \end{frame}
                  
-<capitulo_2/Ucutoff2.png, id=543, 5050.87pt x 2232.34pt>
+<capitulo_2/Ucutoff2.png, id=769, 5050.87pt x 2232.34pt>
 File: capitulo_2/Ucutoff2.png Graphic file (type png)
 <use capitulo_2/Ucutoff2.png>
-Package pdftex.def Info: capitulo_2/Ucutoff2.png  used on input line 649.
+Package pdftex.def Info: capitulo_2/Ucutoff2.png  used on input line 808.
 (pdftex.def)             Requested size: 139.42093pt x 61.61946pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.649 \end{frame}
+l.808 \end{frame}
                  
-<capitulo_2/ucutoff3.png, id=544, 5050.87pt x 2232.34pt>
+<capitulo_2/ucutoff3.png, id=770, 5050.87pt x 2232.34pt>
 File: capitulo_2/ucutoff3.png Graphic file (type png)
 <use capitulo_2/ucutoff3.png>
-Package pdftex.def Info: capitulo_2/ucutoff3.png  used on input line 649.
+Package pdftex.def Info: capitulo_2/ucutoff3.png  used on input line 808.
 (pdftex.def)             Requested size: 139.42093pt x 61.61946pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.649 \end{frame}
+l.808 \end{frame}
                  
-Overfull \hbox (19.9242pt too wide) in paragraph at lines 649--649
+Overfull \hbox (19.9242pt too wide) in paragraph at lines 808--808
  [][][] 
  []
 
 [42
 
- <./capitulo_2/Ucutoff1.png> <./capitulo_2/Ucutoff2.png> <./capitulo_2/ucutoff3
-.png>]
-<capitulo_2/directsimreal1.png, id=554, 4942.465pt x 2212.265pt>
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation41}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.808 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.41}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.808 \end{frame}
+                 
+
+ <./capitulo_2/u_coef.png>]
+<capitulo_2/directsimreal1.png, id=783, 4942.465pt x 2212.265pt>
 File: capitulo_2/directsimreal1.png Graphic file (type png)
 <use capitulo_2/directsimreal1.png>
-Package pdftex.def Info: capitulo_2/directsimreal1.png  used on input line 661.
+Package pdftex.def Info: capitulo_2/directsimreal1.png  used on input line 823.
 
 (pdftex.def)             Requested size: 199.1693pt x 89.1169pt.
 pdfTeX warning (ext4): destination with the same identifier (name{a}) has been 
 already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.661 \end{frame}
+l.823 \end{frame}
                  
-<capitulo_2/directsimreal2.png, id=555, 4942.465pt x 2212.265pt>
+<capitulo_2/directsimreal2.png, id=784, 4942.465pt x 2212.265pt>
 File: capitulo_2/directsimreal2.png Graphic file (type png)
 <use capitulo_2/directsimreal2.png>
-Package pdftex.def Info: capitulo_2/directsimreal2.png  used on input line 661.
+Package pdftex.def Info: capitulo_2/directsimreal2.png  used on input line 823.
 
 (pdftex.def)             Requested size: 199.1693pt x 89.1169pt.
 pdfTeX warning (ext4): destination with the same identifier (name{b}) has been 
 already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.661 \end{frame}
+l.823 \end{frame}
                   [43
 
- <./capitulo_2/directsimreal1.png> <./capitulo_2/directsimreal2.png>] [44
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation42}
+) has been already used, duplicate ignored
 
-]
-<capitulo_2/snesim_real1.png, id=570, 4942.465pt x 2232.34pt>
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.823 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.42}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.823 \end{frame}
+                 
+
+ <./capitulo_2/Ucutoff1.png> <./capitulo_2/Ucutoff2.png> <./capitulo_2/ucutoff3
+.png>] [44
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation43}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.842 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.43}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.842 \end{frame}
+                 
+
+ <./capitulo_2/directsimreal1.png> <./capitulo_2/directsimreal2.png>]
+<capitulo_2/snesim_real1.png, id=813, 4942.465pt x 2232.34pt>
 File: capitulo_2/snesim_real1.png Graphic file (type png)
 <use capitulo_2/snesim_real1.png>
-Package pdftex.def Info: capitulo_2/snesim_real1.png  used on input line 688.
+Package pdftex.def Info: capitulo_2/snesim_real1.png  used on input line 858.
 (pdftex.def)             Requested size: 199.1693pt x 89.92558pt.
 pdfTeX warning (ext4): destination with the same identifier (name{a}) has been 
 already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.688 \end{frame}
+l.858 \end{frame}
                  
-<capitulo_2/snesim_real2.png, id=571, 4942.465pt x 2232.34pt>
+<capitulo_2/snesim_real2.png, id=814, 4942.465pt x 2232.34pt>
 File: capitulo_2/snesim_real2.png Graphic file (type png)
 <use capitulo_2/snesim_real2.png>
-Package pdftex.def Info: capitulo_2/snesim_real2.png  used on input line 688.
+Package pdftex.def Info: capitulo_2/snesim_real2.png  used on input line 858.
 (pdftex.def)             Requested size: 199.1693pt x 89.92558pt.
 pdfTeX warning (ext4): destination with the same identifier (name{b}) has been 
 already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.688 \end{frame}
+l.858 \end{frame}
                   [45
 
- <./capitulo_2/snesim_real1.png> <./capitulo_2/snesim_real2.png>]
-<capitulo_2/uncert_1.png, id=579, 1364.09625pt x 841.1425pt>
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation44}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.858 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.44}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.858 \end{frame}
+                 
+
+]
+<capitulo_2/uncert_1.png, id=825, 1364.09625pt x 841.1425pt>
 File: capitulo_2/uncert_1.png Graphic file (type png)
 <use capitulo_2/uncert_1.png>
-Package pdftex.def Info: capitulo_2/uncert_1.png  used on input line 703.
+Package pdftex.def Info: capitulo_2/uncert_1.png  used on input line 881.
 (pdftex.def)             Requested size: 239.00558pt x 147.36899pt.
  [46
 
- <./capitulo_2/uncert_1.png>]
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation45}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.881 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.45}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.881 \end{frame}
+                 
+
+ <./capitulo_2/snesim_real1.png> <./capitulo_2/snesim_real2.png>]
+Overfull \vbox (44.38728pt too high) detected at line 881
+ []
+
+
 ("C:\Users\Roberto Rolo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-32.
 def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 ) [47
 
-]
-<capitulo_2/classificacao.png, id=592, 423.83344pt x 190.46156pt>
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation46}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.905 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.46}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.905 \end{frame}
+                 
+
+ <./capitulo_2/uncert_1.png>]
+<capitulo_2/classificacao.png, id=849, 423.83344pt x 190.46156pt>
 File: capitulo_2/classificacao.png Graphic file (type png)
 <use capitulo_2/classificacao.png>
-Package pdftex.def Info: capitulo_2/classificacao.png  used on input line 737.
+Package pdftex.def Info: capitulo_2/classificacao.png  used on input line 919.
 (pdftex.def)             Requested size: 278.83578pt x 125.30685pt.
  [48
 
- <./capitulo_2/classificacao.png>]
-<capitulo_2/interpolated.jpeg, id=600, 1113.15875pt x 821.0675pt>
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation47}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.919 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.47}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.919 \end{frame}
+                 
+
+]
+<capitulo_2/interpolated.jpeg, id=861, 1113.15875pt x 821.0675pt>
 File: capitulo_2/interpolated.jpeg Graphic file (type jpg)
 <use capitulo_2/interpolated.jpeg>
-Package pdftex.def Info: capitulo_2/interpolated.jpeg  used on input line 747.
+Package pdftex.def Info: capitulo_2/interpolated.jpeg  used on input line 930.
 (pdftex.def)             Requested size: 119.50279pt x 88.13774pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure1>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.747 \end{frame}
+l.930 \end{frame}
                  
-<capitulo_2/simulated.jpeg, id=601, 1113.15875pt x 821.0675pt>
+<capitulo_2/simulated.jpeg, id=862, 1113.15875pt x 821.0675pt>
 File: capitulo_2/simulated.jpeg Graphic file (type jpg)
 <use capitulo_2/simulated.jpeg>
-Package pdftex.def Info: capitulo_2/simulated.jpeg  used on input line 747.
+Package pdftex.def Info: capitulo_2/simulated.jpeg  used on input line 930.
 (pdftex.def)             Requested size: 119.50279pt x 88.13774pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.747 \end{frame}
+l.930 \end{frame}
                  
-<capitulo_2/classification.jpeg, id=602, 1113.15875pt x 821.0675pt>
+<capitulo_2/classification.jpeg, id=863, 1113.15875pt x 821.0675pt>
 File: capitulo_2/classification.jpeg Graphic file (type jpg)
 <use capitulo_2/classification.jpeg>
-Package pdftex.def Info: capitulo_2/classification.jpeg  used on input line 747
+Package pdftex.def Info: capitulo_2/classification.jpeg  used on input line 930
 .
 (pdftex.def)             Requested size: 119.50279pt x 88.13774pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.747 \end{frame}
+l.930 \end{frame}
                   [49
 
- <./capitulo_2/interpolated.jpeg> <./capitulo_2/simulated.jpeg> <./capitulo_2/c
-lassification.jpeg>]
-<capitulo_2/cpar1.png, id=610, 4979.60374pt x 2232.34pt>
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation48}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.930 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.48}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.930 \end{frame}
+                 
+
+ <./capitulo_2/classificacao.png>]
+<capitulo_2/cpar1.png, id=876, 4979.60374pt x 2232.34pt>
 File: capitulo_2/cpar1.png Graphic file (type png)
 <use capitulo_2/cpar1.png>
-Package pdftex.def Info: capitulo_2/cpar1.png  used on input line 759.
+Package pdftex.def Info: capitulo_2/cpar1.png  used on input line 943.
 (pdftex.def)             Requested size: 199.1693pt x 89.27838pt.
 pdfTeX warning (ext4): destination with the same identifier (name{a}) has been 
 already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.759 \end{frame}
+l.943 \end{frame}
                  
-<capitulo_2/cparyz.png, id=611, 4979.60374pt x 2232.34pt>
+<capitulo_2/cparyz.png, id=877, 4979.60374pt x 2232.34pt>
 File: capitulo_2/cparyz.png Graphic file (type png)
 <use capitulo_2/cparyz.png>
-Package pdftex.def Info: capitulo_2/cparyz.png  used on input line 759.
+Package pdftex.def Info: capitulo_2/cparyz.png  used on input line 943.
 (pdftex.def)             Requested size: 199.1693pt x 89.27838pt.
 pdfTeX warning (ext4): destination with the same identifier (name{b}) has been 
 already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.759 \end{frame}
+l.943 \end{frame}
                   [50
 
- <./capitulo_2/cpar1.png> <./capitulo_2/cparyz.png>]
-<capitulo_2/hier_example.png, id=620, 429.7656pt x 198.0198pt>
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation49}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.943 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.49}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.943 \end{frame}
+                 
+
+ <./capitulo_2/interpolated.jpeg> <./capitulo_2/simulated.jpeg> <./capitulo_2/c
+lassification.jpeg>]
+<capitulo_2/hier_example.png, id=890, 429.7656pt x 198.0198pt>
 File: capitulo_2/hier_example.png Graphic file (type png)
 <use capitulo_2/hier_example.png>
-Package pdftex.def Info: capitulo_2/hier_example.png  used on input line 771.
+Package pdftex.def Info: capitulo_2/hier_example.png  used on input line 956.
 (pdftex.def)             Requested size: 398.3386pt x 183.54314pt.
+ [51
 
-[51
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation50}
+) has been already used, duplicate ignored
 
- <./capitulo_2/hier_example.png>] [52
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.956 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.50}) has been already used, duplicate ignored
 
-] [53
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.956 \end{frame}
+                 
 
-] [54
+ <./capitulo_2/cpar1.png> <./capitulo_2/cparyz.png>] [52
 
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation51}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.990 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.51}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.990 \end{frame}
+                 
+
+ <./capitulo_2/hier_example.png>] [53
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation52}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1022 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.52}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1022 \end{frame}
+                  
 
 ]
-<capitulo_3/NN_ex.png, id=640, 883.3pt x 436.63126pt>
+Overfull \vbox (3.58727pt too high) detected at line 1022
+ []
+
+[54
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation53}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1022 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.53}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1022 \end{frame}
+                  
+
+]
+<capitulo_3/NN_ex.png, id=933, 883.3pt x 436.63126pt>
 File: capitulo_3/NN_ex.png Graphic file (type png)
 <use capitulo_3/NN_ex.png>
-Package pdftex.def Info: capitulo_3/NN_ex.png  used on input line 829.
+Package pdftex.def Info: capitulo_3/NN_ex.png  used on input line 1044.
 (pdftex.def)             Requested size: 278.83578pt x 137.83272pt.
  [55
 
- <./capitulo_3/NN_ex.png>]
-<capitulo_3/actual.png, id=648, 306.14375pt x 278.03876pt>
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation54}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1044 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.54}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1044 \end{frame}
+                  
+
+]
+<capitulo_3/actual.png, id=945, 306.14375pt x 278.03876pt>
 File: capitulo_3/actual.png Graphic file (type png)
 <use capitulo_3/actual.png>
-Package pdftex.def Info: capitulo_3/actual.png  used on input line 844.
+Package pdftex.def Info: capitulo_3/actual.png  used on input line 1069.
 (pdftex.def)             Requested size: 119.50279pt x 108.53224pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure1>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.844 \end{frame}
-                 
-<capitulo_3/krig.png, id=649, 306.14375pt x 278.03876pt>
+l.1069 \end{frame}
+                  
+<capitulo_3/krig.png, id=946, 306.14375pt x 278.03876pt>
 File: capitulo_3/krig.png Graphic file (type png)
 <use capitulo_3/krig.png>
-Package pdftex.def Info: capitulo_3/krig.png  used on input line 844.
+Package pdftex.def Info: capitulo_3/krig.png  used on input line 1069.
 (pdftex.def)             Requested size: 119.50279pt x 108.53224pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.844 \end{frame}
-                 
-<capitulo_3/ml.png, id=650, 306.14375pt x 278.03876pt>
+l.1069 \end{frame}
+                  
+<capitulo_3/ml.png, id=947, 306.14375pt x 278.03876pt>
 File: capitulo_3/ml.png Graphic file (type png)
 <use capitulo_3/ml.png>
-Package pdftex.def Info: capitulo_3/ml.png  used on input line 844.
+Package pdftex.def Info: capitulo_3/ml.png  used on input line 1069.
 (pdftex.def)             Requested size: 119.50279pt x 108.53224pt.
 pdfTeX warning (ext4): destination with the same identifier (name{<figure2>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.844 \end{frame}
-                  [56
+l.1069 \end{frame}
+                   [56
 
- <./capitulo_3/actual.png> <./capitulo_3/krig.png> <./capitulo_3/ml.png>]
-<capitulo_3/zona1.jpg, id=658, 803.0pt x 602.25pt>
-File: capitulo_3/zona1.jpg Graphic file (type jpg)
-<use capitulo_3/zona1.jpg>
-Package pdftex.def Info: capitulo_3/zona1.jpg  used on input line 859.
-(pdftex.def)             Requested size: 159.333pt x 119.50133pt.
-<capitulo_3/zona2.jpg, id=659, 803.0pt x 602.25pt>
-File: capitulo_3/zona2.jpg Graphic file (type jpg)
-<use capitulo_3/zona2.jpg>
-Package pdftex.def Info: capitulo_3/zona2.jpg  used on input line 859.
-(pdftex.def)             Requested size: 159.333pt x 119.50133pt.
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation55}
+) has been already used, duplicate ignored
 
-Overfull \vbox (1.06584pt too high) detected at line 859
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1069 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.55}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1069 \end{frame}
+                  
+
+ <./capitulo_3/NN_ex.png>]
+Overfull \vbox (66.78728pt too high) detected at line 1069
  []
 
+<capitulo_3/zona1.jpg, id=959, 803.0pt x 602.25pt>
+File: capitulo_3/zona1.jpg Graphic file (type jpg)
+<use capitulo_3/zona1.jpg>
+Package pdftex.def Info: capitulo_3/zona1.jpg  used on input line 1087.
+(pdftex.def)             Requested size: 159.333pt x 119.50133pt.
+<capitulo_3/zona2.jpg, id=960, 803.0pt x 602.25pt>
+File: capitulo_3/zona2.jpg Graphic file (type jpg)
+<use capitulo_3/zona2.jpg>
+Package pdftex.def Info: capitulo_3/zona2.jpg  used on input line 1087.
+(pdftex.def)             Requested size: 159.333pt x 119.50133pt.
 [57
 
- <./capitulo_3/zona1.jpg> <./capitulo_3/zona2.jpg>]
-<capitulo_3/bloco1.jpg, id=667, 481.8pt x 290.08376pt>
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation56}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1087 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.56}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1087 \end{frame}
+                  
+
+ <./capitulo_3/actual.png> <./capitulo_3/krig.png> <./capitulo_3/ml.png>]
+<capitulo_3/bloco1.jpg, id=974, 481.8pt x 290.08376pt>
 File: capitulo_3/bloco1.jpg Graphic file (type jpg)
 <use capitulo_3/bloco1.jpg>
-Package pdftex.def Info: capitulo_3/bloco1.jpg  used on input line 874.
+Package pdftex.def Info: capitulo_3/bloco1.jpg  used on input line 1105.
 (pdftex.def)             Requested size: 159.333pt x 95.93153pt.
-<capitulo_3/bloco2.jpg, id=668, 481.8pt x 290.08376pt>
+<capitulo_3/bloco2.jpg, id=975, 481.8pt x 290.08376pt>
 File: capitulo_3/bloco2.jpg Graphic file (type jpg)
 <use capitulo_3/bloco2.jpg>
-Package pdftex.def Info: capitulo_3/bloco2.jpg  used on input line 874.
+Package pdftex.def Info: capitulo_3/bloco2.jpg  used on input line 1105.
 (pdftex.def)             Requested size: 159.333pt x 95.93153pt.
  [58
 
- <./capitulo_3/bloco1.jpg> <./capitulo_3/bloco2.jpg>]
-<capitulo_3/entropy_20.png, id=677, 5102.06125pt x 2232.34pt>
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation57}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1105 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.57}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1105 \end{frame}
+                  
+
+ <./capitulo_3/zona1.jpg> <./capitulo_3/zona2.jpg>]
+<capitulo_3/entropy_20.png, id=988, 5102.06125pt x 2232.34pt>
 File: capitulo_3/entropy_20.png Graphic file (type png)
 <use capitulo_3/entropy_20.png>
-Package pdftex.def Info: capitulo_3/entropy_20.png  used on input line 883.
+Package pdftex.def Info: capitulo_3/entropy_20.png  used on input line 1119.
 (pdftex.def)             Requested size: 199.1693pt x 87.13243pt.
 pdfTeX warning (ext4): destination with the same identifier (name{a}) has been 
 already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.883 \end{frame}
-                 
-<capitulo_3/entropy_10.png, id=678, 5103.065pt x 2232.34pt>
+l.1119 \end{frame}
+                  
+<capitulo_3/entropy_10.png, id=989, 5103.065pt x 2232.34pt>
 File: capitulo_3/entropy_10.png Graphic file (type png)
 <use capitulo_3/entropy_10.png>
-Package pdftex.def Info: capitulo_3/entropy_10.png  used on input line 883.
+Package pdftex.def Info: capitulo_3/entropy_10.png  used on input line 1119.
 (pdftex.def)             Requested size: 199.1693pt x 87.09837pt.
 pdfTeX warning (ext4): destination with the same identifier (name{b}) has been 
 already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.883 \end{frame}
-                  [59
+l.1119 \end{frame}
+                   [59
 
- <./capitulo_3/entropy_20.png> <./capitulo_3/entropy_10.png>]
-<capitulo_3/classificacao_multi.jpg, id=689, 428.29485pt x 192.46642pt>
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation58}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1119 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.58}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1119 \end{frame}
+                  
+
+ <./capitulo_3/bloco1.jpg> <./capitulo_3/bloco2.jpg>]
+<capitulo_3/classificacao_multi.jpg, id=1003, 428.29485pt x 192.46642pt>
 File: capitulo_3/classificacao_multi.jpg Graphic file (type jpg)
 <use capitulo_3/classificacao_multi.jpg>
 Package pdftex.def Info: capitulo_3/classificacao_multi.jpg  used on input line
- 897.
+ 1136.
 (pdftex.def)             Requested size: 318.67209pt x 143.20703pt.
- [60
 
- <./capitulo_3/classificacao_multi.jpg>] [61
+[60
 
-]
-<capitulo_3/gauss_trunc_sketch.png, id=704, 374.90062pt x 168.63pt>
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation59}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1136 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.59}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1136 \end{frame}
+                  
+
+ <./capitulo_3/entropy_20.png> <./capitulo_3/entropy_10.png>] [61
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation60}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1143 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.60}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1143 \end{frame}
+                  
+
+ <./capitulo_3/classificacao_multi.jpg>]
+<capitulo_3/gauss_trunc_sketch.png, id=1031, 374.90062pt x 168.63pt>
 File: capitulo_3/gauss_trunc_sketch.png Graphic file (type png)
 <use capitulo_3/gauss_trunc_sketch.png>
 Package pdftex.def Info: capitulo_3/gauss_trunc_sketch.png  used on input line 
-915.
+1162.
 (pdftex.def)             Requested size: 199.1693pt x 89.58704pt.
  [62
 
- <./capitulo_3/gauss_trunc_sketch.png>]
-<capitulo_3/pluri_sketch.png, id=712, 304.88907pt x 281.55188pt>
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation61}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1162 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.61}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1162 \end{frame}
+                  
+
+]
+<capitulo_3/pluri_sketch.png, id=1045, 304.88907pt x 281.55188pt>
 File: capitulo_3/pluri_sketch.png Graphic file (type png)
 <use capitulo_3/pluri_sketch.png>
-Package pdftex.def Info: capitulo_3/pluri_sketch.png  used on input line 925.
+Package pdftex.def Info: capitulo_3/pluri_sketch.png  used on input line 1177.
 (pdftex.def)             Requested size: 199.1693pt x 183.9302pt.
  [63
 
- <./capitulo_3/pluri_sketch.png>]
-<capitulo_3/trunc_rules.png, id=720, 572.89032pt x 246.1697pt>
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation62}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1177 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.62}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1177 \end{frame}
+                  
+
+ <./capitulo_3/gauss_trunc_sketch.png>]
+<capitulo_3/trunc_rules.png, id=1058, 572.89032pt x 246.1697pt>
 File: capitulo_3/trunc_rules.png Graphic file (type png)
 <use capitulo_3/trunc_rules.png>
-Package pdftex.def Info: capitulo_3/trunc_rules.png  used on input line 935.
+Package pdftex.def Info: capitulo_3/trunc_rules.png  used on input line 1188.
 (pdftex.def)             Requested size: 199.1693pt x 85.58221pt.
  [64
 
- <./capitulo_3/trunc_rules.png>] [65
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation63}
+) has been already used, duplicate ignored
 
-] [66
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1188 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.63}) has been already used, duplicate ignored
 
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1188 \end{frame}
+                  
+
+ <./capitulo_3/pluri_sketch.png>] [65
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation64}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1208 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.64}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1208 \end{frame}
+                  
+
+ <./capitulo_3/trunc_rules.png>] [66
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation65}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1208 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.65}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1208 \end{frame}
+                  
 
 ]
-<capitulo_3/trunc_rules_prop.jpg, id=752, 1027.84pt x 770.88pt>
+<capitulo_3/trunc_rules_prop.jpg, id=1111, 1027.84pt x 770.88pt>
 File: capitulo_3/trunc_rules_prop.jpg Graphic file (type jpg)
 <use capitulo_3/trunc_rules_prop.jpg>
-Package pdftex.def Info: capitulo_3/trunc_rules_prop.jpg  used on input line 95
-5.
+Package pdftex.def Info: capitulo_3/trunc_rules_prop.jpg  used on input line 12
+23.
 (pdftex.def)             Requested size: 239.00558pt x 179.25127pt.
+ [67
 
-Overfull \vbox (4.88713pt too high) detected at line 955
- []
 
-[67
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation66}
+) has been already used, duplicate ignored
 
- <./capitulo_3/trunc_rules_prop.jpg>]
-<capitulo_3/pluri_mds.png, id=760, 356.33125pt x 357.335pt>
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1223 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.66}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1223 \end{frame}
+                  
+
+]
+<capitulo_3/pluri_mds.png, id=1126, 356.33125pt x 357.335pt>
 File: capitulo_3/pluri_mds.png Graphic file (type png)
 <use capitulo_3/pluri_mds.png>
-Package pdftex.def Info: capitulo_3/pluri_mds.png  used on input line 965.
+Package pdftex.def Info: capitulo_3/pluri_mds.png  used on input line 1236.
 (pdftex.def)             Requested size: 159.333pt x 159.77965pt.
  [68
 
- <./capitulo_3/pluri_mds.png>]
-<capitulo_3/blob.jpg, id=767, 662.08646pt x 445.27646pt>
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation67}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1236 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.67}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1236 \end{frame}
+                  
+
+ <./capitulo_3/trunc_rules_prop.jpg>]
+<capitulo_3/blob.jpg, id=1139, 662.08646pt x 445.27646pt>
 File: capitulo_3/blob.jpg Graphic file (type jpg)
 <use capitulo_3/blob.jpg>
-Package pdftex.def Info: capitulo_3/blob.jpg  used on input line 977.
+Package pdftex.def Info: capitulo_3/blob.jpg  used on input line 1255.
 (pdftex.def)             Requested size: 278.83578pt x 187.5312pt.
+ [69
 
-Overfull \vbox (1.16707pt too high) detected at line 977
- []
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation68}
+) has been already used, duplicate ignored
 
-[69
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1255 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.68}) has been already used, duplicate ignored
 
- <./capitulo_3/blob.jpg>] [70
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1255 \end{frame}
+                  
 
-] [71
+ <./capitulo_3/pluri_mds.png>] [70
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation69}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1290 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.69}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1290 \end{frame}
+                  
+
+ <./capitulo_3/blob.jpg>] [71
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation70}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1312 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.70}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1312 \end{frame}
+                  
 
 ]
-<capitulo_3/cronograma_novo.png, id=781, 1258.7025pt x 302.12875pt>
+<capitulo_3/cronograma_novo.png, id=1170, 1258.7025pt x 302.12875pt>
 File: capitulo_3/cronograma_novo.png Graphic file (type png)
 <use capitulo_3/cronograma_novo.png>
-Package pdftex.def Info: capitulo_3/cronograma_novo.png  used on input line 103
-5.
+Package pdftex.def Info: capitulo_3/cronograma_novo.png  used on input line 132
+3.
 (pdftex.def)             Requested size: 398.3386pt x 95.61362pt.
  [72
 
- <./capitulo_3/cronograma_novo.png>]
-(apresentaco.bbl) [73
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation71}
+) has been already used, duplicate ignored
 
-] [74
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1323 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.71}) has been already used, duplicate ignored
 
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1323 \end{frame}
+                  
+
+] (apresentaco.bbl) [73
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation72}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1333 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.72}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1333 \end{frame}
+                  
+
+ <./capitulo_3/cronograma_novo.png>] [74
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation73}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1333 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.73}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1333 \end{frame}
+                  
 
 ] [75
 
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation74}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1333 \end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{page.74}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1333 \end{frame}
+                  
 
 ]
 \tf@nav=\write6
@@ -2254,11 +3326,29 @@ Package pdftex.def Info: capitulo_3/cronograma_novo.png  used on input line 103
 \tf@snm=\write8
 \openout8 = `apresentaco.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1046.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1046.
+ [76
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation75}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1335 \end{document}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{page.75}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.1335 \end{document}
+                     
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1335.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1335.
  (apresentaco.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1046.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1046.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1335.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1335.
 
 Package rerunfilecheck Info: File `apresentaco.out' has not changed.
 (rerunfilecheck)             Checksum: 216CCFC1517DD1B2EC54DB85D70180A9;2670.
@@ -2268,13 +3358,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21529 strings out of 492945
- 402743 string characters out of 3123143
- 480804 words of memory out of 3000000
- 24607 multiletter control sequences out of 15000+200000
+ 21876 strings out of 492945
+ 410857 string characters out of 3123142
+ 527555 words of memory out of 3000000
+ 24945 multiletter control sequences out of 15000+200000
  27222 words of font info for 72 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,14n,69p,780b,743s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,14n,69p,787b,768s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Roberto Rolo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/
 dpi600\ecsi0900.pk> <C:\Users\Roberto Rolo\AppData\Local\MiKTeX\2.9\fonts/pk/lj
 four/jknappen/ec/dpi600\ecsi1000.pk> <C:\Users\Roberto Rolo\AppData\Local\MiKTe
@@ -2305,9 +3395,9 @@ rs/Roberto Rolo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmsy6.pfb><C:/Users/Roberto Rolo/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Roberto Rolo/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on apresentaco.pdf (75 pages, 17292372 bytes).
+Output written on apresentaco.pdf (75 pages, 17436447 bytes).
 PDF statistics:
- 1329 PDF objects out of 1440 (max. 8388607)
+ 1756 PDF objects out of 2073 (max. 8388607)
  265 named destinations out of 1000 (max. 500000)
  702 words of extra memory for PDF output out of 10000 (max. 10000000)
 
