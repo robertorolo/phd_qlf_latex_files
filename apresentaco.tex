@@ -899,7 +899,7 @@ Redes neurais trabalham em um sistema binário de zeros e uns e por isso podem s
 \subsubsection{P-field}
 
 \begin{frame}{P-field}
-	Uma alternativa à simulação não condicional das distâncias na zona de incerteza são os campos de probabilidade (\textit{P-field}). A ideia central desse método de simulação é dissociar a tarefa de estimar distribuições de probabilidades locais para geração de múltiplas realizações equiprováveis \cite{froidevaux1993probability}. Uma premissa é de que as distribuições locais são conhecidas, o que é uma premissa razoável, já que as distribuições locais podem ser calculadas pela \autoref{eq_softmax}.
+	Uma alternativa à simulação não condicional das distâncias na zona de incerteza são os campos de probabilidade (\textit{P-field}). A ideia central desse método de simulação é dissociar a tarefa de estimar distribuições de probabilidades locais para geração de múltiplas realizações equiprováveis \cite{froidevaux1993probability}. Uma premissa é de que as distribuições locais são conhecidas, o que é uma premissa razoável, já que as distribuições locais podem ser calculadas transformando distâncias em probabilidades.
 \end{frame}
 
 \subsubsection{Simulação plurigaussiana truncada}
@@ -944,16 +944,6 @@ Redes neurais trabalham em um sistema binário de zeros e uns e por isso podem s
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Regra de truncagem via MDS}
-			\begin{figure}[H]
-		\caption{\label{pluri_mds}Esquema do uso de MDS para definição da regra de truncagem.}
-		\begin{center}
-			\includegraphics[width=0.4\textwidth]{capitulo_3/pluri_mds.png}
-		\end{center}
-		%\legend{Fonte: \citeonline{deutsch2014multidimensional}}
-	\end{figure}
-\end{frame}
-
 \begin{frame}{Regra dinâmica de truncagem}
 \begin{figure}[H]
 	\caption{\label{trunc_rules_prop}Diferentes regras de truncagem definidas para cada bloco a partir das probabilidades calibradas e calculadas.}
@@ -962,6 +952,16 @@ Redes neurais trabalham em um sistema binário de zeros e uns e por isso podem s
 	\end{center}
 	%\legend{Fonte: Modificado de \citeonline{armstrong2011plurigaussian}}
 \end{figure}	
+\end{frame}
+
+\begin{frame}{Regra de truncagem via MDS}
+\begin{figure}[H]
+	\caption{\label{pluri_mds}Esquema do uso de MDS para definição da regra de truncagem.}
+	\begin{center}
+		\includegraphics[width=0.4\textwidth]{capitulo_3/pluri_mds.png}
+	\end{center}
+	%\legend{Fonte: \citeonline{deutsch2014multidimensional}}
+\end{figure}
 \end{frame}
 
 \subsection{Validação}

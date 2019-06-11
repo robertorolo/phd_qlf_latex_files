@@ -473,4 +473,105 @@ depois de calcular a entropia, uma truncagem deve ser realizada para definição
 Slide 55
 ***********
 
+Essa tese também propões investigar diferentes ténicas para a avaliação da incerteza em modelos geológico multi categóricos. Para que os modelos gerados sejam livres de ruído, tenham contatos suaves e contínuos e para que o que método seja rápido e não exija muito esforço computacional é preciso que esses métodos sejam baseados em uma variável auxiliar contínua, gerada por simulação não condicional. 
+
+O primeiro método que eu quero investigar é baseado no boundary simulation, que mostrei alguns slides atrás. A diferença aqui é que pra múltiplas categorias preciso de múltiplas distâncias simuladas que serão comparadas às estimadas ou estandardizar as distâncias interpoladas para que possam ser coparadas com uma única variável simulada.
+
+Slide 56
+**********
+
+Uma outra avenida que eu acredito que vale a pena ser investigada é o o p-field ou campos de probabilidade. Um campo gaussiano é gerado na zona de incerteza, a partir dos dos valor acumulado, eu posso amostrar uma distribição local de probabilidades,  bloco a bloco, que foi criada a partir da transformação das distâncias em probabilidades.
+
+Slide 57
+**********
+
+Ainda outra abordagem para a avaliação de incerteza que eu pretendo investigar é baseada em simulação plurigaussiana truncada. 
+
+Na simulação gaussiana truncada, uma variável continua gaussiana é simulada, e o histograma de cada realização é truncado em limites pré definidos para gerar uma variável categórica. 
+
+A imagem mostra a representação de um histograma de uma variável gaussiana, entao toda vez que o valor simulado para um bloco cair nessa regiao da esquerda ela é classificada como arenito, arenito-xisto na regiao central e xisto na região à direita.
+
+O uso de apenas uma variável gaussina pra derivar a variável categórica, em muitos casos é restritivo demais, porque limita a técnica ambiantes estratificados, onde algumas das litogias não se tocam.
+
+Slide 58
+***********
+
+Uma evolução natural da simulação gaussiana truncada, é a simulação pluri gaussiana truncda, que usa mais de uma variável gaussiana para derivar a variável categórica, permitindo a reprodução de estruturas mais complexas. Embora seja possível usar quantas variáveis gaussianas eu desejar, o uso geralemtne é limitado à apenas duas, pela dificuldade em se criar regras de truncagem em mais de duas dimensões.
+
+Regra de truncagem é uma parte importante da metodologia, ja que ela controla os contatos entre as categorias, suas trabsições e proporções. A regra de truncagem, tradicionalemnte, é baseada nas probabilidades de transição calculadas a partir dos dados.
+
+Essa figura mostra dias variaveis gaussianas x e y, e uma regra de truncagem definida para quatro categorias, diferentemente da simulacao ogaissiana truncada, eu preciso observar o valor das duas gaussianas simultaneamente, e a partir da regra de truncagem, classificar o bloco simulado. Entao se na gaussiana y o valor simulado caiu nessa regiao, e na gaussiana x, caiu nessa, por exemplo, o bloco é classificado como litologia 3.
+
+Slide 59
+**********
+
+Diferentes regras de truncagem pode ser definidas, geralmente o espaço gaussiano multivariado é particionado em paralelepípedos, como os mostrados no slide, mas diferentes tecnicas para a regra de truncagem foram propostas:
+
+* A allard constroi automaticamente a regra de truncagem usando regressao baseada em kernel
+
+* sadeghi e boisvert usaram sumaled anealing para otiizar a regra de truncagem
+
+* deutch pai e dutsh filho usaram MDS pra definir regras de truncage complexas
+
+* astrakiva propos uma metodoloia semelhante a do deutsh
+
+* e finalmente o emery e o silva propuseram uma abordagem hierárquica pra definir a regra de truncagem
+
+Slide 60
+************
+
+Geralmente essas regras de truncagem são definidas globalemtne e usadas para todo o deposito, mas em muitos casos as proporções não estacionárias matheron propos em 1987 curvas de proporções verticas, nesse caso, a regra de truncagem variava com a profundidade.
+
+Essa tese propõe a definição dinâmica da regra de truncagem, bivariada, pra cada bloco mas somente dentro da zona de incerteza. A regra de truncagem é contruída a partir das probabilidades locais, que foram derivadas a partir das distâncias estimadas. 
+
+O slide mostra dois blocos em duas regiões diferentes do depósit, dentro da zona de incertza. Entao pra esse bloco debaixo existe uma probabilidade alta dele pertence a categoria rosa, e uma probabilidade mais baixa de pertencer a azul, ja o bloco de cima, existe a probabilidade de pertencer as tres categorias, a partir dessas probabilidades eu posso construir uma regra de truncagem, simular duas gaussianas nao condicionais, comparar o valor das duas com a regra de truncagem e classificar o bloco em cada realização.
+
+Slide 60
+**********
+
+Essa regra de truncagem deve ser definida de forma automática pra cada bloco, uma das técnicas que eu acredito ser mais promissora é a proposta por deutshc pai e deutsh filho, que constrói a regra de truncagem a partir de MDS e decomposição de voronoi.
+
+Um outro desafio é definir os variograms das variáveis gaussianas que controlam a continuidade dos domínios.
+
+Slide 61
+***********
+
+Finalmente, o ultimo aprimoramento proposto nessa tese é um método de validação de modelos geológicos implícitos. 
+
+O estatistico box diz que todos os modelos estão errados mas alguns são úteis. O jun coan que é um dos precursores da modelagem implicita, hoje trabalha na leapfrog, é um grande critico da modelagem implicita, ele diz que a modelagm implicta cria modelos de forma fácil e rápida mas cria modelos ruins de forma facil e rápida. 
+
+A modelagem implicta tende a gerar estrutas circulares ou em forma de salsicha ao redor dos furos, como essas mostradas no slide, que não são estruturas geológicas.   
+
+Minha proposta é desenvolver um algoritmo para chegagem visual automática de modelos geológicos implícitos, esse algoritmo deve reconhecer padrões indesejadas, que serão corrigidas com a alteração de parâmtros ou utilizando outros métodos.
+
+Slide 62
+***********
+
+Em suma essa tese propõe:
+
+* O desenvolvimento de um interpolador baseado em redes neurais que não depende de um variograma;
+
+* O desenvolvimento de uma metodologia para calibra;cão de uma zona de incerteza justa e livre de viés, pra isso é preciso calibrar o parametro gamma, usado na tranformação das distâncias em probabilidades e truncar o campo de entropia, com base no tipo de depósito;
+
+* uma metodologia para avaliação de incerteza que gere modelos continuos, livres de ruido, pra isso é preciso definir uma regra de truncagem local em cada bloco e definir um modelo de covariancia pra cada variavel latenta, ou variavel gaussiana auxiliar.
+
+* e finalemtne uma metodologia pra validar modelos implícitos, que identifique de forma automatica padroes indesejáveis.
+
+Slide 62
+***********
+
+Eu já venho desenvolvendo uma biblioteca de modelagem geológica implícita em python, tá no github, convido todos os colegas a testarem e editarem o código. Por enquanto ala calcula as distâncias, faz validação cruzada baseadas em k-folds, interpola por rbf, eu fiz eu trabalhei numa primeira tentativa de calibrar o gamma a partir das moastras, mas não deu muito certo, então estou trabalhando em uma nova abordagem. A biblioteca ainda calcula as probabilidades, e calcula a entropia, por enquanto.
+
+Slide 63
+***********
+
+Estou entrando no segundo ano de doutorado, a revisão biliográfica já est;a feita, eu comecei a trabalhar no desenvolvimento de software, no momento estou trabalhando na definição da zona de incerza, e dando os primeiros passos nas metodologias de avaliação de incerteza, para os proximoms meses o planejamento é também começar a trabalhar no interpolador. Os ultimos meses serão dedicados à escrita da tese e publicação dos resultados.
+
+Slide 64
+*********
+
+Por fim as referências bibliográficas e eu gostaria de agradecer novamente a preseça de todos, ao LPM e à capes. Muito obrigado! 
+
+
+
 

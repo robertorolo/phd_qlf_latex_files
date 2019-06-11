@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.1)  10 JUN 2019 15:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.1)  11 JUN 2019 09:10
 entering extended mode
 **./apresentaco.tex
 (apresentaco.tex
@@ -2190,27 +2190,27 @@ Package pdftex.def Info: capitulo_3/trunc_rules.png  used on input line 935.
 
 
 ]
-<capitulo_3/pluri_mds.png, id=752, 356.33125pt x 357.335pt>
-File: capitulo_3/pluri_mds.png Graphic file (type png)
-<use capitulo_3/pluri_mds.png>
-Package pdftex.def Info: capitulo_3/pluri_mds.png  used on input line 955.
-(pdftex.def)             Requested size: 159.333pt x 159.77965pt.
- [67
-
- <./capitulo_3/pluri_mds.png>]
-<capitulo_3/trunc_rules_prop.jpg, id=760, 1027.84pt x 770.88pt>
+<capitulo_3/trunc_rules_prop.jpg, id=752, 1027.84pt x 770.88pt>
 File: capitulo_3/trunc_rules_prop.jpg Graphic file (type jpg)
 <use capitulo_3/trunc_rules_prop.jpg>
-Package pdftex.def Info: capitulo_3/trunc_rules_prop.jpg  used on input line 96
+Package pdftex.def Info: capitulo_3/trunc_rules_prop.jpg  used on input line 95
 5.
 (pdftex.def)             Requested size: 239.00558pt x 179.25127pt.
 
-Overfull \vbox (4.88713pt too high) detected at line 965
+Overfull \vbox (4.88713pt too high) detected at line 955
  []
 
-[68
+[67
 
  <./capitulo_3/trunc_rules_prop.jpg>]
+<capitulo_3/pluri_mds.png, id=760, 356.33125pt x 357.335pt>
+File: capitulo_3/pluri_mds.png Graphic file (type png)
+<use capitulo_3/pluri_mds.png>
+Package pdftex.def Info: capitulo_3/pluri_mds.png  used on input line 965.
+(pdftex.def)             Requested size: 159.333pt x 159.77965pt.
+ [68
+
+ <./capitulo_3/pluri_mds.png>]
 <capitulo_3/blob.jpg, id=767, 662.08646pt x 445.27646pt>
 File: capitulo_3/blob.jpg Graphic file (type jpg)
 <use capitulo_3/blob.jpg>
@@ -2305,7 +2305,7 @@ rs/Roberto Rolo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmsy6.pfb><C:/Users/Roberto Rolo/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Roberto Rolo/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on apresentaco.pdf (75 pages, 17292352 bytes).
+Output written on apresentaco.pdf (75 pages, 17292372 bytes).
 PDF statistics:
  1329 PDF objects out of 1440 (max. 8388607)
  265 named destinations out of 1000 (max. 500000)
